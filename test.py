@@ -1,7 +1,7 @@
 class Test(object):
-    def __init__(self, id, module):
+    def __init__(self, id, module_test):
         self.id = id
-        self.module = module
+        self.module_test = module_test
         self.json = {}
         self.testOrder = []
         self.failures = []
