@@ -10,6 +10,7 @@ class Test(object):
 class testFailure(object):
     def __init__(self, name, time, stackTrace):
         self.name = name
-        self.stackTrace = stackTrace
         self.time = time
+        self.stackTrace = stackTrace
+
 
