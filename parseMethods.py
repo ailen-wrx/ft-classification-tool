@@ -22,11 +22,7 @@ def parse_result_dir(directory, module_test, res_json):
                 test.failures.append(testFailure(cur_res['name'], cur_res['time'], cur_res['stackTrace']))
 
         if (test.failures != []):
-            print(test.module_test.repository, " -> ", test.module_test.moduleName, " -> ", test.id, " : [", end='')
-            for a in test.failures[:-1]:
-                print(a.name, ", ", end='')
-            print(test.failures[-1].name, end='')
-            print(']')
+            print(test.module_test.repository, " || ", test.module_test.moduleName, " || ", test.id, " || ", [a.name for a in test.failures])
 
         if (test.failures != []):
             res_json[test.module_test.repository][test.module_test.moduleName][test_id] = {

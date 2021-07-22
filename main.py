@@ -15,7 +15,7 @@ def store(data):
 __console = sys.stdout
 dataset_path = "..\\dataset\\comprehensive\\12d"
 
-sys.stdout = open("parsing_log", "w")
+sys.stdout = open("flaky_tests.log", "w")
 module_test_list = []
 output_json = {}
 parse_filelist(dataset_path, module_test_list, output_json)
