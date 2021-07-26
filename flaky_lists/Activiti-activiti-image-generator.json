@@ -1,0 +1,183 @@
+{
+    "Directory": "..\\dataset\\comprehensive\\12d\\activiti.activiti\\activiti.activiti_output\\Activiti-activiti-image-generator",
+    "1784101888508-b833aec5-8b58-4e22-9663-716849678582": [
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testAllElements",
+            "Time": 0.009121021,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testGenerateDefaultDiagram",
+            "Time": 0.001388803,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testHighLighted",
+            "Time": 0.031134673,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "1785030015460-df03ad32-6cb0-4a9b-a80d-7e6469746932": [
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testAllElements",
+            "Time": 0.001589704,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testGenerateDefaultDiagram",
+            "Time": 0.001411303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testHighLighted",
+            "Time": 0.013454631,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "1785738905503-bcdeea0d-65ff-41d6-a384-a43e1c458cc0": [
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testAllElements",
+            "Time": 0.001500703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testGenerateDefaultDiagram",
+            "Time": 0.001465703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testHighLighted",
+            "Time": 0.013876932,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "3159219084447-be2538a5-3f67-4eed-9a1d-6087386ab917": [
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testAllElements",
+            "Time": 0.008361321,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testGenerateDefaultDiagram",
+            "Time": 0.002372206,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testHighLighted",
+            "Time": 0.034651088,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "3159962360039-c8e63e44-44f9-4a2f-93c5-35ced92a65fb": [
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testAllElements",
+            "Time": 0.001472204,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testGenerateDefaultDiagram",
+            "Time": 0.001388104,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testHighLighted",
+            "Time": 0.013981036,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "3160696050107-48d236c0-2848-4673-81ba-d08c6017e1c4": [
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testAllElements",
+            "Time": 0.005066613,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testGenerateDefaultDiagram",
+            "Time": 0.004291811,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testHighLighted",
+            "Time": 0.02355336,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "4534432749197-f38eba5f-344b-480e-a86a-66106427b42d": [
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testAllElements",
+            "Time": 0.005902613,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testGenerateDefaultDiagram",
+            "Time": 0.002078504,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testHighLighted",
+            "Time": 0.016999637,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "4535321999557-4c65cb8f-016e-4a67-90a1-28232b9b158c": [
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testAllElements",
+            "Time": 0.001568204,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testGenerateDefaultDiagram",
+            "Time": 0.001516903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testHighLighted",
+            "Time": 0.013986431,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "4536055204874-cd920c0c-f8d0-4784-ac62-1f9f92a5f54e": [
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testAllElements",
+            "Time": 0.001576204,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testGenerateDefaultDiagram",
+            "Time": 0.001816004,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.engine.test.image.ProcessDiagramGeneratorTest.testHighLighted",
+            "Time": 0.014533232,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ]
+}

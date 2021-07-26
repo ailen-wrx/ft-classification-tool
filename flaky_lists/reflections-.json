@@ -1,0 +1,75 @@
+{
+    "Directory": "..\\dataset\\comprehensive\\12d\\ronmamo.reflections\\ronmamo.reflections_output\\reflections-",
+    "552868395628-31843d0c-da66-4ff5-b94b-f84a3a070ed3": [
+        {
+            "Name": "org.reflections.VfsTest.jarInputStream",
+            "Time": 0.331125888,
+            "Result": "ERROR",
+            "Exception": "java.lang.RuntimeException: org.reflections.ReflectionsException"
+        }
+    ],
+    "554843385790-7c15ae7b-0498-4644-92dd-4415667ce4e6": [
+        {
+            "Name": "org.reflections.VfsTest.jarInputStream",
+            "Time": 0.325739162,
+            "Result": "ERROR",
+            "Exception": "java.lang.RuntimeException: org.reflections.ReflectionsException"
+        }
+    ],
+    "556833360123-2366055b-8fef-4783-8c7e-e2f84dc40451": [
+        {
+            "Name": "org.reflections.VfsTest.jarInputStream",
+            "Time": 0.317652455,
+            "Result": "ERROR",
+            "Exception": "java.lang.RuntimeException: org.reflections.ReflectionsException"
+        }
+    ],
+    "562756239979-48f8caf2-75b0-46bb-a299-82ed6ddbc09b": [
+        {
+            "Name": "org.reflections.VfsTest.jarInputStream",
+            "Time": 0.325502584,
+            "Result": "ERROR",
+            "Exception": "java.lang.RuntimeException: org.reflections.ReflectionsException"
+        }
+    ],
+    "565172798924-8169ab66-7946-4b35-a68c-b952d6b98aee": [
+        {
+            "Name": "org.reflections.VfsTest.jarInputStream",
+            "Time": 0.349007042,
+            "Result": "ERROR",
+            "Exception": "java.lang.RuntimeException: org.reflections.ReflectionsException"
+        }
+    ],
+    "567076243418-8183a9ea-2c91-49c3-b71f-0141f8cb446a": [
+        {
+            "Name": "org.reflections.VfsTest.jarInputStream",
+            "Time": 0.304151498,
+            "Result": "ERROR",
+            "Exception": "java.lang.RuntimeException: org.reflections.ReflectionsException"
+        }
+    ],
+    "573262175333-897c8d77-ac2a-4813-810b-92c4429669b2": [
+        {
+            "Name": "org.reflections.VfsTest.jarInputStream",
+            "Time": 0.357781701,
+            "Result": "ERROR",
+            "Exception": "java.lang.RuntimeException: org.reflections.ReflectionsException"
+        }
+    ],
+    "575611498623-2b490f5e-a991-43b1-b8b1-7879e4c40bcc": [
+        {
+            "Name": "org.reflections.VfsTest.jarInputStream",
+            "Time": 0.341874452,
+            "Result": "ERROR",
+            "Exception": "java.lang.RuntimeException: org.reflections.ReflectionsException"
+        }
+    ],
+    "577579748416-7a23b650-449c-415b-8cae-2a7043f1afd2": [
+        {
+            "Name": "org.reflections.VfsTest.jarInputStream",
+            "Time": 0.367782601,
+            "Result": "ERROR",
+            "Exception": "java.lang.RuntimeException: org.reflections.ReflectionsException"
+        }
+    ]
+}

@@ -1,0 +1,399 @@
+{
+    "Directory": "..\\dataset\\comprehensive\\12d\\ninjaframework.ninja\\ninjaframework.ninja_output\\ninja-ninja-maven-plugin",
+    "2595342196642-dcf0d5ed-30a1-4ae7-b5d2-27819b3cd68f": [
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.mainClassProperty",
+            "Time": 0.125866902,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.jvmArgsProperty",
+            "Time": 0.118127795,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextProperty",
+            "Time": 0.193870956,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextPropertyFallbackToContextPath",
+            "Time": 0.097259378,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.minimal",
+            "Time": 0.120140097,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.portProperty",
+            "Time": 0.904571229,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.alertAndStopExecutionIfDirectoryWithCompiledClassesOfThisProjectDoesNotExist",
+            "Time": 0.107522287,
+            "Result": "ERROR",
+            "Exception": "none"
+        }
+    ],
+    "2619330388878-9b1351f1-fa7f-4966-b6be-e7692ac930f9": [
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.mainClassProperty",
+            "Time": 0.1241455,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.jvmArgsProperty",
+            "Time": 0.159921429,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextProperty",
+            "Time": 0.220449078,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextPropertyFallbackToContextPath",
+            "Time": 0.100222881,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.minimal",
+            "Time": 0.127077503,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.portProperty",
+            "Time": 0.899607825,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.alertAndStopExecutionIfDirectoryWithCompiledClassesOfThisProjectDoesNotExist",
+            "Time": 0.118506595,
+            "Result": "ERROR",
+            "Exception": "none"
+        }
+    ],
+    "2643525045381-9fa2f12d-46aa-4894-a696-52dcc39bf257": [
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.mainClassProperty",
+            "Time": 0.139785713,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.jvmArgsProperty",
+            "Time": 0.151842222,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextProperty",
+            "Time": 0.263033012,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextPropertyFallbackToContextPath",
+            "Time": 0.102272182,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.minimal",
+            "Time": 0.121461198,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.portProperty",
+            "Time": 0.91810814,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.alertAndStopExecutionIfDirectoryWithCompiledClassesOfThisProjectDoesNotExist",
+            "Time": 0.120996398,
+            "Result": "ERROR",
+            "Exception": "none"
+        }
+    ],
+    "4515829204868-bd819e59-9ab5-4890-b823-b5545ab2f89e": [
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.mainClassProperty",
+            "Time": 0.101681682,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.jvmArgsProperty",
+            "Time": 0.16203033,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextProperty",
+            "Time": 0.194790457,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextPropertyFallbackToContextPath",
+            "Time": 0.080832765,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.minimal",
+            "Time": 0.091536473,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.portProperty",
+            "Time": 0.896733823,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.alertAndStopExecutionIfDirectoryWithCompiledClassesOfThisProjectDoesNotExist",
+            "Time": 0.090917874,
+            "Result": "ERROR",
+            "Exception": "none"
+        }
+    ],
+    "4539903399573-d9382140-bdfb-410a-a543-9c16ffa8af6f": [
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.mainClassProperty",
+            "Time": 0.101689882,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.jvmArgsProperty",
+            "Time": 0.127507203,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextProperty",
+            "Time": 0.22366108,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextPropertyFallbackToContextPath",
+            "Time": 0.087459371,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.minimal",
+            "Time": 0.122728299,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.portProperty",
+            "Time": 0.947017463,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.alertAndStopExecutionIfDirectoryWithCompiledClassesOfThisProjectDoesNotExist",
+            "Time": 0.111082489,
+            "Result": "ERROR",
+            "Exception": "none"
+        }
+    ],
+    "4563805291440-559ad1b3-cf5f-4c79-a158-aa9ddbb3fbb4": [
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.mainClassProperty",
+            "Time": 0.091595074,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.jvmArgsProperty",
+            "Time": 0.133778808,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextProperty",
+            "Time": 0.172667639,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextPropertyFallbackToContextPath",
+            "Time": 0.126470702,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.minimal",
+            "Time": 0.085532069,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.portProperty",
+            "Time": 0.846277383,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.alertAndStopExecutionIfDirectoryWithCompiledClassesOfThisProjectDoesNotExist",
+            "Time": 0.090272772,
+            "Result": "ERROR",
+            "Exception": "none"
+        }
+    ],
+    "6438711800730-f5a0d0f3-3d18-4a4f-90b6-9df0933c553d": [
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.mainClassProperty",
+            "Time": 0.137428857,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.jvmArgsProperty",
+            "Time": 0.210739641,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextProperty",
+            "Time": 0.210816542,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextPropertyFallbackToContextPath",
+            "Time": 0.094225736,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.minimal",
+            "Time": 0.118220626,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.portProperty",
+            "Time": 0.868890391,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.alertAndStopExecutionIfDirectoryWithCompiledClassesOfThisProjectDoesNotExist",
+            "Time": 0.111501745,
+            "Result": "ERROR",
+            "Exception": "none"
+        }
+    ],
+    "6462601130163-a025b861-8c75-4463-8bbe-d908bc098b70": [
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.mainClassProperty",
+            "Time": 0.091329164,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.jvmArgsProperty",
+            "Time": 0.13052852,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextProperty",
+            "Time": 0.202656761,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextPropertyFallbackToContextPath",
+            "Time": 0.078244211,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.minimal",
+            "Time": 0.084405583,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.portProperty",
+            "Time": 0.883435204,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.alertAndStopExecutionIfDirectoryWithCompiledClassesOfThisProjectDoesNotExist",
+            "Time": 0.079086021,
+            "Result": "ERROR",
+            "Exception": "none"
+        }
+    ],
+    "6486692811790-c529b9ab-7b1d-4087-83ed-cb1f230fcd49": [
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.mainClassProperty",
+            "Time": 0.085566564,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.jvmArgsProperty",
+            "Time": 0.151381104,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextProperty",
+            "Time": 0.220964287,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.contextPropertyFallbackToContextPath",
+            "Time": 0.104665078,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.minimal",
+            "Time": 0.092979546,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.portProperty",
+            "Time": 0.894559285,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "ninja.maven.NinjaRunMojoTest.alertAndStopExecutionIfDirectoryWithCompiledClassesOfThisProjectDoesNotExist",
+            "Time": 0.107025105,
+            "Result": "ERROR",
+            "Exception": "none"
+        }
+    ]
+}

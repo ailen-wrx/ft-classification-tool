@@ -1,0 +1,1803 @@
+{
+    "Directory": "..\\dataset\\comprehensive\\12d\\google.error-prone\\google.error-prone_output\\error-prone-test_helpers",
+    "1202206506029-add0b44c-0e4f-4e1f-b878-7ad6e8d6adc2": [
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultMatchesActualResultSucceeds",
+            "Time": 0.00190302,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testIgnoreWhitespace",
+            "Time": 0.002486026,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationErrorFail",
+            "Time": 0.010234507,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceedsWithMatches",
+            "Time": 0.001791619,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndNoErrorsShouldPass",
+            "Time": 0.002325824,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndErrorOnWrongLineFails",
+            "Time": 0.001474916,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleDifferentBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.001471015,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.unexpectedDiagnosticOnFirstLine",
+            "Time": 0.002001221,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithSyntaxErrorFails",
+            "Time": 0.002107722,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndErrorOnWrongLineFails",
+            "Time": 0.001669017,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.staticLastImportOrder",
+            "Time": 0.07482398,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationError",
+            "Time": 0.002796329,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceeds",
+            "Time": 0.022583736,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.commandLineArgToDisableCheckWorks",
+            "Time": 0.001689117,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceFail",
+            "Time": 0.006574268,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.missingExpectErrorFails",
+            "Time": 0.001636917,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testNoMatch",
+            "Time": 0.001655417,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatch",
+            "Time": 0.001734818,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndNoErrorsFails",
+            "Time": 0.002088122,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndNoErrorsFails",
+            "Time": 0.001521416,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFails",
+            "Time": 0.001511216,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndMatchingErrorSucceeds",
+            "Time": 0.00952,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultDiffersFromActualResultFails",
+            "Time": 0.001554716,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndMatchingErrorSucceeds",
+            "Time": 0.001587317,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplace",
+            "Time": 0.001795719,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleSameBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.001562916,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.failureWithErrorAndNoDiagnosticFails",
+            "Time": 0.001622917,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleBugMarkersAndMatchingErrorsSucceeds",
+            "Time": 0.001567416,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatchFail",
+            "Time": 0.002407125,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testAnnotationFullName",
+            "Time": 0.003062632,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.cannotInstantiateChecker",
+            "Time": 0.001886519,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndErrorFails",
+            "Time": 0.001481615,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFailsWithMatches",
+            "Time": 0.009122695,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        }
+    ],
+    "1203240103493-b65fa2d8-82de-4c35-8202-9b850e3bc49e": [
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationErrorFail",
+            "Time": 0.002614727,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultMatchesActualResultSucceeds",
+            "Time": 0.001368614,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testIgnoreWhitespace",
+            "Time": 0.002522427,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceedsWithMatches",
+            "Time": 0.001451815,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndErrorOnWrongLineFails",
+            "Time": 0.001386614,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndNoErrorsShouldPass",
+            "Time": 0.002157323,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleDifferentBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.001373715,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.unexpectedDiagnosticOnFirstLine",
+            "Time": 0.001429015,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithSyntaxErrorFails",
+            "Time": 0.001440815,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndErrorOnWrongLineFails",
+            "Time": 0.001422515,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.staticLastImportOrder",
+            "Time": 0.081837252,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceeds",
+            "Time": 0.032043134,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationError",
+            "Time": 0.002063622,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.commandLineArgToDisableCheckWorks",
+            "Time": 0.001466415,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceFail",
+            "Time": 0.002098422,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.missingExpectErrorFails",
+            "Time": 0.001450516,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatch",
+            "Time": 0.00872759,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testNoMatch",
+            "Time": 0.009768702,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndNoErrorsFails",
+            "Time": 0.001397614,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndNoErrorsFails",
+            "Time": 0.001750618,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFails",
+            "Time": 0.001402015,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndMatchingErrorSucceeds",
+            "Time": 0.001499215,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultDiffersFromActualResultFails",
+            "Time": 0.001695718,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndMatchingErrorSucceeds",
+            "Time": 0.001432215,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplace",
+            "Time": 0.002066722,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleSameBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.003400635,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.failureWithErrorAndNoDiagnosticFails",
+            "Time": 0.001570717,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleBugMarkersAndMatchingErrorsSucceeds",
+            "Time": 0.001728818,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatchFail",
+            "Time": 0.002305724,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testAnnotationFullName",
+            "Time": 0.002016221,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.cannotInstantiateChecker",
+            "Time": 0.001495716,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndErrorFails",
+            "Time": 0.005169054,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFailsWithMatches",
+            "Time": 0.001438415,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        }
+    ],
+    "1204259313690-921fa98e-fc2b-40d0-af8a-5613796f1d44": [
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationErrorFail",
+            "Time": 0.000804809,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testIgnoreWhitespace",
+            "Time": 0.002330024,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultMatchesActualResultSucceeds",
+            "Time": 0.000568105,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceedsWithMatches",
+            "Time": 0.001360314,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndErrorOnWrongLineFails",
+            "Time": 0.001322314,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndNoErrorsShouldPass",
+            "Time": 0.002114422,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleDifferentBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.000517906,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.unexpectedDiagnosticOnFirstLine",
+            "Time": 0.001465315,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithSyntaxErrorFails",
+            "Time": 0.001496516,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndErrorOnWrongLineFails",
+            "Time": 0.001360714,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.staticLastImportOrder",
+            "Time": 0.073132661,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationError",
+            "Time": 0.022782037,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceeds",
+            "Time": 0.02019571,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.commandLineArgToDisableCheckWorks",
+            "Time": 0.001387514,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceFail",
+            "Time": 0.005269455,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.missingExpectErrorFails",
+            "Time": 0.001397915,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testNoMatch",
+            "Time": 0.000746207,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatch",
+            "Time": 0.000716207,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndNoErrorsFails",
+            "Time": 0.001364014,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndNoErrorsFails",
+            "Time": 0.001465715,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFails",
+            "Time": 0.001419815,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndMatchingErrorSucceeds",
+            "Time": 0.001316313,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultDiffersFromActualResultFails",
+            "Time": 0.001699618,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndMatchingErrorSucceeds",
+            "Time": 0.001387514,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplace",
+            "Time": 0.001581016,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleSameBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.001330314,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.failureWithErrorAndNoDiagnosticFails",
+            "Time": 0.001499615,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleBugMarkersAndMatchingErrorsSucceeds",
+            "Time": 0.001487915,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatchFail",
+            "Time": 0.002251823,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.cannotInstantiateChecker",
+            "Time": 0.001709418,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testAnnotationFullName",
+            "Time": 0.00102761,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndErrorFails",
+            "Time": 0.001393815,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFailsWithMatches",
+            "Time": 0.00195382,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        }
+    ],
+    "1405253679816-2a6ecba8-cf33-4239-9f4d-2a1107e8f3ab": [
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationErrorFail",
+            "Time": 0.000638605,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testIgnoreWhitespace",
+            "Time": 0.008233367,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultMatchesActualResultSucceeds",
+            "Time": 0.003767931,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceedsWithMatches",
+            "Time": 0.001926115,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndNoErrorsShouldPass",
+            "Time": 0.003974432,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndErrorOnWrongLineFails",
+            "Time": 0.001390511,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleDifferentBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.002465321,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.unexpectedDiagnosticOnFirstLine",
+            "Time": 0.005681046,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithSyntaxErrorFails",
+            "Time": 0.001579313,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndErrorOnWrongLineFails",
+            "Time": 0.003606629,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.staticLastImportOrder",
+            "Time": 0.118752865,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceeds",
+            "Time": 0.043569354,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationError",
+            "Time": 0.000995908,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.commandLineArgToDisableCheckWorks",
+            "Time": 0.001489113,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceFail",
+            "Time": 0.003056725,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.missingExpectErrorFails",
+            "Time": 0.001583713,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testNoMatch",
+            "Time": 0.000637606,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatch",
+            "Time": 0.000666406,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndNoErrorsFails",
+            "Time": 0.005156742,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndNoErrorsFails",
+            "Time": 0.00376023,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFails",
+            "Time": 0.00494454,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndMatchingErrorSucceeds",
+            "Time": 0.001427312,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultDiffersFromActualResultFails",
+            "Time": 0.004001832,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndMatchingErrorSucceeds",
+            "Time": 0.004131033,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplace",
+            "Time": 0.000639405,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleSameBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.001385511,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.failureWithErrorAndNoDiagnosticFails",
+            "Time": 0.001476712,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleBugMarkersAndMatchingErrorsSucceeds",
+            "Time": 0.005187842,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatchFail",
+            "Time": 0.00119471,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testAnnotationFullName",
+            "Time": 0.008217867,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.cannotInstantiateChecker",
+            "Time": 0.001409712,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndErrorFails",
+            "Time": 0.001504612,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFailsWithMatches",
+            "Time": 0.007219159,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        }
+    ],
+    "1406683802529-f1dafb64-4fd4-4ea0-bdc2-4249a00ffdbb": [
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testIgnoreWhitespace",
+            "Time": 0.00247692,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultMatchesActualResultSucceeds",
+            "Time": 0.001863215,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationErrorFail",
+            "Time": 0.003752831,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceedsWithMatches",
+            "Time": 0.002636021,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndNoErrorsShouldPass",
+            "Time": 0.003207826,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndErrorOnWrongLineFails",
+            "Time": 0.001396411,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleDifferentBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.002049617,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.unexpectedDiagnosticOnFirstLine",
+            "Time": 0.003767931,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithSyntaxErrorFails",
+            "Time": 0.002694022,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndErrorOnWrongLineFails",
+            "Time": 0.001892315,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.staticLastImportOrder",
+            "Time": 0.120252676,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceeds",
+            "Time": 0.018382449,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationError",
+            "Time": 0.00359623,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.commandLineArgToDisableCheckWorks",
+            "Time": 0.002586821,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceFail",
+            "Time": 0.004055433,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.missingExpectErrorFails",
+            "Time": 0.002597021,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatch",
+            "Time": 0.011831996,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testNoMatch",
+            "Time": 0.001464512,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndNoErrorsFails",
+            "Time": 0.004069133,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndNoErrorsFails",
+            "Time": 0.004578137,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFails",
+            "Time": 0.001441811,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndMatchingErrorSucceeds",
+            "Time": 0.001788815,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultDiffersFromActualResultFails",
+            "Time": 0.001499612,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndMatchingErrorSucceeds",
+            "Time": 0.002840623,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplace",
+            "Time": 0.001985416,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleSameBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.001512112,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.failureWithErrorAndNoDiagnosticFails",
+            "Time": 0.001623913,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleBugMarkersAndMatchingErrorsSucceeds",
+            "Time": 0.003204826,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatchFail",
+            "Time": 0.015322524,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.cannotInstantiateChecker",
+            "Time": 0.001506012,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testAnnotationFullName",
+            "Time": 0.012001998,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndErrorFails",
+            "Time": 0.001413811,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFailsWithMatches",
+            "Time": 0.002939924,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        }
+    ],
+    "1408057905674-c7ac7858-d06c-4069-9331-8ea23ddc2a3f": [
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testIgnoreWhitespace",
+            "Time": 0.007966365,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationErrorFail",
+            "Time": 0.004196234,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultMatchesActualResultSucceeds",
+            "Time": 0.001841015,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceedsWithMatches",
+            "Time": 0.002585121,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndNoErrorsShouldPass",
+            "Time": 0.003049225,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndErrorOnWrongLineFails",
+            "Time": 0.001810515,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleDifferentBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.002092417,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.unexpectedDiagnosticOnFirstLine",
+            "Time": 0.003663229,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithSyntaxErrorFails",
+            "Time": 0.002683521,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.staticLastImportOrder",
+            "Time": 0.080533253,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndErrorOnWrongLineFails",
+            "Time": 0.002527321,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceeds",
+            "Time": 0.019966662,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationError",
+            "Time": 0.001954116,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.commandLineArgToDisableCheckWorks",
+            "Time": 0.003516129,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceFail",
+            "Time": 0.003102525,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.missingExpectErrorFails",
+            "Time": 0.002678022,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatch",
+            "Time": 0.003070325,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testNoMatch",
+            "Time": 0.003446428,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndNoErrorsFails",
+            "Time": 0.004134634,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndNoErrorsFails",
+            "Time": 0.005048341,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFails",
+            "Time": 0.005576346,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndMatchingErrorSucceeds",
+            "Time": 0.002066017,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultDiffersFromActualResultFails",
+            "Time": 0.001557913,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndMatchingErrorSucceeds",
+            "Time": 0.002870923,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplace",
+            "Time": 0.002199418,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleSameBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.001426911,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.failureWithErrorAndNoDiagnosticFails",
+            "Time": 0.001778415,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleBugMarkersAndMatchingErrorsSucceeds",
+            "Time": 0.003323027,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatchFail",
+            "Time": 0.006883656,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testAnnotationFullName",
+            "Time": 0.005793647,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.cannotInstantiateChecker",
+            "Time": 0.001391711,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndErrorFails",
+            "Time": 0.001554613,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFailsWithMatches",
+            "Time": 0.002996925,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        }
+    ],
+    "1607514589600-8c82d9ab-c66f-4b38-adf9-8f34dc13f482": [
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testIgnoreWhitespace",
+            "Time": 0.015480009,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultMatchesActualResultSucceeds",
+            "Time": 0.001105208,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationErrorFail",
+            "Time": 0.000707605,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceedsWithMatches",
+            "Time": 0.000505303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndErrorOnWrongLineFails",
+            "Time": 0.000868106,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndNoErrorsShouldPass",
+            "Time": 0.018464031,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleDifferentBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.001309909,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.unexpectedDiagnosticOnFirstLine",
+            "Time": 0.009212866,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithSyntaxErrorFails",
+            "Time": 0.000559804,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndErrorOnWrongLineFails",
+            "Time": 0.000517203,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.staticLastImportOrder",
+            "Time": 0.177358058,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationError",
+            "Time": 0.010644676,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceeds",
+            "Time": 0.044190013,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.commandLineArgToDisableCheckWorks",
+            "Time": 0.000532004,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceFail",
+            "Time": 0.003360724,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.missingExpectErrorFails",
+            "Time": 0.011009378,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testNoMatch",
+            "Time": 0.000564304,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatch",
+            "Time": 0.000562704,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndNoErrorsFails",
+            "Time": 0.000511504,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndNoErrorsFails",
+            "Time": 0.000582904,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFails",
+            "Time": 0.000516303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndMatchingErrorSucceeds",
+            "Time": 0.000905107,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultDiffersFromActualResultFails",
+            "Time": 0.001522811,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndMatchingErrorSucceeds",
+            "Time": 0.000516303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplace",
+            "Time": 0.002318716,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleSameBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.000638605,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.failureWithErrorAndNoDiagnosticFails",
+            "Time": 0.000691305,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleBugMarkersAndMatchingErrorsSucceeds",
+            "Time": 0.000542604,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatchFail",
+            "Time": 0.011915585,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testAnnotationFullName",
+            "Time": 0.003831027,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.cannotInstantiateChecker",
+            "Time": 0.000490104,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndErrorFails",
+            "Time": 0.000515704,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFailsWithMatches",
+            "Time": 0.000518103,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        }
+    ],
+    "1608636888357-42f12e76-72ab-4481-b1e7-bac9a7075ee6": [
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testIgnoreWhitespace",
+            "Time": 0.002248116,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultMatchesActualResultSucceeds",
+            "Time": 0.001303209,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationErrorFail",
+            "Time": 0.001173608,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceedsWithMatches",
+            "Time": 0.00141281,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndNoErrorsShouldPass",
+            "Time": 0.002159115,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndErrorOnWrongLineFails",
+            "Time": 0.00131361,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleDifferentBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.001639311,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.unexpectedDiagnosticOnFirstLine",
+            "Time": 0.001575111,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithSyntaxErrorFails",
+            "Time": 0.001560111,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.staticLastImportOrder",
+            "Time": 0.070302598,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndErrorOnWrongLineFails",
+            "Time": 0.001492111,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceeds",
+            "Time": 0.019131635,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationError",
+            "Time": 0.001269609,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.commandLineArgToDisableCheckWorks",
+            "Time": 0.00142711,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceFail",
+            "Time": 0.00135441,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.missingExpectErrorFails",
+            "Time": 0.00151381,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatch",
+            "Time": 0.000945606,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testNoMatch",
+            "Time": 0.001118308,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndNoErrorsFails",
+            "Time": 0.00142721,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndNoErrorsFails",
+            "Time": 0.002221216,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFails",
+            "Time": 0.00143521,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndMatchingErrorSucceeds",
+            "Time": 0.008875163,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultDiffersFromActualResultFails",
+            "Time": 0.001921614,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndMatchingErrorSucceeds",
+            "Time": 0.00142061,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplace",
+            "Time": 0.001167808,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleSameBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.001348409,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.failureWithErrorAndNoDiagnosticFails",
+            "Time": 0.00149111,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleBugMarkersAndMatchingErrorsSucceeds",
+            "Time": 0.001529311,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatchFail",
+            "Time": 0.001737612,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.cannotInstantiateChecker",
+            "Time": 0.005279337,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testAnnotationFullName",
+            "Time": 0.001268009,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndErrorFails",
+            "Time": 0.00138521,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFailsWithMatches",
+            "Time": 0.001900013,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        }
+    ],
+    "1609656543783-a11eeb24-49cc-4a96-8253-887a278de030": [
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultMatchesActualResultSucceeds",
+            "Time": 0.000733605,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationErrorFail",
+            "Time": 0.001640711,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testIgnoreWhitespace",
+            "Time": 0.001688412,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceedsWithMatches",
+            "Time": 0.001544811,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndErrorOnWrongLineFails",
+            "Time": 0.000488203,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndNoErrorsShouldPass",
+            "Time": 0.01125548,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleDifferentBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.000487304,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.unexpectedDiagnosticOnFirstLine",
+            "Time": 0.000870107,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithSyntaxErrorFails",
+            "Time": 0.002710819,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.staticLastImportOrder",
+            "Time": 0.077460348,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndErrorOnWrongLineFails",
+            "Time": 0.004668533,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceeds",
+            "Time": 0.020306844,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationError",
+            "Time": 0.001575011,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.commandLineArgToDisableCheckWorks",
+            "Time": 0.001538611,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceFail",
+            "Time": 0.001717512,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.missingExpectErrorFails",
+            "Time": 0.005528739,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatch",
+            "Time": 0.001255809,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testNoMatch",
+            "Time": 0.00137831,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndNoErrorsFails",
+            "Time": 0.001549011,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndNoErrorsFails",
+            "Time": 0.000969406,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFails",
+            "Time": 0.000544304,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndMatchingErrorSucceeds",
+            "Time": 0.000524604,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectedResultDiffersFromActualResultFails",
+            "Time": 0.001083208,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndMatchingErrorSucceeds",
+            "Time": 0.002665118,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplace",
+            "Time": 0.001288909,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleSameBugMatchersAndMatchingErrorsSucceeds",
+            "Time": 0.000526603,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.failureWithErrorAndNoDiagnosticFails",
+            "Time": 0.005507839,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleBugMarkersAndMatchingErrorsSucceeds",
+            "Time": 0.001097308,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatchFail",
+            "Time": 0.002499318,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testAnnotationFullName",
+            "Time": 0.001605212,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.cannotInstantiateChecker",
+            "Time": 0.000913807,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndErrorFails",
+            "Time": 0.001675912,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        },
+        {
+            "Name": "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFailsWithMatches",
+            "Time": 0.015183608,
+            "Result": "ERROR",
+            "Exception": "java.lang.NoSuchFieldError"
+        }
+    ]
+}

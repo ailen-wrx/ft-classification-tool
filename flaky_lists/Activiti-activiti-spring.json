@@ -1,0 +1,2397 @@
+{
+    "Directory": "..\\dataset\\comprehensive\\12d\\activiti.activiti\\activiti.activiti_output\\Activiti-activiti-spring",
+    "1589990878223-795ebc14-66be-46b5-8ad8-5cac3ee1cbf6": [
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithRollback",
+            "Time": 0.003658409,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableDisapprovalPath",
+            "Time": 0.015355738,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseInjectedRuntimeServiceInServiceTask",
+            "Time": 0.002371306,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithPrototypeBean",
+            "Time": 0.004770112,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetAssigneeThroughSpringService",
+            "Time": 0.001432604,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.email.JndiEmailTest.testEmailUsingJndi",
+            "Time": 0.048204418,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.SpringLimitedExpressionsTest.testLimitedBeansExposed",
+            "Time": 0.002473406,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseRuntimeServiceNotInjectedInServiceTask",
+            "Time": 0.001342503,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithCustomPropertiesResolver",
+            "Time": 0.002118005,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCommitted",
+            "Time": 0.001229203,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeResourceParentFolder",
+            "Time": 0.367507801,
+            "Result": "ERROR",
+            "Exception": "05:46:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeDefault",
+            "Time": 0.365921997,
+            "Result": "ERROR",
+            "Exception": "05:46:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncMethodExpressionOnSpringBean",
+            "Time": 0.001587104,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TransactionDependentTaskListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.001127303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteRolledBack",
+            "Time": 0.000758302,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testDelegateExpression",
+            "Time": 0.000831002,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteExecutionVariables",
+            "Time": 0.000960502,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollBackOnDeployment",
+            "Time": 0.001795504,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollbackTransactionOnActivitiException",
+            "Time": 0.007104517,
+            "Result": "ERROR",
+            "Exception": "java.lang.IllegalArgumentException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithSingletonBean",
+            "Time": 0.002420606,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableHappyPath",
+            "Time": 0.001300803,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.TransactionDependentExecutionListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.002292806,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCustomPropertiesResolver",
+            "Time": 0.000768201,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ListenerFieldInjectionTest.testDelegateExpressionListenerFieldInjection",
+            "Time": 0.001449404,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testMethodExpressionOnSpringBean",
+            "Time": 0.001133303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithExecutionVariables",
+            "Time": 0.003584909,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithCreateDropOnCleanDb",
+            "Time": 2.218459845,
+            "Result": "ERROR",
+            "Exception": "05:46:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncDelegateExpression",
+            "Time": 0.001558404,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithTransactionalOperation",
+            "Time": 0.002025705,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithRollback",
+            "Time": 0.001548904,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testBasicActivitiSpringIntegration",
+            "Time": 0.282080391,
+            "Result": "ERROR",
+            "Exception": "05:46:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jobexecutor.SpringAsyncExecutorTest.testRollbackJobExecutorPath",
+            "Time": 0.004903612,
+            "Result": "ERROR",
+            "Exception": "org.activiti.engine.ActivitiObjectNotFoundException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testBasicActivitiSpringIntegration",
+            "Time": 0.001367704,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testExecutionAndTaskListenerDelegationExpression",
+            "Time": 0.001063703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testRollBackOnException",
+            "Time": 0.001625304,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testNoRedeploymentForSpringContainerRestart",
+            "Time": 0.935735196,
+            "Result": "ERROR",
+            "Exception": "05:46:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateGroupsThroughSpringService",
+            "Time": 0.002402806,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerSpringTest.testTaskListenerDelegateExpression",
+            "Time": 0.000911302,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testResourceRedeploymentAfterProcessDefinitionChange",
+            "Time": 0.647852489,
+            "Result": "ERROR",
+            "Exception": "05:46:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.BoundaryErrorEventSpringTest.testCatchErrorThrownByJavaDelegateOnServiceTask",
+            "Time": 0.000868002,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.callactivity.CallActivityBasedOnSpringBeansExpressionTest.testCallActivityByExpression",
+            "Time": 0.001781605,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteTransactionalOperation",
+            "Time": 0.004872812,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeSingleResource",
+            "Time": 0.333598718,
+            "Result": "ERROR",
+            "Exception": "05:46:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateUsersThroughSpringService",
+            "Time": 0.003730209,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "1600060913821-5c7a6968-f492-4b82-92f8-eb7ef837d30b": [
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseInjectedRuntimeServiceInServiceTask",
+            "Time": 0.001227803,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithRollback",
+            "Time": 0.005309313,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableDisapprovalPath",
+            "Time": 0.001259703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithPrototypeBean",
+            "Time": 0.001587003,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetAssigneeThroughSpringService",
+            "Time": 0.001453004,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.SpringLimitedExpressionsTest.testLimitedBeansExposed",
+            "Time": 0.00420151,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.email.JndiEmailTest.testEmailUsingJndi",
+            "Time": 0.044155308,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseRuntimeServiceNotInjectedInServiceTask",
+            "Time": 0.001213403,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithCustomPropertiesResolver",
+            "Time": 0.002052405,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCommitted",
+            "Time": 0.001848404,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeResourceParentFolder",
+            "Time": 0.395986967,
+            "Result": "ERROR",
+            "Exception": "05:46:48 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeDefault",
+            "Time": 0.407106794,
+            "Result": "ERROR",
+            "Exception": "05:46:48 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncMethodExpressionOnSpringBean",
+            "Time": 0.001365903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TransactionDependentTaskListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.001640204,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteRolledBack",
+            "Time": 0.001276903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testDelegateExpression",
+            "Time": 0.001199703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteExecutionVariables",
+            "Time": 0.001284503,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollBackOnDeployment",
+            "Time": 0.001321304,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollbackTransactionOnActivitiException",
+            "Time": 0.006829616,
+            "Result": "ERROR",
+            "Exception": "java.lang.IllegalArgumentException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithSingletonBean",
+            "Time": 0.001822404,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableHappyPath",
+            "Time": 0.001034502,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.TransactionDependentExecutionListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.003667609,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCustomPropertiesResolver",
+            "Time": 0.001276703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ListenerFieldInjectionTest.testDelegateExpressionListenerFieldInjection",
+            "Time": 0.001904205,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testMethodExpressionOnSpringBean",
+            "Time": 0.001203503,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithExecutionVariables",
+            "Time": 0.004192311,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithCreateDropOnCleanDb",
+            "Time": 2.119877482,
+            "Result": "ERROR",
+            "Exception": "05:46:48 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithTransactionalOperation",
+            "Time": 0.003566309,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncDelegateExpression",
+            "Time": 0.001215703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithRollback",
+            "Time": 0.005055912,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testBasicActivitiSpringIntegration",
+            "Time": 0.281583487,
+            "Result": "ERROR",
+            "Exception": "05:46:48 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jobexecutor.SpringAsyncExecutorTest.testRollbackJobExecutorPath",
+            "Time": 0.00421591,
+            "Result": "ERROR",
+            "Exception": "org.activiti.engine.ActivitiObjectNotFoundException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testBasicActivitiSpringIntegration",
+            "Time": 0.001486504,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testExecutionAndTaskListenerDelegationExpression",
+            "Time": 0.001229203,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testRollBackOnException",
+            "Time": 0.001270403,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testNoRedeploymentForSpringContainerRestart",
+            "Time": 0.84731837,
+            "Result": "ERROR",
+            "Exception": "05:46:48 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateGroupsThroughSpringService",
+            "Time": 0.001559803,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerSpringTest.testTaskListenerDelegateExpression",
+            "Time": 0.001241603,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testResourceRedeploymentAfterProcessDefinitionChange",
+            "Time": 0.609247188,
+            "Result": "ERROR",
+            "Exception": "05:46:48 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.BoundaryErrorEventSpringTest.testCatchErrorThrownByJavaDelegateOnServiceTask",
+            "Time": 0.001567403,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.callactivity.CallActivityBasedOnSpringBeansExpressionTest.testCallActivityByExpression",
+            "Time": 0.001880605,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteTransactionalOperation",
+            "Time": 0.001445803,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeSingleResource",
+            "Time": 0.322640388,
+            "Result": "ERROR",
+            "Exception": "05:46:48 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateUsersThroughSpringService",
+            "Time": 0.001699804,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "1610522448578-c09b1bd4-32f7-41b9-b2ff-3f3ac52a452b": [
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableDisapprovalPath",
+            "Time": 0.003390108,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseInjectedRuntimeServiceInServiceTask",
+            "Time": 0.002274305,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithRollback",
+            "Time": 0.00427461,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithPrototypeBean",
+            "Time": 0.002770007,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetAssigneeThroughSpringService",
+            "Time": 0.001433904,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.email.JndiEmailTest.testEmailUsingJndi",
+            "Time": 0.044781509,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.SpringLimitedExpressionsTest.testLimitedBeansExposed",
+            "Time": 0.005915614,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithCustomPropertiesResolver",
+            "Time": 0.001728604,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseRuntimeServiceNotInjectedInServiceTask",
+            "Time": 0.001887805,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCommitted",
+            "Time": 0.001742704,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeDefault",
+            "Time": 0.391402952,
+            "Result": "ERROR",
+            "Exception": "05:46:58 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeResourceParentFolder",
+            "Time": 0.442550777,
+            "Result": "ERROR",
+            "Exception": "05:46:58 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncMethodExpressionOnSpringBean",
+            "Time": 0.002064005,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TransactionDependentTaskListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.001671104,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteRolledBack",
+            "Time": 0.001216903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testDelegateExpression",
+            "Time": 0.001161603,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteExecutionVariables",
+            "Time": 0.001922905,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollBackOnDeployment",
+            "Time": 0.002019105,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollbackTransactionOnActivitiException",
+            "Time": 0.007344218,
+            "Result": "ERROR",
+            "Exception": "java.lang.IllegalArgumentException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithSingletonBean",
+            "Time": 0.002298406,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableHappyPath",
+            "Time": 0.001103503,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.TransactionDependentExecutionListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.005100612,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCustomPropertiesResolver",
+            "Time": 0.001253404,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ListenerFieldInjectionTest.testDelegateExpressionListenerFieldInjection",
+            "Time": 0.001610704,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testMethodExpressionOnSpringBean",
+            "Time": 0.001858804,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithExecutionVariables",
+            "Time": 0.004507411,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithCreateDropOnCleanDb",
+            "Time": 1.991749851,
+            "Result": "ERROR",
+            "Exception": "05:46:58 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncDelegateExpression",
+            "Time": 0.001179503,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithTransactionalOperation",
+            "Time": 0.004307711,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithRollback",
+            "Time": 0.002783807,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testBasicActivitiSpringIntegration",
+            "Time": 0.278939278,
+            "Result": "ERROR",
+            "Exception": "05:46:58 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jobexecutor.SpringAsyncExecutorTest.testRollbackJobExecutorPath",
+            "Time": 0.004682711,
+            "Result": "ERROR",
+            "Exception": "org.activiti.engine.ActivitiObjectNotFoundException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testBasicActivitiSpringIntegration",
+            "Time": 0.001668804,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testRollBackOnException",
+            "Time": 0.001574704,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testExecutionAndTaskListenerDelegationExpression",
+            "Time": 0.002091305,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testNoRedeploymentForSpringContainerRestart",
+            "Time": 1.055316269,
+            "Result": "ERROR",
+            "Exception": "05:46:58 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerSpringTest.testTaskListenerDelegateExpression",
+            "Time": 0.001260903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateGroupsThroughSpringService",
+            "Time": 0.00409131,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testResourceRedeploymentAfterProcessDefinitionChange",
+            "Time": 0.633466041,
+            "Result": "ERROR",
+            "Exception": "05:46:58 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.BoundaryErrorEventSpringTest.testCatchErrorThrownByJavaDelegateOnServiceTask",
+            "Time": 0.001488003,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.callactivity.CallActivityBasedOnSpringBeansExpressionTest.testCallActivityByExpression",
+            "Time": 0.002121505,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteTransactionalOperation",
+            "Time": 0.001231403,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeSingleResource",
+            "Time": 0.344360437,
+            "Result": "ERROR",
+            "Exception": "05:46:58 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateUsersThroughSpringService",
+            "Time": 0.003273208,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "2964871723430-761e282c-54cd-4f83-9f35-8401ebbb7307": [
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithRollback",
+            "Time": 0.001454204,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseInjectedRuntimeServiceInServiceTask",
+            "Time": 0.004136411,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableDisapprovalPath",
+            "Time": 0.008601423,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithPrototypeBean",
+            "Time": 0.001458103,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetAssigneeThroughSpringService",
+            "Time": 0.001467204,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.SpringLimitedExpressionsTest.testLimitedBeansExposed",
+            "Time": 0.001493204,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.email.JndiEmailTest.testEmailUsingJndi",
+            "Time": 0.046554222,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithCustomPropertiesResolver",
+            "Time": 0.001430304,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseRuntimeServiceNotInjectedInServiceTask",
+            "Time": 0.001225603,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCommitted",
+            "Time": 0.002935607,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeDefault",
+            "Time": 0.311891018,
+            "Result": "ERROR",
+            "Exception": "06:09:34 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeResourceParentFolder",
+            "Time": 0.351988523,
+            "Result": "ERROR",
+            "Exception": "06:09:34 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncMethodExpressionOnSpringBean",
+            "Time": 0.001824304,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TransactionDependentTaskListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.003615809,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteRolledBack",
+            "Time": 0.001814605,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testDelegateExpression",
+            "Time": 0.001713104,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteExecutionVariables",
+            "Time": 0.001413003,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollBackOnDeployment",
+            "Time": 0.001276804,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollbackTransactionOnActivitiException",
+            "Time": 0.007052718,
+            "Result": "ERROR",
+            "Exception": "java.lang.IllegalArgumentException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithSingletonBean",
+            "Time": 0.003181908,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableHappyPath",
+            "Time": 0.000994502,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.TransactionDependentExecutionListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.004698613,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCustomPropertiesResolver",
+            "Time": 0.001628204,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ListenerFieldInjectionTest.testDelegateExpressionListenerFieldInjection",
+            "Time": 0.001091602,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testMethodExpressionOnSpringBean",
+            "Time": 0.001763304,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithExecutionVariables",
+            "Time": 0.002583007,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithCreateDropOnCleanDb",
+            "Time": 2.2109471,
+            "Result": "ERROR",
+            "Exception": "06:09:34 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithTransactionalOperation",
+            "Time": 0.002010705,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncDelegateExpression",
+            "Time": 0.001237104,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithRollback",
+            "Time": 0.001232403,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testBasicActivitiSpringIntegration",
+            "Time": 0.285666649,
+            "Result": "ERROR",
+            "Exception": "06:09:34 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jobexecutor.SpringAsyncExecutorTest.testRollbackJobExecutorPath",
+            "Time": 0.007162919,
+            "Result": "ERROR",
+            "Exception": "org.activiti.engine.ActivitiObjectNotFoundException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testBasicActivitiSpringIntegration",
+            "Time": 0.001460604,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testRollBackOnException",
+            "Time": 0.001263903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testExecutionAndTaskListenerDelegationExpression",
+            "Time": 0.001565104,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testNoRedeploymentForSpringContainerRestart",
+            "Time": 0.97249955,
+            "Result": "ERROR",
+            "Exception": "06:09:34 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerSpringTest.testTaskListenerDelegateExpression",
+            "Time": 0.00400031,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateGroupsThroughSpringService",
+            "Time": 0.00413331,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testResourceRedeploymentAfterProcessDefinitionChange",
+            "Time": 0.536152705,
+            "Result": "ERROR",
+            "Exception": "06:09:34 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.BoundaryErrorEventSpringTest.testCatchErrorThrownByJavaDelegateOnServiceTask",
+            "Time": 0.000997503,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.callactivity.CallActivityBasedOnSpringBeansExpressionTest.testCallActivityByExpression",
+            "Time": 0.001076903,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteTransactionalOperation",
+            "Time": 0.003505509,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeSingleResource",
+            "Time": 0.337253985,
+            "Result": "ERROR",
+            "Exception": "06:09:34 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateUsersThroughSpringService",
+            "Time": 0.004698412,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "2975139047504-4692e9b4-72eb-471c-8d09-e235b9df56ed": [
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithRollback",
+            "Time": 0.004265511,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableDisapprovalPath",
+            "Time": 0.006807618,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseInjectedRuntimeServiceInServiceTask",
+            "Time": 0.00406091,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithPrototypeBean",
+            "Time": 0.001326104,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetAssigneeThroughSpringService",
+            "Time": 0.001343103,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.email.JndiEmailTest.testEmailUsingJndi",
+            "Time": 0.031214182,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.SpringLimitedExpressionsTest.testLimitedBeansExposed",
+            "Time": 0.004149611,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithCustomPropertiesResolver",
+            "Time": 0.001533804,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseRuntimeServiceNotInjectedInServiceTask",
+            "Time": 0.002980808,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCommitted",
+            "Time": 0.002278706,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeDefault",
+            "Time": 0.316207627,
+            "Result": "ERROR",
+            "Exception": "06:09:43 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeResourceParentFolder",
+            "Time": 0.344445802,
+            "Result": "ERROR",
+            "Exception": "06:09:43 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncMethodExpressionOnSpringBean",
+            "Time": 0.001379704,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TransactionDependentTaskListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.002292906,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteRolledBack",
+            "Time": 0.001547304,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testDelegateExpression",
+            "Time": 0.001276804,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteExecutionVariables",
+            "Time": 0.001410804,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollBackOnDeployment",
+            "Time": 0.001425903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollbackTransactionOnActivitiException",
+            "Time": 0.007398019,
+            "Result": "ERROR",
+            "Exception": "java.lang.IllegalArgumentException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithSingletonBean",
+            "Time": 0.002340406,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableHappyPath",
+            "Time": 0.001002002,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.TransactionDependentExecutionListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.004297012,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCustomPropertiesResolver",
+            "Time": 0.001428104,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ListenerFieldInjectionTest.testDelegateExpressionListenerFieldInjection",
+            "Time": 0.001516804,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testMethodExpressionOnSpringBean",
+            "Time": 0.001116703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithExecutionVariables",
+            "Time": 0.003981511,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithCreateDropOnCleanDb",
+            "Time": 2.149880129,
+            "Result": "ERROR",
+            "Exception": "06:09:43 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithTransactionalOperation",
+            "Time": 0.003587409,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncDelegateExpression",
+            "Time": 0.001137803,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithRollback",
+            "Time": 0.004700312,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testBasicActivitiSpringIntegration",
+            "Time": 0.221173878,
+            "Result": "ERROR",
+            "Exception": "06:09:43 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jobexecutor.SpringAsyncExecutorTest.testRollbackJobExecutorPath",
+            "Time": 0.00365601,
+            "Result": "ERROR",
+            "Exception": "org.activiti.engine.ActivitiObjectNotFoundException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testBasicActivitiSpringIntegration",
+            "Time": 0.001774305,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testExecutionAndTaskListenerDelegationExpression",
+            "Time": 0.001410204,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testRollBackOnException",
+            "Time": 0.001218303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testNoRedeploymentForSpringContainerRestart",
+            "Time": 0.967882233,
+            "Result": "ERROR",
+            "Exception": "06:09:43 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerSpringTest.testTaskListenerDelegateExpression",
+            "Time": 0.001187903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateGroupsThroughSpringService",
+            "Time": 0.002457007,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testResourceRedeploymentAfterProcessDefinitionChange",
+            "Time": 0.566839683,
+            "Result": "ERROR",
+            "Exception": "06:09:43 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.BoundaryErrorEventSpringTest.testCatchErrorThrownByJavaDelegateOnServiceTask",
+            "Time": 0.002126606,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.callactivity.CallActivityBasedOnSpringBeansExpressionTest.testCallActivityByExpression",
+            "Time": 0.001807705,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteTransactionalOperation",
+            "Time": 0.004710113,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeSingleResource",
+            "Time": 0.438359048,
+            "Result": "ERROR",
+            "Exception": "06:09:43 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateUsersThroughSpringService",
+            "Time": 0.00371701,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "2985785046319-0ee7fc0b-cb94-4fb1-9725-d31a0fe2c76e": [
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithRollback",
+            "Time": 0.001107703,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableDisapprovalPath",
+            "Time": 0.000827602,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseInjectedRuntimeServiceInServiceTask",
+            "Time": 0.003424509,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithPrototypeBean",
+            "Time": 0.000978002,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetAssigneeThroughSpringService",
+            "Time": 0.001397204,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.email.JndiEmailTest.testEmailUsingJndi",
+            "Time": 0.053381839,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.SpringLimitedExpressionsTest.testLimitedBeansExposed",
+            "Time": 0.001152503,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithCustomPropertiesResolver",
+            "Time": 0.001049703,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseRuntimeServiceNotInjectedInServiceTask",
+            "Time": 0.001235904,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCommitted",
+            "Time": 0.002380307,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeResourceParentFolder",
+            "Time": 0.287667151,
+            "Result": "ERROR",
+            "Exception": "06:09:54 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeDefault",
+            "Time": 0.362253947,
+            "Result": "ERROR",
+            "Exception": "06:09:54 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncMethodExpressionOnSpringBean",
+            "Time": 0.001873105,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TransactionDependentTaskListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.004720312,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteRolledBack",
+            "Time": 0.001622704,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testDelegateExpression",
+            "Time": 0.001702905,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteExecutionVariables",
+            "Time": 0.001613604,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollBackOnDeployment",
+            "Time": 0.001864505,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollbackTransactionOnActivitiException",
+            "Time": 0.007477119,
+            "Result": "ERROR",
+            "Exception": "java.lang.IllegalArgumentException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithSingletonBean",
+            "Time": 0.001306303,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableHappyPath",
+            "Time": 0.005093814,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.TransactionDependentExecutionListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.001757004,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCustomPropertiesResolver",
+            "Time": 0.001516904,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ListenerFieldInjectionTest.testDelegateExpressionListenerFieldInjection",
+            "Time": 0.000977103,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testMethodExpressionOnSpringBean",
+            "Time": 0.001212403,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithExecutionVariables",
+            "Time": 0.002323706,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithCreateDropOnCleanDb",
+            "Time": 2.347523835,
+            "Result": "ERROR",
+            "Exception": "06:09:54 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncDelegateExpression",
+            "Time": 0.002371306,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithTransactionalOperation",
+            "Time": 0.001572005,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithRollback",
+            "Time": 0.001189103,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testBasicActivitiSpringIntegration",
+            "Time": 0.312931217,
+            "Result": "ERROR",
+            "Exception": "06:09:54 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jobexecutor.SpringAsyncExecutorTest.testRollbackJobExecutorPath",
+            "Time": 0.004109011,
+            "Result": "ERROR",
+            "Exception": "org.activiti.engine.ActivitiObjectNotFoundException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testBasicActivitiSpringIntegration",
+            "Time": 0.001547204,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testExecutionAndTaskListenerDelegationExpression",
+            "Time": 0.001772704,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testRollBackOnException",
+            "Time": 0.001506103,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testNoRedeploymentForSpringContainerRestart",
+            "Time": 0.924212915,
+            "Result": "ERROR",
+            "Exception": "06:09:54 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateGroupsThroughSpringService",
+            "Time": 0.003191609,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerSpringTest.testTaskListenerDelegateExpression",
+            "Time": 0.002073906,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testResourceRedeploymentAfterProcessDefinitionChange",
+            "Time": 0.549322435,
+            "Result": "ERROR",
+            "Exception": "06:09:54 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.BoundaryErrorEventSpringTest.testCatchErrorThrownByJavaDelegateOnServiceTask",
+            "Time": 0.000850002,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.callactivity.CallActivityBasedOnSpringBeansExpressionTest.testCallActivityByExpression",
+            "Time": 0.000949903,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteTransactionalOperation",
+            "Time": 0.005921416,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeSingleResource",
+            "Time": 0.433081831,
+            "Result": "ERROR",
+            "Exception": "06:09:54 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateUsersThroughSpringService",
+            "Time": 0.003216908,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "4340159634022-0b4f5c3d-0bcf-456e-acab-a2a6ded3f53d": [
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableDisapprovalPath",
+            "Time": 0.002578606,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseInjectedRuntimeServiceInServiceTask",
+            "Time": 0.002335405,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithRollback",
+            "Time": 0.003991809,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithPrototypeBean",
+            "Time": 0.000994702,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetAssigneeThroughSpringService",
+            "Time": 0.001768504,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.email.JndiEmailTest.testEmailUsingJndi",
+            "Time": 0.038520483,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.SpringLimitedExpressionsTest.testLimitedBeansExposed",
+            "Time": 0.003559807,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithCustomPropertiesResolver",
+            "Time": 0.001131103,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseRuntimeServiceNotInjectedInServiceTask",
+            "Time": 0.001292803,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCommitted",
+            "Time": 0.001463703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeResourceParentFolder",
+            "Time": 0.376282605,
+            "Result": "ERROR",
+            "Exception": "06:32:28 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeDefault",
+            "Time": 0.346623541,
+            "Result": "ERROR",
+            "Exception": "06:32:28 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncMethodExpressionOnSpringBean",
+            "Time": 0.001912404,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TransactionDependentTaskListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.001379203,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteRolledBack",
+            "Time": 0.002383405,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testDelegateExpression",
+            "Time": 0.001229103,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteExecutionVariables",
+            "Time": 0.001518504,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollBackOnDeployment",
+            "Time": 0.001463203,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollbackTransactionOnActivitiException",
+            "Time": 0.007346416,
+            "Result": "ERROR",
+            "Exception": "java.lang.IllegalArgumentException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithSingletonBean",
+            "Time": 0.001770404,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableHappyPath",
+            "Time": 0.001083402,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.TransactionDependentExecutionListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.00471701,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCustomPropertiesResolver",
+            "Time": 0.000920902,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ListenerFieldInjectionTest.testDelegateExpressionListenerFieldInjection",
+            "Time": 0.001310703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testMethodExpressionOnSpringBean",
+            "Time": 0.001389203,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithExecutionVariables",
+            "Time": 0.003134207,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithCreateDropOnCleanDb",
+            "Time": 2.152746,
+            "Result": "ERROR",
+            "Exception": "06:32:28 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithTransactionalOperation",
+            "Time": 0.004014409,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncDelegateExpression",
+            "Time": 0.001260303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithRollback",
+            "Time": 0.004199409,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testBasicActivitiSpringIntegration",
+            "Time": 0.235713204,
+            "Result": "ERROR",
+            "Exception": "06:32:28 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jobexecutor.SpringAsyncExecutorTest.testRollbackJobExecutorPath",
+            "Time": 0.004177109,
+            "Result": "ERROR",
+            "Exception": "org.activiti.engine.ActivitiObjectNotFoundException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testBasicActivitiSpringIntegration",
+            "Time": 0.001469703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testExecutionAndTaskListenerDelegationExpression",
+            "Time": 0.001570304,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testRollBackOnException",
+            "Time": 0.001333303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testNoRedeploymentForSpringContainerRestart",
+            "Time": 0.726781653,
+            "Result": "ERROR",
+            "Exception": "06:32:28 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerSpringTest.testTaskListenerDelegateExpression",
+            "Time": 0.001337603,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateGroupsThroughSpringService",
+            "Time": 0.002554506,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testResourceRedeploymentAfterProcessDefinitionChange",
+            "Time": 0.595584074,
+            "Result": "ERROR",
+            "Exception": "06:32:28 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.BoundaryErrorEventSpringTest.testCatchErrorThrownByJavaDelegateOnServiceTask",
+            "Time": 0.004843611,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.callactivity.CallActivityBasedOnSpringBeansExpressionTest.testCallActivityByExpression",
+            "Time": 0.001399803,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteTransactionalOperation",
+            "Time": 0.005174511,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeSingleResource",
+            "Time": 0.301327344,
+            "Result": "ERROR",
+            "Exception": "06:32:28 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateUsersThroughSpringService",
+            "Time": 0.003847508,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "4350358717468-dcd16e12-59ad-4bad-97bc-4a5c57b23980": [
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseInjectedRuntimeServiceInServiceTask",
+            "Time": 0.000924302,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithRollback",
+            "Time": 0.001553604,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableDisapprovalPath",
+            "Time": 0.005109111,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithPrototypeBean",
+            "Time": 0.001460303,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetAssigneeThroughSpringService",
+            "Time": 0.000862302,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.email.JndiEmailTest.testEmailUsingJndi",
+            "Time": 0.03242717,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.SpringLimitedExpressionsTest.testLimitedBeansExposed",
+            "Time": 0.001793504,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseRuntimeServiceNotInjectedInServiceTask",
+            "Time": 0.000890402,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithCustomPropertiesResolver",
+            "Time": 0.001549403,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCommitted",
+            "Time": 0.001832004,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeDefault",
+            "Time": 0.42946962,
+            "Result": "ERROR",
+            "Exception": "06:32:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeResourceParentFolder",
+            "Time": 0.397908053,
+            "Result": "ERROR",
+            "Exception": "06:32:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncMethodExpressionOnSpringBean",
+            "Time": 0.003229507,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TransactionDependentTaskListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.007588117,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteRolledBack",
+            "Time": 0.005472612,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testDelegateExpression",
+            "Time": 0.001398003,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteExecutionVariables",
+            "Time": 0.001251402,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollBackOnDeployment",
+            "Time": 0.002705906,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollbackTransactionOnActivitiException",
+            "Time": 0.007577216,
+            "Result": "ERROR",
+            "Exception": "java.lang.IllegalArgumentException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithSingletonBean",
+            "Time": 0.001923204,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableHappyPath",
+            "Time": 0.001162402,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.TransactionDependentExecutionListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.00462601,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCustomPropertiesResolver",
+            "Time": 0.001303803,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ListenerFieldInjectionTest.testDelegateExpressionListenerFieldInjection",
+            "Time": 0.001533903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testMethodExpressionOnSpringBean",
+            "Time": 0.001131102,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithExecutionVariables",
+            "Time": 0.002635606,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithCreateDropOnCleanDb",
+            "Time": 2.028799444,
+            "Result": "ERROR",
+            "Exception": "06:32:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithTransactionalOperation",
+            "Time": 0.002156405,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncDelegateExpression",
+            "Time": 0.001522403,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithRollback",
+            "Time": 0.001713704,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testBasicActivitiSpringIntegration",
+            "Time": 0.286650014,
+            "Result": "ERROR",
+            "Exception": "06:32:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jobexecutor.SpringAsyncExecutorTest.testRollbackJobExecutorPath",
+            "Time": 0.008865519,
+            "Result": "ERROR",
+            "Exception": "org.activiti.engine.ActivitiObjectNotFoundException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testBasicActivitiSpringIntegration",
+            "Time": 0.001461403,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testExecutionAndTaskListenerDelegationExpression",
+            "Time": 0.00462991,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testRollBackOnException",
+            "Time": 0.000992702,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testNoRedeploymentForSpringContainerRestart",
+            "Time": 0.94813423,
+            "Result": "ERROR",
+            "Exception": "06:32:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateGroupsThroughSpringService",
+            "Time": 0.003627808,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerSpringTest.testTaskListenerDelegateExpression",
+            "Time": 0.001285603,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testResourceRedeploymentAfterProcessDefinitionChange",
+            "Time": 0.601906289,
+            "Result": "ERROR",
+            "Exception": "06:32:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.BoundaryErrorEventSpringTest.testCatchErrorThrownByJavaDelegateOnServiceTask",
+            "Time": 0.000938902,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.callactivity.CallActivityBasedOnSpringBeansExpressionTest.testCallActivityByExpression",
+            "Time": 0.001408203,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteTransactionalOperation",
+            "Time": 0.001292803,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeSingleResource",
+            "Time": 0.375845405,
+            "Result": "ERROR",
+            "Exception": "06:32:38 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateUsersThroughSpringService",
+            "Time": 0.000843702,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ],
+    "4360695453850-e23d087c-bca0-4e37-b940-e2bcc8ea6a7c": [
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseInjectedRuntimeServiceInServiceTask",
+            "Time": 0.004435809,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableDisapprovalPath",
+            "Time": 0.007935017,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithRollback",
+            "Time": 0.001528803,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithPrototypeBean",
+            "Time": 0.001840804,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetAssigneeThroughSpringService",
+            "Time": 0.001440604,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.SpringLimitedExpressionsTest.testLimitedBeansExposed",
+            "Time": 0.001572804,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.email.JndiEmailTest.testEmailUsingJndi",
+            "Time": 0.043277793,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithCustomPropertiesResolver",
+            "Time": 0.001420303,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testUseRuntimeServiceNotInjectedInServiceTask",
+            "Time": 0.001373903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCommitted",
+            "Time": 0.002755706,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeResourceParentFolder",
+            "Time": 0.387712332,
+            "Result": "ERROR",
+            "Exception": "06:32:49 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeDefault",
+            "Time": 0.326781101,
+            "Result": "ERROR",
+            "Exception": "06:32:49 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncMethodExpressionOnSpringBean",
+            "Time": 0.001980505,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TransactionDependentTaskListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.003881008,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteRolledBack",
+            "Time": 0.001775504,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testDelegateExpression",
+            "Time": 0.001313703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteExecutionVariables",
+            "Time": 0.001499303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollBackOnDeployment",
+            "Time": 0.001636603,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testRollbackTransactionOnActivitiException",
+            "Time": 0.008013217,
+            "Result": "ERROR",
+            "Exception": "java.lang.IllegalArgumentException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithSingletonBean",
+            "Time": 0.001916304,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.jpa.JpaTest.testJpaVariableHappyPath",
+            "Time": 0.001014302,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.TransactionDependentExecutionListenerSpringTest.testCustomPropertiesMapDelegateExpression",
+            "Time": 0.002277705,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteCustomPropertiesResolver",
+            "Time": 0.001394103,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.fieldinjection.ListenerFieldInjectionTest.testDelegateExpressionListenerFieldInjection",
+            "Time": 0.001414503,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testMethodExpressionOnSpringBean",
+            "Time": 0.001318403,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithExecutionVariables",
+            "Time": 0.002604505,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithCreateDropOnCleanDb",
+            "Time": 2.162268439,
+            "Result": "ERROR",
+            "Exception": "06:32:49 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testAsyncDelegateExpression",
+            "Time": 0.001325303,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithTransactionalOperation",
+            "Time": 0.002102305,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithRollback",
+            "Time": 0.001773504,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testBasicActivitiSpringIntegration",
+            "Time": 0.226727487,
+            "Result": "ERROR",
+            "Exception": "06:32:49 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.jobexecutor.SpringAsyncExecutorTest.testRollbackJobExecutorPath",
+            "Time": 0.00467001,
+            "Result": "ERROR",
+            "Exception": "org.activiti.engine.ActivitiObjectNotFoundException"
+        },
+        {
+            "Name": "org.activiti.spring.test.transaction.SpringTransactionIntegrationTest.testBasicActivitiSpringIntegration",
+            "Time": 0.001585803,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.ServiceTaskSpringDelegationTest.testExecutionAndTaskListenerDelegationExpression",
+            "Time": 0.001646903,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.UseActivitiServiceInServiceTaskTest.testRollBackOnException",
+            "Time": 0.001400703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testNoRedeploymentForSpringContainerRestart",
+            "Time": 0.957001354,
+            "Result": "ERROR",
+            "Exception": "06:32:49 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerSpringTest.testTaskListenerDelegateExpression",
+            "Time": 0.001466703,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateGroupsThroughSpringService",
+            "Time": 0.003020807,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testResourceRedeploymentAfterProcessDefinitionChange",
+            "Time": 0.559259401,
+            "Result": "ERROR",
+            "Exception": "06:32:49 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.servicetask.BoundaryErrorEventSpringTest.testCatchErrorThrownByJavaDelegateOnServiceTask",
+            "Time": 0.001056602,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.expression.callactivity.CallActivityBasedOnSpringBeansExpressionTest.testCallActivityByExpression",
+            "Time": 0.001645103,
+            "Result": "ERROR",
+            "Exception": "none"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskListener.TaskListenerOnTransactionTest.testOnCompleteTransactionalOperation",
+            "Time": 0.004764611,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeSingleResource",
+            "Time": 0.437534639,
+            "Result": "ERROR",
+            "Exception": "06:32:49 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/activiti/spring/test/autodeployment/SpringAutoDeployTest-deploymentmode-singjava.lang.NullPointerException"
+        },
+        {
+            "Name": "org.activiti.spring.test.taskassignment.CustomTaskAssignmentTest.testSetCandidateUsersThroughSpringService",
+            "Time": 0.003837508,
+            "Result": "ERROR",
+            "Exception": "java.lang.NullPointerException"
+        }
+    ]
+}
