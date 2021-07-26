@@ -8,9 +8,10 @@ class Test(object):
 
 
 class testFailure(object):
-    def __init__(self, name, time, stackTrace):
+    def __init__(self, name, time, result, stackTrace):
         self.name = name
         self.time = time
+        self.result = result
         self.stackTrace = stackTrace
 
 
