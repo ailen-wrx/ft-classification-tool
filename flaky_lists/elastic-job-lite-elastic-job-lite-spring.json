@@ -5,7 +5,12 @@
             "Name": "io.elasticjob.lite.spring.job.JobSpringNamespaceWithListenerAndJdkDynamicProxyTest.assertSpringJobBean",
             "Time": 0.0,
             "Result": "ERROR",
-            "Exception": "io.elasticjob.lite.reg.exception.RegException: java.net.BindException"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " java.net.BindException: Address already in use\n"
+                }
+            ]
         }
     ]
 }

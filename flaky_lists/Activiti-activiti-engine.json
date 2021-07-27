@@ -5,253 +5,463 @@
             "Name": "org.activiti.standalone.escapeclause.ModelQueryEscapeClauseTest.testQueryByNameLike",
             "Time": 0.000403601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentMulitInstance",
             "Time": 0.000586402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ActivityEventsTest.testActivitySignalBoundaryEventsOnUserTask",
             "Time": 0.002365507,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskServiceTest.testResolveTaskUnexistingTaskId",
             "Time": 0.000588502,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testProcessDefinitionTagCreated",
             "Time": 0.000562602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testOneTaskProcess",
             "Time": 0.000578002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.multiinstance.MultiInstanceTest.testParallelAfterSequentialMultiInstance",
             "Time": 0.000697702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.bpmn.scripttask.ScriptTaskTest.testFailingScript",
             "Time": 0.001826405,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.history.HistoryServiceTest.testNativeHistoricActivityInstanceTest",
             "Time": 0.000966703,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testSuspendProcessDefinitionTenancy",
             "Time": 0.000599902,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.mgmt.JobQueryTest.testQueryByException",
             "Time": 0.001793506,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInSubProcessConcurrentMultiInstanceTerminateAll",
             "Time": 0.000592702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.variables.TransientVariablesTest.testStartProcessInstanceById",
             "Time": 0.000653502,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.sequenceflow.DefaultSequenceFlowTest.testDefaultSequenceFlowOnTask",
             "Time": 0.000631602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.repository.ModelQueryTest.testQueryByInvalidName",
             "Time": 0.002625409,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryNullVariable",
             "Time": 0.000447201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalStartEventFromAPI",
             "Time": 0.001160203,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryCreatedAfterOr",
             "Time": 0.001632805,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ExecutionQueryEscapeClauseTest.testQueryLikeByQueryVariableValue",
             "Time": 0.000417501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalCatchIntermediateExpression",
             "Time": 0.000602802,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testStartProcessInstanceByMessageTenancyReversed",
             "Time": 0.000592602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ProcessInstanceQueryEscapeClauseTest.testQueryLikeByQueryVariableValueIgnoreCase",
             "Time": 0.000658702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testVariableValueEqualsIgnoreCase",
             "Time": 0.001577005,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.mgmt.ManagementServiceTest.testGetTableMetaData",
             "Time": 0.000955603,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.deployment.MessageEventsAndNewVersionDeploymentsWithTenantIdTest.testBothBoundaryAndStartSameMessageId",
             "Time": 0.000254301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentCallActivity",
             "Time": 0.000589502,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ProcessInstanceQueryAndWithExceptionTest.testQueryWithException",
             "Time": 0.000703202,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ErrorThrowingEventListenerTest.testThrowErrorDefinedInProcessDefinition",
             "Time": 0.000926503,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.parallel.ParallelTest.testParallel",
             "Time": 0.000219801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryInvalidSorting",
             "Time": 0.000394201,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.gateway.EventBasedGatewayTest.testCatchTimerCancelsSignal",
             "Time": 0.000655102,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityMultiInstance",
             "Time": 0.000623102,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6ExecutionTest.testOneNestedTaskProcess",
             "Time": 0.000573402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.variables.VariablesTest.testLocalizeDataObjects",
             "Time": 0.000215401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.history.FullHistoryTest.testHistoricVariableQueryExcludeTaskRelatedDetails",
             "Time": 0.0002583,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.jobexecutor.JobExecutorFailRetryTest.testFailedServiceTask",
             "Time": 0.001125304,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.SignalThrowingEventListenerTest.testGlobalSignal",
             "Time": 0.000343101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateMultiInstanceEndEventTest.testMultiInstanceEmbeddedSubprocess",
             "Time": 0.000576102,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testTaskDueAfterOn",
             "Time": 0.001628405,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryByInvalidNameLikeOr",
             "Time": 0.001541604,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.jpa.JPAEnhancedVariableTest.testEnhancedEntityListVariables",
             "Time": 0.000224801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.HistoricProcessInstanceQueryEscapeClauseTest.testQueryByProcessKeyNotIn",
             "Time": 0.000461102,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "1457423814104-da67a6ae-44f0-433d-82ff-470ad630666f": [
@@ -259,253 +469,463 @@
             "Name": "org.activiti.standalone.escapeclause.ModelQueryEscapeClauseTest.testQueryByNameLike",
             "Time": 0.008507923,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentMulitInstance",
             "Time": 0.000589602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskServiceTest.testResolveTaskUnexistingTaskId",
             "Time": 0.0002433,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ActivityEventsTest.testActivitySignalBoundaryEventsOnUserTask",
             "Time": 0.002341606,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testProcessDefinitionTagCreated",
             "Time": 0.000625702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testOneTaskProcess",
             "Time": 0.000701302,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.multiinstance.MultiInstanceTest.testParallelAfterSequentialMultiInstance",
             "Time": 0.0002261,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.bpmn.scripttask.ScriptTaskTest.testFailingScript",
             "Time": 0.001205803,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.history.HistoryServiceTest.testNativeHistoricActivityInstanceTest",
             "Time": 0.000725502,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testSuspendProcessDefinitionTenancy",
             "Time": 0.000670201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.mgmt.JobQueryTest.testQueryByException",
             "Time": 0.001634405,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInSubProcessConcurrentMultiInstanceTerminateAll",
             "Time": 0.0002547,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.variables.TransientVariablesTest.testStartProcessInstanceById",
             "Time": 0.000687702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.sequenceflow.DefaultSequenceFlowTest.testDefaultSequenceFlowOnTask",
             "Time": 0.0002185,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.repository.ModelQueryTest.testQueryByInvalidName",
             "Time": 0.002469507,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryNullVariable",
             "Time": 0.001818605,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalStartEventFromAPI",
             "Time": 0.000435901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ExecutionQueryEscapeClauseTest.testQueryLikeByQueryVariableValue",
             "Time": 0.000474001,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalCatchIntermediateExpression",
             "Time": 0.0002372,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryCreatedAfterOr",
             "Time": 0.001846305,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testStartProcessInstanceByMessageTenancyReversed",
             "Time": 0.000693402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ProcessInstanceQueryEscapeClauseTest.testQueryLikeByQueryVariableValueIgnoreCase",
             "Time": 0.000398501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testVariableValueEqualsIgnoreCase",
             "Time": 0.001761705,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.mgmt.ManagementServiceTest.testGetTableMetaData",
             "Time": 0.000288701,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.deployment.MessageEventsAndNewVersionDeploymentsWithTenantIdTest.testBothBoundaryAndStartSameMessageId",
             "Time": 0.000646002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ProcessInstanceQueryAndWithExceptionTest.testQueryWithException",
             "Time": 0.001754705,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentCallActivity",
             "Time": 0.000998903,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ErrorThrowingEventListenerTest.testThrowErrorDefinedInProcessDefinition",
             "Time": 0.000789603,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.parallel.ParallelTest.testParallel",
             "Time": 0.0002108,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryInvalidSorting",
             "Time": 0.000453001,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.gateway.EventBasedGatewayTest.testCatchTimerCancelsSignal",
             "Time": 0.0002329,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityMultiInstance",
             "Time": 0.000627501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6ExecutionTest.testOneNestedTaskProcess",
             "Time": 0.000636602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.variables.VariablesTest.testLocalizeDataObjects",
             "Time": 0.000230201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.history.FullHistoryTest.testHistoricVariableQueryExcludeTaskRelatedDetails",
             "Time": 0.000398501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.SignalThrowingEventListenerTest.testGlobalSignal",
             "Time": 0.000780402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.jobexecutor.JobExecutorFailRetryTest.testFailedServiceTask",
             "Time": 0.001015003,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateMultiInstanceEndEventTest.testMultiInstanceEmbeddedSubprocess",
             "Time": 0.000199801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testTaskDueAfterOn",
             "Time": 0.002023806,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryByInvalidNameLikeOr",
             "Time": 0.001943305,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.jpa.JPAEnhancedVariableTest.testEnhancedEntityListVariables",
             "Time": 0.000237501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.HistoricProcessInstanceQueryEscapeClauseTest.testQueryByProcessKeyNotIn",
             "Time": 0.000454501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "1568642084053-cd2d9a6f-3c35-434d-ac4c-ea292f7844fd": [
@@ -513,253 +933,463 @@
             "Name": "org.activiti.standalone.escapeclause.ModelQueryEscapeClauseTest.testQueryByNameLike",
             "Time": 0.000359201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentMulitInstance",
             "Time": 0.000663302,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskServiceTest.testResolveTaskUnexistingTaskId",
             "Time": 0.000726002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ActivityEventsTest.testActivitySignalBoundaryEventsOnUserTask",
             "Time": 0.000888903,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testProcessDefinitionTagCreated",
             "Time": 0.000215101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testOneTaskProcess",
             "Time": 0.000651101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.multiinstance.MultiInstanceTest.testParallelAfterSequentialMultiInstance",
             "Time": 0.000263301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.bpmn.scripttask.ScriptTaskTest.testFailingScript",
             "Time": 0.009260423,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.history.HistoryServiceTest.testNativeHistoricActivityInstanceTest",
             "Time": 0.000358301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testSuspendProcessDefinitionTenancy",
             "Time": 0.000647602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.mgmt.JobQueryTest.testQueryByException",
             "Time": 0.000543101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInSubProcessConcurrentMultiInstanceTerminateAll",
             "Time": 0.000667702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.variables.TransientVariablesTest.testStartProcessInstanceById",
             "Time": 0.001077103,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.repository.ModelQueryTest.testQueryByInvalidName",
             "Time": 0.001417404,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.sequenceflow.DefaultSequenceFlowTest.testDefaultSequenceFlowOnTask",
             "Time": 0.000267901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryNullVariable",
             "Time": 0.000491301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalStartEventFromAPI",
             "Time": 0.000937903,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ExecutionQueryEscapeClauseTest.testQueryLikeByQueryVariableValue",
             "Time": 0.000399901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryCreatedAfterOr",
             "Time": 0.000503601,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalCatchIntermediateExpression",
             "Time": 0.000821803,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testStartProcessInstanceByMessageTenancyReversed",
             "Time": 0.000642402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ProcessInstanceQueryEscapeClauseTest.testQueryLikeByQueryVariableValueIgnoreCase",
             "Time": 0.000364901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testVariableValueEqualsIgnoreCase",
             "Time": 0.000464301,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.mgmt.ManagementServiceTest.testGetTableMetaData",
             "Time": 0.0002418,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.deployment.MessageEventsAndNewVersionDeploymentsWithTenantIdTest.testBothBoundaryAndStartSameMessageId",
             "Time": 0.000703302,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ProcessInstanceQueryAndWithExceptionTest.testQueryWithException",
             "Time": 0.000491601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentCallActivity",
             "Time": 0.000675901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ErrorThrowingEventListenerTest.testThrowErrorDefinedInProcessDefinition",
             "Time": 0.000455002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.parallel.ParallelTest.testParallel",
             "Time": 0.000222601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryInvalidSorting",
             "Time": 0.000412401,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.gateway.EventBasedGatewayTest.testCatchTimerCancelsSignal",
             "Time": 0.000631702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityMultiInstance",
             "Time": 0.000712802,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6ExecutionTest.testOneNestedTaskProcess",
             "Time": 0.000664901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.variables.VariablesTest.testLocalizeDataObjects",
             "Time": 0.0002518,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.history.FullHistoryTest.testHistoricVariableQueryExcludeTaskRelatedDetails",
             "Time": 0.000395601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.SignalThrowingEventListenerTest.testGlobalSignal",
             "Time": 0.000362501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.jobexecutor.JobExecutorFailRetryTest.testFailedServiceTask",
             "Time": 0.000730901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateMultiInstanceEndEventTest.testMultiInstanceEmbeddedSubprocess",
             "Time": 0.000670101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testTaskDueAfterOn",
             "Time": 0.000868203,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryByInvalidNameLikeOr",
             "Time": 0.000893202,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.jpa.JPAEnhancedVariableTest.testEnhancedEntityListVariables",
             "Time": 0.000615002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.HistoricProcessInstanceQueryEscapeClauseTest.testQueryByProcessKeyNotIn",
             "Time": 0.000401301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "2726494148205-466fa26e-7606-4730-9e44-2ee403a9f417": [
@@ -767,253 +1397,463 @@
             "Name": "org.activiti.standalone.escapeclause.ModelQueryEscapeClauseTest.testQueryByNameLike",
             "Time": 0.000346001,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentMulitInstance",
             "Time": 0.000575902,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ActivityEventsTest.testActivitySignalBoundaryEventsOnUserTask",
             "Time": 0.002233606,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskServiceTest.testResolveTaskUnexistingTaskId",
             "Time": 0.000626201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testProcessDefinitionTagCreated",
             "Time": 0.000548101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testOneTaskProcess",
             "Time": 0.002552508,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.multiinstance.MultiInstanceTest.testParallelAfterSequentialMultiInstance",
             "Time": 0.000207501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.bpmn.scripttask.ScriptTaskTest.testFailingScript",
             "Time": 0.001650905,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.history.HistoryServiceTest.testNativeHistoricActivityInstanceTest",
             "Time": 0.000737102,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testSuspendProcessDefinitionTenancy",
             "Time": 0.000236901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.mgmt.JobQueryTest.testQueryByException",
             "Time": 0.001656004,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInSubProcessConcurrentMultiInstanceTerminateAll",
             "Time": 0.000581002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.variables.TransientVariablesTest.testStartProcessInstanceById",
             "Time": 0.0001815,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.sequenceflow.DefaultSequenceFlowTest.testDefaultSequenceFlowOnTask",
             "Time": 0.000194601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.repository.ModelQueryTest.testQueryByInvalidName",
             "Time": 0.002324807,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryNullVariable",
             "Time": 0.000448301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalStartEventFromAPI",
             "Time": 0.000773503,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryCreatedAfterOr",
             "Time": 0.001441204,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ExecutionQueryEscapeClauseTest.testQueryLikeByQueryVariableValue",
             "Time": 0.001445704,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalCatchIntermediateExpression",
             "Time": 0.000589902,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testStartProcessInstanceByMessageTenancyReversed",
             "Time": 0.000212101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ProcessInstanceQueryEscapeClauseTest.testQueryLikeByQueryVariableValueIgnoreCase",
             "Time": 0.000361001,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testVariableValueEqualsIgnoreCase",
             "Time": 0.001410204,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.mgmt.ManagementServiceTest.testGetTableMetaData",
             "Time": 0.0002361,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.deployment.MessageEventsAndNewVersionDeploymentsWithTenantIdTest.testBothBoundaryAndStartSameMessageId",
             "Time": 0.000643101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentCallActivity",
             "Time": 0.000784202,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ProcessInstanceQueryAndWithExceptionTest.testQueryWithException",
             "Time": 0.001606805,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ErrorThrowingEventListenerTest.testThrowErrorDefinedInProcessDefinition",
             "Time": 0.001760805,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryInvalidSorting",
             "Time": 0.003914811,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.parallel.ParallelTest.testParallel",
             "Time": 0.000356801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.gateway.EventBasedGatewayTest.testCatchTimerCancelsSignal",
             "Time": 0.000217701,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityMultiInstance",
             "Time": 0.000637401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6ExecutionTest.testOneNestedTaskProcess",
             "Time": 0.0001822,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.variables.VariablesTest.testLocalizeDataObjects",
             "Time": 0.000202401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.history.FullHistoryTest.testHistoricVariableQueryExcludeTaskRelatedDetails",
             "Time": 0.000616602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.SignalThrowingEventListenerTest.testGlobalSignal",
             "Time": 0.000805802,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.jobexecutor.JobExecutorFailRetryTest.testFailedServiceTask",
             "Time": 0.000716402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateMultiInstanceEndEventTest.testMultiInstanceEmbeddedSubprocess",
             "Time": 0.000659702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryByInvalidNameLikeOr",
             "Time": 0.001393104,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testTaskDueAfterOn",
             "Time": 0.000776102,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.jpa.JPAEnhancedVariableTest.testEnhancedEntityListVariables",
             "Time": 0.000210901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.HistoricProcessInstanceQueryEscapeClauseTest.testQueryByProcessKeyNotIn",
             "Time": 0.001458604,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "2835031788188-15d3ae63-4611-4465-9833-87ab015d2b95": [
@@ -1021,253 +1861,463 @@
             "Name": "org.activiti.standalone.escapeclause.ModelQueryEscapeClauseTest.testQueryByNameLike",
             "Time": 0.000344301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentMulitInstance",
             "Time": 0.000219,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ActivityEventsTest.testActivitySignalBoundaryEventsOnUserTask",
             "Time": 0.002401807,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskServiceTest.testResolveTaskUnexistingTaskId",
             "Time": 0.0002339,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testProcessDefinitionTagCreated",
             "Time": 0.000172301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testOneTaskProcess",
             "Time": 0.000172,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.multiinstance.MultiInstanceTest.testParallelAfterSequentialMultiInstance",
             "Time": 0.000260001,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.bpmn.scripttask.ScriptTaskTest.testFailingScript",
             "Time": 0.001443204,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.history.HistoryServiceTest.testNativeHistoricActivityInstanceTest",
             "Time": 0.000293301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testSuspendProcessDefinitionTenancy",
             "Time": 0.0001801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.mgmt.JobQueryTest.testQueryByException",
             "Time": 0.000507201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInSubProcessConcurrentMultiInstanceTerminateAll",
             "Time": 0.000275901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.variables.TransientVariablesTest.testStartProcessInstanceById",
             "Time": 0.000172601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.sequenceflow.DefaultSequenceFlowTest.testDefaultSequenceFlowOnTask",
             "Time": 0.000213801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.repository.ModelQueryTest.testQueryByInvalidName",
             "Time": 0.001048802,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryNullVariable",
             "Time": 0.000391001,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalStartEventFromAPI",
             "Time": 0.000363301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryCreatedAfterOr",
             "Time": 0.001655004,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ExecutionQueryEscapeClauseTest.testQueryLikeByQueryVariableValue",
             "Time": 0.000365601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalCatchIntermediateExpression",
             "Time": 0.000209401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testStartProcessInstanceByMessageTenancyReversed",
             "Time": 0.000177901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ProcessInstanceQueryEscapeClauseTest.testQueryLikeByQueryVariableValueIgnoreCase",
             "Time": 0.000399401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testVariableValueEqualsIgnoreCase",
             "Time": 0.000976903,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.mgmt.ManagementServiceTest.testGetTableMetaData",
             "Time": 0.000474402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.deployment.MessageEventsAndNewVersionDeploymentsWithTenantIdTest.testBothBoundaryAndStartSameMessageId",
             "Time": 0.000188601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ProcessInstanceQueryAndWithExceptionTest.testQueryWithException",
             "Time": 0.000667801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentCallActivity",
             "Time": 0.000242201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ErrorThrowingEventListenerTest.testThrowErrorDefinedInProcessDefinition",
             "Time": 0.000828302,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.parallel.ParallelTest.testParallel",
             "Time": 0.000279101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryInvalidSorting",
             "Time": 0.000412601,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.gateway.EventBasedGatewayTest.testCatchTimerCancelsSignal",
             "Time": 0.000212901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityMultiInstance",
             "Time": 0.000653602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6ExecutionTest.testOneNestedTaskProcess",
             "Time": 0.000560701,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.history.FullHistoryTest.testHistoricVariableQueryExcludeTaskRelatedDetails",
             "Time": 0.0002359,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.variables.VariablesTest.testLocalizeDataObjects",
             "Time": 0.000252401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.SignalThrowingEventListenerTest.testGlobalSignal",
             "Time": 0.000332101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.jobexecutor.JobExecutorFailRetryTest.testFailedServiceTask",
             "Time": 0.000719502,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateMultiInstanceEndEventTest.testMultiInstanceEmbeddedSubprocess",
             "Time": 0.0002056,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testTaskDueAfterOn",
             "Time": 0.001507404,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryByInvalidNameLikeOr",
             "Time": 0.000804402,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.jpa.JPAEnhancedVariableTest.testEnhancedEntityListVariables",
             "Time": 0.000277301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.HistoricProcessInstanceQueryEscapeClauseTest.testQueryByProcessKeyNotIn",
             "Time": 0.000464901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "2943749351592-34906f1e-4d0f-4956-b5c9-f61b2b4fee1d": [
@@ -1275,253 +2325,463 @@
             "Name": "org.activiti.standalone.escapeclause.ModelQueryEscapeClauseTest.testQueryByNameLike",
             "Time": 0.000378701,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentMulitInstance",
             "Time": 0.0002172,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskServiceTest.testResolveTaskUnexistingTaskId",
             "Time": 0.000601101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ActivityEventsTest.testActivitySignalBoundaryEventsOnUserTask",
             "Time": 0.002625207,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testProcessDefinitionTagCreated",
             "Time": 0.000711002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testOneTaskProcess",
             "Time": 0.000609402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.multiinstance.MultiInstanceTest.testParallelAfterSequentialMultiInstance",
             "Time": 0.0002046,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.bpmn.scripttask.ScriptTaskTest.testFailingScript",
             "Time": 0.001551104,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.history.HistoryServiceTest.testNativeHistoricActivityInstanceTest",
             "Time": 0.000330601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testSuspendProcessDefinitionTenancy",
             "Time": 0.000599002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.mgmt.JobQueryTest.testQueryByException",
             "Time": 0.000584901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInSubProcessConcurrentMultiInstanceTerminateAll",
             "Time": 0.000213701,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.variables.TransientVariablesTest.testStartProcessInstanceById",
             "Time": 0.000623302,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.sequenceflow.DefaultSequenceFlowTest.testDefaultSequenceFlowOnTask",
             "Time": 0.000250001,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.repository.ModelQueryTest.testQueryByInvalidName",
             "Time": 0.000979002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryNullVariable",
             "Time": 0.000378501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalStartEventFromAPI",
             "Time": 0.000388301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryCreatedAfterOr",
             "Time": 0.000449001,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalCatchIntermediateExpression",
             "Time": 0.0002034,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ExecutionQueryEscapeClauseTest.testQueryLikeByQueryVariableValue",
             "Time": 0.001674204,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testStartProcessInstanceByMessageTenancyReversed",
             "Time": 0.000712802,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ProcessInstanceQueryEscapeClauseTest.testQueryLikeByQueryVariableValueIgnoreCase",
             "Time": 0.001462404,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testVariableValueEqualsIgnoreCase",
             "Time": 0.000482301,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.mgmt.ManagementServiceTest.testGetTableMetaData",
             "Time": 0.000636302,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.deployment.MessageEventsAndNewVersionDeploymentsWithTenantIdTest.testBothBoundaryAndStartSameMessageId",
             "Time": 0.000611301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ProcessInstanceQueryAndWithExceptionTest.testQueryWithException",
             "Time": 0.000424701,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentCallActivity",
             "Time": 0.0002267,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ErrorThrowingEventListenerTest.testThrowErrorDefinedInProcessDefinition",
             "Time": 0.000868102,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryInvalidSorting",
             "Time": 0.000850902,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.parallel.ParallelTest.testParallel",
             "Time": 0.000210301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.gateway.EventBasedGatewayTest.testCatchTimerCancelsSignal",
             "Time": 0.000221901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityMultiInstance",
             "Time": 0.000606002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6ExecutionTest.testOneNestedTaskProcess",
             "Time": 0.000571001,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.variables.VariablesTest.testLocalizeDataObjects",
             "Time": 0.000214801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.history.FullHistoryTest.testHistoricVariableQueryExcludeTaskRelatedDetails",
             "Time": 0.000604601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.SignalThrowingEventListenerTest.testGlobalSignal",
             "Time": 0.000845802,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.jobexecutor.JobExecutorFailRetryTest.testFailedServiceTask",
             "Time": 0.000991703,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateMultiInstanceEndEventTest.testMultiInstanceEmbeddedSubprocess",
             "Time": 0.0002002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryByInvalidNameLikeOr",
             "Time": 0.002479906,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testTaskDueAfterOn",
             "Time": 0.000427601,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.jpa.JPAEnhancedVariableTest.testEnhancedEntityListVariables",
             "Time": 0.000215101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.HistoricProcessInstanceQueryEscapeClauseTest.testQueryByProcessKeyNotIn",
             "Time": 0.001452204,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "4103241967983-fc309753-8bda-42ec-af13-e4d26e6de54f": [
@@ -1529,253 +2789,463 @@
             "Name": "org.activiti.standalone.escapeclause.ModelQueryEscapeClauseTest.testQueryByNameLike",
             "Time": 0.0003429,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentMulitInstance",
             "Time": 0.000580202,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskServiceTest.testResolveTaskUnexistingTaskId",
             "Time": 0.000666101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ActivityEventsTest.testActivitySignalBoundaryEventsOnUserTask",
             "Time": 0.012688331,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testProcessDefinitionTagCreated",
             "Time": 0.000836702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testOneTaskProcess",
             "Time": 0.000564501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.multiinstance.MultiInstanceTest.testParallelAfterSequentialMultiInstance",
             "Time": 0.001655904,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.bpmn.scripttask.ScriptTaskTest.testFailingScript",
             "Time": 0.013239427,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.history.HistoryServiceTest.testNativeHistoricActivityInstanceTest",
             "Time": 0.000280001,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testSuspendProcessDefinitionTenancy",
             "Time": 0.000644602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.mgmt.JobQueryTest.testQueryByException",
             "Time": 0.000469801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInSubProcessConcurrentMultiInstanceTerminateAll",
             "Time": 0.000589401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.variables.TransientVariablesTest.testStartProcessInstanceById",
             "Time": 0.000572601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.sequenceflow.DefaultSequenceFlowTest.testDefaultSequenceFlowOnTask",
             "Time": 0.000654802,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.repository.ModelQueryTest.testQueryByInvalidName",
             "Time": 0.000990502,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryNullVariable",
             "Time": 0.000526901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalStartEventFromAPI",
             "Time": 0.001438704,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalCatchIntermediateExpression",
             "Time": 0.000692902,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryCreatedAfterOr",
             "Time": 0.001519004,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ExecutionQueryEscapeClauseTest.testQueryLikeByQueryVariableValue",
             "Time": 0.001599403,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testStartProcessInstanceByMessageTenancyReversed",
             "Time": 0.000948103,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ProcessInstanceQueryEscapeClauseTest.testQueryLikeByQueryVariableValueIgnoreCase",
             "Time": 0.000332601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testVariableValueEqualsIgnoreCase",
             "Time": 0.000770602,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.mgmt.ManagementServiceTest.testGetTableMetaData",
             "Time": 0.002384405,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.deployment.MessageEventsAndNewVersionDeploymentsWithTenantIdTest.testBothBoundaryAndStartSameMessageId",
             "Time": 0.000613702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ProcessInstanceQueryAndWithExceptionTest.testQueryWithException",
             "Time": 0.000406501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentCallActivity",
             "Time": 0.000580802,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ErrorThrowingEventListenerTest.testThrowErrorDefinedInProcessDefinition",
             "Time": 0.000770902,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.parallel.ParallelTest.testParallel",
             "Time": 0.000625002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryInvalidSorting",
             "Time": 0.000416001,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.gateway.EventBasedGatewayTest.testCatchTimerCancelsSignal",
             "Time": 0.000734502,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityMultiInstance",
             "Time": 0.000640602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6ExecutionTest.testOneNestedTaskProcess",
             "Time": 0.000570602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.variables.VariablesTest.testLocalizeDataObjects",
             "Time": 0.0002753,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.history.FullHistoryTest.testHistoricVariableQueryExcludeTaskRelatedDetails",
             "Time": 0.000615901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.SignalThrowingEventListenerTest.testGlobalSignal",
             "Time": 0.000335101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.jobexecutor.JobExecutorFailRetryTest.testFailedServiceTask",
             "Time": 0.000623702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateMultiInstanceEndEventTest.testMultiInstanceEmbeddedSubprocess",
             "Time": 0.000822102,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testTaskDueAfterOn",
             "Time": 0.001510804,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryByInvalidNameLikeOr",
             "Time": 0.000803302,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.jpa.JPAEnhancedVariableTest.testEnhancedEntityListVariables",
             "Time": 0.000220801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.HistoricProcessInstanceQueryEscapeClauseTest.testQueryByProcessKeyNotIn",
             "Time": 0.001690603,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "4211212380101-11fc8e3f-36b6-4809-922a-de743727d8b7": [
@@ -1783,253 +3253,463 @@
             "Name": "org.activiti.standalone.escapeclause.ModelQueryEscapeClauseTest.testQueryByNameLike",
             "Time": 0.000352601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentMulitInstance",
             "Time": 0.000620402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ActivityEventsTest.testActivitySignalBoundaryEventsOnUserTask",
             "Time": 0.001130203,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskServiceTest.testResolveTaskUnexistingTaskId",
             "Time": 0.000978402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testProcessDefinitionTagCreated",
             "Time": 0.000619201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testOneTaskProcess",
             "Time": 0.001021002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.multiinstance.MultiInstanceTest.testParallelAfterSequentialMultiInstance",
             "Time": 0.0002238,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.bpmn.scripttask.ScriptTaskTest.testFailingScript",
             "Time": 0.001571603,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.history.HistoryServiceTest.testNativeHistoricActivityInstanceTest",
             "Time": 0.0002878,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testSuspendProcessDefinitionTenancy",
             "Time": 0.000844702,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.mgmt.JobQueryTest.testQueryByException",
             "Time": 0.000534002,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInSubProcessConcurrentMultiInstanceTerminateAll",
             "Time": 0.000668201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.variables.TransientVariablesTest.testStartProcessInstanceById",
             "Time": 0.000852601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.sequenceflow.DefaultSequenceFlowTest.testDefaultSequenceFlowOnTask",
             "Time": 0.0002139,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.repository.ModelQueryTest.testQueryByInvalidName",
             "Time": 0.001406103,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryNullVariable",
             "Time": 0.000419601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalStartEventFromAPI",
             "Time": 0.000764901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryCreatedAfterOr",
             "Time": 0.000501101,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ExecutionQueryEscapeClauseTest.testQueryLikeByQueryVariableValue",
             "Time": 0.0004031,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalCatchIntermediateExpression",
             "Time": 0.000963202,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testStartProcessInstanceByMessageTenancyReversed",
             "Time": 0.000665202,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ProcessInstanceQueryEscapeClauseTest.testQueryLikeByQueryVariableValueIgnoreCase",
             "Time": 0.000402201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testVariableValueEqualsIgnoreCase",
             "Time": 0.000436601,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.mgmt.ManagementServiceTest.testGetTableMetaData",
             "Time": 0.000731101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.deployment.MessageEventsAndNewVersionDeploymentsWithTenantIdTest.testBothBoundaryAndStartSameMessageId",
             "Time": 0.000705401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentCallActivity",
             "Time": 0.000626302,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ProcessInstanceQueryAndWithExceptionTest.testQueryWithException",
             "Time": 0.000917802,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ErrorThrowingEventListenerTest.testThrowErrorDefinedInProcessDefinition",
             "Time": 0.000837802,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.parallel.ParallelTest.testParallel",
             "Time": 0.0001979,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryInvalidSorting",
             "Time": 0.000381401,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.gateway.EventBasedGatewayTest.testCatchTimerCancelsSignal",
             "Time": 0.0001989,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityMultiInstance",
             "Time": 0.000657601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6ExecutionTest.testOneNestedTaskProcess",
             "Time": 0.000624401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.variables.VariablesTest.testLocalizeDataObjects",
             "Time": 0.0002199,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.history.FullHistoryTest.testHistoricVariableQueryExcludeTaskRelatedDetails",
             "Time": 0.000229301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.jobexecutor.JobExecutorFailRetryTest.testFailedServiceTask",
             "Time": 0.000659501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.SignalThrowingEventListenerTest.testGlobalSignal",
             "Time": 0.000978902,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateMultiInstanceEndEventTest.testMultiInstanceEmbeddedSubprocess",
             "Time": 0.000568001,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryByInvalidNameLikeOr",
             "Time": 0.000401001,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testTaskDueAfterOn",
             "Time": 0.0004084,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.jpa.JPAEnhancedVariableTest.testEnhancedEntityListVariables",
             "Time": 0.000221801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.HistoricProcessInstanceQueryEscapeClauseTest.testQueryByProcessKeyNotIn",
             "Time": 0.000570202,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "4319021059378-99bb59e9-0146-4abc-a593-88d49111b06e": [
@@ -2037,253 +3717,463 @@
             "Name": "org.activiti.standalone.escapeclause.ModelQueryEscapeClauseTest.testQueryByNameLike",
             "Time": 0.000334701,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentMulitInstance",
             "Time": 0.0002269,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ActivityEventsTest.testActivitySignalBoundaryEventsOnUserTask",
             "Time": 0.001810904,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskServiceTest.testResolveTaskUnexistingTaskId",
             "Time": 0.0002022,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testProcessDefinitionTagCreated",
             "Time": 0.000575401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6Test.testOneTaskProcess",
             "Time": 0.000566901,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.multiinstance.MultiInstanceTest.testParallelAfterSequentialMultiInstance",
             "Time": 0.000623101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.bpmn.scripttask.ScriptTaskTest.testFailingScript",
             "Time": 0.005194111,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.history.HistoryServiceTest.testNativeHistoricActivityInstanceTest",
             "Time": 0.000303801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testSuspendProcessDefinitionTenancy",
             "Time": 0.000576402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.mgmt.JobQueryTest.testQueryByException",
             "Time": 0.000536401,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInSubProcessConcurrentMultiInstanceTerminateAll",
             "Time": 0.0001873,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.variables.TransientVariablesTest.testStartProcessInstanceById",
             "Time": 0.000564601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.repository.ModelQueryTest.testQueryByInvalidName",
             "Time": 0.001137602,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.sequenceflow.DefaultSequenceFlowTest.testDefaultSequenceFlowOnTask",
             "Time": 0.0002999,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryNullVariable",
             "Time": 0.000388701,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalStartEventFromAPI",
             "Time": 0.000522001,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.signal.SignalEventTest.testSignalCatchIntermediateExpression",
             "Time": 0.0002337,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ExecutionQueryEscapeClauseTest.testQueryLikeByQueryVariableValue",
             "Time": 0.001587903,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryCreatedAfterOr",
             "Time": 0.001564703,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.tenant.TenancyTest.testStartProcessInstanceByMessageTenancyReversed",
             "Time": 0.000946302,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.ProcessInstanceQueryEscapeClauseTest.testQueryLikeByQueryVariableValueIgnoreCase",
             "Time": 0.000337601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testVariableValueEqualsIgnoreCase",
             "Time": 0.000920002,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.mgmt.ManagementServiceTest.testGetTableMetaData",
             "Time": 0.0002304,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.deployment.MessageEventsAndNewVersionDeploymentsWithTenantIdTest.testBothBoundaryAndStartSameMessageId",
             "Time": 0.000715701,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ProcessInstanceQueryAndWithExceptionTest.testQueryWithException",
             "Time": 0.000417,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityConcurrentCallActivity",
             "Time": 0.000303301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.ErrorThrowingEventListenerTest.testThrowErrorDefinedInProcessDefinition",
             "Time": 0.000451101,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.parallel.ParallelTest.testParallel",
             "Time": 0.000603501,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.runtime.ExecutionQueryTest.testQueryInvalidSorting",
             "Time": 0.000399701,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.gateway.EventBasedGatewayTest.testCatchTimerCancelsSignal",
             "Time": 0.000203301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest.testTerminateInCallActivityMultiInstance",
             "Time": 0.0002598,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.v6.Activiti6ExecutionTest.testOneNestedTaskProcess",
             "Time": 0.000601402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.examples.variables.VariablesTest.testLocalizeDataObjects",
             "Time": 0.000244201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.history.FullHistoryTest.testHistoricVariableQueryExcludeTaskRelatedDetails",
             "Time": 0.000634502,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.event.SignalThrowingEventListenerTest.testGlobalSignal",
             "Time": 0.000367201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.jobexecutor.JobExecutorFailRetryTest.testFailedServiceTask",
             "Time": 0.000622301,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.bpmn.event.end.TerminateMultiInstanceEndEventTest.testMultiInstanceEmbeddedSubprocess",
             "Time": 0.0001689,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testTaskDueAfterOn",
             "Time": 0.001438703,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.engine.test.api.task.TaskQueryTest.testQueryByInvalidNameLikeOr",
             "Time": 0.000379201,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.jpa.JPAEnhancedVariableTest.testEnhancedEntityListVariables",
             "Time": 0.000659502,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "org.activiti.standalone.escapeclause.HistoricProcessInstanceQueryEscapeClauseTest.testQueryByProcessKeyNotIn",
             "Time": 0.000415601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ]
 }

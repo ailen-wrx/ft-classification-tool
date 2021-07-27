@@ -5,31 +5,56 @@
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testUpdate",
             "Time": 0.001507149,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testInsert",
             "Time": 0.012080292,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testRead",
             "Time": 0.004734153,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " the temporary folder has not yet been created\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testDelete",
             "Time": 0.008948391,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testScan",
             "Time": 0.066234348,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         }
     ],
     "2374484628021-133adafa-94f2-45e5-9234-ba98c0885336": [
@@ -37,31 +62,56 @@
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testInsert",
             "Time": 0.005733886,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testUpdate",
             "Time": 0.005438376,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testRead",
             "Time": 0.004826856,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " the temporary folder has not yet been created\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testScan",
             "Time": 0.070191475,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testDelete",
             "Time": 0.005966393,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         }
     ],
     "2375294575963-67f48ed0-4255-4160-a30f-d8a0f4e3d2cc": [
@@ -69,31 +119,56 @@
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testInsert",
             "Time": 0.006037196,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testUpdate",
             "Time": 0.005045964,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testRead",
             "Time": 0.005140466,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " the temporary folder has not yet been created\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testScan",
             "Time": 0.072675953,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testDelete",
             "Time": 0.006853022,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         }
     ],
     "4239051056943-a55d9a3d-5ad8-4d24-a4c6-cd36fb475877": [
@@ -101,31 +176,56 @@
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testInsert",
             "Time": 0.004635206,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testUpdate",
             "Time": 0.004122483,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testRead",
             "Time": 0.004437097,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " the temporary folder has not yet been created\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testScan",
             "Time": 0.065698717,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testDelete",
             "Time": 0.018144905,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         }
     ],
     "4239877972948-3e63c591-8c5e-4c6e-9713-17e9e4dd3d68": [
@@ -133,31 +233,56 @@
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testInsert",
             "Time": 0.005490144,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testUpdate",
             "Time": 0.004437297,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testRead",
             "Time": 0.005954464,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " the temporary folder has not yet been created\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testScan",
             "Time": 0.061469628,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testDelete",
             "Time": 0.005555047,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         }
     ],
     "4240659700222-4654f660-f5d6-4eaa-8303-bf33c769257e": [
@@ -165,31 +290,56 @@
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testInsert",
             "Time": 0.005364038,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testUpdate",
             "Time": 0.004479698,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testRead",
             "Time": 0.004320691,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " the temporary folder has not yet been created\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testDelete",
             "Time": 0.005802357,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testScan",
             "Time": 0.064728271,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         }
     ],
     "6116103761768-525f1502-0eae-44f4-8407-b01ce19672a6": [
@@ -197,31 +347,56 @@
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testInsert",
             "Time": 0.009031139,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testUpdate",
             "Time": 0.009380349,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testRead",
             "Time": 0.004303214,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " the temporary folder has not yet been created\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testDelete",
             "Time": 0.008009212,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testScan",
             "Time": 0.06461921,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         }
     ],
     "6116902790220-128ed716-ad9a-4cb2-a744-ef936b60fd11": [
@@ -229,31 +404,56 @@
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testInsert",
             "Time": 0.006675177,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testUpdate",
             "Time": 0.011608008,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testRead",
             "Time": 0.004745626,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " the temporary folder has not yet been created\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testDelete",
             "Time": 0.010425076,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testScan",
             "Time": 0.074355769,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         }
     ],
     "6117655208038-e865b1a5-1125-4364-81d5-a90397a54d4e": [
@@ -261,31 +461,56 @@
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testInsert",
             "Time": 0.009275146,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testUpdate",
             "Time": 0.001564342,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testRead",
             "Time": 0.004336814,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " the temporary folder has not yet been created\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testDelete",
             "Time": 0.005529847,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.ElasticsearchClientTest.testScan",
             "Time": 0.062875964,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<Status [name=OK, description=The operation completed successfully.]> but was:<Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         }
     ]
 }

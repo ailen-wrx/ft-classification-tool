@@ -5,19 +5,34 @@
             "Name": "ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis",
             "Time": 0.004866504,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError: expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticErrorBuilderTest.java:45)>\n"
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromUTF8File",
             "Time": 0.001674801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromRelativeFilePath",
             "Time": 0.006759806,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "2663618197177-cfe732ac-b99a-47d6-9eb3-0a3da27a8a63": [
@@ -25,19 +40,34 @@
             "Name": "ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis",
             "Time": 0.006078505,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError: expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticErrorBuilderTest.java:45)>\n"
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromUTF8File",
             "Time": 0.004142504,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromRelativeFilePath",
             "Time": 0.002674002,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "2671226491110-67d67f74-222d-448a-96fd-5400a396e1a7": [
@@ -45,19 +75,34 @@
             "Name": "ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis",
             "Time": 0.006467405,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError: expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticErrorBuilderTest.java:45)>\n"
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromUTF8File",
             "Time": 0.000749,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromRelativeFilePath",
             "Time": 0.005705505,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "4576709846541-e450020b-afc3-4110-bf60-af79963b5be4": [
@@ -65,19 +110,34 @@
             "Name": "ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis",
             "Time": 0.001799901,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError: expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticErrorBuilderTest.java:45)>\n"
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromUTF8File",
             "Time": 0.000596801,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromRelativeFilePath",
             "Time": 0.009686908,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "4584654377045-a94d4320-0c9a-4736-b67c-ad42ce9d98d5": [
@@ -85,19 +145,34 @@
             "Name": "ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis",
             "Time": 0.002377902,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError: expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticErrorBuilderTest.java:45)>\n"
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromUTF8File",
             "Time": 0.002435902,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromRelativeFilePath",
             "Time": 0.009162207,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "4591981405351-865c27d9-bde8-425e-b0a7-78d295fd8acc": [
@@ -105,19 +180,34 @@
             "Name": "ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis",
             "Time": 0.002419401,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError: expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticErrorBuilderTest.java:45)>\n"
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromUTF8File",
             "Time": 0.0009591,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromRelativeFilePath",
             "Time": 0.003116002,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "734142262332-2d9ff783-c19a-4b3c-a9e1-2ea1e7231a13": [
@@ -125,19 +215,34 @@
             "Name": "ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis",
             "Time": 0.002916703,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError: expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticErrorBuilderTest.java:45)>\n"
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromUTF8File",
             "Time": 0.001087102,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromRelativeFilePath",
             "Time": 0.003065703,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "742079991690-45b79271-7815-4607-bed8-24150a7c0723": [
@@ -145,19 +250,34 @@
             "Name": "ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis",
             "Time": 0.002773603,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError: expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticErrorBuilderTest.java:45)>\n"
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromUTF8File",
             "Time": 0.001031701,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromRelativeFilePath",
             "Time": 0.003226104,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "749887908757-a07c1ff2-beed-4b9e-88a6-f5a62d2f7bfb": [
@@ -165,19 +285,34 @@
             "Name": "ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis",
             "Time": 0.002424003,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError: expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected same:<null> was not:<ninja.diagnostics.DiagnosticErrorBuilderTest.stackTraceAnalysis(DiagnosticErrorBuilderTest.java:45)>\n"
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromUTF8File",
             "Time": 0.001102102,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "ninja.diagnostics.SourceSnippetHelperTest.readFromRelativeFilePath",
             "Time": 0.003115403,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ]
 }

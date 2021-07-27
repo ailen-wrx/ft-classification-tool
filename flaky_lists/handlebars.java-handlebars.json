@@ -5,145 +5,397 @@
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_inverted_sections",
             "Time": 0.007655612,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.publicFieldsContext",
             "Time": 0.004278319,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanContext",
             "Time": 0.001171132,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.mapContext",
             "Time": 0.004787033,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.NashornTest.bootstrap",
             "Time": 0.005072041,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/main/resources/helpers.nashorn.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.resolveSourceAtFs",
             "Time": 0.00108073,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " Can't resolve: 'home'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup_and_nested_template",
             "Time": 0.006020067,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.params",
             "Time": 0.003420795,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_passing_a_new_context",
             "Time": 0.007520209,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i401.Issue401.shouldIndentPartial",
             "Time": 0.001764049,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue401.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue308.dowork",
             "Time": 0.005690959,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue308.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.hash",
             "Time": 0.011421217,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i407.Issue407.shouldNotThrowNPE",
             "Time": 0.001508742,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.link",
             "Time": 0.001456541,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fnWithNewContext",
             "Time": 0.00106123,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fn",
             "Time": 0.007608211,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup$",
             "Time": 0.010039678,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@1b96f2e5:1:16: could not find helper: 'link'\n{{#goodbyes}}{{{link ../prefix}}}{{/goodbyes}}\n                ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithCompositeLoader",
             "Time": 0.001211334,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue307.dowork",
             "Time": 0.002513369,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue307.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.thisContextAsBean",
             "Time": 0.003907208,
             "Result": "ERROR",
-            "Exception": "Caused by: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue308.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/com/github/jknack/handlebars/js/helpers.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue307.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue327.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue401.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithTemplateLoaders",
             "Time": 0.001366138,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanWithParam",
             "Time": 0.002814678,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.calllink",
             "Time": 0.001586344,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.sourceAtFs",
             "Time": 0.001671747,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         }
     ],
     "1344401077966-9bbea804-9e67-4ecb-9883-02e2905f35e9": [
@@ -151,145 +403,397 @@
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_inverted_sections",
             "Time": 0.010264281,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.publicFieldsContext",
             "Time": 0.005403748,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanContext",
             "Time": 0.002089557,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.mapContext",
             "Time": 0.020090451,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.NashornTest.bootstrap",
             "Time": 0.005170641,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/main/resources/helpers.nashorn.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.resolveSourceAtFs",
             "Time": 0.000880024,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " Can't resolve: 'home'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup_and_nested_template",
             "Time": 0.005799659,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.params",
             "Time": 0.004138013,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_passing_a_new_context",
             "Time": 0.003171887,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i401.Issue401.shouldIndentPartial",
             "Time": 0.001547142,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue401.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue308.dowork",
             "Time": 0.013510372,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue308.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.hash",
             "Time": 0.002845278,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i407.Issue407.shouldNotThrowNPE",
             "Time": 0.001434139,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.link",
             "Time": 0.001267534,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fnWithNewContext",
             "Time": 0.002018056,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fn",
             "Time": 0.002350464,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup$",
             "Time": 0.001178533,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@1b96f2e5:1:16: could not find helper: 'link'\n{{#goodbyes}}{{{link ../prefix}}}{{/goodbyes}}\n                ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithCompositeLoader",
             "Time": 0.001040128,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue307.dowork",
             "Time": 0.001499141,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue307.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.thisContextAsBean",
             "Time": 0.002266062,
             "Result": "ERROR",
-            "Exception": "Caused by: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue308.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/com/github/jknack/handlebars/js/helpers.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue307.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue327.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue401.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithTemplateLoaders",
             "Time": 0.001123831,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanWithParam",
             "Time": 0.000776921,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.calllink",
             "Time": 0.00584856,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.sourceAtFs",
             "Time": 0.001072229,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         }
     ],
     "1356309609699-441f3daf-e1f0-4a1e-90ae-7a542ba66025": [
@@ -297,145 +801,397 @@
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_inverted_sections",
             "Time": 0.018177892,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.publicFieldsContext",
             "Time": 0.003449393,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanContext",
             "Time": 0.002280161,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.mapContext",
             "Time": 0.00076172,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.NashornTest.bootstrap",
             "Time": 0.004105012,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/main/resources/helpers.nashorn.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.resolveSourceAtFs",
             "Time": 0.000415611,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " Can't resolve: 'home'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup_and_nested_template",
             "Time": 0.003055583,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.params",
             "Time": 0.006204368,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_passing_a_new_context",
             "Time": 0.004517423,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i401.Issue401.shouldIndentPartial",
             "Time": 0.00148354,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue401.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue308.dowork",
             "Time": 0.004304617,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue308.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.hash",
             "Time": 0.001811349,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i407.Issue407.shouldNotThrowNPE",
             "Time": 0.001426239,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.link",
             "Time": 0.000435411,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fnWithNewContext",
             "Time": 0.003343191,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fn",
             "Time": 0.010588987,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup$",
             "Time": 0.00551375,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@1b96f2e5:1:16: could not find helper: 'link'\n{{#goodbyes}}{{{link ../prefix}}}{{/goodbyes}}\n                ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithCompositeLoader",
             "Time": 0.000558815,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue307.dowork",
             "Time": 0.001538941,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue307.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.thisContextAsBean",
             "Time": 0.00222476,
             "Result": "ERROR",
-            "Exception": "Caused by: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue308.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/com/github/jknack/handlebars/js/helpers.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue307.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue327.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue401.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithTemplateLoaders",
             "Time": 0.000580916,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanWithParam",
             "Time": 0.002085756,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.calllink",
             "Time": 0.000640817,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.sourceAtFs",
             "Time": 0.000540814,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         }
     ],
     "1997451062941-5d2970dc-4715-45fb-a550-abf8eda27406": [
@@ -443,145 +1199,397 @@
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_inverted_sections",
             "Time": 0.013305178,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.publicFieldsContext",
             "Time": 0.010380917,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanContext",
             "Time": 0.008033868,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.mapContext",
             "Time": 0.000838917,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.NashornTest.bootstrap",
             "Time": 0.004334791,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/main/resources/helpers.nashorn.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.resolveSourceAtFs",
             "Time": 0.000391109,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " Can't resolve: 'home'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup_and_nested_template",
             "Time": 0.013386481,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.params",
             "Time": 0.003251668,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_passing_a_new_context",
             "Time": 0.002805259,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i401.Issue401.shouldIndentPartial",
             "Time": 0.00146573,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue401.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue308.dowork",
             "Time": 0.020741035,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue308.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.hash",
             "Time": 0.003389571,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i407.Issue407.shouldNotThrowNPE",
             "Time": 0.00146813,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.link",
             "Time": 0.00046411,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fnWithNewContext",
             "Time": 0.00380648,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fn",
             "Time": 0.006108828,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup$",
             "Time": 0.001183824,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@1b96f2e5:1:16: could not find helper: 'link'\n{{#goodbyes}}{{{link ../prefix}}}{{/goodbyes}}\n                ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithCompositeLoader",
             "Time": 0.000596812,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue307.dowork",
             "Time": 0.002484652,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue307.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.thisContextAsBean",
             "Time": 0.001800338,
             "Result": "ERROR",
-            "Exception": "Caused by: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue308.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/com/github/jknack/handlebars/js/helpers.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue307.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue327.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue401.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithTemplateLoaders",
             "Time": 0.000634513,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanWithParam",
             "Time": 0.000802017,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.calllink",
             "Time": 0.000661114,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.sourceAtFs",
             "Time": 0.000613713,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         }
     ],
     "2009321301267-3b60da2b-a83c-4c7e-bb86-7e21a9032249": [
@@ -589,145 +1597,397 @@
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_inverted_sections",
             "Time": 0.009661402,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.publicFieldsContext",
             "Time": 0.00237725,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanContext",
             "Time": 0.003510974,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.mapContext",
             "Time": 0.002175345,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.NashornTest.bootstrap",
             "Time": 0.006461936,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/main/resources/helpers.nashorn.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.resolveSourceAtFs",
             "Time": 0.001719736,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " Can't resolve: 'home'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup_and_nested_template",
             "Time": 0.006793742,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.params",
             "Time": 0.003105465,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_passing_a_new_context",
             "Time": 0.002669956,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i401.Issue401.shouldIndentPartial",
             "Time": 0.00192584,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue401.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue308.dowork",
             "Time": 0.003891981,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue308.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.hash",
             "Time": 0.003406571,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i407.Issue407.shouldNotThrowNPE",
             "Time": 0.002655655,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.link",
             "Time": 0.001324528,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fnWithNewContext",
             "Time": 0.002725257,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fn",
             "Time": 0.002967062,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup$",
             "Time": 0.002870361,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@1b96f2e5:1:16: could not find helper: 'link'\n{{#goodbyes}}{{{link ../prefix}}}{{/goodbyes}}\n                ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithCompositeLoader",
             "Time": 0.002149045,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue307.dowork",
             "Time": 0.001316128,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue307.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.thisContextAsBean",
             "Time": 0.003619275,
             "Result": "ERROR",
-            "Exception": "Caused by: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue308.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/com/github/jknack/handlebars/js/helpers.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue307.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue327.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue401.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithTemplateLoaders",
             "Time": 0.001236825,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanWithParam",
             "Time": 0.002068543,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.calllink",
             "Time": 0.002031443,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.sourceAtFs",
             "Time": 0.001202825,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         }
     ],
     "2020630039277-c294b54d-99c3-4eba-b81c-a4e8a198b381": [
@@ -735,145 +1995,397 @@
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_inverted_sections",
             "Time": 0.008733182,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.publicFieldsContext",
             "Time": 0.002818559,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanContext",
             "Time": 0.006386034,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.mapContext",
             "Time": 0.003929682,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.NashornTest.bootstrap",
             "Time": 0.005008805,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/main/resources/helpers.nashorn.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.resolveSourceAtFs",
             "Time": 0.000439909,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " Can't resolve: 'home'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup_and_nested_template",
             "Time": 0.005136207,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.params",
             "Time": 0.003771879,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_passing_a_new_context",
             "Time": 0.002573954,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i401.Issue401.shouldIndentPartial",
             "Time": 0.001373928,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue401.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue308.dowork",
             "Time": 0.020130421,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue308.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.hash",
             "Time": 0.007363154,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i407.Issue407.shouldNotThrowNPE",
             "Time": 0.002533353,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.link",
             "Time": 0.00047431,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fnWithNewContext",
             "Time": 0.002140944,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fn",
             "Time": 0.004493194,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup$",
             "Time": 0.002937162,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@1b96f2e5:1:16: could not find helper: 'link'\n{{#goodbyes}}{{{link ../prefix}}}{{/goodbyes}}\n                ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithCompositeLoader",
             "Time": 0.000583212,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue307.dowork",
             "Time": 0.000718915,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue307.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.thisContextAsBean",
             "Time": 0.005365712,
             "Result": "ERROR",
-            "Exception": "Caused by: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue308.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/com/github/jknack/handlebars/js/helpers.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue307.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue327.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue401.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithTemplateLoaders",
             "Time": 0.000701015,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanWithParam",
             "Time": 0.004143486,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.calllink",
             "Time": 0.001195525,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.sourceAtFs",
             "Time": 0.001860739,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         }
     ],
     "668708406602-6e75fbf1-085e-41ef-a6c4-bfae35461485": [
@@ -881,145 +2393,397 @@
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_inverted_sections",
             "Time": 0.004428716,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.publicFieldsContext",
             "Time": 0.002334661,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanContext",
             "Time": 0.011941211,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.mapContext",
             "Time": 0.002100955,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.NashornTest.bootstrap",
             "Time": 0.002748771,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/main/resources/helpers.nashorn.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.resolveSourceAtFs",
             "Time": 0.001035026,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " Can't resolve: 'home'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup_and_nested_template",
             "Time": 0.00420801,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.params",
             "Time": 0.010713979,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_passing_a_new_context",
             "Time": 0.001075128,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i401.Issue401.shouldIndentPartial",
             "Time": 0.001747845,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue401.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue308.dowork",
             "Time": 0.006586573,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue308.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.hash",
             "Time": 0.001522339,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i407.Issue407.shouldNotThrowNPE",
             "Time": 0.007227085,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.link",
             "Time": 0.001290533,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fnWithNewContext",
             "Time": 0.001397536,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fn",
             "Time": 0.001007326,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup$",
             "Time": 0.003236484,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@1b96f2e5:1:16: could not find helper: 'link'\n{{#goodbyes}}{{{link ../prefix}}}{{/goodbyes}}\n                ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithCompositeLoader",
             "Time": 0.001123429,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue307.dowork",
             "Time": 0.002355761,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue307.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.thisContextAsBean",
             "Time": 0.00189875,
             "Result": "ERROR",
-            "Exception": "Caused by: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue308.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/com/github/jknack/handlebars/js/helpers.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue307.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue327.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue401.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithTemplateLoaders",
             "Time": 0.00119103,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanWithParam",
             "Time": 0.002122656,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.calllink",
             "Time": 0.001482938,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.sourceAtFs",
             "Time": 0.001109429,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         }
     ],
     "680494792365-7fe8660c-4f67-4076-ac73-a4accaef8089": [
@@ -1027,145 +2791,397 @@
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_inverted_sections",
             "Time": 0.002197256,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.publicFieldsContext",
             "Time": 0.002205955,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanContext",
             "Time": 0.002529063,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.mapContext",
             "Time": 0.001827246,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.NashornTest.bootstrap",
             "Time": 0.004649517,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/main/resources/helpers.nashorn.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.resolveSourceAtFs",
             "Time": 0.000366609,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " Can't resolve: 'home'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup_and_nested_template",
             "Time": 0.003618491,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.params",
             "Time": 0.00316168,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_passing_a_new_context",
             "Time": 0.002244956,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i401.Issue401.shouldIndentPartial",
             "Time": 0.001765544,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue401.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue308.dowork",
             "Time": 0.015852203,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue308.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.hash",
             "Time": 0.003125379,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i407.Issue407.shouldNotThrowNPE",
             "Time": 0.001429936,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.link",
             "Time": 0.00041261,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fnWithNewContext",
             "Time": 0.002150254,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fn",
             "Time": 0.002725969,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup$",
             "Time": 0.002626466,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@1b96f2e5:1:16: could not find helper: 'link'\n{{#goodbyes}}{{{link ../prefix}}}{{/goodbyes}}\n                ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithCompositeLoader",
             "Time": 0.000484412,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue307.dowork",
             "Time": 0.002270658,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue307.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.thisContextAsBean",
             "Time": 0.001299633,
             "Result": "ERROR",
-            "Exception": "Caused by: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue308.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/com/github/jknack/handlebars/js/helpers.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue307.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue327.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue401.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithTemplateLoaders",
             "Time": 0.000570014,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanWithParam",
             "Time": 0.001956449,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.calllink",
             "Time": 0.000585415,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.sourceAtFs",
             "Time": 0.000540214,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         }
     ],
     "692116966824-d13b53c4-ff51-4b96-9f62-5734b4e01782": [
@@ -1173,145 +3189,397 @@
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_inverted_sections",
             "Time": 0.003765893,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.publicFieldsContext",
             "Time": 0.002075351,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanContext",
             "Time": 0.002499662,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.mapContext",
             "Time": 0.002178153,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.NashornTest.bootstrap",
             "Time": 0.009472533,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/main/resources/helpers.nashorn.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.resolveSourceAtFs",
             "Time": 0.000964924,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " Can't resolve: 'home'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup_and_nested_template",
             "Time": 0.003360283,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.params",
             "Time": 0.002976174,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.block_helper_passing_a_new_context",
             "Time": 0.002247955,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i401.Issue401.shouldIndentPartial",
             "Time": 0.00125653,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue401.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue308.dowork",
             "Time": 0.006066251,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue308.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.hash",
             "Time": 0.002740768,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.i407.Issue407.shouldNotThrowNPE",
             "Time": 0.000624115,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.link",
             "Time": 0.000511412,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fnWithNewContext",
             "Time": 0.00242316,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.fn",
             "Time": 0.00323458,
             "Result": "ERROR",
-            "Exception": "com.github.jknack.handlebars.HandlebarsException: java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fnWithNewContext'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'form2'\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " java.lang.IllegalArgumentException: could not find helper: 'fn'\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.helper_with_complex_lookup$",
             "Time": 0.002482961,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@1b96f2e5:1:16: could not find helper: 'link'\n{{#goodbyes}}{{{link ../prefix}}}{{/goodbyes}}\n                ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithCompositeLoader",
             "Time": 0.001018024,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue307.dowork",
             "Time": 0.002518461,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue307.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.thisContextAsBean",
             "Time": 0.00161744,
             "Result": "ERROR",
-            "Exception": "Caused by: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue308.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/com/github/jknack/handlebars/js/helpers.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue307.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue327.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue401.js (No such file or directory)\n"
+                },
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " src/test/resources/issue407.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.handlebarsWithTemplateLoaders",
             "Time": 0.001303832,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.js.JavaScriptHelperTest.beanWithParam",
             "Time": 0.00201305,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@28af4112:1:2: could not find helper: 'params'\n{{params this 1 2 3}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@72c715af:1:2: could not find helper: 'context'\n{{context this}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@3007f4c4:1:2: could not find helper: 'hash'\n{{hash this h1=1 h2='2' h3=true}}\n  ^\n\n"
+                },
+                {
+                    "Name": "com.github.jknack.handlebars.HandlebarsException",
+                    "Message": " inline@eadb605:1:2: could not find helper: 'param1'\n{{param1 this 32}}\n  ^\n\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.Issue327.calllink",
             "Time": 0.004169301,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalStateException: java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalStateException",
+                    "Message": " java.io.FileNotFoundException: src/test/resources/issue327.js (No such file or directory)\n"
+                }
+            ]
         },
         {
             "Name": "com.github.jknack.handlebars.io.CompositeTemplateLoaderTest.sourceAtFs",
             "Time": 0.001284932,
             "Result": "ERROR",
-            "Exception": "java.io.FileNotFoundException"
+            "Exception": [
+                {
+                    "Name": "java.io.FileNotFoundException",
+                    "Message": " home\n"
+                }
+            ]
         }
     ]
 }

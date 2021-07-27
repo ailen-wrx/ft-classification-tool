@@ -5,7 +5,12 @@
             "Name": "io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull",
             "Time": 0.011767441,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <0>\n     but: was <10>\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential",
@@ -25,7 +30,12 @@
             "Name": "io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull",
             "Time": 0.003704284,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <0>\n     but: was <10>\n"
+                }
+            ]
         }
     ],
     "4298852381942-78065555-713c-4991-a9cf-000e1710946e": [
@@ -33,7 +43,12 @@
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential",
             "Time": 0.028797483,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <2>\n     but: was <4>\n"
+                }
+            ]
         }
     ],
     "4321276273677-725f6e87-9f5a-49d9-bfca-185178673324": [
@@ -41,7 +56,12 @@
             "Name": "io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull",
             "Time": 0.000695398,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <0>\n     but: was <10>\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential",
@@ -55,7 +75,12 @@
             "Name": "io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull",
             "Time": 0.005531115,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <0>\n     but: was <10>\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.event.rdb.JobEventRdbSearchTest.assertFindJobStatusTraceEventsWithTime",

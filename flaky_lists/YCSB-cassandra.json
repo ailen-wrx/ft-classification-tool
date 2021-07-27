@@ -5,43 +5,78 @@
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadMissingRow",
             "Time": 0.008767585,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=NOT_FOUND, description=The requested record was not found.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadSingleColumn",
             "Time": 0.00460985,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testPreparedStatements",
             "Time": 0.004236837,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testInsert",
             "Time": 0.00428374,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testUpdate",
             "Time": 0.002523282,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testRead",
             "Time": 0.499914567,
             "Result": "ERROR",
-            "Exception": "com.yahoo.ycsb.DBException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException"
+            "Exception": [
+                {
+                    "Name": "com.yahoo.ycsb.DBException",
+                    "Message": " com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException: [localhost/127.0.0.1] Cannot connect))\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testDelete",
             "Time": 0.002692787,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "2368932455606-cc65d9ab-116e-4676-978d-c24503b609c6": [
@@ -49,43 +84,78 @@
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadMissingRow",
             "Time": 0.014731279,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=NOT_FOUND, description=The requested record was not found.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadSingleColumn",
             "Time": 0.00983392,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testPreparedStatements",
             "Time": 0.003376709,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testInsert",
             "Time": 0.00154135,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testUpdate",
             "Time": 0.00121454,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testRead",
             "Time": 0.460583378,
             "Result": "ERROR",
-            "Exception": "com.yahoo.ycsb.DBException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException"
+            "Exception": [
+                {
+                    "Name": "com.yahoo.ycsb.DBException",
+                    "Message": " com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException: [localhost/127.0.0.1] Cannot connect))\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testDelete",
             "Time": 0.001750057,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "2370592174237-e76e6b6d-e02c-4b2d-837a-f201fb109eed": [
@@ -93,43 +163,78 @@
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadSingleColumn",
             "Time": 0.00585589,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadMissingRow",
             "Time": 0.009920122,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=NOT_FOUND, description=The requested record was not found.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testPreparedStatements",
             "Time": 0.005897692,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testUpdate",
             "Time": 0.001063134,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testInsert",
             "Time": 0.001298243,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testRead",
             "Time": 0.46607304,
             "Result": "ERROR",
-            "Exception": "com.yahoo.ycsb.DBException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException"
+            "Exception": [
+                {
+                    "Name": "com.yahoo.ycsb.DBException",
+                    "Message": " com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException: [localhost/127.0.0.1] Cannot connect))\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testDelete",
             "Time": 0.00152945,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "4232806939981-bf7b8417-422a-4edb-9c52-c3d87184a411": [
@@ -137,43 +242,78 @@
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadMissingRow",
             "Time": 0.010645975,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=NOT_FOUND, description=The requested record was not found.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadSingleColumn",
             "Time": 0.006656497,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testPreparedStatements",
             "Time": 0.003394751,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testUpdate",
             "Time": 0.002067192,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testInsert",
             "Time": 0.004678909,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testRead",
             "Time": 0.462377541,
             "Result": "ERROR",
-            "Exception": "com.yahoo.ycsb.DBException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException"
+            "Exception": [
+                {
+                    "Name": "com.yahoo.ycsb.DBException",
+                    "Message": " com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException: [localhost/127.0.0.1] Cannot connect))\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testDelete",
             "Time": 0.002445409,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "4234055298966-c75a2351-80a8-446a-bd41-25c1ada66dd5": [
@@ -181,43 +321,78 @@
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadSingleColumn",
             "Time": 0.005853361,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadMissingRow",
             "Time": 0.010741478,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=NOT_FOUND, description=The requested record was not found.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testPreparedStatements",
             "Time": 0.004727811,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testInsert",
             "Time": 0.003692465,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testUpdate",
             "Time": 0.00247131,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testRead",
             "Time": 0.490459675,
             "Result": "ERROR",
-            "Exception": "com.yahoo.ycsb.DBException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException"
+            "Exception": [
+                {
+                    "Name": "com.yahoo.ycsb.DBException",
+                    "Message": " com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException: [localhost/127.0.0.1] Cannot connect))\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testDelete",
             "Time": 0.002842626,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "4235642787794-301c8e88-f203-4e81-90e1-f4177024a3d7": [
@@ -225,43 +400,78 @@
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadMissingRow",
             "Time": 0.020105896,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=NOT_FOUND, description=The requested record was not found.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadSingleColumn",
             "Time": 0.006822804,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testPreparedStatements",
             "Time": 0.004331593,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testInsert",
             "Time": 0.006123073,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testUpdate",
             "Time": 0.000999644,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testRead",
             "Time": 0.457306864,
             "Result": "ERROR",
-            "Exception": "com.yahoo.ycsb.DBException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException"
+            "Exception": [
+                {
+                    "Name": "com.yahoo.ycsb.DBException",
+                    "Message": " com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException: [localhost/127.0.0.1] Cannot connect))\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testDelete",
             "Time": 0.002776924,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "6109595165649-ebe55f4d-d76a-4b81-b85d-4aca8c7ba594": [
@@ -269,43 +479,78 @@
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadMissingRow",
             "Time": 0.010305672,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=NOT_FOUND, description=The requested record was not found.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadSingleColumn",
             "Time": 0.005524246,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testPreparedStatements",
             "Time": 0.004737625,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testUpdate",
             "Time": 0.002100256,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testInsert",
             "Time": 0.003626896,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testRead",
             "Time": 0.454121525,
             "Result": "ERROR",
-            "Exception": "com.yahoo.ycsb.DBException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException"
+            "Exception": [
+                {
+                    "Name": "com.yahoo.ycsb.DBException",
+                    "Message": " com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException: [localhost/127.0.0.1] Cannot connect))\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testDelete",
             "Time": 0.010482478,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "6111209050681-bce00db6-110d-47da-be40-e8283352c000": [
@@ -313,43 +558,78 @@
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadMissingRow",
             "Time": 0.009031539,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=NOT_FOUND, description=The requested record was not found.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadSingleColumn",
             "Time": 0.008794333,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testPreparedStatements",
             "Time": 0.004364816,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testUpdate",
             "Time": 0.000884023,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testInsert",
             "Time": 0.003055781,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testRead",
             "Time": 0.50116477,
             "Result": "ERROR",
-            "Exception": "com.yahoo.ycsb.DBException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException"
+            "Exception": [
+                {
+                    "Name": "com.yahoo.ycsb.DBException",
+                    "Message": " com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException: [localhost/127.0.0.1] Cannot connect))\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testDelete",
             "Time": 0.005415644,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ],
     "6112860038894-9dc1ff6a-b494-4827-8d81-ebc0f25f6c6a": [
@@ -357,43 +637,78 @@
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadMissingRow",
             "Time": 0.009539652,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=NOT_FOUND, description=The requested record was not found.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testReadSingleColumn",
             "Time": 0.008413822,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testPreparedStatements",
             "Time": 0.004016406,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testInsert",
             "Time": 0.005051233,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testUpdate",
             "Time": 0.000846322,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testRead",
             "Time": 0.490431985,
             "Result": "ERROR",
-            "Exception": "com.yahoo.ycsb.DBException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException"
+            "Exception": [
+                {
+                    "Name": "com.yahoo.ycsb.DBException",
+                    "Message": " com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9142 (com.datastax.driver.core.exceptions.TransportException: [localhost/127.0.0.1] Cannot connect))\n"
+                }
+            ]
         },
         {
             "Name": "com.yahoo.ycsb.db.CassandraCQLClientTest.testDelete",
             "Time": 0.002458765,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         }
     ]
 }

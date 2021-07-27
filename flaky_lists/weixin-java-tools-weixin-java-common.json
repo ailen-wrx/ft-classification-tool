@@ -5,61 +5,111 @@
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate2",
             "Time": 0.000505401,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidateAngGet",
             "Time": 0.004003304,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess",
             "Time": 0.000688101,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testToJson",
             "Time": 0.001485602,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive2",
             "Time": 0.001369202,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess2",
             "Time": 0.001355701,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive",
             "Time": 0.001660102,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testFromJson",
             "Time": 0.002637203,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testGetSession",
             "Time": 0.001132501,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate",
             "Time": 0.002076602,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         }
     ],
     "632379316858-17dfa499-b9e6-4839-9a6d-05352518b448": [
@@ -67,61 +117,111 @@
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate2",
             "Time": 0.000579101,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidateAngGet",
             "Time": 0.001037401,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess",
             "Time": 0.000739001,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testToJson",
             "Time": 0.001331701,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive2",
             "Time": 0.001327701,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess2",
             "Time": 0.001096301,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive",
             "Time": 0.001084301,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testFromJson",
             "Time": 0.002510703,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testGetSession",
             "Time": 0.001198301,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate",
             "Time": 0.001381902,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         }
     ],
     "635868049338-31aadea0-4e29-4ac9-8002-1f87719043e7": [
@@ -129,67 +229,122 @@
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate2",
             "Time": 0.000533,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidateAngGet",
             "Time": 0.005532705,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess",
             "Time": 0.0005613,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testToJson",
             "Time": 0.001284001,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive2",
             "Time": 0.0006346,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.util.WxMessageInMemoryDuplicateCheckerTest.test",
             "Time": 2.502722648,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected [false] but found [true]\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess2",
             "Time": 0.0005594,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive",
             "Time": 0.000460701,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testFromJson",
             "Time": 0.002449902,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testGetSession",
             "Time": 0.000515601,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate",
             "Time": 0.000562901,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         }
     ],
     "643168607609-9e0efd06-5f7e-4988-8fbf-3f7e837777e7": [
@@ -197,61 +352,111 @@
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate2",
             "Time": 0.0009988,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidateAngGet",
             "Time": 0.000524,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess",
             "Time": 0.0008504,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testToJson",
             "Time": 0.001660702,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive2",
             "Time": 0.000512801,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess2",
             "Time": 0.004666504,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive",
             "Time": 0.0005048,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testFromJson",
             "Time": 0.003026602,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testGetSession",
             "Time": 0.000506901,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate",
             "Time": 0.0005363,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         }
     ],
     "646836916565-e51a4604-2cba-4ea8-b9ba-677b9c876257": [
@@ -259,61 +464,111 @@
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate2",
             "Time": 0.0005828,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidateAngGet",
             "Time": 0.0004747,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess",
             "Time": 0.0007089,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testToJson",
             "Time": 0.001387201,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive2",
             "Time": 0.0004991,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess2",
             "Time": 0.0005517,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive",
             "Time": 0.000486901,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testFromJson",
             "Time": 0.002678803,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testGetSession",
             "Time": 0.000697001,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate",
             "Time": 0.000566701,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         }
     ],
     "650344917522-2337db11-1726-4956-972e-e2150402958a": [
@@ -321,61 +576,111 @@
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate2",
             "Time": 0.000561601,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidateAngGet",
             "Time": 0.000540801,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess",
             "Time": 0.0007054,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testToJson",
             "Time": 0.001247702,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive2",
             "Time": 0.0005061,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess2",
             "Time": 0.000519801,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive",
             "Time": 0.0005213,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testFromJson",
             "Time": 0.003006802,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testGetSession",
             "Time": 0.0005326,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate",
             "Time": 0.000542201,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         }
     ],
     "657843090471-6d968f94-8dc6-477d-bcf6-56d2b5ad1b80": [
@@ -383,61 +688,111 @@
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate2",
             "Time": 0.000571301,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidateAngGet",
             "Time": 0.0004648,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess",
             "Time": 0.000720801,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testToJson",
             "Time": 0.000760401,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive2",
             "Time": 0.000448,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess2",
             "Time": 0.0005027,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive",
             "Time": 0.0004753,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testFromJson",
             "Time": 0.004749904,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testGetSession",
             "Time": 0.0004732,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate",
             "Time": 0.0006951,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         }
     ],
     "661524567901-f1598526-1e90-4e11-a56d-a53e9f291799": [
@@ -445,67 +800,122 @@
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate2",
             "Time": 0.002700702,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidateAngGet",
             "Time": 0.004150803,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess",
             "Time": 0.001307801,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testToJson",
             "Time": 0.001659501,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive2",
             "Time": 0.001084201,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.util.WxMessageInMemoryDuplicateCheckerTest.test",
             "Time": 2.51022756,
             "Result": "ERROR",
-            "Exception": "java.lang.AssertionError"
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected [false] but found [true]\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess2",
             "Time": 0.001906502,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive",
             "Time": 0.001061901,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testFromJson",
             "Time": 0.002881803,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testGetSession",
             "Time": 0.001149201,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate",
             "Time": 0.001091001,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         }
     ],
     "665027863134-6d0cf802-90d2-4f8c-8a8c-1e0c2c025850": [
@@ -513,61 +923,111 @@
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate2",
             "Time": 0.000629501,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidateAngGet",
             "Time": 0.001245401,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess",
             "Time": 0.000903801,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testToJson",
             "Time": 0.001444001,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive2",
             "Time": 0.001077201,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testBackgroundProcess2",
             "Time": 0.001088901,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testMaxActive",
             "Time": 0.001095401,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.bean.WxMenuTest.testFromJson",
             "Time": 0.002339902,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testGetSession",
             "Time": 0.001371501,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         },
         {
             "Name": "me.chanjar.weixin.common.session.SessionTest.testInvalidate",
             "Time": 0.0006183,
             "Result": "ERROR",
-            "Exception": "java.lang.IllegalArgumentException"
+            "Exception": [
+                {
+                    "Name": "java.lang.IllegalArgumentException",
+                    "Message": " wrong number of arguments\n"
+                }
+            ]
         }
     ]
 }

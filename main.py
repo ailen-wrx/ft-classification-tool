@@ -1,6 +1,4 @@
 from parseMethods import *
-import json
-
 
 dataset_path = "..\\dataset\\comprehensive\\12d"
 

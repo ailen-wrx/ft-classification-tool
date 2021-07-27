@@ -5,19 +5,34 @@
             "Name": "io.elasticjob.lite.lifecycle.api.JobAPIFactoryTest.assertCreateServerStatisticsAPI",
             "Time": 2.325047976,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " java.net.BindException: Address already in use\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.lifecycle.internal.reg.RegistryCenterFactoryTest.assertCreateCoordinatorRegistryCenterWithDigest",
             "Time": 2.008515281,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " java.net.BindException: Address already in use\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.lifecycle.internal.reg.RegistryCenterFactoryTest.assertCreateCoordinatorRegistryCenterFromCache",
             "Time": 10.023890403,
             "Result": "ERROR",
-            "Exception": "io.elasticjob.lite.reg.exception.RegException: org.apache.zookeeper.KeeperException$OperationTimeoutException"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout\n"
+                }
+            ]
         }
     ],
     "8168315627358-f46631ec-57b4-4e11-bb30-aebe142c5030": [
@@ -25,7 +40,12 @@
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeral",
             "Time": 0.002149006,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertIsExisted",
@@ -37,31 +57,56 @@
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertUpdate",
             "Time": 0.001100103,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertRemove",
             "Time": 0.000872402,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertGetRegistryCenterTime",
             "Time": 0.000520201,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.internal.monitor.MonitorServiceDisableTest.assertMonitorWithDumpCommand",
             "Time": 2.170929382,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " java.net.BindException: Address already in use\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterMiscellaneousTest.assertGetRawCache",
             "Time": 0.000433601,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertGetWithoutNode",
@@ -73,61 +118,111 @@
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersist",
             "Time": 0.001152603,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertGetNumChildren",
             "Time": 0.000771102,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.internal.monitor.MonitorServiceEnableTest.assertMonitorWithCommand",
             "Time": 2.01398385,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " java.net.BindException: Address already in use\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertGetChildrenKeys",
             "Time": 0.004363512,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterMiscellaneousTest.assertGetRawClient",
             "Time": 2.006097931,
             "Result": "ERROR",
-            "Exception": "io.elasticjob.lite.reg.exception.RegException: java.net.BindException"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " java.net.BindException: Address already in use\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistSequential",
             "Time": 0.000816202,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertGetFromServer",
             "Time": 0.005984116,
             "Result": "ERROR",
-            "Exception": "java.lang.NullPointerException"
+            "Exception": [
+                {
+                    "Name": "java.lang.NullPointerException",
+                    "Message": ""
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential",
             "Time": 2.025774994,
             "Result": "ERROR",
-            "Exception": "io.elasticjob.lite.reg.exception.RegException: java.net.BindException"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " java.net.BindException: Address already in use\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterForAuthTest.assertInitWithDigestSuccess",
             "Time": 2.032931612,
             "Result": "ERROR",
-            "Exception": "io.elasticjob.lite.reg.exception.RegException: java.net.BindException"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " java.net.BindException: Address already in use\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterForAuthTest.assertInitWithDigestFailure",
             "Time": 0.040229711,
             "Result": "ERROR",
-            "Exception": "java.lang.Exception: Unexpected exception, expected<org.apache.zookeeper.KeeperException$NoAuthException> but was<org.apache.zookeeper.KeeperException$NoNodeException"
+            "Exception": [
+                {
+                    "Name": "java.lang.Exception",
+                    "Message": " Unexpected exception, expected<org.apache.zookeeper.KeeperException$NoAuthException> but was<org.apache.zookeeper.KeeperException$NoNodeException>\n"
+                }
+            ]
         }
     ],
     "8177409037288-a02e7488-4614-4106-8fd6-8e23f9efe5b9": [
@@ -135,13 +230,23 @@
             "Name": "io.elasticjob.lite.lifecycle.api.JobAPIFactoryTest.assertCreateServerStatisticsAPI",
             "Time": 2.62441645,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " java.net.BindException: Address already in use\n"
+                }
+            ]
         },
         {
             "Name": "io.elasticjob.lite.lifecycle.internal.reg.RegistryCenterFactoryTest.assertCreateCoordinatorRegistryCenterWithDigest",
             "Time": 2.025511498,
             "Result": "ERROR",
-            "Exception": "none"
+            "Exception": [
+                {
+                    "Name": "io.elasticjob.lite.reg.exception.RegException",
+                    "Message": " java.net.BindException: Address already in use\n"
+                }
+            ]
         }
     ]
 }
