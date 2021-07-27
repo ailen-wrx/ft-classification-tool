@@ -1,0 +1,110 @@
+{
+    "org.I0Itec.zkclient.ServerZkClientTest.testNumberOfListeners": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testReadDataWithStat": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testUnableToConnect": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testGetCreationTime": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testWaitUntilConnected": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testCreateWithParentDirs": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testHandleChildChanges": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testDataChanges2": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testDataChanges1": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testDelete": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testRetryUntilConnected": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testWriteDataWithExpectedVersion": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testWaitUntilExists": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testUpdateSerialized": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testZkClientConnectedToGatewayClosesQuickly": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testWriteAndRead": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testDeleteRecursive": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ],
+    "org.I0Itec.zkclient.ServerZkClientTest.testCountChildren": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        }
+    ]
+}

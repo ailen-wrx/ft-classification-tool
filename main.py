@@ -1,6 +1,7 @@
 from parseMethods import *
+from statMethods import *
 
 dataset_path = "..\\dataset\\comprehensive\\12d"
 
-module_test_list = []
-parse_filelist(dataset_path, module_test_list)
+stat_init()
+parse_filelist(dataset_path)

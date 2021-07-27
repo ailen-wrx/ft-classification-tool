@@ -1,0 +1,200 @@
+{
+    "com.google.errorprone.CompilationTestHelperTest.expectedResultMatchesActualResultSucceeds": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testIgnoreWhitespace": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationErrorFail": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceedsWithMatches": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndNoErrorsShouldPass": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndErrorOnWrongLineFails": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleDifferentBugMatchersAndMatchingErrorsSucceeds": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.unexpectedDiagnosticOnFirstLine": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithSyntaxErrorFails": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndErrorOnWrongLineFails": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.BugCheckerRefactoringTestHelperTest.staticLastImportOrder": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.BugCheckerRefactoringTestHelperTest.compilationError": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsAndNoDiagnosticsProducedSucceeds": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.commandLineArgToDisableCheckWorks": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceFail": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.missingExpectErrorFails": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testNoMatch": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatch": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndNoErrorsFails": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndNoErrorsFails": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFails": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithBugMatcherAndMatchingErrorSucceeds": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.expectedResultDiffersFromActualResultFails": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithBugMarkerAndMatchingErrorSucceeds": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplace": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleSameBugMatchersAndMatchingErrorsSucceeds": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.failureWithErrorAndNoDiagnosticFails": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithMultipleBugMarkersAndMatchingErrorsSucceeds": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testReplaceTextMatchFail": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.BugCheckerRefactoringTestHelperTest.testAnnotationFullName": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.cannotInstantiateChecker": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.fileWithNoBugMarkersAndErrorFails": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ],
+    "com.google.errorprone.CompilationTestHelperTest.expectNoDiagnoticsButDiagnosticsProducedFailsWithMatches": [
+        {
+            "Name": "java.lang.NoSuchFieldError",
+            "Message": " ANNOTATION_PROCESSOR_MODULE_PATH\n"
+        }
+    ]
+}

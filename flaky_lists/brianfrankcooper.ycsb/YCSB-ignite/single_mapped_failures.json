@@ -1,0 +1,56 @@
+{
+    "com.yahoo.ycsb.db.ignite.IgniteSqlClientTest.testConcurrentUpdate": [
+        {
+            "Name": "org.apache.ignite.IgniteException",
+            "Message": " Ignite instance with this name has already been started: YCSB Server Node\n"
+        }
+    ],
+    "com.yahoo.ycsb.db.ignite.IgniteSqlClientTest.testDelete": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+        }
+    ],
+    "com.yahoo.ycsb.db.ignite.IgniteSqlClientTest.testUpdate": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+        }
+    ],
+    "com.yahoo.ycsb.db.ignite.IgniteSqlClientTest.testInsert": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+        }
+    ],
+    "com.yahoo.ycsb.db.ignite.IgniteSqlClientTest.testReadNotPresent": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+        }
+    ],
+    "com.yahoo.ycsb.db.ignite.IgniteSqlClientTest.scanNotImplemented": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+        }
+    ],
+    "com.yahoo.ycsb.db.ignite.IgniteClientTest.scanNotImplemented": [
+        {
+            "Name": "org.apache.ignite.IgniteException",
+            "Message": " Ignite instance with this name has already been started: YCSB Server Node\n"
+        }
+    ],
+    "com.yahoo.ycsb.db.ignite.IgniteSqlClientTest.testRead": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+        }
+    ],
+    "com.yahoo.ycsb.db.ignite.IgniteSqlClientTest.testReadAllFields": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected: is <Status [name=OK, description=The operation completed successfully.]>\n     but: was <Status [name=ERROR, description=The operation failed.]>\n"
+        }
+    ]
+}

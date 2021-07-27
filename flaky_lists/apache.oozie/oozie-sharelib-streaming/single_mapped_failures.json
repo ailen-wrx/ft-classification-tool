@@ -1,0 +1,140 @@
+{
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testStreamingConfOverride": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testMapReduceWithConfigClass": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testMapReduceWithUberJarDisabled": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testFailingMapReduceJobCausesOozieLauncherAMToFail": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testJobNameSetForMapReduceChild": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testMapReduceActionKill": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testPipes": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testStreaming": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testConfigDefaultPropsToAction": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testMapReduceWithCredentials": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testDefaultShareLibName": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testSetupMethods": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testMapReduceWithConfigClassThrowException": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testMapReduceWithUberJarEnabled": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testSetExecutionStats_when_user_has_specified_stats_write_FALSE": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testSetMapredJobName": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testEndWithoutConfiguration": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testMapReduceWithConfigClassNotFound": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testSetExecutionStats_when_user_has_specified_stats_write_TRUE": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testMapReduceActionError": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testCommaSeparatedFilesAndArchives": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestMapReduceActionExecutor.testMapReduce": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.oozie.action.hadoop.TestStreamingMain.testMain": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ]
+}

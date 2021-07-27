@@ -1,0 +1,20 @@
+{
+    "org.nutz.resource.ScansTest.test_class_in_jar": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<1> but was:<2>\n"
+        }
+    ],
+    "org.nutz.resource.ScansTest.test_loadResource": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<1> but was:<2>\n"
+        }
+    ],
+    "org.nutz.resource.ScansTest.test_in_jar": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<1> but was:<2>\n"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected: is <0>\n     but: was <10>\n"
+        }
+    ],
+    "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected: is <2>\n     but: was <4>\n"
+        }
+    ]
+}

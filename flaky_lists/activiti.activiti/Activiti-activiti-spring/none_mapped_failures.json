@@ -1,0 +1,13 @@
+{
+    "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithRollback": "none",
+    "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithPrototypeBean": "none",
+    "org.activiti.spring.test.email.JndiEmailTest.testEmailUsingJndi": "none",
+    "org.activiti.spring.test.expression.SpringLimitedExpressionsTest.testLimitedBeansExposed": "none",
+    "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithCustomPropertiesResolver": "none",
+    "org.activiti.spring.test.fieldinjection.ServiceTaskFieldInjectionTest.testDelegateExpressionWithSingletonBean": "none",
+    "org.activiti.spring.test.executionListener.TransactionDependentExecutionListenerSpringTest.testCustomPropertiesMapDelegateExpression": "none",
+    "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnClosedExecutionListenersWithExecutionVariables": "none",
+    "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithTransactionalOperation": "none",
+    "org.activiti.spring.test.executionListener.ExecutionListenerOnTransactionTest.testOnCloseFailureExecutionListenersWithRollback": "none",
+    "org.activiti.spring.test.expression.callactivity.CallActivityBasedOnSpringBeansExpressionTest.testCallActivityByExpression": "none"
+}

@@ -1,0 +1,9 @@
+{
+    "ninja.maven.NinjaRunMojoTest.mainClassProperty": "none",
+    "ninja.maven.NinjaRunMojoTest.jvmArgsProperty": "none",
+    "ninja.maven.NinjaRunMojoTest.contextProperty": "none",
+    "ninja.maven.NinjaRunMojoTest.contextPropertyFallbackToContextPath": "none",
+    "ninja.maven.NinjaRunMojoTest.minimal": "none",
+    "ninja.maven.NinjaRunMojoTest.portProperty": "none",
+    "ninja.maven.NinjaRunMojoTest.alertAndStopExecutionIfDirectoryWithCompiledClassesOfThisProjectDoesNotExist": "none"
+}

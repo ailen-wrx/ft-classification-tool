@@ -1,0 +1,362 @@
+{
+    "com.jakewharton.disklrucache.DiskLruCacheTest.openWithTruncatedLineDiscardsThatLine": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.evictionHonorsLruFromPreviousSession": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.constructorDoesNotAllowZeroCacheSize": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.restoreBackupFile": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.readAndWriteOverlapsMaintainConsistency": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.constructorDoesNotAllowZeroValuesPerEntry": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.journalWithEditAndPublish": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.cannotOperateOnEditAfterPublish": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.aggressiveClearingHandlesEdit": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.explicitRemoveAppliedToDiskImmediately": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.keyWithCarriageReturnNotPermitted": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.openWithTooManyFileSizesClearsDirectory": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.readAndWriteEntryWithoutProperClose": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.growMaxSize": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.readAndWriteEntryAcrossCacheOpenAndClose": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.openCreatesDirectoryIfNecessary": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.editSnapshotAfterChangeAborted": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.writeAndReadEntry": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.editSameVersion": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.rebuildJournalOnRepeatedEdits": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.evictOnInsert": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.keyWithSpaceNotPermitted": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.nullKeyThrows": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.journalFileIsPreferredOverBackupFile": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.revertWithTooFewValues": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.journalDoesNotIncludeReadOfYetUnpublishedValue": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.openWithInvalidBlankLineClearsDirectory": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.openWithDirtyKeyDeletesAllFilesForThatKey": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.removeHandlesMissingFile": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.rebuildJournalOnRepeatedReads": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.editSinceEvictedAndRecreated": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.editSnapshotAfterChangeCommitted": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.readingTheSameStreamMultipleTimes": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.updateExistingEntryWithTooFewValuesReusesPreviousValues": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.aggressiveClearingHandlesPartialEdit": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.emptyCache": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.shrinkMaxSizeEvicts": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.openWithInvalidValueCountClearsDirectory": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.editSinceEvicted": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.openWithInvalidAppVersionClearsDirectory": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.rebuildJournalOnRepeatedReadsWithOpenAndClose": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.rebuildJournalOnRepeatedEditsWithOpenAndClose": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.aggressiveClearingHandlesWrite": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.revertedNewFileIsRemoveInJournal": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.evictionHonorsLruFromCurrentSession": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.journalWithEditAndPublishAndRead": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.keyWithNewlineNotPermitted": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.unterminatedEditIsRevertedOnClose": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.openWithInvalidJournalLineClearsDirectory": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.cacheSingleEntryOfSizeGreaterThanMaxSize": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.openWithInvalidVersionClearsDirectory": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.cannotOperateOnEditAfterRevert": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.createNewEntryWithTooFewValuesFails": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.removeAbsentElement": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.evictOnUpdate": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.openWithInvalidFileSizeClearsDirectory": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.cacheSingleValueOfSizeGreaterThanMaxSize": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.aggressiveClearingHandlesRead": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.fileDeletedExternally": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ],
+    "com.jakewharton.disklrucache.DiskLruCacheTest.validateKey": [
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " the temporary folder has not yet been created\n"
+        }
+    ]
+}

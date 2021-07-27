@@ -1,0 +1,5 @@
+{
+    "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential": "none",
+    "io.elasticjob.lite.event.rdb.JobEventRdbSearchTest.assertFindJobStatusTraceEventsWithTime": "none",
+    "io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest.assertIsShutdownAlready": "none"
+}

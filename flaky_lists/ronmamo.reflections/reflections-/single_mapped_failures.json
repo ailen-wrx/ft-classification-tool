@@ -1,0 +1,8 @@
+{
+    "org.reflections.VfsTest.jarInputStream": [
+        {
+            "Name": "java.lang.RuntimeException",
+            "Message": " org.reflections.ReflectionsException: could not create class file from module-info.class\n"
+        }
+    ]
+}

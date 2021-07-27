@@ -1,0 +1,128 @@
+{
+    "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeResourceParentFolder": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "Ljava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "singjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeDefault": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "Ljava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "singjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithCreateDropOnCleanDb": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "Ljava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "singjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testBasicActivitiSpringIntegration": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "Ljava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "singjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testNoRedeploymentForSpringContainerRestart": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "Ljava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "singjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testResourceRedeploymentAfterProcessDefinitionChange": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "Ljava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "singjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.activiti.spring.test.autodeployment.SpringAutoDeployTest.testAutoDeployWithDeploymentModeSingleResource": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "Ljava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "singjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "org.springframework.context.support.ClassPathXmlApplicatiojava.lang.NullPointerException",
+            "Message": ""
+        }
+    ]
+}

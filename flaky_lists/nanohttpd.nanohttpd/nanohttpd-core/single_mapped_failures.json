@@ -1,0 +1,62 @@
+{
+    "org.nanohttpd.junit.protocols.http.HttpSSLServerTest.testServerExists": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use (Bind failed)\n"
+        }
+    ],
+    "org.nanohttpd.junit.protocols.http.SSLServerSocketFactoryTest.testMultipartFormData": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use (Bind failed)\n"
+        }
+    ],
+    "org.nanohttpd.junit.protocols.http.HttpSSLServerTest.testSSLConnection": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use (Bind failed)\n"
+        }
+    ],
+    "org.nanohttpd.junit.protocols.http.HttpSSLServerTest.testTempFileInterface": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use (Bind failed)\n"
+        }
+    ],
+    "org.nanohttpd.junit.protocols.http.SSLServerSocketFactoryTest.testCreatePassesTheProtocolsToServerSocket": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use (Bind failed)\n"
+        }
+    ],
+    "org.nanohttpd.junit.protocols.http.SSLServerSocketFactoryTest.testTempFileInterface": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use (Bind failed)\n"
+        }
+    ],
+    "org.nanohttpd.junit.protocols.http.SSLServerSocketFactoryTest.testServerExists": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use (Bind failed)\n"
+        }
+    ],
+    "org.nanohttpd.junit.protocols.http.HttpSSLServerTest.testHttpOnSSLConnection": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use (Bind failed)\n"
+        }
+    ],
+    "org.nanohttpd.junit.protocols.http.SSLServerSocketFactoryTest.testSSLConnection": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use (Bind failed)\n"
+        }
+    ],
+    "org.nanohttpd.junit.protocols.http.HttpSSLServerTest.testMultipartFormData": [
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use (Bind failed)\n"
+        }
+    ]
+}

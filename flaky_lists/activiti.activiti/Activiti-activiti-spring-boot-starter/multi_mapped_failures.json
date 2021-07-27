@@ -1,0 +1,32 @@
+{
+    "org.activiti.spring.boot.tasks.TaskRuntimeClaimReleaseTest.eCreateStandaloneTaskAndClaimAndReleaseUnAuthorized": [
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 26ed1122-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 28ba091b-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        }
+    ],
+    "org.activiti.spring.boot.tasks.TaskRuntimeDeleteTaskTest.dClaimTaskCreatedForGroup": [
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 26ed1122-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 28ba091b-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        }
+    ],
+    "org.activiti.spring.boot.tasks.TaskRuntimeClaimReleaseTest.bClaimAndRelease": [
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 26ed1122-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 28ba091b-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        }
+    ]
+}
