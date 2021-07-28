@@ -20,7 +20,7 @@ def parse_result_dir(directory, module_test):
     Pre-processing: skipping non-failure test sets
     """
     cnt = 0
-    print("Looking into", module_test.moduleName, "...", end='')
+    print("Looking into", module_test.directory, "...", end='')
     for test_id in os.listdir(directory):
         test = Test(test_id, module_test)
         test_dir = os.path.join(directory, test_id)
@@ -51,8 +51,11 @@ def parse_result_dir(directory, module_test):
         test = Test(test_id, module_test)
         test_dir = os.path.join(directory, test_id)
         result_json = []
-        with open(test_dir, 'r', encoding='utf8') as fp:
-            test.json = json.load(fp)
+        try:
+            with open(test_dir, 'r', encoding='utf8') as fp:
+                test.json = json.load(fp)
+        except:
+            break
         test.testOrder = test.json['testOrder']
         test_results = test.json["results"]
 
@@ -156,8 +159,9 @@ def parse_filelist(directory):
                 module_test.repository = directory.split('\\')[-3]
 
                 results_dir = os.path.join(directory, s, "results")
-                module_test.testSet = parse_result_dir(results_dir, module_test)
-                stat_data(module_test)
+                if os.path.exists(results_dir):
+                    module_test.testSet = parse_result_dir(results_dir, module_test)
+                    stat_data(module_test)
 
             else:
                 new_dir = os.path.join(directory, s)
