@@ -20,23 +20,28 @@ def parse_result_dir(directory, module_test):
     Pre-processing: skipping non-failure test sets
     """
     cnt = 0
+    print("Looking into", module_test.moduleName, "...", end='')
     for test_id in os.listdir(directory):
         test = Test(test_id, module_test)
         test_dir = os.path.join(directory, test_id)
-        with open(test_dir, 'r', encoding='utf8') as fp:
-            test.json = json.load(fp)
+        try:
+            with open(test_dir, 'r', encoding='utf8') as fp:
+                test.json = json.load(fp)
+        except:
+            break
         test_results = test.json["results"]
 
         for key in test_results:
             if (test_results[key]['result'] == 'ERROR') | (test_results[key]['result'] == 'FAIL'):
                 cnt += 1
     if cnt == 0:
+        print("Skipped.")
         return parse_res
 
     multi_mapped_failures = {}
     single_mapped_failures = {}
     none_mapped_failures = {}
-    print("[", module_test.moduleName, "] Parse begin.")
+    print("\n[", module_test.moduleName, "] Parse begin.")
     for test_id in os.listdir(directory):
         """
         Extracting test failures from result json files
