@@ -26,6 +26,6 @@ def stat_data(module_test):
         writer = csv.writer(fw)
         json = mt.single_mapped_failures
         for key in json:
-            writer.writerow([mt.repository, mt.moduleName, key, json[key][0]["Name"], json[key][0]["Message"]])
+            writer.writerow([mt.repository, mt.moduleName, key, json[key][0]["Name"], str(json[key][0]["Message"]).replace('\n', '\\n')])
 
     return 0
