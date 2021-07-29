@@ -13,7 +13,6 @@ def store(file_name, data):
 
 def parse_result_dir(directory, module_test):
     search_depth = 5  # debug
-    parse_res = []
     res_json = {'Directory': module_test.directory}
 
     """
@@ -33,10 +32,15 @@ def parse_result_dir(directory, module_test):
 
         for key in test_results:
             if (test_results[key]['result'] == 'ERROR') | (test_results[key]['result'] == 'FAIL'):
+                stack_trace = test_results[key]['stackTrace']
+                if not stack_trace:
+                    break
+                if len(stack_trace) < search_depth:
+                    search_depth = len(stack_trace)
                 cnt += 1
     if cnt == 0:
         print("Skipped.")
-        return parse_res
+        return
 
     multi_mapped_failures = {}
     single_mapped_failures = {}
@@ -88,7 +92,7 @@ def parse_result_dir(directory, module_test):
             if (cur_res['result'] == 'ERROR') | (cur_res['result'] == 'FAIL'):
                 stack_trace_raw = ''
                 stack_trace = cur_res['stackTrace']
-                if stack_trace == []:
+                if not stack_trace:
                     break
                 for i in range(search_depth):
                     line = stack_trace[i]['lineNumber']
@@ -118,7 +122,7 @@ def parse_result_dir(directory, module_test):
                     testFailure(cur_res['name'], cur_res['time'], cur_res['result'], cur_res['stackTrace']))
 
         if test.failures:
-            parse_res.append(test)
+            # parse_res.append(test)
             res_json[test_id] = result_json
             print("[", module_test.moduleName, "]", test_id, ": ", matched, "/", total,
                   "matched to exception, " + str(len(exception_dict)) + " exception(s) detected.")
@@ -146,7 +150,7 @@ def parse_result_dir(directory, module_test):
         module_test.none_mapped_failures = none_mapped_failures
         print("[", module_test.moduleName, "] Parse complete.")
 
-    return parse_res
+    return
 
 
 def parse_filelist(directory):
@@ -160,7 +164,7 @@ def parse_filelist(directory):
 
                 results_dir = os.path.join(directory, s, "results")
                 if os.path.exists(results_dir):
-                    module_test.testSet = parse_result_dir(results_dir, module_test)
+                    parse_result_dir(results_dir, module_test)
                     stat_data(module_test)
 
             else:
