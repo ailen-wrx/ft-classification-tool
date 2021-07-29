@@ -52,6 +52,7 @@ def patch():
     fr.close()
     fw.close()
 
+
 def match_flaky():
     csv.field_size_limit(500 * 1024 * 1024)
     exception_dict = {}
@@ -64,11 +65,8 @@ def match_flaky():
     fw = open(os.path.join("pr-data-mapped.csv"), 'w', newline="")
     reader = csv.reader(fr)
     writer = csv.writer(fw)
-    l = 0
-    m = 0
     for row in reader:
         if row[0] == "Project URL":
-            m += 1
             nrow = []
             for i in range(5):
                 nrow.append(row[i])
@@ -76,7 +74,6 @@ def match_flaky():
             nrow.append('Error Messages')
             writer.writerow(nrow)
         if row[3] in exception_dict:
-            l += 1
             msg = exception_dict[row[3]]
             nrow = []
             for i in range(5):
@@ -85,7 +82,6 @@ def match_flaky():
             nrow.append(msg[1])
             writer.writerow(nrow)
         else:
-            m += 1
             nrow = []
             for i in range(5):
                 nrow.append(row[i])
