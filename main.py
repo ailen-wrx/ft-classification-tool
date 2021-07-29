@@ -8,3 +8,4 @@ dataset_path = "..\\dataset"
 # parse_filelist(dataset_path)
 
 patch()
+match_flaky()

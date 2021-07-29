@@ -26,12 +26,10 @@ def patch():
                         directory = str(json.load(fp)["Directory"]).split("\\")
                         row[0] = directory[3].rstrip('_output')
                         repo_dict[row[1]] = row[0]
-                        # print(row)
                         merge(row, stat_dict)
                 except:
                     continue
             else:
-                # print(row)
                 merge(row, stat_dict)
     with open(os.path.join("stat-merged.csv"), 'w', newline="") as fw:
         writer = csv.writer(fw)
@@ -44,9 +42,53 @@ def patch():
     reader = csv.reader(fr)
     writer = csv.writer(fw)
     for row in reader:
+        if len(row[4]) > 200:
+            a = row[4].split('\\n')
+            row[4] = a[0] + a[1]
         if row[0] == "extended":
             if repo_dict[row[1]]:
                 row[0] = repo_dict[row[1]]
         writer.writerow(row)
     fr.close()
     fw.close()
+
+def match_flaky():
+    csv.field_size_limit(500 * 1024 * 1024)
+    exception_dict = {}
+    with open(os.path.join("single-mapped.csv"), 'r') as fr:
+        reader = csv.reader(fr)
+        for row in reader:
+            exception_dict[row[2]] = [row[3], row[4]]
+
+    fr = open(os.path.join("pr-data.csv"), 'r')
+    fw = open(os.path.join("pr-data-mapped.csv"), 'w', newline="")
+    reader = csv.reader(fr)
+    writer = csv.writer(fw)
+    l = 0
+    m = 0
+    for row in reader:
+        if row[0] == "Project URL":
+            m += 1
+            nrow = []
+            for i in range(5):
+                nrow.append(row[i])
+            nrow.append('Exception Type')
+            nrow.append('Error Messages')
+            writer.writerow(nrow)
+        if row[3] in exception_dict:
+            l += 1
+            msg = exception_dict[row[3]]
+            nrow = []
+            for i in range(5):
+                nrow.append(row[i])
+            nrow.append(msg[0])
+            nrow.append(msg[1])
+            writer.writerow(nrow)
+        else:
+            m += 1
+            nrow = []
+            for i in range(5):
+                nrow.append(row[i])
+            nrow.append('')
+            nrow.append('')
+            writer.writerow(nrow)
