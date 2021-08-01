@@ -1,0 +1,6 @@
+{
+    "org.apache.hadoop.mapreduce.v2.app.TestMRAppMaster.testMRAppMasterShutDownJob": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Expected shutDownJob to exit with status code of 0. expected:<0> but was:<1>\n"
+    }
+}

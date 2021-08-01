@@ -1,0 +1,14 @@
+{
+    "org.apache.dubbo.rpc.cluster.support.ForkingClusterInvokerTest.testClearRpcContext": {
+        "Name": "java.lang.AssertionError",
+        "Message": " set attachment failed!\n"
+    },
+    "org.apache.dubbo.rpc.cluster.support.AbstractClusterInvokerTest.testBindingAttachment": {
+        "Name": "java.lang.AssertionError",
+        "Message": " set attachment failed!\n"
+    },
+    "org.apache.dubbo.rpc.cluster.StickyTest.testMethodStickyNoCheck": {
+        "Name": "java.lang.AssertionError",
+        "Message": ""
+    }
+}

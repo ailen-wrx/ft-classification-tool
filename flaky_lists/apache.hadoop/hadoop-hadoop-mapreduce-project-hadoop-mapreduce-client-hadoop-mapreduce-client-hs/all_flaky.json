@@ -1,0 +1,1407 @@
+{
+    "Directory": "D:\\iDoFT\\dataset\\comprehensive\\14d\\apache.hadoop\\apache.hadoop_output\\hadoop-hadoop-mapreduce-project-hadoop-mapreduce-client-hadoop-mapreduce-client-hs",
+    "15594608953620-e2a97dd5-4d75-43f9-851c-5b2ffefd3116": [
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
+            "Time": 1.332638634,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsingForFailedAttempts",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 452
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
+            "Time": 1.399284831,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "checkHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 349
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 135
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "15685973524707-2f1b79b5-ee3e-4eb9-9b5d-32850acce0c8": [
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
+            "Time": 1.306354031,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsingForFailedAttempts",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 452
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
+            "Time": 1.319507906,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "checkHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 349
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 135
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "15772892862838-612de1f3-7e96-4ee4-b464-28ca3b54e898": [
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
+            "Time": 1.302172593,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsingForFailedAttempts",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 452
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
+            "Time": 1.321449002,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "checkHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 349
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 135
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "25627619685383-d262b64b-85c2-4ac2-9686-79d8ab04645a": [
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
+            "Time": 1.31067039,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsingForFailedAttempts",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 452
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
+            "Time": 1.337660107,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "checkHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 349
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 135
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "25714237348960-84bb6b82-632f-4ad8-8d1b-d9eb3a86ee50": [
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
+            "Time": 1.344026231,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsingForFailedAttempts",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 452
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
+            "Time": 1.354458174,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "checkHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 349
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 135
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "25801258065936-84c53bb8-faa2-40d2-a248-8038be4e71ea": [
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
+            "Time": 1.320924442,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsingForFailedAttempts",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 452
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
+            "Time": 1.318339129,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "checkHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 349
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 135
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "31428901136340-54649cee-c325-49a7-b2a2-716bcbd0a6a3": [
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
+            "Time": 1.281429045,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsingForFailedAttempts",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 452
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
+            "Time": 1.293378395,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "checkHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 349
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 135
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "31512743977965-e5a20fd1-6f4a-4718-85bc-9ef7d2c4b4a0": [
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
+            "Time": 1.280149159,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsingForFailedAttempts",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 452
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
+            "Time": 1.338823899,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "checkHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 349
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 135
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "31596671596206-60cb504e-05a7-44d7-ad1e-353a958aede9": [
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
+            "Time": 1.278679867,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsingForFailedAttempts",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 452
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
+            "Time": 1.281776781,
+            "Result": "FAILURE",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "checkHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 349
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing",
+                    "methodName": "testHistoryParsing",
+                    "fileName": "TestJobHistoryParsing.java",
+                    "lineNumber": 135
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ]
+}

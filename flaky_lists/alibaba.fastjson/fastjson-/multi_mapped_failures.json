@@ -1,0 +1,62 @@
+{
+    "com.alibaba.json.bvt.serializer.JSONSerializerTest2.test_0": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "11bajava.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "169445java.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "midjava.lang.AssertionError",
+            "Message": ""
+        }
+    ],
+    "com.alibaba.json.bvt.bug.Issue_717.test_for_issue": [
+        {
+            "Name": "TestException",
+            "Message": ",\"localizedMessage\":\"Data : aaa\",\"message\":\"Data : aaa\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1300.Issue1344\",\"fileName\":\"Issue1344.java\",\"lineNumber\":12,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBeforOct 14, 2018 10:44:03 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "TestException",
+            "Message": ",\"localizedMessage\":\"Data : aaa\",\"message\":\"Data : aaa\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1300.Issue1344\",\"fileName\":\"Issue1344.java\",\"lineNumber\":12,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBeforeOct 14, 2018 10:47:55 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "java.lang.RuntimeException",
+            "Message": ",\"localizedMessage\":\"e1\",\"message\":\"e1\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.bug.Bug_for_Exception\",\"fileName\":\"Bug_for_Exception.java\",\"lineNumber\":9,\"methodName\":\"test_exception\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBefores\",\"fileName\":\"RunBefores.java\",\"lineNumber\":26,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunAfters\",\"fileName\":\"RunAfters.java\",\"lineNumber\":27,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":332,\"methodName\":\"runChild\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":108,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runner.JUnitCore\",\"fileName\":\"JUnitCore.java\",\"lineNumber\":137,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":291,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":327,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":365,\"methodName\":\"executeWithJUnit4Runner\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":46,\"methodName\":\"runOrder\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":30,\"methodName\":\"$anonfun$run$1\",\"nativeMethod\":false},{\"className\":\"scala.runtime.java8.JFunction0$mcV$sp\",\"fileName\":\"JFunction0$mcV$sp.java\",\"lineNumber\":12,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"scala.util.Try$\",\"fileName\":\"Try.scala\",\"lineNumber\":209,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":28,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.sOct 14, 2018 2:40:34 PM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        }
+    ],
+    "com.alibaba.json.bvt.date.DateTest_tz.test_codec": [
+        {
+            "Name": "path.sepajava.lang.AssertionError",
+            "Message": " expected:<1461859200000> but was:<1461888000000>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<1461859200000> but was:<1461888000000>\n"
+        },
+        {
+            "Name": "path.sepjava.lang.AssertionError",
+            "Message": " expected:<1461859200000> but was:<1461888000000>\n"
+        }
+    ],
+    "com.alibaba.json.bvt.serializer.date.DateTest5_iso8601.test_date": [
+        {
+            "Name": "com.alibaba.json.bvt.support.spring.mock.controller.FastJsojunit.framework.AssertionFailedError",
+            "Message": " expected:<83419000> but was:<54619000>\n"
+        },
+        {
+            "Name": "Tjunit.framework.AssertionFailedError",
+            "Message": " expected:<83419000> but was:<54619000>\n"
+        },
+        {
+            "Name": "com.alibaba.json.bvt.support.spring.mock.controller.FastJsjunit.framework.AssertionFailedError",
+            "Message": " expected:<83419000> but was:<54619000>\n"
+        }
+    ]
+}

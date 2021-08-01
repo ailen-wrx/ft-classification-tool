@@ -1,0 +1,42 @@
+{
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testWriteStableHow": [
+        {
+            "Name": "ClientNamenodeProjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "Specificjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetImjava.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testOOOWrites": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "b1c070fb88e3_15395java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "nuljava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "org.apache.hadoop.hdfs.server.datanode.fsjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "tag.serverNajava.lang.NullPointerException",
+            "Message": ""
+        }
+    ]
+}

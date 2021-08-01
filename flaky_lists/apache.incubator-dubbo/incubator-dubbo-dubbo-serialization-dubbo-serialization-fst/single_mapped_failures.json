@@ -1,0 +1,6 @@
+{
+    "org.apache.dubbo.common.serialize.fst.FstObjectInputTest.testEmptyByteArrayForEmptyInput": {
+        "Name": "java.lang.AssertionError",
+        "Message": " \nExpected: is <0>\n     but: was <123>\n"
+    }
+}

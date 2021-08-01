@@ -1,4 +1,0 @@
-{
-    "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertIsExisted": "none",
-    "io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterQueryWithoutCacheTest.assertGetWithoutNode": "none"
-}

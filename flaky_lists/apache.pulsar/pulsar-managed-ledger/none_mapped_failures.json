@@ -1,6 +1,0 @@
-{
-    "org.apache.bookkeeper.mledger.impl.ManagedLedgerFactoryTest.testGetManagedLedgerInfoWithClose": "none",
-    "org.apache.bookkeeper.mledger.impl.MetaStoreImplZookeeperTest.createOptimisticBaseExists": "none",
-    "org.apache.bookkeeper.mledger.impl.ManagedLedgerMBeanTest.simple": "none",
-    "org.apache.bookkeeper.mledger.impl.MetaStoreImplZookeeperTest.createOptimisticBaseNotExist": "none"
-}

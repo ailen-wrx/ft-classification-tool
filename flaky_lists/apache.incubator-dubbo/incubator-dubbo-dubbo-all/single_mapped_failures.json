@@ -1,0 +1,10 @@
+{
+    "org.apache.dubbo.registry.dubbo.RegistryProtocolTest.testNotifyOverride": {
+        "Name": "java.util.NoSuchElementException",
+        "Message": ""
+    },
+    "org.apache.dubbo.registry.dubbo.RegistryProtocolTest.testDestoryRegistry": {
+        "Name": "java.lang.AssertionError",
+        "Message": " expected:<false> but was:<true>\n"
+    }
+}

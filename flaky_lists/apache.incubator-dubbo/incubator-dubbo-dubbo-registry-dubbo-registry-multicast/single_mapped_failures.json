@@ -1,0 +1,6 @@
+{
+    "org.apache.dubbo.registry.dubbo.RegistryProtocolTest.testNotifyOverride_notmatch": {
+        "Name": "java.util.NoSuchElementException",
+        "Message": ""
+    }
+}

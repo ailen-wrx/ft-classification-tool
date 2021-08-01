@@ -1,0 +1,6 @@
+{
+    "org.apache.dubbo.common.threadlocal.InternalThreadLocalTest.testSize": {
+        "Name": "java.lang.AssertionError",
+        "Message": " size method is wrong!\n"
+    }
+}

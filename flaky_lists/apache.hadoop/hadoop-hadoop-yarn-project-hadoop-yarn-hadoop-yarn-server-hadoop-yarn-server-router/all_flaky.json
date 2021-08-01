@@ -1,0 +1,1327 @@
+{
+    "Directory": "D:\\iDoFT\\dataset\\comprehensive\\13d\\r2\\apache.hadoop\\apache.hadoop_output\\hadoop-hadoop-yarn-project-hadoop-yarn-hadoop-yarn-server-hadoop-yarn-server-router",
+    "23061530978159-8f9eee16-70bc-4e94-8b8f-e3d69588371d": [
+        {
+            "Name": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityDefaultView",
+            "Time": 0.960667644,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.io.IOException",
+                    "Message": " Incorrect response from timeline reader. Status=500\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "getResponse",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 146
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "testGetEntityDefaultView",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 186
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testInvalidValuesHandling",
+            "Time": 0.745589549,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.lang.AssertionError",
+                    "Message": " expected:<500> but was:<400>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "fail",
+                    "fileName": "Assert.java",
+                    "lineNumber": 88
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "failNotEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 743
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 118
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 555
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 542
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "verifyHttpResponse",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 123
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "testInvalidValuesHandling",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 579
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl.testTimelineReaderManagerAclsWhenEnabled",
+            "Time": 0.006582777,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.lang.NoClassDefFoundError",
+                    "Message": " Could not initialize class org.apache.hadoop.yarn.server.timelineservice.reader.TimelineReaderWebServices\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl",
+                    "methodName": "testTimelineReaderManagerAclsWhenEnabled",
+                    "fileName": "TestTimelineReaderWebServicesBasicAcl.java",
+                    "lineNumber": 89
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testQueryWithoutCluster",
+            "Time": 0.912771889,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.io.IOException",
+                    "Message": " Incorrect response from timeline reader. Status=500\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "getResponse",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 146
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "testQueryWithoutCluster",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 295
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl.testTimelineReaderManagerAclsWhenDisabled",
+            "Time": 0.010453521,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.lang.ExceptionInInitializerError",
+                    "Message": ""
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl",
+                    "methodName": "testTimelineReaderManagerAclsWhenDisabled",
+                    "fileName": "TestTimelineReaderWebServicesBasicAcl.java",
+                    "lineNumber": 67
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetAppAttempts",
+            "Time": 1.547405849,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.io.IOException",
+                    "Message": " Incorrect response from timeline reader. Status=500\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "getResponse",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 146
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "testGetAppAttempts",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 600
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetAppAttempt",
+            "Time": 1.044211113,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.io.IOException",
+                    "Message": " Incorrect response from timeline reader. Status=500\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "getResponse",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 146
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "testGetAppAttempt",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 654
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByEventFilters",
+            "Time": 1.035847417,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.io.IOException",
+                    "Message": " Incorrect response from timeline reader. Status=500\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "getResponse",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 146
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices",
+                    "methodName": "testGetEntitiesByEventFilters",
+                    "fileName": "TestTimelineReaderWebServices.java",
+                    "lineNumber": 537
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl.testTimelineReaderManagerAclsWhenEnabled": [
+        {
+            "Name": "java.lang.NoClassDefFoundError",
+            "Message": " Could not initialize class org.apache.hadoop.yarn.server.timelineservice.reader.TimelineReaderWebServices\n"
+        },
+        {
+            "Name": "java.lang.ExceptionInInitializerError",
+            "Message": ""
+        }
+    ],
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl.testTimelineReaderManagerAclsWhenDisabled": [
+        {
+            "Name": "java.lang.NoClassDefFoundError",
+            "Message": " Could not initialize class org.apache.hadoop.yarn.server.timelineservice.reader.TimelineReaderWebServices\n"
+        },
+        {
+            "Name": "java.lang.ExceptionInInitializerError",
+            "Message": ""
+        }
+    ],
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testOOOWrites": [
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "c8d5f28a987d_15394java.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "org.apache.hadoop.hdfs.server.datanode.fsjava.lang.NullPointerException",
+            "Message": ""
+        },
+        {
+            "Name": "tag.serverNajava.lang.NullPointerException",
+            "Message": ""
+        }
+    ]
+}

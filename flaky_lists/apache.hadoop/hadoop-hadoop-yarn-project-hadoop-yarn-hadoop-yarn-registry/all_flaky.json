@@ -1,0 +1,528 @@
+{
+    "Directory": "D:\\iDoFT\\dataset\\comprehensive\\14d\\apache.hadoop\\apache.hadoop_output\\hadoop-hadoop-yarn-project-hadoop-yarn-hadoop-yarn-registry",
+    "13726616437242-d9e42747-6bac-438e-be76-70c06346a140": [
+        {
+            "Name": "org.apache.hadoop.registry.secure.TestSecureLogins.testUGILogin",
+            "Time": 0.014797262,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "org.apache.hadoop.security.KerberosAuthException",
+                    "Message": " failure to login: for principal: zookeeper from keytab /home/colossus2/apache/hadoop/target/kdc/zookeeper.keytab javax.security.auth.login.LoginException: Integrity check on decrypted field failed (31) - PREAUTH_FAILED\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.security.UserGroupInformation",
+                    "methodName": "doSubjectLogin",
+                    "fileName": "UserGroupInformation.java",
+                    "lineNumber": 1849
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.UserGroupInformation",
+                    "methodName": "loginUserFromKeytabAndReturnUGI",
+                    "fileName": "UserGroupInformation.java",
+                    "lineNumber": 1217
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.registry.RegistryTestHelper",
+                    "methodName": "loginUGI",
+                    "fileName": "RegistryTestHelper.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.registry.secure.TestSecureLogins",
+                    "methodName": "testUGILogin",
+                    "fileName": "TestSecureLogins.java",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "13737225345177-d42d7e22-cf34-4d56-95d6-0d7d88b9883e": [
+        {
+            "Name": "org.apache.hadoop.registry.secure.TestSecureLogins.testUGILogin",
+            "Time": 0.011518948,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "org.apache.hadoop.security.KerberosAuthException",
+                    "Message": " failure to login: for principal: zookeeper from keytab /home/colossus2/apache/hadoop/target/kdc/zookeeper.keytab javax.security.auth.login.LoginException: Integrity check on decrypted field failed (31) - PREAUTH_FAILED\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.security.UserGroupInformation",
+                    "methodName": "doSubjectLogin",
+                    "fileName": "UserGroupInformation.java",
+                    "lineNumber": 1849
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.UserGroupInformation",
+                    "methodName": "loginUserFromKeytabAndReturnUGI",
+                    "fileName": "UserGroupInformation.java",
+                    "lineNumber": 1217
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.registry.RegistryTestHelper",
+                    "methodName": "loginUGI",
+                    "fileName": "RegistryTestHelper.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.registry.secure.TestSecureLogins",
+                    "methodName": "testUGILogin",
+                    "fileName": "TestSecureLogins.java",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "13748392370059-8b16ce69-b585-45bf-9832-d84266585501": [
+        {
+            "Name": "org.apache.hadoop.registry.secure.TestSecureLogins.testUGILogin",
+            "Time": 0.01430356,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "org.apache.hadoop.security.KerberosAuthException",
+                    "Message": " failure to login: for principal: zookeeper from keytab /home/colossus2/apache/hadoop/target/kdc/zookeeper.keytab javax.security.auth.login.LoginException: Integrity check on decrypted field failed (31) - PREAUTH_FAILED\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.security.UserGroupInformation",
+                    "methodName": "doSubjectLogin",
+                    "fileName": "UserGroupInformation.java",
+                    "lineNumber": 1849
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.UserGroupInformation",
+                    "methodName": "loginUserFromKeytabAndReturnUGI",
+                    "fileName": "UserGroupInformation.java",
+                    "lineNumber": 1217
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.registry.RegistryTestHelper",
+                    "methodName": "loginUGI",
+                    "fileName": "RegistryTestHelper.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.registry.secure.TestSecureLogins",
+                    "methodName": "testUGILogin",
+                    "fileName": "TestSecureLogins.java",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "17407948562434-e793c1e2-6e34-4b85-8796-ea2976437ef9": [
+        {
+            "Name": "org.apache.hadoop.registry.secure.TestSecureLogins.testUGILogin",
+            "Time": 0.013539573,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "org.apache.hadoop.security.KerberosAuthException",
+                    "Message": " failure to login: for principal: zookeeper from keytab /home/colossus2/apache/hadoop/target/kdc/zookeeper.keytab javax.security.auth.login.LoginException: Integrity check on decrypted field failed (31) - PREAUTH_FAILED\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.security.UserGroupInformation",
+                    "methodName": "doSubjectLogin",
+                    "fileName": "UserGroupInformation.java",
+                    "lineNumber": 1849
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.UserGroupInformation",
+                    "methodName": "loginUserFromKeytabAndReturnUGI",
+                    "fileName": "UserGroupInformation.java",
+                    "lineNumber": 1217
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.registry.RegistryTestHelper",
+                    "methodName": "loginUGI",
+                    "fileName": "RegistryTestHelper.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.registry.secure.TestSecureLogins",
+                    "methodName": "testUGILogin",
+                    "fileName": "TestSecureLogins.java",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ],
+    "27373379661016-110db26a-305a-4915-8132-1178e5bb2ce4": [
+        {
+            "Name": "org.apache.hadoop.registry.secure.TestSecureLogins.testUGILogin",
+            "Time": 0.022018299,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "org.apache.hadoop.security.KerberosAuthException",
+                    "Message": " failure to login: for principal: zookeeper from keytab /home/colossus2/apache/hadoop/target/kdc/zookeeper.keytab javax.security.auth.login.LoginException: Integrity check on decrypted field failed (31) - PREAUTH_FAILED\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.security.UserGroupInformation",
+                    "methodName": "doSubjectLogin",
+                    "fileName": "UserGroupInformation.java",
+                    "lineNumber": 1849
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.UserGroupInformation",
+                    "methodName": "loginUserFromKeytabAndReturnUGI",
+                    "fileName": "UserGroupInformation.java",
+                    "lineNumber": 1217
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.registry.RegistryTestHelper",
+                    "methodName": "loginUGI",
+                    "fileName": "RegistryTestHelper.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.registry.secure.TestSecureLogins",
+                    "methodName": "testUGILogin",
+                    "fileName": "TestSecureLogins.java",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+                    "methodName": "run",
+                    "fileName": "FailOnTimeout.java",
+                    "lineNumber": 74
+                }
+            ]
+        }
+    ]
+}

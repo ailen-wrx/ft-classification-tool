@@ -1,4 +1,4 @@
-import os
+import copy
 import json
 import re
 from test import *
@@ -11,57 +11,53 @@ def store(file_name, data):
         json.dump(data, fw, indent=4, ensure_ascii=False)
 
 
-def parse_result_dir(directory, module_test):
+
+def parse_result_dir(directory, module_test, flaky_list):
     search_depth = 5  # debug
     res_json = {'Directory': module_test.directory}
+    flaky_tests = []
 
     """
     Pre-processing: skipping non-failure test sets
     """
-    cnt = 0
+
     print("Looking into", module_test.directory, "...", end='')
-    for test_id in os.listdir(directory):
+    for test_id in os.listdir(directory)[:100]:
         test = Test(test_id, module_test)
-        test_dir = os.path.join(directory, test_id)
         try:
-            with open(test_dir, 'r', encoding='utf8') as fp:
+            with open(os.path.join(directory, test_id), 'r', encoding='utf8') as fp:
                 test.json = json.load(fp)
         except:
-            break
+            continue
         test_results = test.json["results"]
-
         for key in test_results:
-            if (test_results[key]['result'] == 'ERROR') | (test_results[key]['result'] == 'FAIL'):
+            if test_results[key]['name'] in flaky_list:
+                flaky_tests.append(test_results[key]['name'])
                 stack_trace = test_results[key]['stackTrace']
                 if not stack_trace:
-                    break
+                    continue
                 if len(stack_trace) < search_depth:
                     search_depth = len(stack_trace)
-                cnt += 1
-    if cnt == 0:
+
+    flaky_tests = list(set(flaky_tests))
+    flaky_tests_ = copy.deepcopy(flaky_tests)
+    module_test.nFlakies = len(flaky_tests)
+
+    if not flaky_tests:
         print("Skipped.")
         return
+    else:
+        print("\n[", module_test.moduleName, "]", len(flaky_tests_), "flaky test(s) to find.")
 
+    failures = {}
     multi_mapped_failures = {}
     single_mapped_failures = {}
-    none_mapped_failures = {}
-    print("\n[", module_test.moduleName, "] Parse begin.")
+    print("[", module_test.moduleName, "] Parse begin.")
     for test_id in os.listdir(directory):
-        """
-        Extracting test failures from result json files
-        """
         total = 0
         matched = 0
         test = Test(test_id, module_test)
-        test_dir = os.path.join(directory, test_id)
         result_json = []
-        try:
-            with open(test_dir, 'r', encoding='utf8') as fp:
-                test.json = json.load(fp)
-        except:
-            break
-        test.testOrder = test.json['testOrder']
-        test_results = test.json["results"]
 
         """
         Extracting the exception messages from output log files
@@ -69,8 +65,7 @@ def parse_result_dir(directory, module_test):
         output_dir = os.path.join(module_test.directory, "test-runs", "output", test_id)
         exception_dict = {}
         content = open(output_dir, mode='r', encoding='utf-8').readlines()
-
-        rule = "([\w.]+Exception|[\w.]+Error)[^\)]([^\t]*)" + "\tat ([^\(\n]+\([^:\)\n]+:?\d*\))\n" * search_depth
+        rule = "([\w.]+Exception|[\w.]+Error)[^\)\w]([^\t]*)" + "\tat ([^\(\n]+\([^:\)\n]+:?\d*\))\n" * search_depth
         pattern = re.compile(rule)
         regex_result = pattern.findall(''.join(content))
         for exception_msg in regex_result:
@@ -87,13 +82,23 @@ def parse_result_dir(directory, module_test):
         """
         Matching test failures with exceptions
         """
+        try:
+            with open(os.path.join(directory, test_id), 'r', encoding='utf8') as fp:
+                test.json = json.load(fp)
+        except:
+            continue
+        test_results = test.json["results"]
+
         for key in test_results:
+            if key not in flaky_tests:
+                continue
             cur_res = test_results[key]
-            if (cur_res['result'] == 'ERROR') | (cur_res['result'] == 'FAIL'):
+            if (cur_res['result'] == 'ERROR') | (cur_res['result'] == 'FAILURE'):
+                total += 1
                 stack_trace_raw = ''
                 stack_trace = cur_res['stackTrace']
                 if not stack_trace:
-                    break
+                    continue
                 for i in range(search_depth):
                     line = stack_trace[i]['lineNumber']
                     file = stack_trace[i]['fileName'] if line > 0 else 'Unknown'
@@ -102,36 +107,51 @@ def parse_result_dir(directory, module_test):
                 exception = 'none'
                 if stack_trace_raw in exception_dict:
                     exception = exception_dict[stack_trace_raw]
+                    if cur_res['name'] not in failures:
+                        failures[cur_res['name']] = []
                     if len(exception) > 1:
-                        multi_mapped_failures[cur_res['name']] = exception
+                        for a in exception:
+                            if a not in failures[cur_res['name']]:
+                                failures[cur_res['name']].append(a)
                     else:
-                        single_mapped_failures[cur_res['name']] = exception
+                        if exception[0] not in failures[cur_res['name']]:
+                            failures[cur_res['name']].append(exception[0])
                     matched += 1
-                else:
-                    none_mapped_failures[cur_res['name']] = exception
-                total += 1
 
                 result_json.append(
                     {'Name': cur_res['name'],
                      'Time': cur_res['time'],
                      'Result': cur_res['result'],
                      'Exception': exception,
-                     # 'stackTrace': cur_res['stackTrace']
+                     'stackTrace': stack_trace
                      })
-                test.failures.append(
-                    testFailure(cur_res['name'], cur_res['time'], cur_res['result'], cur_res['stackTrace']))
 
-        if test.failures:
-            # parse_res.append(test)
+            if cur_res['name'] in flaky_tests_:
+                flaky_tests_.remove(cur_res['name'])
+
+        if result_json:
             res_json[test_id] = result_json
             print("[", module_test.moduleName, "]", test_id, ": ", matched, "/", total,
-                  "matched to exception, " + str(len(exception_dict)) + " exception(s) detected.")
+                  "matched to exception, " + str(len(exception_dict)) + " exception(s) detected, "
+                  + str(len(flaky_tests_)) + " to find.")
+
+    for key in failures:
+        if len(failures[key]) > 1:
+            the_types = [a["Name"] for a in failures[key]]
+            the_types = list(set(the_types))
+            if len(the_types) > 1:
+                multi_mapped_failures[key] = failures[key]
+            else:
+                single_mapped_failures[key] = {'Name': failures[key][0]["Name"], 'Message': '* Multiple error messages. *'}
+        else:
+            single_mapped_failures[key] = failures[key][0]
+
 
     if len(res_json) > 1:
         res_path = os.path.join("flaky_lists", module_test.repository, module_test.moduleName)
         if not os.path.exists(res_path):
             os.makedirs(res_path)
-        store(os.path.join(res_path, "all_failures.json"), res_json)
+        store(os.path.join(res_path, "all_flaky.json"), res_json)
         if single_mapped_failures:
             print("[", module_test.moduleName, "] Single exception mapped to the stackTrace detected in " +
                   str(len(single_mapped_failures)) + " failure(s).")
@@ -140,20 +160,17 @@ def parse_result_dir(directory, module_test):
             print("[", module_test.moduleName, "] Multiple exceptions mapped to the stackTrace detected in " +
                   str(len(multi_mapped_failures)) + " failure(s).")
             store(os.path.join(res_path, "multi_mapped_failures.json"), multi_mapped_failures)
-        if none_mapped_failures:
-            print("[", module_test.moduleName, "] No exception mapped to the stackTrace detected in " +
-                  str(len(none_mapped_failures)) + " failure(s).")
-            store(os.path.join(res_path, "none_mapped_failures.json"), none_mapped_failures)
+        print("[", module_test.moduleName, "] " + str(len(flaky_tests_)) + " flaky tests not found.")
 
         module_test.single_mapped_failures = single_mapped_failures
         module_test.multi_mapped_failures = multi_mapped_failures
-        module_test.none_mapped_failures = none_mapped_failures
         print("[", module_test.moduleName, "] Parse complete.")
+        stat_data(module_test)
 
     return
 
 
-def parse_filelist(directory):
+def parse_filelist(directory, flaky_list):
     if os.path.isdir(directory):
         for s in os.listdir(directory):
             if s == "test-runs":
@@ -164,9 +181,8 @@ def parse_filelist(directory):
 
                 results_dir = os.path.join(directory, s, "results")
                 if os.path.exists(results_dir):
-                    parse_result_dir(results_dir, module_test)
-                    stat_data(module_test)
+                    parse_result_dir(results_dir, module_test, flaky_list)
 
             else:
                 new_dir = os.path.join(directory, s)
-                parse_filelist(new_dir)
+                parse_filelist(new_dir, flaky_list)

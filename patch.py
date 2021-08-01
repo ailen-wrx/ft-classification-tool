@@ -3,6 +3,15 @@ import csv
 import json
 
 
+def init_flaky():
+    res = {}
+    with open(os.path.join("pr-data.csv"), 'r') as fr:
+        reader = csv.reader(fr)
+        for row in reader:
+            res[row[3]] = [row[0], row[1], row[2], row[4]]
+    return res
+
+
 def merge(row, dict):
     if row[1] not in dict:
         dict[row[1]] = [row[0], '', row[2], row[3], row[4], row[5]]
@@ -21,17 +30,17 @@ def patch():
         for row in reader:
             if row[0] == "extended":
                 try:
-                    with open(os.path.join(result_path, row[0], row[1], "all_failures.json"), 'r',
+                    with open(os.path.join(result_path, row[0], row[1], "all_flaky.json"), 'r',
                               encoding='utf8') as fp:
                         directory = str(json.load(fp)["Directory"]).split("\\")
-                        row[0] = directory[3].rstrip('_output')
+                        row[0] = directory[4].rstrip('_output')
                         repo_dict[row[1]] = row[0]
                         merge(row, stat_dict)
                 except:
                     continue
             else:
                 merge(row, stat_dict)
-    with open(os.path.join("stat-merged.csv"), 'w', newline="") as fw:
+    with open(os.path.join("stat-flaky-tests.csv"), 'w', newline="") as fw:
         writer = csv.writer(fw)
         for key in stat_dict:
             d = stat_dict[key]
@@ -42,9 +51,6 @@ def patch():
     reader = csv.reader(fr)
     writer = csv.writer(fw)
     for row in reader:
-        if len(row[4]) > 200:
-            a = row[4].split('\\n')
-            row[4] = a[0] + a[1]
         if row[0] == "extended":
             if repo_dict[row[1]]:
                 row[0] = repo_dict[row[1]]
@@ -73,6 +79,7 @@ def match_flaky():
             nrow.append('Exception Type')
             nrow.append('Error Messages')
             writer.writerow(nrow)
+            continue
         if row[3] in exception_dict:
             msg = exception_dict[row[3]]
             nrow = []

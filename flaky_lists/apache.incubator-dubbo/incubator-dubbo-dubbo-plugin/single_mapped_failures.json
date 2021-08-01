@@ -1,0 +1,6 @@
+{
+    "org.apache.dubbo.cache.support.jcache.JCacheFactoryTest.testJCacheGetExpired": {
+        "Name": "java.lang.AssertionError",
+        "Message": " expected null, but was:<testValue>\n"
+    }
+}

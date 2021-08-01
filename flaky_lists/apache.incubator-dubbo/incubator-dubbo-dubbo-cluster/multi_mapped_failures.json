@@ -1,0 +1,12 @@
+{
+    "org.apache.dubbo.rpc.cluster.StickyTest.testStickyNoCheck": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "com.daredevil.testrunner.execution.JUnitTestExecutor.runOjava.lang.AssertionError",
+            "Message": ""
+        }
+    ]
+}

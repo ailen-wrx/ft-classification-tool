@@ -1,0 +1,46 @@
+{
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testOverlappingWrites": {
+        "Name": "java.lang.NullPointerException",
+        "Message": ""
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testWriteStableHow": {
+        "Name": "java.io.IOException",
+        "Message": " Timed out waiting for Mini HDFS Cluster to start\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testRename": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testOOOWrites": {
+        "Name": "java.io.IOException",
+        "Message": " Timed out waiting for Mini HDFS Cluster to start\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsAccessNN1": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsRenameSingleNN": {
+        "Name": "java.lang.AssertionError",
+        "Message": " expected:<0> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsAccessNN2": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testPathconf": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsWriteNN1": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect response: expected:<null> but was:<org.apache.hadoop.nfs.nfs3.response.WRITE3Response@41151d21>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsWriteNN2": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect response: expected:<null> but was:<org.apache.hadoop.nfs.nfs3.response.WRITE3Response@11e5615c>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testWrongNfsAccess": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    }
+}

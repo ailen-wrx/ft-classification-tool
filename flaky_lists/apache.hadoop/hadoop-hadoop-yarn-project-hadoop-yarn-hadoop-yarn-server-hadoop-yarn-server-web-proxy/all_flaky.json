@@ -1,0 +1,3719 @@
+{
+    "Directory": "D:\\iDoFT\\dataset\\comprehensive\\13d\\r1\\apache.hadoop\\apache.hadoop_output\\hadoop-hadoop-yarn-project-hadoop-yarn-hadoop-yarn-server-hadoop-yarn-server-web-proxy",
+    "5856525522531-8f3b5e9f-db0c-41bb-b763-91c4ff2bbb8c": [
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testCreateFileWithUnmaskedPermissions",
+            "Time": 0.785850335,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "sun.reflect.NativeConstructorAccessorImpl",
+                    "methodName": "newInstance0",
+                    "fileName": "NativeConstructorAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeConstructorAccessorImpl",
+                    "methodName": "newInstance",
+                    "fileName": "NativeConstructorAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingConstructorAccessorImpl",
+                    "methodName": "newInstance",
+                    "fileName": "DelegatingConstructorAccessorImpl.java",
+                    "lineNumber": 45
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Constructor",
+                    "methodName": "newInstance",
+                    "fileName": "Constructor.java",
+                    "lineNumber": 423
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.ipc.RemoteException",
+                    "methodName": "instantiateException",
+                    "fileName": "RemoteException.java",
+                    "lineNumber": 121
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.ipc.RemoteException",
+                    "methodName": "unwrapRemoteException",
+                    "fileName": "RemoteException.java",
+                    "lineNumber": 88
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.hdfs.DFSClient",
+                    "methodName": "getAclStatus",
+                    "fileName": "DFSClient.java",
+                    "lineNumber": 2688
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.hdfs.DistributedFileSystem$52",
+                    "methodName": "doCall",
+                    "fileName": "DistributedFileSystem.java",
+                    "lineNumber": 2487
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.hdfs.DistributedFileSystem$52",
+                    "methodName": "doCall",
+                    "fileName": "DistributedFileSystem.java",
+                    "lineNumber": 2484
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.FileSystemLinkResolver",
+                    "methodName": "resolve",
+                    "fileName": "FileSystemLinkResolver.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.hdfs.DistributedFileSystem",
+                    "methodName": "getAclStatus",
+                    "fileName": "DistributedFileSystem.java",
+                    "lineNumber": 2494
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServer",
+                    "methodName": "testCreateFileWithUnmaskedPermissions",
+                    "fileName": "TestHttpFSServer.java",
+                    "lineNumber": 949
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 82
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperationsSsl",
+            "Time": 0.506552092,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:21:56,926  INFO Server:621 - Services destroyed\n08:21:56,926  INFO Server:633 - Server [httpfs] shutdown!\n08:21:56,926  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+                },
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:22:02,459  INFO Server:621 - Services destroyed\n08:22:02,459  INFO Server:633 - Server [httpfs] shutdown!\n08:22:02,459  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+                },
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:22:04,669  INFO Server:621 - Services destroyed\n08:22:04,670  INFO Server:633 - Server [httpfs] shutdown!\n08:22:04,670  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+                },
+                {
+                    "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+                    "Message": " Invalid signature\n08:22:05,960  INFO AbstractConnector:318 - Stopped ServerConnector@f32b2c7{HTTP/1.1,[http/1.1]}{localhost:36255}\n08:22:05,961 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:22:05,962  INFO Server:621 - Services destroyed\n08:22:05,962  INFO Server:633 - Server [httpfs] shutdown!\n08:22:05,962  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "fail",
+                    "fileName": "Assert.java",
+                    "lineNumber": 88
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "failNotEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 743
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 118
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 555
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 542
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServer",
+                    "methodName": "delegationTokenCommonTests",
+                    "fileName": "TestHttpFSServer.java",
+                    "lineNumber": 246
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServer",
+                    "methodName": "testDelegationTokenOperationsSsl",
+                    "fileName": "TestHttpFSServer.java",
+                    "lineNumber": 1287
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 82
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs.testWithNoAcls",
+            "Time": 5.530832964,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:21:56,926  INFO Server:621 - Services destroyed\n08:21:56,926  INFO Server:633 - Server [httpfs] shutdown!\n08:21:56,926  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+                },
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:22:02,459  INFO Server:621 - Services destroyed\n08:22:02,459  INFO Server:633 - Server [httpfs] shutdown!\n08:22:02,459  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+                },
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:22:04,669  INFO Server:621 - Services destroyed\n08:22:04,670  INFO Server:633 - Server [httpfs] shutdown!\n08:22:04,670  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+                },
+                {
+                    "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+                    "Message": " Invalid signature\n08:22:05,960  INFO AbstractConnector:318 - Stopped ServerConnector@f32b2c7{HTTP/1.1,[http/1.1]}{localhost:36255}\n08:22:05,961 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:22:05,962  INFO Server:621 - Services destroyed\n08:22:05,962  INFO Server:633 - Server [httpfs] shutdown!\n08:22:05,962  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "fail",
+                    "fileName": "Assert.java",
+                    "lineNumber": 88
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "failNotEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 743
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 118
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 555
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 542
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs",
+                    "methodName": "getStatus",
+                    "fileName": "TestHttpFSServerNoACLs.java",
+                    "lineNumber": 183
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs",
+                    "methodName": "testWithNoAcls",
+                    "fileName": "TestHttpFSServerNoACLs.java",
+                    "lineNumber": 269
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs.testWithXAttrs",
+            "Time": 3.664564995,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:21:56,926  INFO Server:621 - Services destroyed\n08:21:56,926  INFO Server:633 - Server [httpfs] shutdown!\n08:21:56,926  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+                },
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:22:02,459  INFO Server:621 - Services destroyed\n08:22:02,459  INFO Server:633 - Server [httpfs] shutdown!\n08:22:02,459  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+                },
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:22:04,669  INFO Server:621 - Services destroyed\n08:22:04,670  INFO Server:633 - Server [httpfs] shutdown!\n08:22:04,670  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+                },
+                {
+                    "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+                    "Message": " Invalid signature\n08:22:05,960  INFO AbstractConnector:318 - Stopped ServerConnector@f32b2c7{HTTP/1.1,[http/1.1]}{localhost:36255}\n08:22:05,961 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:22:05,962  INFO Server:621 - Services destroyed\n08:22:05,962  INFO Server:633 - Server [httpfs] shutdown!\n08:22:05,962  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "fail",
+                    "fileName": "Assert.java",
+                    "lineNumber": 88
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "failNotEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 743
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 118
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 555
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 542
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs",
+                    "methodName": "getStatus",
+                    "fileName": "TestHttpFSServerNoXAttrs.java",
+                    "lineNumber": 182
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs",
+                    "methodName": "testWithXAttrs",
+                    "fileName": "TestHttpFSServerNoXAttrs.java",
+                    "lineNumber": 244
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testXAttrs",
+            "Time": 0.802726298,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:21:56,926  INFO Server:621 - Services destroyed\n08:21:56,926  INFO Server:633 - Server [httpfs] shutdown!\n08:21:56,926  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+                },
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:22:02,459  INFO Server:621 - Services destroyed\n08:22:02,459  INFO Server:633 - Server [httpfs] shutdown!\n08:22:02,459  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+                },
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n08:22:04,669  INFO Server:621 - Services destroyed\n08:22:04,670  INFO Server:633 - Server [httpfs] shutdown!\n08:22:04,670  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+                },
+                {
+                    "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+                    "Message": " Invalid signature\n08:22:05,960  INFO AbstractConnector:318 - Stopped ServerConnector@f32b2c7{HTTP/1.1,[http/1.1]}{localhost:36255}\n08:22:05,961 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:22:05,962  INFO Server:621 - Services destroyed\n08:22:05,962  INFO Server:633 - Server [httpfs] shutdown!\n08:22:05,962  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "fail",
+                    "fileName": "Assert.java",
+                    "lineNumber": 88
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "failNotEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 743
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 118
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 555
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 542
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServer",
+                    "methodName": "createWithHttp",
+                    "fileName": "TestHttpFSServer.java",
+                    "lineNumber": 453
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServer",
+                    "methodName": "createWithHttp",
+                    "fileName": "TestHttpFSServer.java",
+                    "lineNumber": 417
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServer",
+                    "methodName": "testXAttrs",
+                    "fileName": "TestHttpFSServer.java",
+                    "lineNumber": 712
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 82
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        }
+    ],
+    "9692181580933-19a8ea70-edb0-42fa-b69d-eb5cc279840a": [
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testMkdirWithUnmaskedPermissions",
+            "Time": 0.023310394,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDeleteSnapshot",
+            "Time": 0.02003918,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testCreateSnapshotNoSnapshotName",
+            "Time": 0.028003813,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDisallowSnapshot",
+            "Time": 0.020272281,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testFileAcls",
+            "Time": 0.023449393,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testOpenOffsetLength",
+            "Time": 0.032651731,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testCreateSnapshot",
+            "Time": 0.036248945,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDisallowSnapshotException",
+            "Time": 0.022034288,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testAllowSnapshot",
+            "Time": 0.024589398,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testGetSnapshotDiff",
+            "Time": 0.020996084,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testGetSnapshotDiffIllegalParam",
+            "Time": 0.030376821,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testRenameSnapshot",
+            "Time": 0.016595366,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperations",
+            "Time": 0.035673643,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDirAcls",
+            "Time": 0.014781259,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testGetTrashRoot",
+            "Time": 0.05768973,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperationsSsl",
+            "Time": 0.016781168,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs.testWithNoAcls",
+            "Time": 3.781036933,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n09:25:57,088  INFO Server:621 - Services destroyed\n09:25:57,088  INFO Server:633 - Server [httpfs] shutdown!\n09:25:57,088  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+                },
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n09:26:00,871  INFO Server:621 - Services destroyed\n09:26:00,871  INFO Server:633 - Server [httpfs] shutdown!\n09:26:00,871  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "fail",
+                    "fileName": "Assert.java",
+                    "lineNumber": 88
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "failNotEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 743
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 118
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 555
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 542
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs",
+                    "methodName": "getStatus",
+                    "fileName": "TestHttpFSServerNoACLs.java",
+                    "lineNumber": 183
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs",
+                    "methodName": "testWithNoAcls",
+                    "fileName": "TestHttpFSServerNoACLs.java",
+                    "lineNumber": 269
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs.testWithXAttrs",
+            "Time": 3.197822,
+            "Result": "ERROR",
+            "Exception": [
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n09:25:57,088  INFO Server:621 - Services destroyed\n09:25:57,088  INFO Server:633 - Server [httpfs] shutdown!\n09:25:57,088  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+                },
+                {
+                    "Name": "java.lang.InterruptedException",
+                    "Message": " sleep interrupted\n09:26:00,871  INFO Server:621 - Services destroyed\n09:26:00,871  INFO Server:633 - Server [httpfs] shutdown!\n09:26:00,871  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "fail",
+                    "fileName": "Assert.java",
+                    "lineNumber": 88
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "failNotEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 743
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 118
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 555
+                },
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 542
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs",
+                    "methodName": "getStatus",
+                    "fileName": "TestHttpFSServerNoXAttrs.java",
+                    "lineNumber": 182
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs",
+                    "methodName": "testWithXAttrs",
+                    "fileName": "TestHttpFSServerNoXAttrs.java",
+                    "lineNumber": 244
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.instrumentation",
+            "Time": 0.021334085,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        },
+        {
+            "Name": "org.apache.hadoop.fs.http.server.TestHttpFSServer.testPerms",
+            "Time": 0.021611886,
+            "Result": "ERROR",
+            "Exception": "none",
+            "stackTrace": [
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "resetHdfsTestDir",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 101
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestHdfsHelper$HdfsStatement",
+                    "methodName": "evaluate",
+                    "fileName": "TestHdfsHelper.java",
+                    "lineNumber": 81
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestDirHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestDirHelper.java",
+                    "lineNumber": 106
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestJettyHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestJettyHelper.java",
+                    "lineNumber": 74
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.test.TestExceptionHelper$1",
+                    "methodName": "evaluate",
+                    "fileName": "TestExceptionHelper.java",
+                    "lineNumber": 42
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        }
+    ]
+}

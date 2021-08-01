@@ -1,0 +1,18 @@
+{
+    "org.apache.struts2.portlet.dispatcher.Jsr286DispatcherTest.testRender_ok": {
+        "Name": "org.jmock.core.DynamicMockError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.struts2.portlet.dispatcher.Jsr286DispatcherTest.testProcessAction_ok": {
+        "Name": "org.jmock.core.DynamicMockError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.struts2.portlet.dispatcher.Jsr168DispatcherTest.testRender_ok": {
+        "Name": "org.jmock.core.DynamicMockError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.struts2.portlet.dispatcher.Jsr168DispatcherTest.testProcessAction_ok": {
+        "Name": "org.jmock.core.DynamicMockError",
+        "Message": "* Multiple error messages. *"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessorTest.test": {
+        "Name": "java.lang.IllegalStateException",
+        "Message": " Failed to load ApplicationContext\n"
+    }
+}

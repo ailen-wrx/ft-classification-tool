@@ -1,0 +1,490 @@
+{
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperations": [
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:32:58,138  INFO Server:621 - Services destroyed\n09:32:58,138  INFO Server:633 - Server [httpfs] shutdown!\n09:32:58,138  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:32:59,640  INFO Server:621 - Services destroyed\n09:32:59,640  INFO Server:633 - Server [httpfs] shutdown!\n09:32:59,640  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:01,157  INFO Server:621 - Services destroyed\n09:33:01,157  INFO Server:633 - Server [httpfs] shutdown!\n09:33:01,157  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:02,240  INFO Server:621 - Services destroyed\n09:33:02,240  INFO Server:633 - Server [httpfs] shutdown!\n09:33:02,240  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:02,761  INFO Server:621 - Services destroyed\n09:33:02,761  INFO Server:633 - Server [httpfs] shutdown!\n09:33:02,761  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:03,563  INFO Server:621 - Services destroyed\n09:33:03,563  INFO Server:633 - Server [httpfs] shutdown!\n09:33:03,564  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:03,932  INFO Server:621 - Services destroyed\n09:33:03,932  INFO Server:633 - Server [httpfs] shutdown!\n09:33:03,932  INFO Server:634 - ======================================================\n09:33:03,965  WARN Server:433 - Log4j [/home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop/httpfs-log4j.properties] configuration file not found, using default configuration from classpath\n09:33:03,965  INFO Server:359 - ++++++++++++++++++++++++++++++++++++++++++++++++++++++\n09:33:03,965  INFO Server:360 - Server [httpfs] starting\n09:33:03,965  INFO Server:361 -   Built information:\n09:33:03,965  INFO Server:362 -     Version           : 3.3.0-SNAPSHOT\n09:33:03,965  INFO Server:363 -     Source Repository : REPO NOT AVAIL\n09:33:03,965  INFO Server:364 -     Source Revision   : REVISION NOT AVAIL\n09:33:03,965  INFO Server:365 -     Built by          : colossus2\n09:33:03,965  INFO Server:366 -     Built timestamp   : 2018-10-13T09:17:38+0000\n09:33:03,965  INFO Server:367 -   Runtime information:\n09:33:03,965  INFO Server:368 -     Home   dir: /home/colossus2/apache/hadoop/target/test-dir/testDelegationTokenOperations-112\n09:33:03,965  INFO Server:369 -     Config dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop\n09:33:03,966  INFO Server:370 -     Log    dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/logs\n09:33:03,966  INFO Server:371 -     Temp   dir: /home/colossus2/apache/hadoop/target/test-dir/testDelegationTokenOperations-112/temp\n09:33:03,967  WARN Server:465 - Site configuration file [/home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop/httpfs-site.xml] not found in config directory\n09:33:03,967  INFO Server:492 - System property sets  httpfs.home.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data\n09:33:03,967  INFO Server:492 - System property sets  httpfs.config.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop\n09:33:03,967  INFO Server:492 - System property sets  httpfs.log.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/logs\n09:33:03,968  INFO FileSystemAccessService:149 - Using FileSystemAccess JARs version [3.3.0-SNAPSHOT]\n09:33:03,972  INFO FileSystemAccessService:176 - Using FileSystemAccess simple/pseudo authentication, principal [colossus2]\n09:33:03,976  INFO Server:378 - Services initialized\n09:33:03,976  INFO Server:386 - Server [httpfs] started!, status [NORMAL]\n09:33:03,980  INFO HttpFSServerWebApp:102 - Connects to Namenode [file:///]\n09:33:03,980  INFO AbstractDelegationTokenSecretManager:343 - Updating the current master key for generating delegation tokens\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.PackagesResourceConfig init\nINFO: Scanning for root resource and provider classes in the packages:\n  org.apache.hadoop.fs.http.server\n  org.apache.hadoop.lib.wsrs\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses\nINFO: Root resource classes found:\n  class org.apache.hadoop.fs.http.server.HttpFSServer\n09:33:03,986  INFO AbstractDelegationTokenSecretManager:675 - Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)\n09:33:03,998  INFO AbstractDelegationTokenSecretManager:343 - Updating the current master key for generating delegation tokens\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses\nINFO: Provider classes found:\n  class org.apache.hadoop.fs.http.server.HttpFSExceptionProvider\n  class org.apache.hadoop.lib.wsrs.JSONProvider\n  class org.apache.hadoop.lib.wsrs.JSONMapProvider\n  class org.apache.hadoop.fs.http.server.HttpFSParametersProvider\nOct 13, 2018 9:33:04 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate\nINFO: Initiating Jersey application, version 'Jersey: 1.19 02/11/2015 03:25 AM'\n09:33:04,068  INFO ContextHandler:781 - Started o.e.j.w.WebAppContext@547052{/webhdfs,file:///home/colossus2/apache/hadoop/hadoop-hdfs-project/hadoop-hdfs-httpfs/target/test-classes/webapp/,AVAILABLE}{/home/colossus2/apache/hadoop/hadoop-hdfs-project/hadoop-hdfs-httpfs/target/test-classes/webapp}\n09:33:04,068  INFO AbstractConnector:278 - Started ServerConnector@fc2e30d{HTTP/1.1,[http/1.1]}{localhost:46691}\n09:33:04,069  INFO Server:414 - Started @37054ms\n09:33:04,086  WARN AuthenticationFilter:525 - AuthenticationToken ignored: org.apache.hadoop.security.authentication.util.SignerException: Invalid signature\n09:33:04,088  INFO AbstractConnector:318 - Stopped ServerConnector@fc2e30d{HTTP/1.1,[http/1.1]}{localhost:46691}\n09:33:04,088 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n09:33:04,089  INFO Server:621 - Services destroyed\n09:33:04,089  INFO Server:633 - Server [httpfs] shutdown!\n09:33:04,089  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:29,108  INFO Server:621 - Services destroyed\n08:26:29,108  INFO Server:633 - Server [httpfs] shutdown!\n08:26:29,108  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:30,663  INFO Server:621 - Services destroyed\n08:26:30,663  INFO Server:633 - Server [httpfs] shutdown!\n08:26:30,663  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:31,202  INFO Server:621 - Services destroyed\n08:26:31,203  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,203  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:26:31,585  INFO AbstractConnector:318 - Stopped ServerConnector@3dec3f87{HTTP/1.1,[http/1.1]}{localhost:39577}\n08:26:31,585 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:26:31,588  INFO Server:621 - Services destroyed\n08:26:31,589  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,589  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:26:31,837  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:35657}\n08:26:31,837 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:26:31,838  INFO Server:621 - Services destroyed\n08:26:31,838  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,838  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:41,309  INFO Server:621 - Services destroyed\n08:28:41,309  INFO Server:633 - Server [httpfs] shutdown!\n08:28:41,309  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:42,699  INFO Server:621 - Services destroyed\n08:28:42,699  INFO Server:633 - Server [httpfs] shutdown!\n08:28:42,700  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:43,253  INFO Server:621 - Services destroyed\n08:28:43,253  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,253  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,761  INFO AbstractConnector:318 - Stopped ServerConnector@39f666fe{HTTP/1.1,[http/1.1]}{localhost:39289}\n08:28:43,761 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,763  INFO Server:621 - Services destroyed\n08:28:43,763  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,764  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,966  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:43167}\n08:28:43,966 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,967  INFO Server:621 - Services destroyed\n08:28:43,967  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,967  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:44,619  INFO Server:621 - Services destroyed\n08:28:44,619  INFO Server:633 - Server [httpfs] shutdown!\n08:28:44,619  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDirAcls": [
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:32:58,138  INFO Server:621 - Services destroyed\n09:32:58,138  INFO Server:633 - Server [httpfs] shutdown!\n09:32:58,138  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:32:59,640  INFO Server:621 - Services destroyed\n09:32:59,640  INFO Server:633 - Server [httpfs] shutdown!\n09:32:59,640  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:01,157  INFO Server:621 - Services destroyed\n09:33:01,157  INFO Server:633 - Server [httpfs] shutdown!\n09:33:01,157  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:02,240  INFO Server:621 - Services destroyed\n09:33:02,240  INFO Server:633 - Server [httpfs] shutdown!\n09:33:02,240  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:02,761  INFO Server:621 - Services destroyed\n09:33:02,761  INFO Server:633 - Server [httpfs] shutdown!\n09:33:02,761  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:03,563  INFO Server:621 - Services destroyed\n09:33:03,563  INFO Server:633 - Server [httpfs] shutdown!\n09:33:03,564  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:03,932  INFO Server:621 - Services destroyed\n09:33:03,932  INFO Server:633 - Server [httpfs] shutdown!\n09:33:03,932  INFO Server:634 - ======================================================\n09:33:03,965  WARN Server:433 - Log4j [/home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop/httpfs-log4j.properties] configuration file not found, using default configuration from classpath\n09:33:03,965  INFO Server:359 - ++++++++++++++++++++++++++++++++++++++++++++++++++++++\n09:33:03,965  INFO Server:360 - Server [httpfs] starting\n09:33:03,965  INFO Server:361 -   Built information:\n09:33:03,965  INFO Server:362 -     Version           : 3.3.0-SNAPSHOT\n09:33:03,965  INFO Server:363 -     Source Repository : REPO NOT AVAIL\n09:33:03,965  INFO Server:364 -     Source Revision   : REVISION NOT AVAIL\n09:33:03,965  INFO Server:365 -     Built by          : colossus2\n09:33:03,965  INFO Server:366 -     Built timestamp   : 2018-10-13T09:17:38+0000\n09:33:03,965  INFO Server:367 -   Runtime information:\n09:33:03,965  INFO Server:368 -     Home   dir: /home/colossus2/apache/hadoop/target/test-dir/testDelegationTokenOperations-112\n09:33:03,965  INFO Server:369 -     Config dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop\n09:33:03,966  INFO Server:370 -     Log    dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/logs\n09:33:03,966  INFO Server:371 -     Temp   dir: /home/colossus2/apache/hadoop/target/test-dir/testDelegationTokenOperations-112/temp\n09:33:03,967  WARN Server:465 - Site configuration file [/home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop/httpfs-site.xml] not found in config directory\n09:33:03,967  INFO Server:492 - System property sets  httpfs.home.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data\n09:33:03,967  INFO Server:492 - System property sets  httpfs.config.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop\n09:33:03,967  INFO Server:492 - System property sets  httpfs.log.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/logs\n09:33:03,968  INFO FileSystemAccessService:149 - Using FileSystemAccess JARs version [3.3.0-SNAPSHOT]\n09:33:03,972  INFO FileSystemAccessService:176 - Using FileSystemAccess simple/pseudo authentication, principal [colossus2]\n09:33:03,976  INFO Server:378 - Services initialized\n09:33:03,976  INFO Server:386 - Server [httpfs] started!, status [NORMAL]\n09:33:03,980  INFO HttpFSServerWebApp:102 - Connects to Namenode [file:///]\n09:33:03,980  INFO AbstractDelegationTokenSecretManager:343 - Updating the current master key for generating delegation tokens\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.PackagesResourceConfig init\nINFO: Scanning for root resource and provider classes in the packages:\n  org.apache.hadoop.fs.http.server\n  org.apache.hadoop.lib.wsrs\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses\nINFO: Root resource classes found:\n  class org.apache.hadoop.fs.http.server.HttpFSServer\n09:33:03,986  INFO AbstractDelegationTokenSecretManager:675 - Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)\n09:33:03,998  INFO AbstractDelegationTokenSecretManager:343 - Updating the current master key for generating delegation tokens\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses\nINFO: Provider classes found:\n  class org.apache.hadoop.fs.http.server.HttpFSExceptionProvider\n  class org.apache.hadoop.lib.wsrs.JSONProvider\n  class org.apache.hadoop.lib.wsrs.JSONMapProvider\n  class org.apache.hadoop.fs.http.server.HttpFSParametersProvider\nOct 13, 2018 9:33:04 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate\nINFO: Initiating Jersey application, version 'Jersey: 1.19 02/11/2015 03:25 AM'\n09:33:04,068  INFO ContextHandler:781 - Started o.e.j.w.WebAppContext@547052{/webhdfs,file:///home/colossus2/apache/hadoop/hadoop-hdfs-project/hadoop-hdfs-httpfs/target/test-classes/webapp/,AVAILABLE}{/home/colossus2/apache/hadoop/hadoop-hdfs-project/hadoop-hdfs-httpfs/target/test-classes/webapp}\n09:33:04,068  INFO AbstractConnector:278 - Started ServerConnector@fc2e30d{HTTP/1.1,[http/1.1]}{localhost:46691}\n09:33:04,069  INFO Server:414 - Started @37054ms\n09:33:04,086  WARN AuthenticationFilter:525 - AuthenticationToken ignored: org.apache.hadoop.security.authentication.util.SignerException: Invalid signature\n09:33:04,088  INFO AbstractConnector:318 - Stopped ServerConnector@fc2e30d{HTTP/1.1,[http/1.1]}{localhost:46691}\n09:33:04,088 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n09:33:04,089  INFO Server:621 - Services destroyed\n09:33:04,089  INFO Server:633 - Server [httpfs] shutdown!\n09:33:04,089  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:41,309  INFO Server:621 - Services destroyed\n08:28:41,309  INFO Server:633 - Server [httpfs] shutdown!\n08:28:41,309  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:42,699  INFO Server:621 - Services destroyed\n08:28:42,699  INFO Server:633 - Server [httpfs] shutdown!\n08:28:42,700  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:43,253  INFO Server:621 - Services destroyed\n08:28:43,253  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,253  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,761  INFO AbstractConnector:318 - Stopped ServerConnector@39f666fe{HTTP/1.1,[http/1.1]}{localhost:39289}\n08:28:43,761 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,763  INFO Server:621 - Services destroyed\n08:28:43,763  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,764  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,966  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:43167}\n08:28:43,966 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,967  INFO Server:621 - Services destroyed\n08:28:43,967  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,967  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:44,619  INFO Server:621 - Services destroyed\n08:28:44,619  INFO Server:633 - Server [httpfs] shutdown!\n08:28:44,619  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs.testWithNoAcls": [
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:32:58,138  INFO Server:621 - Services destroyed\n09:32:58,138  INFO Server:633 - Server [httpfs] shutdown!\n09:32:58,138  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:32:59,640  INFO Server:621 - Services destroyed\n09:32:59,640  INFO Server:633 - Server [httpfs] shutdown!\n09:32:59,640  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:01,157  INFO Server:621 - Services destroyed\n09:33:01,157  INFO Server:633 - Server [httpfs] shutdown!\n09:33:01,157  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:02,240  INFO Server:621 - Services destroyed\n09:33:02,240  INFO Server:633 - Server [httpfs] shutdown!\n09:33:02,240  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:02,761  INFO Server:621 - Services destroyed\n09:33:02,761  INFO Server:633 - Server [httpfs] shutdown!\n09:33:02,761  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:03,563  INFO Server:621 - Services destroyed\n09:33:03,563  INFO Server:633 - Server [httpfs] shutdown!\n09:33:03,564  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:03,932  INFO Server:621 - Services destroyed\n09:33:03,932  INFO Server:633 - Server [httpfs] shutdown!\n09:33:03,932  INFO Server:634 - ======================================================\n09:33:03,965  WARN Server:433 - Log4j [/home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop/httpfs-log4j.properties] configuration file not found, using default configuration from classpath\n09:33:03,965  INFO Server:359 - ++++++++++++++++++++++++++++++++++++++++++++++++++++++\n09:33:03,965  INFO Server:360 - Server [httpfs] starting\n09:33:03,965  INFO Server:361 -   Built information:\n09:33:03,965  INFO Server:362 -     Version           : 3.3.0-SNAPSHOT\n09:33:03,965  INFO Server:363 -     Source Repository : REPO NOT AVAIL\n09:33:03,965  INFO Server:364 -     Source Revision   : REVISION NOT AVAIL\n09:33:03,965  INFO Server:365 -     Built by          : colossus2\n09:33:03,965  INFO Server:366 -     Built timestamp   : 2018-10-13T09:17:38+0000\n09:33:03,965  INFO Server:367 -   Runtime information:\n09:33:03,965  INFO Server:368 -     Home   dir: /home/colossus2/apache/hadoop/target/test-dir/testDelegationTokenOperations-112\n09:33:03,965  INFO Server:369 -     Config dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop\n09:33:03,966  INFO Server:370 -     Log    dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/logs\n09:33:03,966  INFO Server:371 -     Temp   dir: /home/colossus2/apache/hadoop/target/test-dir/testDelegationTokenOperations-112/temp\n09:33:03,967  WARN Server:465 - Site configuration file [/home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop/httpfs-site.xml] not found in config directory\n09:33:03,967  INFO Server:492 - System property sets  httpfs.home.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data\n09:33:03,967  INFO Server:492 - System property sets  httpfs.config.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop\n09:33:03,967  INFO Server:492 - System property sets  httpfs.log.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/logs\n09:33:03,968  INFO FileSystemAccessService:149 - Using FileSystemAccess JARs version [3.3.0-SNAPSHOT]\n09:33:03,972  INFO FileSystemAccessService:176 - Using FileSystemAccess simple/pseudo authentication, principal [colossus2]\n09:33:03,976  INFO Server:378 - Services initialized\n09:33:03,976  INFO Server:386 - Server [httpfs] started!, status [NORMAL]\n09:33:03,980  INFO HttpFSServerWebApp:102 - Connects to Namenode [file:///]\n09:33:03,980  INFO AbstractDelegationTokenSecretManager:343 - Updating the current master key for generating delegation tokens\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.PackagesResourceConfig init\nINFO: Scanning for root resource and provider classes in the packages:\n  org.apache.hadoop.fs.http.server\n  org.apache.hadoop.lib.wsrs\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses\nINFO: Root resource classes found:\n  class org.apache.hadoop.fs.http.server.HttpFSServer\n09:33:03,986  INFO AbstractDelegationTokenSecretManager:675 - Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)\n09:33:03,998  INFO AbstractDelegationTokenSecretManager:343 - Updating the current master key for generating delegation tokens\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses\nINFO: Provider classes found:\n  class org.apache.hadoop.fs.http.server.HttpFSExceptionProvider\n  class org.apache.hadoop.lib.wsrs.JSONProvider\n  class org.apache.hadoop.lib.wsrs.JSONMapProvider\n  class org.apache.hadoop.fs.http.server.HttpFSParametersProvider\nOct 13, 2018 9:33:04 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate\nINFO: Initiating Jersey application, version 'Jersey: 1.19 02/11/2015 03:25 AM'\n09:33:04,068  INFO ContextHandler:781 - Started o.e.j.w.WebAppContext@547052{/webhdfs,file:///home/colossus2/apache/hadoop/hadoop-hdfs-project/hadoop-hdfs-httpfs/target/test-classes/webapp/,AVAILABLE}{/home/colossus2/apache/hadoop/hadoop-hdfs-project/hadoop-hdfs-httpfs/target/test-classes/webapp}\n09:33:04,068  INFO AbstractConnector:278 - Started ServerConnector@fc2e30d{HTTP/1.1,[http/1.1]}{localhost:46691}\n09:33:04,069  INFO Server:414 - Started @37054ms\n09:33:04,086  WARN AuthenticationFilter:525 - AuthenticationToken ignored: org.apache.hadoop.security.authentication.util.SignerException: Invalid signature\n09:33:04,088  INFO AbstractConnector:318 - Stopped ServerConnector@fc2e30d{HTTP/1.1,[http/1.1]}{localhost:46691}\n09:33:04,088 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n09:33:04,089  INFO Server:621 - Services destroyed\n09:33:04,089  INFO Server:633 - Server [httpfs] shutdown!\n09:33:04,089  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:34:05,763  INFO Server:621 - Services destroyed\n09:34:05,763  INFO Server:633 - Server [httpfs] shutdown!\n09:34:05,763  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:34:08,110  INFO Server:621 - Services destroyed\n09:34:08,110  INFO Server:633 - Server [httpfs] shutdown!\n09:34:08,110  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:35:12,969  INFO Server:621 - Services destroyed\n09:35:12,969  INFO Server:633 - Server [httpfs] shutdown!\n09:35:12,969  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:35:14,455  INFO Server:621 - Services destroyed\n09:35:14,455  INFO Server:633 - Server [httpfs] shutdown!\n09:35:14,456  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:35:15,905  INFO Server:621 - Services destroyed\n09:35:15,905  INFO Server:633 - Server [httpfs] shutdown!\n09:35:15,905  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:35:17,098  INFO Server:621 - Services destroyed\n09:35:17,098  INFO Server:633 - Server [httpfs] shutdown!\n09:35:17,098  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:35:17,499  INFO Server:621 - Services destroyed\n09:35:17,499  INFO Server:633 - Server [httpfs] shutdown!\n09:35:17,499  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:29,108  INFO Server:621 - Services destroyed\n08:26:29,108  INFO Server:633 - Server [httpfs] shutdown!\n08:26:29,108  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:30,663  INFO Server:621 - Services destroyed\n08:26:30,663  INFO Server:633 - Server [httpfs] shutdown!\n08:26:30,663  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:31,202  INFO Server:621 - Services destroyed\n08:26:31,203  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,203  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:26:31,585  INFO AbstractConnector:318 - Stopped ServerConnector@3dec3f87{HTTP/1.1,[http/1.1]}{localhost:39577}\n08:26:31,585 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:26:31,588  INFO Server:621 - Services destroyed\n08:26:31,589  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,589  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:26:31,837  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:35657}\n08:26:31,837 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:26:31,838  INFO Server:621 - Services destroyed\n08:26:31,838  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,838  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:27:27,402  INFO Server:621 - Services destroyed\n08:27:27,402  INFO Server:633 - Server [httpfs] shutdown!\n08:27:27,403  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:27:29,719  INFO Server:621 - Services destroyed\n08:27:29,719  INFO Server:633 - Server [httpfs] shutdown!\n08:27:29,719  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:41,309  INFO Server:621 - Services destroyed\n08:28:41,309  INFO Server:633 - Server [httpfs] shutdown!\n08:28:41,309  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:42,699  INFO Server:621 - Services destroyed\n08:28:42,699  INFO Server:633 - Server [httpfs] shutdown!\n08:28:42,700  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:43,253  INFO Server:621 - Services destroyed\n08:28:43,253  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,253  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,761  INFO AbstractConnector:318 - Stopped ServerConnector@39f666fe{HTTP/1.1,[http/1.1]}{localhost:39289}\n08:28:43,761 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,763  INFO Server:621 - Services destroyed\n08:28:43,763  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,764  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,966  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:43167}\n08:28:43,966 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,967  INFO Server:621 - Services destroyed\n08:28:43,967  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,967  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:44,619  INFO Server:621 - Services destroyed\n08:28:44,619  INFO Server:633 - Server [httpfs] shutdown!\n08:28:44,619  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs.testWithXAttrs": [
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:32:58,138  INFO Server:621 - Services destroyed\n09:32:58,138  INFO Server:633 - Server [httpfs] shutdown!\n09:32:58,138  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:32:59,640  INFO Server:621 - Services destroyed\n09:32:59,640  INFO Server:633 - Server [httpfs] shutdown!\n09:32:59,640  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:01,157  INFO Server:621 - Services destroyed\n09:33:01,157  INFO Server:633 - Server [httpfs] shutdown!\n09:33:01,157  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:02,240  INFO Server:621 - Services destroyed\n09:33:02,240  INFO Server:633 - Server [httpfs] shutdown!\n09:33:02,240  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:02,761  INFO Server:621 - Services destroyed\n09:33:02,761  INFO Server:633 - Server [httpfs] shutdown!\n09:33:02,761  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:03,563  INFO Server:621 - Services destroyed\n09:33:03,563  INFO Server:633 - Server [httpfs] shutdown!\n09:33:03,564  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:33:03,932  INFO Server:621 - Services destroyed\n09:33:03,932  INFO Server:633 - Server [httpfs] shutdown!\n09:33:03,932  INFO Server:634 - ======================================================\n09:33:03,965  WARN Server:433 - Log4j [/home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop/httpfs-log4j.properties] configuration file not found, using default configuration from classpath\n09:33:03,965  INFO Server:359 - ++++++++++++++++++++++++++++++++++++++++++++++++++++++\n09:33:03,965  INFO Server:360 - Server [httpfs] starting\n09:33:03,965  INFO Server:361 -   Built information:\n09:33:03,965  INFO Server:362 -     Version           : 3.3.0-SNAPSHOT\n09:33:03,965  INFO Server:363 -     Source Repository : REPO NOT AVAIL\n09:33:03,965  INFO Server:364 -     Source Revision   : REVISION NOT AVAIL\n09:33:03,965  INFO Server:365 -     Built by          : colossus2\n09:33:03,965  INFO Server:366 -     Built timestamp   : 2018-10-13T09:17:38+0000\n09:33:03,965  INFO Server:367 -   Runtime information:\n09:33:03,965  INFO Server:368 -     Home   dir: /home/colossus2/apache/hadoop/target/test-dir/testDelegationTokenOperations-112\n09:33:03,965  INFO Server:369 -     Config dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop\n09:33:03,966  INFO Server:370 -     Log    dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/logs\n09:33:03,966  INFO Server:371 -     Temp   dir: /home/colossus2/apache/hadoop/target/test-dir/testDelegationTokenOperations-112/temp\n09:33:03,967  WARN Server:465 - Site configuration file [/home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop/httpfs-site.xml] not found in config directory\n09:33:03,967  INFO Server:492 - System property sets  httpfs.home.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data\n09:33:03,967  INFO Server:492 - System property sets  httpfs.config.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/etc/hadoop\n09:33:03,967  INFO Server:492 - System property sets  httpfs.log.dir: /home/colossus2/apache/hadoop/target/test-dir/hadoop-data/logs\n09:33:03,968  INFO FileSystemAccessService:149 - Using FileSystemAccess JARs version [3.3.0-SNAPSHOT]\n09:33:03,972  INFO FileSystemAccessService:176 - Using FileSystemAccess simple/pseudo authentication, principal [colossus2]\n09:33:03,976  INFO Server:378 - Services initialized\n09:33:03,976  INFO Server:386 - Server [httpfs] started!, status [NORMAL]\n09:33:03,980  INFO HttpFSServerWebApp:102 - Connects to Namenode [file:///]\n09:33:03,980  INFO AbstractDelegationTokenSecretManager:343 - Updating the current master key for generating delegation tokens\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.PackagesResourceConfig init\nINFO: Scanning for root resource and provider classes in the packages:\n  org.apache.hadoop.fs.http.server\n  org.apache.hadoop.lib.wsrs\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses\nINFO: Root resource classes found:\n  class org.apache.hadoop.fs.http.server.HttpFSServer\n09:33:03,986  INFO AbstractDelegationTokenSecretManager:675 - Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)\n09:33:03,998  INFO AbstractDelegationTokenSecretManager:343 - Updating the current master key for generating delegation tokens\nOct 13, 2018 9:33:03 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses\nINFO: Provider classes found:\n  class org.apache.hadoop.fs.http.server.HttpFSExceptionProvider\n  class org.apache.hadoop.lib.wsrs.JSONProvider\n  class org.apache.hadoop.lib.wsrs.JSONMapProvider\n  class org.apache.hadoop.fs.http.server.HttpFSParametersProvider\nOct 13, 2018 9:33:04 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate\nINFO: Initiating Jersey application, version 'Jersey: 1.19 02/11/2015 03:25 AM'\n09:33:04,068  INFO ContextHandler:781 - Started o.e.j.w.WebAppContext@547052{/webhdfs,file:///home/colossus2/apache/hadoop/hadoop-hdfs-project/hadoop-hdfs-httpfs/target/test-classes/webapp/,AVAILABLE}{/home/colossus2/apache/hadoop/hadoop-hdfs-project/hadoop-hdfs-httpfs/target/test-classes/webapp}\n09:33:04,068  INFO AbstractConnector:278 - Started ServerConnector@fc2e30d{HTTP/1.1,[http/1.1]}{localhost:46691}\n09:33:04,069  INFO Server:414 - Started @37054ms\n09:33:04,086  WARN AuthenticationFilter:525 - AuthenticationToken ignored: org.apache.hadoop.security.authentication.util.SignerException: Invalid signature\n09:33:04,088  INFO AbstractConnector:318 - Stopped ServerConnector@fc2e30d{HTTP/1.1,[http/1.1]}{localhost:46691}\n09:33:04,088 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n09:33:04,089  INFO Server:621 - Services destroyed\n09:33:04,089  INFO Server:633 - Server [httpfs] shutdown!\n09:33:04,089  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:34:05,763  INFO Server:621 - Services destroyed\n09:34:05,763  INFO Server:633 - Server [httpfs] shutdown!\n09:34:05,763  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:34:08,110  INFO Server:621 - Services destroyed\n09:34:08,110  INFO Server:633 - Server [httpfs] shutdown!\n09:34:08,110  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:35:12,969  INFO Server:621 - Services destroyed\n09:35:12,969  INFO Server:633 - Server [httpfs] shutdown!\n09:35:12,969  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:35:14,455  INFO Server:621 - Services destroyed\n09:35:14,455  INFO Server:633 - Server [httpfs] shutdown!\n09:35:14,456  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:35:15,905  INFO Server:621 - Services destroyed\n09:35:15,905  INFO Server:633 - Server [httpfs] shutdown!\n09:35:15,905  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:35:17,098  INFO Server:621 - Services destroyed\n09:35:17,098  INFO Server:633 - Server [httpfs] shutdown!\n09:35:17,098  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:35:17,499  INFO Server:621 - Services destroyed\n09:35:17,499  INFO Server:633 - Server [httpfs] shutdown!\n09:35:17,499  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:29,108  INFO Server:621 - Services destroyed\n08:26:29,108  INFO Server:633 - Server [httpfs] shutdown!\n08:26:29,108  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:30,663  INFO Server:621 - Services destroyed\n08:26:30,663  INFO Server:633 - Server [httpfs] shutdown!\n08:26:30,663  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:31,202  INFO Server:621 - Services destroyed\n08:26:31,203  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,203  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:26:31,585  INFO AbstractConnector:318 - Stopped ServerConnector@3dec3f87{HTTP/1.1,[http/1.1]}{localhost:39577}\n08:26:31,585 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:26:31,588  INFO Server:621 - Services destroyed\n08:26:31,589  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,589  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:26:31,837  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:35657}\n08:26:31,837 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:26:31,838  INFO Server:621 - Services destroyed\n08:26:31,838  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,838  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:27:27,402  INFO Server:621 - Services destroyed\n08:27:27,402  INFO Server:633 - Server [httpfs] shutdown!\n08:27:27,403  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:27:29,719  INFO Server:621 - Services destroyed\n08:27:29,719  INFO Server:633 - Server [httpfs] shutdown!\n08:27:29,719  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:41,309  INFO Server:621 - Services destroyed\n08:28:41,309  INFO Server:633 - Server [httpfs] shutdown!\n08:28:41,309  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:42,699  INFO Server:621 - Services destroyed\n08:28:42,699  INFO Server:633 - Server [httpfs] shutdown!\n08:28:42,700  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:43,253  INFO Server:621 - Services destroyed\n08:28:43,253  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,253  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,761  INFO AbstractConnector:318 - Stopped ServerConnector@39f666fe{HTTP/1.1,[http/1.1]}{localhost:39289}\n08:28:43,761 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,763  INFO Server:621 - Services destroyed\n08:28:43,763  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,764  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,966  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:43167}\n08:28:43,966 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,967  INFO Server:621 - Services destroyed\n08:28:43,967  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,967  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:44,619  INFO Server:621 - Services destroyed\n08:28:44,619  INFO Server:633 - Server [httpfs] shutdown!\n08:28:44,619  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        }
+    ],
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl.testTimelineReaderManagerAclsWhenDisabled": [
+        {
+            "Name": "java.lang.ExceptionInInitializerError",
+            "Message": ""
+        },
+        {
+            "Name": "java.lang.NoClassDefFoundError",
+            "Message": " Could not initialize class org.apache.hadoop.yarn.server.timelineservice.reader.TimelineReaderWebServices\n"
+        }
+    ],
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl.testTimelineReaderManagerAclsWhenEnabled": [
+        {
+            "Name": "java.lang.NoClassDefFoundError",
+            "Message": " Could not initialize class org.apache.hadoop.yarn.server.timelineservice.reader.TimelineReaderWebServices\n"
+        },
+        {
+            "Name": "java.lang.ExceptionInInitializerError",
+            "Message": ""
+        }
+    ],
+    "org.apache.hadoop.yarn.server.timeline.TestEntityGroupFSTimelineStore.testCleanLogs": [
+        {
+            "Name": "java.io.FileNotFoundException",
+            "Message": " File hdfs://localhost:37449/tmp/TestEntityGroupFSTimelineStore/done/1234/0000/000/application_1234_0000 does not exist.\n"
+        },
+        {
+            "Name": "java.io.FileNotFoundException",
+            "Message": " File hdfs://localhost:37003/tmp/TestEntityGroupFSTimelineStore/done/1234/0000/000/application_1234_0000 does not exist.\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<2> but was:<9>\n"
+        },
+        {
+            "Name": "java.lang.NullPointerException",
+            "Message": ""
+        }
+    ],
+    "org.apache.hadoop.yarn.server.timeline.TestEntityGroupFSTimelineStore.testSummaryRead": [
+        {
+            "Name": "java.lang.IllegalArgumentException",
+            "Message": " Invalid ApplicationId prefix: id_1. The valid ApplicationId should start with prefix application\n"
+        },
+        {
+            "Name": "java.io.IOException",
+            "Message": " Cannot lock storage /home/colossus2/apache/hadoop/target/test/data/dfs/name-0-1. The directory is already locked\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperationsSsl": [
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:29,108  INFO Server:621 - Services destroyed\n08:26:29,108  INFO Server:633 - Server [httpfs] shutdown!\n08:26:29,108  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:30,663  INFO Server:621 - Services destroyed\n08:26:30,663  INFO Server:633 - Server [httpfs] shutdown!\n08:26:30,663  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:31,202  INFO Server:621 - Services destroyed\n08:26:31,203  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,203  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:26:31,585  INFO AbstractConnector:318 - Stopped ServerConnector@3dec3f87{HTTP/1.1,[http/1.1]}{localhost:39577}\n08:26:31,585 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:26:31,588  INFO Server:621 - Services destroyed\n08:26:31,589  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,589  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:26:31,837  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:35657}\n08:26:31,837 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:26:31,838  INFO Server:621 - Services destroyed\n08:26:31,838  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,838  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:41,309  INFO Server:621 - Services destroyed\n08:28:41,309  INFO Server:633 - Server [httpfs] shutdown!\n08:28:41,309  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:42,699  INFO Server:621 - Services destroyed\n08:28:42,699  INFO Server:633 - Server [httpfs] shutdown!\n08:28:42,700  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:43,253  INFO Server:621 - Services destroyed\n08:28:43,253  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,253  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,761  INFO AbstractConnector:318 - Stopped ServerConnector@39f666fe{HTTP/1.1,[http/1.1]}{localhost:39289}\n08:28:43,761 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,763  INFO Server:621 - Services destroyed\n08:28:43,763  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,764  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,966  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:43167}\n08:28:43,966 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,967  INFO Server:621 - Services destroyed\n08:28:43,967  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,967  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:44,619  INFO Server:621 - Services destroyed\n08:28:44,619  INFO Server:633 - Server [httpfs] shutdown!\n08:28:44,619  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testXAttrs": [
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:29,108  INFO Server:621 - Services destroyed\n08:26:29,108  INFO Server:633 - Server [httpfs] shutdown!\n08:26:29,108  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:30,663  INFO Server:621 - Services destroyed\n08:26:30,663  INFO Server:633 - Server [httpfs] shutdown!\n08:26:30,663  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:26:31,202  INFO Server:621 - Services destroyed\n08:26:31,203  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,203  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:26:31,585  INFO AbstractConnector:318 - Stopped ServerConnector@3dec3f87{HTTP/1.1,[http/1.1]}{localhost:39577}\n08:26:31,585 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:26:31,588  INFO Server:621 - Services destroyed\n08:26:31,589  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,589  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:26:31,837  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:35657}\n08:26:31,837 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:26:31,838  INFO Server:621 - Services destroyed\n08:26:31,838  INFO Server:633 - Server [httpfs] shutdown!\n08:26:31,838  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:41,309  INFO Server:621 - Services destroyed\n08:28:41,309  INFO Server:633 - Server [httpfs] shutdown!\n08:28:41,309  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:42,699  INFO Server:621 - Services destroyed\n08:28:42,699  INFO Server:633 - Server [httpfs] shutdown!\n08:28:42,700  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:43,253  INFO Server:621 - Services destroyed\n08:28:43,253  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,253  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,761  INFO AbstractConnector:318 - Stopped ServerConnector@39f666fe{HTTP/1.1,[http/1.1]}{localhost:39289}\n08:28:43,761 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,763  INFO Server:621 - Services destroyed\n08:28:43,763  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,764  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:28:43,966  INFO AbstractConnector:318 - Stopped ServerConnector@5fb5ad40{HTTP/1.1,[http/1.1]}{localhost:43167}\n08:28:43,966 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:28:43,967  INFO Server:621 - Services destroyed\n08:28:43,967  INFO Server:633 - Server [httpfs] shutdown!\n08:28:43,967  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:28:44,619  INFO Server:621 - Services destroyed\n08:28:44,619  INFO Server:633 - Server [httpfs] shutdown!\n08:28:44,619  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        }
+    ]
+}

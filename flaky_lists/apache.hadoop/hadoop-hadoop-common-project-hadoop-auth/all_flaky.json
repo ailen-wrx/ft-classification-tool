@@ -1,0 +1,1029 @@
+{
+    "Directory": "D:\\iDoFT\\dataset\\comprehensive\\14d\\apache.hadoop\\apache.hadoop_output\\hadoop-hadoop-common-project-hadoop-auth",
+    "5618045914344-d34faf82-0bd6-4760-99a8-a744074c3f89": [
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.TestKerberosName.testRules",
+            "Time": 0.003670615,
+            "Result": "FAILURE",
+            "Exception": [
+                {
+                    "Name": "KeeperException",
+                    "Message": "when processing sessionid:0x16671e07dcd0001 type:create cxid:0x1 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 09:20:31,079 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 09:20:31,080 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:31,091 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:31,099 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:31,112 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:20:31,112 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e07dcd0001\n2018-10-14 09:20:31,121 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:42306 which had sessionid 0x16671e07dcd0001\n2018-10-14 09:20:31,121 INFO  ClientCnxn - EventThread shut down for session: 0x16671e07dcd0001\n2018-10-14 09:20:31,121 INFO  ZooKeeper - Session: 0x16671e07dcd0001 closed\n2018-10-14 09:20:31,122 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:20:31,122 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:20:31,122 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:20:31,122 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:20:31,122 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:20:31,122 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:20:31,123 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:20:31,123 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:20:31,131 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 09:20:31,132 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 09:20:31,132 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 09:20:31,132 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 09:20:31,132 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:35445\n2018-10-14 09:20:32,143 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:20:32,144 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:20:32,144 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:35445 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@495ee280\n2018-10-14 09:20:32,145 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:35445. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:20:32,145 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:58744\n2018-10-14 09:20:32,145 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:35445, initiating session\n2018-10-14 09:20:32,145 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:58744\n2018-10-14 09:20:32,146 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 09:20:32,169 INFO  ZooKeeperServer - Established session 0x16671e083a40000 with negotiated timeout 60000 for client /127.0.0.1:58744\n2018-10-14 09:20:32,169 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:35445, sessionid = 0x16671e083a40000, negotiated timeout = 60000\n2018-10-14 09:20:32,169 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:20:32,176 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 09:20:32,177 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:20:32,178 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:20:32,178 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:35445 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4e928fbf\n2018-10-14 09:20:32,179 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:35445. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:20:32,179 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:35445, initiating session\n2018-10-14 09:20:32,179 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:58746\n2018-10-14 09:20:32,180 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:58746\n2018-10-14 09:20:32,187 INFO  ZooKeeperServer - Established session 0x16671e083a40001 with negotiated timeout 60000 for client /127.0.0.1:58746\n2018-10-14 09:20:32,187 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:35445, sessionid = 0x16671e083a40001, negotiated timeout = 60000\n2018-10-14 09:20:32,187 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:20:32,188 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e083a40001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 09:20:32,194 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 09:20:32,247 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:32,314 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:32,315 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e083a40001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:20:32,323 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:32,330 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:32,331 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e083a40000 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:20:32,338 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:32,345 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:32,345 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e083a40000 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:20:32,351 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:20:32,353 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e083a40001\n2018-10-14 09:20:32,358 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:58746 which had sessionid 0x16671e083a40001\n2018-10-14 09:20:32,358 INFO  ClientCnxn - EventThread shut down for session: 0x16671e083a40001\n2018-10-14 09:20:32,359 INFO  ZooKeeper - Session: 0x16671e083a40001 closed\n2018-10-14 09:20:32,359 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:20:32,360 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e083a40000\n2018-10-14 09:20:32,366 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:58744 which had sessionid 0x16671e083a40000\n2018-10-14 09:20:32,366 INFO  ZooKeeper - Session: 0x16671e083a40000 closed\n2018-10-14 09:20:32,366 INFO  ClientCnxn - EventThread shut down for session: 0x16671e083a40000\n2018-10-14 09:20:32,366 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:20:32,366 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:20:32,367 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:20:32,367 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:20:32,367 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:20:32,367 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:20:32,367 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:20:32,367 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:20:32,373 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 09:20:32,374 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 09:20:32,374 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 09:20:32,374 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 09:20:32,374 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:46061\n2018-10-14 09:20:33,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:20:33,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:20:33,385 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:20:33,386 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:20:33,387 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:46061 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@a82c5f1\n2018-10-14 09:20:33,388 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:46061. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:20:33,388 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:46061, initiating session\n2018-10-14 09:20:33,389 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:40986\n2018-10-14 09:20:33,389 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:40986\n2018-10-14 09:20:33,389 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 09:20:33,437 INFO  ZooKeeperServer - Established session 0x16671e088800000 with negotiated timeout 60000 for client /127.0.0.1:40986\n2018-10-14 09:20:33,438 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:46061, sessionid = 0x16671e088800000, negotiated timeout = 60000\n2018-10-14 09:20:33,438 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:20:33,450 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 09:20:33,452 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:20:33,452 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:20:33,452 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:46061 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4e07b95f\n2018-10-14 09:20:33,457 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:46061. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:20:33,457 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:40988\n2018-10-14 09:20:33,457 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:46061, initiating session\n2018-10-14 09:20:33,457 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:40988\n2018-10-14 09:20:33,464 INFO  ZooKeeperServer - Established session 0x16671e088800001 with negotiated timeout 60000 for client /127.0.0.1:40988\n2018-10-14 09:20:33,465 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:46061, sessionid = 0x16671e088800001, negotiated timeout = 60000\n2018-10-14 09:20:33,465 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:20:33,466 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e088800001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 09:20:33,471 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 09:20:33,494 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:33,501 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:33,502 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e088800001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:20:33,541 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:33,549 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:33,550 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e088800001 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:20:33,556 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:33,563 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:33,564 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e088800001 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:20:33,570 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:20:33,571 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e088800001\n2018-10-14 09:20:33,577 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:40988 which had sessionid 0x16671e088800001\n2018-10-14 09:20:33,577 INFO  ZooKeeper - Session: 0x16671e088800001 closed\n2018-10-14 09:20:33,577 INFO  ClientCnxn - EventThread shut down for session: 0x16671e088800001\n2018-10-14 09:20:33,577 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:20:33,578 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e088800000\n2018-10-14 09:20:33,585 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:40986 which had sessionid 0x16671e088800000\n2018-10-14 09:20:33,585 INFO  ZooKeeper - Session: 0x16671e088800000 closed\n2018-10-14 09:20:33,585 INFO  ClientCnxn - EventThread shut down for session: 0x16671e088800000\n2018-10-14 09:20:33,586 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:20:33,586 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:20:33,586 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:20:33,586 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:20:33,586 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:20:33,586 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:20:33,586 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:20:33,586 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:20:33,589 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 09:20:33,589 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 09:20:33,589 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 09:20:33,590 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 09:20:33,590 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:36939\n2018-10-14 09:20:34,601 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:20:34,602 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:20:34,603 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:36939 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6b6776cb\n2018-10-14 09:20:34,605 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:36939. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:20:34,605 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:45410\n2018-10-14 09:20:34,606 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:36939, initiating session\n2018-10-14 09:20:34,606 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:45410\n2018-10-14 09:20:34,606 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 09:20:34,636 INFO  ZooKeeperServer - Established session 0x16671e08d3c0000 with negotiated timeout 60000 for client /127.0.0.1:45410\n2018-10-14 09:20:34,641 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:36939, sessionid = 0x16671e08d3c0000, negotiated timeout = 60000\n2018-10-14 09:20:34,641 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:20:34,649 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 09:20:34,661 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:34,707 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:34,758 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:20:34,766 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:20:34,767 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e08d3c0000\n2018-10-14 09:20:34,775 INFO  ZooKeeper - Session: 0x16671e08d3c0000 closed\n2018-10-14 09:20:34,775 INFO  ClientCnxn - EventThread shut down for session: 0x16671e08d3c0000\n2018-10-14 09:20:34,776 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:45410 which had sessionid 0x16671e08d3c0000\n2018-10-14 09:20:34,776 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:20:34,777 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:20:34,777 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:20:34,777 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:20:34,777 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:20:34,777 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:20:34,777 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:20:34,778 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:20:36,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:20:36,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:20:49,782 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:21:04,781 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:21:19,781 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:21:25,847 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:21:25,900 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:21:25,952 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:21:25,961 INFO  KerberosName - No auth_to_local rules applied to foo@ACME.COM\n2018-10-14 09:21:25,961 INFO  KerberosName - No auth_to_local rules applied to root/joe@FOO.COM\n2018-10-14 09:21:25,963 INFO  KerberosName - No auth_to_local rules applied to omalley@EXAMPLE.COM\norg.junit.ComparisonFailure: short name incorrect expected:<omalley[]> but was:<omalley[@EXAMPLE.COM]>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "checkTranslation",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 52
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "testRules",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 57
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        }
+    ],
+    "5795923631542-e3382a44-730e-489a-9505-2b9c0796bdda": [
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.TestKerberosName.testRules",
+            "Time": 0.003486014,
+            "Result": "FAILURE",
+            "Exception": [
+                {
+                    "Name": "KeeperException",
+                    "Message": "when processing sessionid:0x16671e4fd490001 type:create cxid:0x1 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 09:25:25,942 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 09:25:25,943 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:25,952 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:25,961 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:25,969 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:25:25,970 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e4fd490001\n2018-10-14 09:25:25,976 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:34584 which had sessionid 0x16671e4fd490001\n2018-10-14 09:25:25,976 INFO  ZooKeeper - Session: 0x16671e4fd490001 closed\n2018-10-14 09:25:25,976 INFO  ClientCnxn - EventThread shut down for session: 0x16671e4fd490001\n2018-10-14 09:25:25,976 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:25:25,976 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:25:25,977 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:25:25,977 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:25:25,977 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:25:25,977 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:25:25,977 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:25:25,977 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:25:25,988 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 09:25:25,988 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 09:25:25,988 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 09:25:25,988 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 09:25:25,988 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:34531\n2018-10-14 09:25:26,993 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:25:26,993 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:25:26,993 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:34531 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4149c063\n2018-10-14 09:25:26,994 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:34531. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:25:26,994 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:43856\n2018-10-14 09:25:26,995 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:34531, initiating session\n2018-10-14 09:25:26,995 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:43856\n2018-10-14 09:25:26,995 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 09:25:27,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:25:27,057 INFO  ZooKeeperServer - Established session 0x16671e503670000 with negotiated timeout 60000 for client /127.0.0.1:43856\n2018-10-14 09:25:27,057 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:34531, sessionid = 0x16671e503670000, negotiated timeout = 60000\n2018-10-14 09:25:27,058 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:25:27,065 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 09:25:27,067 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:25:27,067 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:25:27,068 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:34531 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@62656be4\n2018-10-14 09:25:27,068 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:34531. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:25:27,069 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:34531, initiating session\n2018-10-14 09:25:27,069 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:43858\n2018-10-14 09:25:27,070 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:43858\n2018-10-14 09:25:27,080 INFO  ZooKeeperServer - Established session 0x16671e503670001 with negotiated timeout 60000 for client /127.0.0.1:43858\n2018-10-14 09:25:27,080 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:34531, sessionid = 0x16671e503670001, negotiated timeout = 60000\n2018-10-14 09:25:27,080 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:25:27,081 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e503670001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 09:25:27,087 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 09:25:27,109 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:27,120 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:27,121 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e503670001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:25:27,147 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:27,193 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:27,194 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e503670000 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:25:27,205 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:27,216 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:27,216 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e503670000 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:25:27,234 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:25:27,235 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e503670001\n2018-10-14 09:25:27,243 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:43858 which had sessionid 0x16671e503670001\n2018-10-14 09:25:27,243 INFO  ZooKeeper - Session: 0x16671e503670001 closed\n2018-10-14 09:25:27,243 INFO  ClientCnxn - EventThread shut down for session: 0x16671e503670001\n2018-10-14 09:25:27,243 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:25:27,244 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e503670000\n2018-10-14 09:25:27,256 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:43856 which had sessionid 0x16671e503670000\n2018-10-14 09:25:27,256 INFO  ClientCnxn - EventThread shut down for session: 0x16671e503670000\n2018-10-14 09:25:27,256 INFO  ZooKeeper - Session: 0x16671e503670000 closed\n2018-10-14 09:25:27,256 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:25:27,257 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:25:27,257 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:25:27,257 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:25:27,257 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:25:27,257 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:25:27,257 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:25:27,257 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:25:27,258 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 09:25:27,259 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 09:25:27,259 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 09:25:27,259 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 09:25:27,259 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:34097\n2018-10-14 09:25:28,270 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:25:28,270 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:25:28,271 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:34097 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@456d6c1e\n2018-10-14 09:25:28,276 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:34097. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:25:28,276 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:34097, initiating session\n2018-10-14 09:25:28,276 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:50322\n2018-10-14 09:25:28,277 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:50322\n2018-10-14 09:25:28,277 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 09:25:28,377 INFO  ZooKeeperServer - Established session 0x16671e508640000 with negotiated timeout 60000 for client /127.0.0.1:50322\n2018-10-14 09:25:28,377 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:34097, sessionid = 0x16671e508640000, negotiated timeout = 60000\n2018-10-14 09:25:28,377 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:25:28,383 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 09:25:28,385 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:25:28,385 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:25:28,387 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:34097 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f8e8894\n2018-10-14 09:25:28,388 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:34097. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:25:28,388 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:50324\n2018-10-14 09:25:28,389 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:34097, initiating session\n2018-10-14 09:25:28,389 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:50324\n2018-10-14 09:25:28,395 INFO  ZooKeeperServer - Established session 0x16671e508640001 with negotiated timeout 60000 for client /127.0.0.1:50324\n2018-10-14 09:25:28,395 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:34097, sessionid = 0x16671e508640001, negotiated timeout = 60000\n2018-10-14 09:25:28,396 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:25:28,398 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e508640001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 09:25:28,403 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 09:25:28,428 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:28,435 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:28,436 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e508640001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:25:28,474 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:28,481 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:28,482 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e508640001 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:25:28,489 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:28,496 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:28,496 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e508640001 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:25:28,503 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:25:28,504 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e508640001\n2018-10-14 09:25:28,510 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:50324 which had sessionid 0x16671e508640001\n2018-10-14 09:25:28,510 INFO  ClientCnxn - EventThread shut down for session: 0x16671e508640001\n2018-10-14 09:25:28,510 INFO  ZooKeeper - Session: 0x16671e508640001 closed\n2018-10-14 09:25:28,511 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:25:28,512 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e508640000\n2018-10-14 09:25:28,517 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:50322 which had sessionid 0x16671e508640000\n2018-10-14 09:25:28,518 INFO  ZooKeeper - Session: 0x16671e508640000 closed\n2018-10-14 09:25:28,518 INFO  ClientCnxn - EventThread shut down for session: 0x16671e508640000\n2018-10-14 09:25:28,521 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:25:28,521 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:25:28,521 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:25:28,521 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:25:28,521 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:25:28,521 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:25:28,522 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:25:28,522 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:25:28,536 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 09:25:28,536 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 09:25:28,536 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 09:25:28,536 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 09:25:28,536 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:33075\n2018-10-14 09:25:29,545 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:25:29,546 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:25:29,546 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:33075 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@471a9022\n2018-10-14 09:25:29,548 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:33075. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:25:29,550 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:33075, initiating session\n2018-10-14 09:25:29,550 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:43310\n2018-10-14 09:25:29,551 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:43310\n2018-10-14 09:25:29,551 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 09:25:29,633 INFO  ZooKeeperServer - Established session 0x16671e50d5c0000 with negotiated timeout 60000 for client /127.0.0.1:43310\n2018-10-14 09:25:29,633 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:33075, sessionid = 0x16671e50d5c0000, negotiated timeout = 60000\n2018-10-14 09:25:29,634 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:25:29,644 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 09:25:29,656 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:29,706 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:29,755 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:29,765 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:25:29,766 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e50d5c0000\n2018-10-14 09:25:29,774 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:43310 which had sessionid 0x16671e50d5c0000\n2018-10-14 09:25:29,774 INFO  ZooKeeper - Session: 0x16671e50d5c0000 closed\n2018-10-14 09:25:29,774 INFO  ClientCnxn - EventThread shut down for session: 0x16671e50d5c0000\n2018-10-14 09:25:29,777 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:25:29,777 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:25:29,777 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:25:29,778 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:25:29,778 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:25:29,778 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:25:29,778 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:25:29,778 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:25:30,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:25:30,001 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:25:30,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:25:44,783 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:25:59,783 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:14,783 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:20,845 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:20,898 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:20,950 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:20,956 INFO  KerberosName - No auth_to_local rules applied to foo@ACME.COM\n2018-10-14 09:26:20,956 INFO  KerberosName - No auth_to_local rules applied to root/joe@FOO.COM\n2018-10-14 09:26:20,957 INFO  KerberosName - No auth_to_local rules applied to omalley@EXAMPLE.COM\norg.junit.ComparisonFailure: short name incorrect expected:<omalley[]> but was:<omalley[@EXAMPLE.COM]>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "checkTranslation",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 52
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "testRules",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 57
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        }
+    ],
+    "5971014770234-0fb982d7-9e1a-4c7e-a900-a722af8b4dff": [
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.TestKerberosName.testRules",
+            "Time": 0.002904711,
+            "Result": "FAILURE",
+            "Exception": [
+                {
+                    "Name": "KeeperException",
+                    "Message": "when processing sessionid:0x16671e5dfb20001 type:create cxid:0x1 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 09:26:23,837 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 09:26:23,839 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:23,847 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:23,857 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:23,866 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:26:23,867 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e5dfb20001\n2018-10-14 09:26:23,875 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:54642 which had sessionid 0x16671e5dfb20001\n2018-10-14 09:26:23,875 INFO  ClientCnxn - EventThread shut down for session: 0x16671e5dfb20001\n2018-10-14 09:26:23,875 INFO  ZooKeeper - Session: 0x16671e5dfb20001 closed\n2018-10-14 09:26:23,876 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:26:23,876 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:26:23,876 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:26:23,876 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:26:23,876 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:26:23,877 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:26:23,877 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:26:23,877 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:26:23,886 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 09:26:23,886 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 09:26:23,886 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 09:26:23,886 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 09:26:23,888 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:41055\n2018-10-14 09:26:24,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:26:24,898 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:26:24,898 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:26:24,899 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:41055 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@495ee280\n2018-10-14 09:26:24,899 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:41055. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:26:24,899 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:52656\n2018-10-14 09:26:24,900 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:41055, initiating session\n2018-10-14 09:26:24,900 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:52656\n2018-10-14 09:26:24,900 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 09:26:24,934 INFO  ZooKeeperServer - Established session 0x16671e5e5980000 with negotiated timeout 60000 for client /127.0.0.1:52656\n2018-10-14 09:26:24,935 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:41055, sessionid = 0x16671e5e5980000, negotiated timeout = 60000\n2018-10-14 09:26:24,935 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:26:24,941 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 09:26:24,943 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:26:24,943 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:26:24,944 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:41055 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4e928fbf\n2018-10-14 09:26:24,944 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:41055. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:26:24,945 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:52658\n2018-10-14 09:26:24,946 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:41055, initiating session\n2018-10-14 09:26:24,946 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:52658\n2018-10-14 09:26:24,951 INFO  ZooKeeperServer - Established session 0x16671e5e5980001 with negotiated timeout 60000 for client /127.0.0.1:52658\n2018-10-14 09:26:24,952 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:41055, sessionid = 0x16671e5e5980001, negotiated timeout = 60000\n2018-10-14 09:26:24,953 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:26:24,953 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e5e5980001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 09:26:24,961 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 09:26:25,003 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:25,011 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:25,012 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e5e5980001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:26:25,019 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:25,026 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:25,027 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e5e5980000 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:26:25,034 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:25,041 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:25,042 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e5e5980000 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:26:25,050 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:26:25,050 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e5e5980001\n2018-10-14 09:26:25,059 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:52658 which had sessionid 0x16671e5e5980001\n2018-10-14 09:26:25,059 INFO  ClientCnxn - EventThread shut down for session: 0x16671e5e5980001\n2018-10-14 09:26:25,059 INFO  ZooKeeper - Session: 0x16671e5e5980001 closed\n2018-10-14 09:26:25,060 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:26:25,060 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e5e5980000\n2018-10-14 09:26:25,066 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:52656 which had sessionid 0x16671e5e5980000\n2018-10-14 09:26:25,066 INFO  ZooKeeper - Session: 0x16671e5e5980000 closed\n2018-10-14 09:26:25,066 INFO  ClientCnxn - EventThread shut down for session: 0x16671e5e5980000\n2018-10-14 09:26:25,067 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:26:25,067 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:26:25,067 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:26:25,067 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:26:25,067 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:26:25,067 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:26:25,067 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:26:25,067 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:26:25,069 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 09:26:25,069 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 09:26:25,069 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 09:26:25,069 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 09:26:25,069 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:43089\n2018-10-14 09:26:26,081 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:26:26,081 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:26:26,081 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:43089 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@a82c5f1\n2018-10-14 09:26:26,083 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:43089. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:26:26,083 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:43089, initiating session\n2018-10-14 09:26:26,083 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:59002\n2018-10-14 09:26:26,083 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:59002\n2018-10-14 09:26:26,084 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 09:26:26,104 INFO  ZooKeeperServer - Established session 0x16671e5ea370000 with negotiated timeout 60000 for client /127.0.0.1:59002\n2018-10-14 09:26:26,104 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:43089, sessionid = 0x16671e5ea370000, negotiated timeout = 60000\n2018-10-14 09:26:26,104 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:26:26,111 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 09:26:26,112 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:26:26,113 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:26:26,113 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:43089 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4e07b95f\n2018-10-14 09:26:26,116 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:43089. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:26:26,116 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:59004\n2018-10-14 09:26:26,116 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:43089, initiating session\n2018-10-14 09:26:26,117 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:59004\n2018-10-14 09:26:26,124 INFO  ZooKeeperServer - Established session 0x16671e5ea370001 with negotiated timeout 60000 for client /127.0.0.1:59004\n2018-10-14 09:26:26,124 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:43089, sessionid = 0x16671e5ea370001, negotiated timeout = 60000\n2018-10-14 09:26:26,124 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:26:26,126 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e5ea370001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 09:26:26,134 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 09:26:26,190 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:26,197 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:26,198 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e5ea370001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:26:26,206 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:26,214 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:26,215 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e5ea370001 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:26:26,222 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:26,231 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:26,231 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x16671e5ea370001 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 09:26:26,241 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:26:26,242 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e5ea370001\n2018-10-14 09:26:26,247 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:59004 which had sessionid 0x16671e5ea370001\n2018-10-14 09:26:26,248 INFO  ClientCnxn - EventThread shut down for session: 0x16671e5ea370001\n2018-10-14 09:26:26,248 INFO  ZooKeeper - Session: 0x16671e5ea370001 closed\n2018-10-14 09:26:26,248 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:26:26,249 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e5ea370000\n2018-10-14 09:26:26,255 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:59002 which had sessionid 0x16671e5ea370000\n2018-10-14 09:26:26,256 INFO  ZooKeeper - Session: 0x16671e5ea370000 closed\n2018-10-14 09:26:26,256 INFO  ClientCnxn - EventThread shut down for session: 0x16671e5ea370000\n2018-10-14 09:26:26,256 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:26:26,256 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:26:26,256 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:26:26,256 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:26:26,256 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:26:26,256 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:26:26,256 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:26:26,256 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:26:26,263 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 09:26:26,263 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 09:26:26,264 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 09:26:26,264 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 09:26:26,264 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:42339\n2018-10-14 09:26:27,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:26:27,001 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:26:27,270 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 09:26:27,270 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 09:26:27,270 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:42339 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@43599640\n2018-10-14 09:26:27,274 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:42339. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 09:26:27,275 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:52974\n2018-10-14 09:26:27,275 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:42339, initiating session\n2018-10-14 09:26:27,277 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:52974\n2018-10-14 09:26:27,278 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 09:26:27,297 INFO  ZooKeeperServer - Established session 0x16671e5eed80000 with negotiated timeout 60000 for client /127.0.0.1:52974\n2018-10-14 09:26:27,297 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:42339, sessionid = 0x16671e5eed80000, negotiated timeout = 60000\n2018-10-14 09:26:27,299 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 09:26:27,307 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 09:26:27,329 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:27,382 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:27,431 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:27,439 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 09:26:27,440 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x16671e5eed80000\n2018-10-14 09:26:27,446 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:52974 which had sessionid 0x16671e5eed80000\n2018-10-14 09:26:27,446 INFO  ZooKeeper - Session: 0x16671e5eed80000 closed\n2018-10-14 09:26:27,446 INFO  ClientCnxn - EventThread shut down for session: 0x16671e5eed80000\n2018-10-14 09:26:27,449 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 09:26:27,451 INFO  ZooKeeperServer - shutting down\n2018-10-14 09:26:27,451 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 09:26:27,451 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 09:26:27,451 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 09:26:27,451 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 09:26:27,451 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 09:26:27,452 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 09:26:30,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 09:26:42,456 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:26:57,456 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:27:12,456 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:27:18,522 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:27:18,574 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:27:18,627 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 09:27:18,632 INFO  KerberosName - No auth_to_local rules applied to foo@ACME.COM\n2018-10-14 09:27:18,632 INFO  KerberosName - No auth_to_local rules applied to root/joe@FOO.COM\n2018-10-14 09:27:18,634 INFO  KerberosName - No auth_to_local rules applied to omalley@EXAMPLE.COM\norg.junit.ComparisonFailure: short name incorrect expected:<omalley[]> but was:<omalley[@EXAMPLE.COM]>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "checkTranslation",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 52
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "testRules",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 57
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        }
+    ],
+    "9611533198054-e6f8226a-51fd-45c3-903f-7bb672a52672": [
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.TestKerberosName.testRules",
+            "Time": 0.003201413,
+            "Result": "FAILURE",
+            "Exception": [
+                {
+                    "Name": "KeeperException",
+                    "Message": "when processing sessionid:0x166721d7d500001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 10:27:08,265 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 10:27:08,277 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:08,285 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:08,285 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x166721d7d500001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:27:08,324 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:08,332 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:08,333 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x166721d7d500001 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:27:08,338 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:08,345 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:08,346 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x166721d7d500001 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:27:08,353 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:27:08,354 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x166721d7d500001\n2018-10-14 10:27:08,360 INFO  ZooKeeper - Session: 0x166721d7d500001 closed\n2018-10-14 10:27:08,360 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:40778 which had sessionid 0x166721d7d500001\n2018-10-14 10:27:08,360 INFO  ClientCnxn - EventThread shut down for session: 0x166721d7d500001\n2018-10-14 10:27:08,360 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:27:08,361 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x166721d7d500000\n2018-10-14 10:27:08,368 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:40776 which had sessionid 0x166721d7d500000\n2018-10-14 10:27:08,368 INFO  ZooKeeper - Session: 0x166721d7d500000 closed\n2018-10-14 10:27:08,368 INFO  ClientCnxn - EventThread shut down for session: 0x166721d7d500000\n2018-10-14 10:27:08,369 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 10:27:08,369 INFO  ZooKeeperServer - shutting down\n2018-10-14 10:27:08,369 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 10:27:08,369 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 10:27:08,369 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 10:27:08,369 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 10:27:08,369 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 10:27:08,369 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 10:27:08,371 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 10:27:08,371 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 10:27:08,371 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 10:27:08,371 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 10:27:08,372 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:40191\n2018-10-14 10:27:09,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:27:09,001 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:27:09,390 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:27:09,390 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:27:09,391 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:40191 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@a37aefe\n2018-10-14 10:27:09,392 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:40191. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:27:09,393 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:40191, initiating session\n2018-10-14 10:27:09,394 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:58300\n2018-10-14 10:27:09,394 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:58300\n2018-10-14 10:27:09,394 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 10:27:09,413 INFO  ZooKeeperServer - Established session 0x166721d81e40000 with negotiated timeout 60000 for client /127.0.0.1:58300\n2018-10-14 10:27:09,413 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:40191, sessionid = 0x166721d81e40000, negotiated timeout = 60000\n2018-10-14 10:27:09,413 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:27:09,420 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 10:27:09,421 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:27:09,422 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:27:09,422 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:40191 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@37fb0bed\n2018-10-14 10:27:09,424 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:40191. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:27:09,425 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:40191, initiating session\n2018-10-14 10:27:09,425 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:58302\n2018-10-14 10:27:09,425 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:58302\n2018-10-14 10:27:09,431 INFO  ZooKeeperServer - Established session 0x166721d81e40001 with negotiated timeout 60000 for client /127.0.0.1:58302\n2018-10-14 10:27:09,432 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:40191, sessionid = 0x166721d81e40001, negotiated timeout = 60000\n2018-10-14 10:27:09,432 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:27:09,434 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x166721d81e40001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 10:27:09,439 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 10:27:09,451 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:09,458 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:09,460 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x166721d81e40001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:27:09,498 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:09,505 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:09,506 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x166721d81e40000 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:27:09,512 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:09,519 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:09,520 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x166721d81e40000 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:27:09,533 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:27:09,534 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x166721d81e40001\n2018-10-14 10:27:09,540 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:58302 which had sessionid 0x166721d81e40001\n2018-10-14 10:27:09,541 INFO  ClientCnxn - EventThread shut down for session: 0x166721d81e40001\n2018-10-14 10:27:09,541 INFO  ZooKeeper - Session: 0x166721d81e40001 closed\n2018-10-14 10:27:09,541 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:27:09,542 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x166721d81e40000\n2018-10-14 10:27:09,548 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:58300 which had sessionid 0x166721d81e40000\n2018-10-14 10:27:09,548 INFO  ZooKeeper - Session: 0x166721d81e40000 closed\n2018-10-14 10:27:09,548 INFO  ClientCnxn - EventThread shut down for session: 0x166721d81e40000\n2018-10-14 10:27:09,549 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 10:27:09,549 INFO  ZooKeeperServer - shutting down\n2018-10-14 10:27:09,549 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 10:27:09,549 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 10:27:09,549 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 10:27:09,549 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 10:27:09,550 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 10:27:09,550 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 10:27:09,552 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 10:27:09,552 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 10:27:09,552 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 10:27:09,552 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 10:27:09,552 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:45401\n2018-10-14 10:27:10,574 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:27:10,574 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:27:10,575 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:45401 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@7fc4780b\n2018-10-14 10:27:10,577 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:45401. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:27:10,577 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:45401, initiating session\n2018-10-14 10:27:10,579 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:35478\n2018-10-14 10:27:10,579 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:35478\n2018-10-14 10:27:10,579 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 10:27:10,641 INFO  ZooKeeperServer - Established session 0x166721d86790000 with negotiated timeout 60000 for client /127.0.0.1:35478\n2018-10-14 10:27:10,642 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:45401, sessionid = 0x166721d86790000, negotiated timeout = 60000\n2018-10-14 10:27:10,642 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:27:10,651 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 10:27:10,653 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:10,663 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:27:10,664 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x166721d86790000\n2018-10-14 10:27:10,671 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:35478 which had sessionid 0x166721d86790000\n2018-10-14 10:27:10,671 INFO  ZooKeeper - Session: 0x166721d86790000 closed\n2018-10-14 10:27:10,671 INFO  ClientCnxn - EventThread shut down for session: 0x166721d86790000\n2018-10-14 10:27:10,672 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:27:10,673 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:27:10,673 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:45401 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6b6776cb\n2018-10-14 10:27:10,674 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:45401. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:27:10,675 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:35480\n2018-10-14 10:27:10,675 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:45401, initiating session\n2018-10-14 10:27:10,675 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:35480\n2018-10-14 10:27:10,682 INFO  ZooKeeperServer - Established session 0x166721d86790001 with negotiated timeout 60000 for client /127.0.0.1:35480\n2018-10-14 10:27:10,682 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:45401, sessionid = 0x166721d86790001, negotiated timeout = 60000\n2018-10-14 10:27:10,683 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:27:10,684 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x166721d86790001 type:create cxid:0x1 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 10:27:10,691 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 10:27:10,692 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:10,700 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:10,708 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:10,719 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:27:10,719 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x166721d86790001\n2018-10-14 10:27:10,728 INFO  ZooKeeper - Session: 0x166721d86790001 closed\n2018-10-14 10:27:10,728 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:35480 which had sessionid 0x166721d86790001\n2018-10-14 10:27:10,729 INFO  ClientCnxn - EventThread shut down for session: 0x166721d86790001\n2018-10-14 10:27:10,729 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 10:27:10,730 INFO  ZooKeeperServer - shutting down\n2018-10-14 10:27:10,730 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 10:27:10,730 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 10:27:10,730 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 10:27:10,730 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 10:27:10,730 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 10:27:10,730 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 10:27:12,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:27:12,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:27:25,736 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:40,736 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:27:55,736 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:28:01,803 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:28:01,856 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:28:01,908 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:28:01,915 INFO  KerberosName - No auth_to_local rules applied to omalley@EXAMPLE.COM\norg.junit.ComparisonFailure: short name incorrect expected:<omalley[]> but was:<omalley[@EXAMPLE.COM]>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "checkTranslation",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 52
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "testRules",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 57
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        }
+    ],
+    "9786750574801-95c0d8dd-e4ca-469b-8d67-06fcb367f250": [
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.TestKerberosName.testRules",
+            "Time": 0.003256113,
+            "Result": "FAILURE",
+            "Exception": [
+                {
+                    "Name": "KeeperException",
+                    "Message": "when processing sessionid:0x1667221e8ec0001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 10:31:58,121 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 10:31:58,176 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:58,184 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:58,185 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667221e8ec0001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:31:58,193 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:58,200 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:58,201 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667221e8ec0001 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:31:58,209 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:58,226 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:58,227 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667221e8ec0001 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:31:58,235 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:31:58,235 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667221e8ec0001\n2018-10-14 10:31:58,244 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:59934 which had sessionid 0x1667221e8ec0001\n2018-10-14 10:31:58,245 INFO  ZooKeeper - Session: 0x1667221e8ec0001 closed\n2018-10-14 10:31:58,245 INFO  ClientCnxn - EventThread shut down for session: 0x1667221e8ec0001\n2018-10-14 10:31:58,245 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:31:58,246 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667221e8ec0000\n2018-10-14 10:31:58,251 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:59920 which had sessionid 0x1667221e8ec0000\n2018-10-14 10:31:58,251 INFO  ClientCnxn - EventThread shut down for session: 0x1667221e8ec0000\n2018-10-14 10:31:58,252 INFO  ZooKeeper - Session: 0x1667221e8ec0000 closed\n2018-10-14 10:31:58,252 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 10:31:58,252 INFO  ZooKeeperServer - shutting down\n2018-10-14 10:31:58,252 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 10:31:58,252 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 10:31:58,252 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 10:31:58,253 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 10:31:58,253 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 10:31:58,253 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 10:31:58,264 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 10:31:58,265 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 10:31:58,265 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 10:31:58,265 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 10:31:58,265 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:34587\n2018-10-14 10:31:59,278 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:31:59,279 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:31:59,279 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:34587 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@c667f46\n2018-10-14 10:31:59,280 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:34587. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:31:59,280 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:34587, initiating session\n2018-10-14 10:31:59,284 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:58486\n2018-10-14 10:31:59,284 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:58486\n2018-10-14 10:31:59,285 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 10:31:59,304 INFO  ZooKeeperServer - Established session 0x1667221ee3e0000 with negotiated timeout 60000 for client /127.0.0.1:58486\n2018-10-14 10:31:59,304 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:34587, sessionid = 0x1667221ee3e0000, negotiated timeout = 60000\n2018-10-14 10:31:59,304 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:31:59,311 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 10:31:59,313 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:31:59,313 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:31:59,313 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:34587 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@19b843ba\n2018-10-14 10:31:59,314 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:34587. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:31:59,314 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:34587, initiating session\n2018-10-14 10:31:59,314 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:58488\n2018-10-14 10:31:59,315 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:58488\n2018-10-14 10:31:59,321 INFO  ZooKeeperServer - Established session 0x1667221ee3e0001 with negotiated timeout 60000 for client /127.0.0.1:58488\n2018-10-14 10:31:59,321 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:34587, sessionid = 0x1667221ee3e0001, negotiated timeout = 60000\n2018-10-14 10:31:59,322 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:31:59,324 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667221ee3e0001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 10:31:59,330 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 10:31:59,342 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:59,350 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:59,351 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667221ee3e0001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:31:59,388 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:59,395 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:59,396 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667221ee3e0000 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:31:59,402 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:59,409 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:31:59,410 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667221ee3e0000 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:31:59,419 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:31:59,420 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667221ee3e0001\n2018-10-14 10:31:59,428 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:58488 which had sessionid 0x1667221ee3e0001\n2018-10-14 10:31:59,428 INFO  ZooKeeper - Session: 0x1667221ee3e0001 closed\n2018-10-14 10:31:59,428 INFO  ClientCnxn - EventThread shut down for session: 0x1667221ee3e0001\n2018-10-14 10:31:59,429 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:31:59,430 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667221ee3e0000\n2018-10-14 10:31:59,436 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:58486 which had sessionid 0x1667221ee3e0000\n2018-10-14 10:31:59,436 INFO  ClientCnxn - EventThread shut down for session: 0x1667221ee3e0000\n2018-10-14 10:31:59,436 INFO  ZooKeeper - Session: 0x1667221ee3e0000 closed\n2018-10-14 10:31:59,437 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 10:31:59,437 INFO  ZooKeeperServer - shutting down\n2018-10-14 10:31:59,438 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 10:31:59,438 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 10:31:59,438 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 10:31:59,438 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 10:31:59,438 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 10:31:59,438 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 10:31:59,440 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 10:31:59,440 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 10:31:59,441 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 10:31:59,441 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 10:31:59,441 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:40005\n2018-10-14 10:32:00,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:32:00,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:32:00,465 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:32:00,466 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:32:00,468 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:40005 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6f8e8894\n2018-10-14 10:32:00,476 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:40005. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:32:00,477 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:40005, initiating session\n2018-10-14 10:32:00,478 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:54910\n2018-10-14 10:32:00,478 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:54910\n2018-10-14 10:32:00,478 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 10:32:00,507 INFO  ZooKeeperServer - Established session 0x1667221f2dc0000 with negotiated timeout 60000 for client /127.0.0.1:54910\n2018-10-14 10:32:00,508 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:40005, sessionid = 0x1667221f2dc0000, negotiated timeout = 60000\n2018-10-14 10:32:00,509 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:32:00,515 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 10:32:00,517 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:00,529 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:32:00,530 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667221f2dc0000\n2018-10-14 10:32:00,536 INFO  ZooKeeper - Session: 0x1667221f2dc0000 closed\n2018-10-14 10:32:00,536 INFO  ClientCnxn - EventThread shut down for session: 0x1667221f2dc0000\n2018-10-14 10:32:00,537 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:32:00,537 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:32:00,541 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:40005 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@471a9022\n2018-10-14 10:32:00,541 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:54910 which had sessionid 0x1667221f2dc0000\n2018-10-14 10:32:00,544 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:40005. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:32:00,544 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:54912\n2018-10-14 10:32:00,544 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:40005, initiating session\n2018-10-14 10:32:00,544 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:54912\n2018-10-14 10:32:00,550 INFO  ZooKeeperServer - Established session 0x1667221f2dc0001 with negotiated timeout 60000 for client /127.0.0.1:54912\n2018-10-14 10:32:00,551 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:40005, sessionid = 0x1667221f2dc0001, negotiated timeout = 60000\n2018-10-14 10:32:00,551 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:32:00,552 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667221f2dc0001 type:create cxid:0x1 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 10:32:00,557 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 10:32:00,559 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:00,569 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:00,577 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:00,592 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:32:00,593 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667221f2dc0001\n2018-10-14 10:32:00,599 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:54912 which had sessionid 0x1667221f2dc0001\n2018-10-14 10:32:00,599 INFO  ClientCnxn - EventThread shut down for session: 0x1667221f2dc0001\n2018-10-14 10:32:00,599 INFO  ZooKeeper - Session: 0x1667221f2dc0001 closed\n2018-10-14 10:32:00,600 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 10:32:00,601 INFO  ZooKeeperServer - shutting down\n2018-10-14 10:32:00,601 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 10:32:00,601 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 10:32:00,601 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 10:32:00,602 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 10:32:00,602 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 10:32:00,602 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 10:32:03,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:32:15,606 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:30,606 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:45,606 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:51,669 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:51,721 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:51,774 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:51,785 INFO  KerberosName - No auth_to_local rules applied to omalley@EXAMPLE.COM\norg.junit.ComparisonFailure: short name incorrect expected:<omalley[]> but was:<omalley[@EXAMPLE.COM]>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "checkTranslation",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 52
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "testRules",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 57
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        }
+    ],
+    "9961112980341-4e10f936-6f9c-4fc0-8986-dcb946c7956f": [
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.TestKerberosName.testRules",
+            "Time": 0.006443727,
+            "Result": "FAILURE",
+            "Exception": [
+                {
+                    "Name": "KeeperException",
+                    "Message": "when processing sessionid:0x1667222ca960001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 10:32:55,732 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 10:32:55,786 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:55,795 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:55,796 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667222ca960001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:32:55,804 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:55,812 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:55,813 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667222ca960001 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:32:55,820 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:55,829 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:55,829 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667222ca960001 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:32:55,837 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:32:55,838 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667222ca960001\n2018-10-14 10:32:55,843 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:47102 which had sessionid 0x1667222ca960001\n2018-10-14 10:32:55,844 INFO  ClientCnxn - EventThread shut down for session: 0x1667222ca960001\n2018-10-14 10:32:55,844 INFO  ZooKeeper - Session: 0x1667222ca960001 closed\n2018-10-14 10:32:55,844 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:32:55,845 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667222ca960000\n2018-10-14 10:32:55,851 INFO  ZooKeeper - Session: 0x1667222ca960000 closed\n2018-10-14 10:32:55,851 INFO  ClientCnxn - EventThread shut down for session: 0x1667222ca960000\n2018-10-14 10:32:55,851 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:47100 which had sessionid 0x1667222ca960000\n2018-10-14 10:32:55,851 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 10:32:55,851 INFO  ZooKeeperServer - shutting down\n2018-10-14 10:32:55,851 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 10:32:55,852 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 10:32:55,852 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 10:32:55,852 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 10:32:55,852 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 10:32:55,852 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 10:32:55,860 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 10:32:55,860 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 10:32:55,860 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 10:32:55,860 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 10:32:55,860 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:40605\n2018-10-14 10:32:56,862 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:32:56,863 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:32:56,863 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:40605 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@a37aefe\n2018-10-14 10:32:56,866 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:40605. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:32:56,867 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:59048\n2018-10-14 10:32:56,867 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:40605, initiating session\n2018-10-14 10:32:56,867 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:59048\n2018-10-14 10:32:56,867 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 10:32:56,889 INFO  ZooKeeperServer - Established session 0x1667222cf350000 with negotiated timeout 60000 for client /127.0.0.1:59048\n2018-10-14 10:32:56,889 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:40605, sessionid = 0x1667222cf350000, negotiated timeout = 60000\n2018-10-14 10:32:56,890 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:32:56,898 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 10:32:56,900 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:32:56,900 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:32:56,901 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:40605 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@37fb0bed\n2018-10-14 10:32:56,902 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:40605. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:32:56,902 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:40605, initiating session\n2018-10-14 10:32:56,902 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:59050\n2018-10-14 10:32:56,902 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:59050\n2018-10-14 10:32:56,912 INFO  ZooKeeperServer - Established session 0x1667222cf350001 with negotiated timeout 60000 for client /127.0.0.1:59050\n2018-10-14 10:32:56,912 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:40605, sessionid = 0x1667222cf350001, negotiated timeout = 60000\n2018-10-14 10:32:56,912 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:32:56,914 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667222cf350001 type:create cxid:0x1 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 10:32:56,925 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 10:32:56,969 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:56,994 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:56,995 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667222cf350001 type:setData cxid:0x3 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:32:57,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:32:57,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:32:57,004 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:57,013 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:57,014 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667222cf350000 type:setData cxid:0x5 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:32:57,027 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:57,034 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:57,034 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667222cf350000 type:setData cxid:0x7 zxid:0xa txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = BadVersion for /secret\n2018-10-14 10:32:57,041 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:32:57,042 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667222cf350001\n2018-10-14 10:32:57,048 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:59050 which had sessionid 0x1667222cf350001\n2018-10-14 10:32:57,048 INFO  ZooKeeper - Session: 0x1667222cf350001 closed\n2018-10-14 10:32:57,048 INFO  ClientCnxn - EventThread shut down for session: 0x1667222cf350001\n2018-10-14 10:32:57,048 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:32:57,049 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667222cf350000\n2018-10-14 10:32:57,056 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:59048 which had sessionid 0x1667222cf350000\n2018-10-14 10:32:57,056 INFO  ZooKeeper - Session: 0x1667222cf350000 closed\n2018-10-14 10:32:57,056 INFO  ClientCnxn - EventThread shut down for session: 0x1667222cf350000\n2018-10-14 10:32:57,056 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 10:32:57,057 INFO  ZooKeeperServer - shutting down\n2018-10-14 10:32:57,057 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 10:32:57,057 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 10:32:57,057 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 10:32:57,057 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 10:32:57,057 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 10:32:57,057 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 10:32:57,063 INFO  ZooKeeperServerMain - Starting server\n2018-10-14 10:32:57,063 INFO  ZooKeeperServer - tickTime set to 3000\n2018-10-14 10:32:57,063 INFO  ZooKeeperServer - minSessionTimeout set to -1\n2018-10-14 10:32:57,063 INFO  ZooKeeperServer - maxSessionTimeout set to -1\n2018-10-14 10:32:57,064 INFO  NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:35285\n2018-10-14 10:32:58,091 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:32:58,097 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:32:58,098 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:35285 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@7fc4780b\n2018-10-14 10:32:58,110 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:35285. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:32:58,111 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:35285, initiating session\n2018-10-14 10:32:58,111 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:34122\n2018-10-14 10:32:58,111 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:34122\n2018-10-14 10:32:58,112 INFO  FileTxnLog - Creating new log file: log.1\n2018-10-14 10:32:58,147 INFO  ZooKeeperServer - Established session 0x1667222d3f50000 with negotiated timeout 60000 for client /127.0.0.1:34122\n2018-10-14 10:32:58,147 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:35285, sessionid = 0x1667222d3f50000, negotiated timeout = 60000\n2018-10-14 10:32:58,148 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:32:58,155 INFO  ZKSignerSecretProvider - Creating secret znode\n2018-10-14 10:32:58,157 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:58,165 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:32:58,165 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667222d3f50000\n2018-10-14 10:32:58,172 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:34122 which had sessionid 0x1667222d3f50000\n2018-10-14 10:32:58,172 INFO  ZooKeeper - Session: 0x1667222d3f50000 closed\n2018-10-14 10:32:58,172 INFO  ClientCnxn - EventThread shut down for session: 0x1667222d3f50000\n2018-10-14 10:32:58,173 INFO  ZKSignerSecretProvider - Connecting to ZooKeeper without authentication\n2018-10-14 10:32:58,173 INFO  CuratorFrameworkImpl - Starting\n2018-10-14 10:32:58,174 INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:35285 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6b6776cb\n2018-10-14 10:32:58,176 INFO  ClientCnxn - Opening socket connection to server 127.0.0.1/127.0.0.1:35285. Will not attempt to authenticate using SASL (unknown error)\n2018-10-14 10:32:58,176 INFO  ClientCnxn - Socket connection established to 127.0.0.1/127.0.0.1:35285, initiating session\n2018-10-14 10:32:58,177 INFO  NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:34124\n2018-10-14 10:32:58,177 INFO  ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:34124\n2018-10-14 10:32:58,206 INFO  ZooKeeperServer - Established session 0x1667222d3f50001 with negotiated timeout 60000 for client /127.0.0.1:34124\n2018-10-14 10:32:58,206 INFO  ClientCnxn - Session establishment complete on server 127.0.0.1/127.0.0.1:35285, sessionid = 0x1667222d3f50001, negotiated timeout = 60000\n2018-10-14 10:32:58,206 INFO  ConnectionStateManager - State change: CONNECTED\n2018-10-14 10:32:58,207 INFO  PrepRequestProcessor - Got user-level KeeperException when processing sessionid:0x1667222d3f50001 type:create cxid:0x1 zxid:0x6 txntype:-1 reqpath:n/a Error Path:/secret Error:KeeperErrorCode = NodeExists for /secret\n2018-10-14 10:32:58,214 INFO  ZKSignerSecretProvider - The secret znode already exists, retrieving data\n2018-10-14 10:32:58,215 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:58,222 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:58,230 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:32:58,238 INFO  CuratorFrameworkImpl - backgroundOperationsLoop exiting\n2018-10-14 10:32:58,238 INFO  PrepRequestProcessor - Processed session termination for sessionid: 0x1667222d3f50001\n2018-10-14 10:32:58,245 INFO  NIOServerCnxn - Closed socket connection for client /127.0.0.1:34124 which had sessionid 0x1667222d3f50001\n2018-10-14 10:32:58,245 INFO  ZooKeeper - Session: 0x1667222d3f50001 closed\n2018-10-14 10:32:58,245 INFO  ClientCnxn - EventThread shut down for session: 0x1667222d3f50001\n2018-10-14 10:32:58,246 INFO  NIOServerCnxnFactory - NIOServerCnxn factory exited run method\n2018-10-14 10:32:58,246 INFO  ZooKeeperServer - shutting down\n2018-10-14 10:32:58,246 INFO  SessionTrackerImpl - Shutting down\n2018-10-14 10:32:58,246 INFO  PrepRequestProcessor - Shutting down\n2018-10-14 10:32:58,246 INFO  SyncRequestProcessor - Shutting down\n2018-10-14 10:32:58,246 INFO  PrepRequestProcessor - PrepRequestProcessor exited loop!\n2018-10-14 10:32:58,246 INFO  SyncRequestProcessor - SyncRequestProcessor exited!\n2018-10-14 10:32:58,247 INFO  FinalRequestProcessor - shutdown of request processor complete\n2018-10-14 10:33:00,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:33:00,000 INFO  SessionTrackerImpl - SessionTrackerImpl exited loop!\n2018-10-14 10:33:13,251 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:33:28,251 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:33:43,251 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:33:49,320 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:33:49,372 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:33:49,414 DEBUG RolloverSignerSecretProvider - rolling secret\n2018-10-14 10:33:49,424 INFO  KerberosName - No auth_to_local rules applied to omalley@EXAMPLE.COM\norg.junit.ComparisonFailure: short name incorrect expected:<omalley[]> but was:<omalley[@EXAMPLE.COM]>\n"
+                }
+            ],
+            "stackTrace": [
+                {
+                    "declaringClass": "org.junit.Assert",
+                    "methodName": "assertEquals",
+                    "fileName": "Assert.java",
+                    "lineNumber": 115
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "checkTranslation",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 52
+                },
+                {
+                    "declaringClass": "org.apache.hadoop.security.authentication.util.TestKerberosName",
+                    "methodName": "testRules",
+                    "fileName": "TestKerberosName.java",
+                    "lineNumber": 57
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke0",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": -2
+                },
+                {
+                    "declaringClass": "sun.reflect.NativeMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "NativeMethodAccessorImpl.java",
+                    "lineNumber": 62
+                },
+                {
+                    "declaringClass": "sun.reflect.DelegatingMethodAccessorImpl",
+                    "methodName": "invoke",
+                    "fileName": "DelegatingMethodAccessorImpl.java",
+                    "lineNumber": 43
+                },
+                {
+                    "declaringClass": "java.lang.reflect.Method",
+                    "methodName": "invoke",
+                    "fileName": "Method.java",
+                    "lineNumber": 498
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod$1",
+                    "methodName": "runReflectiveCall",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 47
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.model.ReflectiveCallable",
+                    "methodName": "run",
+                    "fileName": "ReflectiveCallable.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "org.junit.runners.model.FrameworkMethod",
+                    "methodName": "invokeExplosively",
+                    "fileName": "FrameworkMethod.java",
+                    "lineNumber": 44
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.InvokeMethod",
+                    "methodName": "evaluate",
+                    "fileName": "InvokeMethod.java",
+                    "lineNumber": 17
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunBefores",
+                    "methodName": "evaluate",
+                    "fileName": "RunBefores.java",
+                    "lineNumber": 26
+                },
+                {
+                    "declaringClass": "org.junit.internal.runners.statements.RunAfters",
+                    "methodName": "evaluate",
+                    "fileName": "RunAfters.java",
+                    "lineNumber": 27
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "runChild",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 332
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestRunner",
+                    "methodName": "run",
+                    "fileName": "JUnitTestRunner.java",
+                    "lineNumber": 108
+                },
+                {
+                    "declaringClass": "org.junit.runner.JUnitCore",
+                    "methodName": "run",
+                    "fileName": "JUnitCore.java",
+                    "lineNumber": 160
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 291
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "execute",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 327
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "executeWithJUnit4Runner",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 365
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.JUnitTestExecutor",
+                    "methodName": "runOrder",
+                    "fileName": "JUnitTestExecutor.java",
+                    "lineNumber": 46
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "$anonfun$run$1",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 30
+                },
+                {
+                    "declaringClass": "scala.runtime.java8.JFunction0$mcV$sp",
+                    "methodName": "apply",
+                    "fileName": "JFunction0$mcV$sp.java",
+                    "lineNumber": 12
+                },
+                {
+                    "declaringClass": "scala.util.Try$",
+                    "methodName": "apply",
+                    "fileName": "Try.scala",
+                    "lineNumber": 209
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "run",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 28
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor$",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": 18
+                },
+                {
+                    "declaringClass": "com.daredevil.testrunner.execution.Executor",
+                    "methodName": "main",
+                    "fileName": "Executor.scala",
+                    "lineNumber": -1
+                }
+            ]
+        }
+    ]
+}

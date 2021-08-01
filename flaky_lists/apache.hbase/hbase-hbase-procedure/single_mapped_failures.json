@@ -1,0 +1,6 @@
+{
+    "org.apache.hadoop.hbase.procedure2.TestProcedureSkipPersistence.test": {
+        "Name": "java.io.IOException",
+        "Message": "* Multiple error messages. *"
+    }
+}

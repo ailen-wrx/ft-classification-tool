@@ -1,0 +1,10 @@
+{
+    "com.alibaba.json.bvt.serializer.date.DateTest4_indian.test_date": {
+        "Name": "junit.framework.AssertionFailedError",
+        "Message": " expected:<17100000> but was:<45900000>\n"
+    },
+    "com.alibaba.json.bvt.serializer.MaxBufSizeTest.test_max_buf": {
+        "Name": "junit.framework.AssertionFailedError",
+        "Message": ""
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testOverlappingWrites": {
+        "Name": "java.lang.NullPointerException",
+        "Message": ""
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testReaddir": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testRename": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testFsinfo": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsAccessNN1": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testSetattr": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsAccessNN2": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testPathconf": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testCreate": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsWriteNN1": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsWriteNN2": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testRead": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<0> but was:<13>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testRmdir": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testReaddirplus": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testReadlink": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<0> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testCommit": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testMkdir": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testRemove": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testAccess": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code expected:<0> but was:<13>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testSymlink": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsRenameSingleNN": {
+        "Name": "java.lang.AssertionError",
+        "Message": " expected:<0> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testLookup": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testGetattr": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code expected:<0> but was:<13>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testFsstat": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<0> but was:<13>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testWrite": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testWrongNfsAccess": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    }
+}

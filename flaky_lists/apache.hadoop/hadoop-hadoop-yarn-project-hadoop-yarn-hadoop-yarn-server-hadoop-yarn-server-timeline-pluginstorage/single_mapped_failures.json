@@ -1,0 +1,150 @@
+{
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testFileAcls": {
+        "Name": "java.lang.InterruptedException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testAllowSnapshot": {
+        "Name": "java.lang.InterruptedException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testGetTrashRoot": {
+        "Name": "java.lang.InterruptedException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.instrumentation": {
+        "Name": "java.lang.InterruptedException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testPerms": {
+        "Name": "java.lang.InterruptedException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityCustomFields": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByInfoFilters": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testQueryWithoutCluster": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesWithLimit": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetContainer": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testAbout": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesNoMatch": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetAppAttempts": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByRelations": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetAppAttempt": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityDefaultView": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetContainers": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesBasedOnCreatedTime": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityWithUserAndFlowInfo": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testInvalidValuesHandling": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByConfigFilters": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntities": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityNotPresent": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByEventFilters": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByMetricFilters": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityAllFields": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.registry.secure.TestSecureLogins.testKerberosRulesValid": {
+        "Name": "java.lang.IllegalArgumentException",
+        "Message": " Can't get Kerberos realm\n"
+    },
+    "org.apache.hadoop.registry.client.impl.TestCuratorService.testRM": {
+        "Name": "org.apache.hadoop.fs.PathIsNotEmptyDirectoryException",
+        "Message": " `/registry/rm': Directory is not empty: KeeperErrorCode = Directory not empty for /registry/rm\n"
+    },
+    "org.apache.hadoop.registry.secure.TestSecureLogins.testDefaultRealmValid": {
+        "Name": "java.lang.reflect.InvocationTargetException",
+        "Message": ""
+    },
+    "org.apache.hadoop.yarn.server.timeline.TestLogInfo.testParseDomain": {
+        "Name": "java.io.IOException",
+        "Message": " Timed out waiting for Mini HDFS Cluster to start\n"
+    },
+    "org.apache.hadoop.yarn.server.timeline.TestLogInfo.testParseBrokenEntity": {
+        "Name": "java.io.IOException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.yarn.server.timeline.TestLogInfo.testParseEntity": {
+        "Name": "java.io.IOException",
+        "Message": " Cannot lock storage /home/colossus2/apache/hadoop/target/test/data/dfs/name-0-1. The directory is already locked\n"
+    },
+    "org.apache.hadoop.yarn.server.timeline.TestLogInfo.testMatchesGroupId": {
+        "Name": "java.io.IOException",
+        "Message": " Timed out waiting for Mini HDFS Cluster to start\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testReaddir": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.yarn.server.timeline.TestEntityGroupFSTimelineStore.testGetEntityPluginRead": {
+        "Name": "java.lang.NullPointerException",
+        "Message": ""
+    },
+    "org.apache.hadoop.yarn.server.timeline.TestEntityGroupFSTimelineStore.testMoveToDone": {
+        "Name": "java.lang.NullPointerException",
+        "Message": ""
+    },
+    "org.apache.hadoop.yarn.server.timeline.TestEntityGroupFSTimelineStore.testParseSummaryLogs": {
+        "Name": "java.lang.NullPointerException",
+        "Message": ""
+    }
+}

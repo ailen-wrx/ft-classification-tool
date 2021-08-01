@@ -1,0 +1,30 @@
+{
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testAllowSnapshot": {
+        "Name": "java.lang.InterruptedException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testGetTrashRoot": {
+        "Name": "java.lang.InterruptedException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.lib.service.hadoop.TestFileSystemAccessService.fileSystemCache": {
+        "Name": "org.apache.hadoop.ipc.RemoteException",
+        "Message": "org.apache.hadoop.security.authorize.AuthorizationException): User: colossus2 is not allowed to impersonate u\n"
+    },
+    "org.apache.hadoop.lib.service.hadoop.TestFileSystemAccessService.fileSystemExecutor": {
+        "Name": "org.apache.hadoop.lib.service.FileSystemAccessException",
+        "Message": " H03: FileSystemExecutor error, org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.security.authorize.AuthorizationException): User: colossus2 is not allowed to impersonate u\n"
+    },
+    "org.apache.hadoop.lib.servlet.TestServerWebApp.getHomeDirNotDef": {
+        "Name": "java.lang.InterruptedException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.lib.service.hadoop.TestFileSystemAccessService.createFileSystem": {
+        "Name": "org.apache.hadoop.ipc.RemoteException",
+        "Message": "org.apache.hadoop.security.authorize.AuthorizationException): User: colossus2 is not allowed to impersonate u\n"
+    },
+    "org.apache.hadoop.test.TestHFSTestCase.testHadoopFileSystem": {
+        "Name": "org.apache.hadoop.ipc.RemoteException",
+        "Message": "org.apache.hadoop.security.authorize.AuthorizationException): User: colossus2 is not allowed to impersonate u\n"
+    }
+}

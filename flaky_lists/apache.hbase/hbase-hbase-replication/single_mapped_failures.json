@@ -1,0 +1,30 @@
+{
+    "org.apache.hadoop.hbase.replication.TestReplicationStateZKImpl.testReplicationQueues": {
+        "Name": "org.apache.hadoop.hbase.replication.ReplicationException",
+        "Message": " Cannot get the list of peers\n"
+    },
+    "org.apache.hadoop.hbase.replication.TestReplicationStateZKImpl.testRemovePeerForHFileRefs": {
+        "Name": "org.apache.hadoop.hbase.replication.ReplicationException",
+        "Message": " Cannot get the list of peers\n"
+    },
+    "org.apache.hadoop.hbase.replication.TestReplicationStateZKImpl.testReplicationPeers": {
+        "Name": "org.apache.hadoop.hbase.replication.ReplicationException",
+        "Message": " Cannot get the list of peers\n"
+    },
+    "org.apache.hadoop.hbase.replication.TestReplicationStateZKImpl.testPersistLogPositionAndSeqIdAtomically": {
+        "Name": "org.apache.hadoop.hbase.replication.ReplicationException",
+        "Message": " Failed to get all queues (serverName=127.0.0.1,8000,10000)\n"
+    },
+    "org.apache.hadoop.hbase.replication.TestReplicationStateZKImpl.testReplicationQueueStorage": {
+        "Name": "org.apache.hadoop.hbase.replication.ReplicationException",
+        "Message": " Failed to get list of replicators\n"
+    },
+    "org.apache.hadoop.hbase.replication.TestZKReplicationPeerStorage.test": {
+        "Name": "java.lang.AssertionError",
+        "Message": " expected:<10> but was:<11>\n"
+    },
+    "org.apache.hadoop.hbase.replication.TestReplicationStateZKImpl.testHfileRefsReplicationQueues": {
+        "Name": "org.apache.hadoop.hbase.replication.ReplicationException",
+        "Message": " Cannot get the list of peers\n"
+    }
+}

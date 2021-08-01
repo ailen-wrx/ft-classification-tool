@@ -1,0 +1,12 @@
+{
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl.testTimelineReaderManagerAclsWhenEnabled": [
+        {
+            "Name": "java.lang.NoClassDefFoundError",
+            "Message": " Could not initialize class org.apache.hadoop.yarn.server.timelineservice.reader.TimelineReaderWebServices\n"
+        },
+        {
+            "Name": "java.lang.ExceptionInInitializerError",
+            "Message": ""
+        }
+    ]
+}

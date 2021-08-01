@@ -1,0 +1,6 @@
+{
+    "org.apache.hadoop.registry.secure.TestSecureLogins.testUGILogin": {
+        "Name": "org.apache.hadoop.security.KerberosAuthException",
+        "Message": " failure to login: for principal: zookeeper from keytab /home/colossus2/apache/hadoop/target/kdc/zookeeper.keytab javax.security.auth.login.LoginException: Integrity check on decrypted field failed (31) - PREAUTH_FAILED\n"
+    }
+}

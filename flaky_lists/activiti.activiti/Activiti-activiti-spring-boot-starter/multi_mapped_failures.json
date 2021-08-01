@@ -2,31 +2,329 @@
     "org.activiti.spring.boot.tasks.TaskRuntimeClaimReleaseTest.eCreateStandaloneTaskAndClaimAndReleaseUnAuthorized": [
         {
             "Name": "org.activiti.api.runtime.shared.NotFoundException",
-            "Message": " Unable to find task for the given id: 26ed1122-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+            "Message": " Unable to find task for the given id: fad024f2-cf9d-11e8-8fe8-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
         },
         {
             "Name": "org.activiti.api.runtime.shared.NotFoundException",
-            "Message": " Unable to find task for the given id: 28ba091b-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+            "Message": " Unable to find task for the given id: 07f9e4c5-cf9e-11e8-8a8b-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 12490e4a-cf9e-11e8-bc28-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 1dd6d1eb-cf9e-11e8-9bfa-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 284d0a81-cf9e-11e8-a929-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 35e0fe1b-cf9e-11e8-84b0-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 4bb02f23-cf9e-11e8-bece-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 59b13cd4-cf9e-11e8-8ace-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.engine.ActivitiIllegalArgumentException",
+            "Message": " Task id is null\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 1d2f2a8f-cf9f-11e8-bbed-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 378876d2-cf9f-11e8-bd62-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: a035307b-cf9f-11e8-b1ff-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: a14bf7b7-cf9f-11e8-b1ff-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: ae1dd415-cf9f-11e8-8656-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: af63e7b1-cf9f-11e8-8656-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: bae3c8ec-cf9f-11e8-b993-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: bc16cab8-cf9f-11e8-b993-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: ce56934d-cf9f-11e8-a0e2-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 4107d7ac-cfa0-11e8-88f6-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 42fa0ae0-cfa0-11e8-88f6-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 5d8e64da-cfa0-11e8-96c5-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 6a4b3220-cfa0-11e8-bed9-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 76edc16f-cfa0-11e8-89e9-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: e870710f-cfa0-11e8-a963-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 084a0ebb-cfa3-11e8-947d-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 15150ceb-cfa3-11e8-a194-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: bc1a01e5-cfa3-11e8-9701-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: c8cc972c-cfa3-11e8-9051-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: d70e2fa4-cfa3-11e8-ad80-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: e4ccb5e0-cfa3-11e8-a109-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
         }
     ],
     "org.activiti.spring.boot.tasks.TaskRuntimeDeleteTaskTest.dClaimTaskCreatedForGroup": [
         {
-            "Name": "org.activiti.api.runtime.shared.NotFoundException",
-            "Message": " Unable to find task for the given id: 26ed1122-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+            "Name": "org.activiti.engine.ActivitiIllegalArgumentException",
+            "Message": " Task id is null\n"
         },
         {
             "Name": "org.activiti.api.runtime.shared.NotFoundException",
-            "Message": " Unable to find task for the given id: 28ba091b-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+            "Message": " Unable to find task for the given id: a035307b-cf9f-11e8-b1ff-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: a14bf7b7-cf9f-11e8-b1ff-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: ae1dd415-cf9f-11e8-8656-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: af63e7b1-cf9f-11e8-8656-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: bae3c8ec-cf9f-11e8-b993-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: bc16cab8-cf9f-11e8-b993-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: f730cbde-cf9f-11e8-9b83-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 04fda99e-cfa0-11e8-b98c-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 1011f79a-cfa0-11e8-a110-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 1ce29b47-cfa0-11e8-82d9-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 4107d7ac-cfa0-11e8-88f6-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 42fa0ae0-cfa0-11e8-88f6-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 1e519fc2-cfa1-11e8-8eb8-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 2b2c2eb6-cfa1-11e8-aaa2-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 240b9385-cfa2-11e8-bf5c-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 6e81025f-cfa2-11e8-8b91-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 8812e0a0-cfa2-11e8-b23a-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 277ca8b7-cfa3-11e8-90d6-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 3aec1802-cfa3-11e8-9b5f-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 48f0325f-cfa3-11e8-8e2d-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 845a76a2-cfa3-11e8-9383-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: ebd84c27-cfa3-11e8-a6e2-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 06922fd6-cfa4-11e8-b172-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 140db961-cfa4-11e8-a750-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 5bebb4a4-cfa4-11e8-a1e6-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 6c767a5a-cfa4-11e8-ae29-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 86030100-cfa4-11e8-9772-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        }
+    ],
+    "org.activiti.spring.boot.tasks.TaskRuntimeDeleteTaskTest.eClaimTaskCreatedForGroup": [
+        {
+            "Name": "java.lang.Exception",
+            "Message": " Unexpected exception, expected<org.activiti.api.runtime.shared.NotFoundException> but was<org.activiti.engine.ActivitiIllegalArgumentException>\n"
+        },
+        {
+            "Name": "java.lang.Exception",
+            "Message": " Unexpected exception, expected<org.activiti.api.runtime.shared.NotFoundException> but was<java.lang.IllegalStateException>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " Expected exception: org.activiti.api.runtime.shared.NotFoundException\n"
         }
     ],
     "org.activiti.spring.boot.tasks.TaskRuntimeClaimReleaseTest.bClaimAndRelease": [
         {
-            "Name": "org.activiti.api.runtime.shared.NotFoundException",
-            "Message": " Unable to find task for the given id: 26ed1122-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+            "Name": "org.activiti.engine.ActivitiIllegalArgumentException",
+            "Message": " Task id is null\n"
+        },
+        {
+            "Name": "java.lang.IllegalStateException",
+            "Message": " The task was already claimed, the assignee of this task needs to release it first for you to claim it\n"
         },
         {
             "Name": "org.activiti.api.runtime.shared.NotFoundException",
-            "Message": " Unable to find task for the given id: 28ba091b-cde7-11e8-b7b1-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+            "Message": " Unable to find task for the given id: ec8b1449-cf9e-11e8-a684-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: fb2861df-cf9e-11e8-91aa-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 15f1607c-cf9f-11e8-a1ad-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: a035307b-cf9f-11e8-b1ff-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: a14bf7b7-cf9f-11e8-b1ff-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: ae1dd415-cf9f-11e8-8656-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: af63e7b1-cf9f-11e8-8656-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: bae3c8ec-cf9f-11e8-b993-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: bc16cab8-cf9f-11e8-b993-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 5d8e64da-cfa0-11e8-96c5-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: c5c3605d-cfa1-11e8-b6b5-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: d48377a5-cfa1-11e8-a86b-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: e0c1ed95-cfa1-11e8-84f7-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 084a0ebb-cfa3-11e8-947d-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 15150ceb-cfa3-11e8-a194-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 21940e41-cfa3-11e8-a6cf-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
+        },
+        {
+            "Name": "org.activiti.api.runtime.shared.NotFoundException",
+            "Message": " Unable to find task for the given id: 64d96def-cfa3-11e8-a2c2-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
         }
     ]
 }

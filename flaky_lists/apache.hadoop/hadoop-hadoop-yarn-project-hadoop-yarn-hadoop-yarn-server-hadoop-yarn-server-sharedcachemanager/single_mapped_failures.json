@@ -1,0 +1,50 @@
+{
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityDefaultView": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testQueryWithoutCluster": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetContainer": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testAbout": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesNoMatch": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl.testTimelineReaderManagerAclsWhenDisabled": {
+        "Name": "java.lang.ExceptionInInitializerError",
+        "Message": ""
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetAppAttempts": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntities": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl.testTimelineReaderManagerAclsWhenEnabled": {
+        "Name": "java.lang.NoClassDefFoundError",
+        "Message": " Could not initialize class org.apache.hadoop.yarn.server.timelineservice.reader.TimelineReaderWebServices\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testOverlappingWrites": {
+        "Name": "java.lang.NullPointerException",
+        "Message": ""
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testWriteStableHow": {
+        "Name": "java.lang.NullPointerException",
+        "Message": ""
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testOOOWrites": {
+        "Name": "c8d5f28a987d_15394java.lang.NullPointerException",
+        "Message": ""
+    }
+}

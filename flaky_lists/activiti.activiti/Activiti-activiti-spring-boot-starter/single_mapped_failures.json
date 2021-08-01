@@ -1,98 +1,66 @@
 {
-    "org.activiti.spring.boot.tasks.TaskRuntimeTaskAssigneeTest.cCreateStandaloneTaskForGroupAndClaim": [
-        {
-            "Name": "java.lang.AssertionError",
-            "Message": " \nExpected size:<1> but was:<2> in:\n<[TaskImpl{id='8d9403cc-cde6-11e8-aaa7-0242ac110002', owner='garth', assignee='salaboy', name='task for salaboy', description='null', createdDate=Fri Oct 12 06:17:53 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED},\n    TaskImpl{id='8d95ff9e-cde6-11e8-aaa7-0242ac110002', owner='garth', assignee='null', name='group task', description='null', createdDate=Fri Oct 12 06:17:53 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED}]>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeDeleteTaskTest.eClaimTaskCreatedForGroup": [
-        {
-            "Name": "java.lang.AssertionError",
-            "Message": " Expected exception: org.activiti.api.runtime.shared.NotFoundException\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeClaimReleaseTest.aCreateStandaloneTaskForGroup": [
-        {
-            "Name": "java.lang.AssertionError",
-            "Message": " \nExpected size:<1> but was:<3> in:\n<[TaskImpl{id='7f44933d-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='null', name='group task', description='null', createdDate=Fri Oct 12 06:24:39 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED},\n    TaskImpl{id='7f468f10-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='null', name='group task', description='null', createdDate=Fri Oct 12 06:24:39 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED},\n    TaskImpl{id='7f497543-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='null', name='group task', description='null', createdDate=Fri Oct 12 06:24:39 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED}]>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeDeleteTaskTest.dClaimTaskCreatedForGroup": [
-        {
-            "Name": "org.activiti.engine.ActivitiIllegalArgumentException",
-            "Message": " Task id is null\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeCompleteTaskTest.aCreateStandaloneTaskAndComplete": [
-        {
-            "Name": "java.lang.AssertionError",
-            "Message": " \nExpected size:<1> but was:<2> in:\n<[TaskImpl{id='288cb777-cde7-11e8-b7b1-0242ac110002', owner='garth', assignee='garth', name='simple task', description='null', createdDate=Fri Oct 12 06:22:13 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED},\n    TaskImpl{id='288eda59-cde7-11e8-b7b1-0242ac110002', owner='garth', assignee='garth', name='simple task', description='null', createdDate=Fri Oct 12 06:22:13 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED}]>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeTaskAssigneeTest.aCreateStandaloneTaskForAnotherAssignee": [
-        {
-            "Name": "java.lang.AssertionError",
-            "Message": " \nExpected size:<1> but was:<2> in:\n<[TaskImpl{id='7f287fb8-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='garth', name='group task', description='null', createdDate=Fri Oct 12 06:24:38 UTC 2018, claimedDate=Fri Oct 12 06:24:38 UTC 2018, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED},\n    TaskImpl{id='7f348dab-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='salaboy', name='task for salaboy', description='null', createdDate=Fri Oct 12 06:24:39 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED}]>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeTaskAssigneeTest.bCreateCheckTaskCreatedForSalaboyFromAnotherUser": [
-        {
-            "Name": "java.lang.AssertionError",
-            "Message": " \nExpected size:<1> but was:<0> in:\n<[]>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeClaimReleaseTest.eCreateStandaloneTaskAndClaimAndReleaseUnAuthorized": [
-        {
-            "Name": "org.activiti.engine.ActivitiIllegalArgumentException",
-            "Message": " Task id is null\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeClaimReleaseTest.fCreateStandaloneTaskAndClaimAndReleaseUnAuthorized": [
-        {
-            "Name": "java.lang.Exception",
-            "Message": " Unexpected exception, expected<org.activiti.api.runtime.shared.NotFoundException> but was<org.activiti.engine.ActivitiIllegalArgumentException>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeDeleteTaskTest.aCreateStandaloneTaskAndDelete": [
-        {
-            "Name": "java.lang.AssertionError",
-            "Message": " \nExpected size:<1> but was:<2> in:\n<[TaskImpl{id='7f71218d-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='garth', name='simple task', description='null', createdDate=Fri Oct 12 06:24:39 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED},\n    TaskImpl{id='80c89b4f-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='garth', name='simple task', description='null', createdDate=Fri Oct 12 06:24:41 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED}]>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeClaimReleaseTest.bClaimAndRelease": [
-        {
-            "Name": "org.activiti.engine.ActivitiIllegalArgumentException",
-            "Message": " Task id is null\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeUnAuthorizedTest.bClaimNotFoundBecauseYouAreNotACandidate": [
-        {
-            "Name": "java.lang.Exception",
-            "Message": " Unexpected exception, expected<org.activiti.api.runtime.shared.NotFoundException> but was<org.activiti.engine.ActivitiIllegalArgumentException>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeCompleteTaskTest.ctryCompletingWithUnauthorizedUser": [
-        {
-            "Name": "java.lang.Exception",
-            "Message": " Unexpected exception, expected<org.activiti.api.runtime.shared.NotFoundException> but was<org.activiti.engine.ActivitiIllegalArgumentException>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeCompleteTaskTest.bCreateStandaloneTask": [
-        {
-            "Name": "java.lang.AssertionError",
-            "Message": " \nExpected size:<1> but was:<3> in:\n<[TaskImpl{id='219e1e71-cde7-11e8-96e8-0242ac110002', owner='garth', assignee='salaboy', name='simple task', description='null', createdDate=Fri Oct 12 06:22:01 UTC 2018, claimedDate=Fri Oct 12 06:22:02 UTC 2018, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED},\n    TaskImpl{id='21aa7a84-cde7-11e8-96e8-0242ac110002', owner='garth', assignee='garth', name='simple task', description='null', createdDate=Fri Oct 12 06:22:02 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED},\n    TaskImpl{id='21aec046-cde7-11e8-96e8-0242ac110002', owner='garth', assignee='garth', name='simple task', description='null', createdDate=Fri Oct 12 06:22:02 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED}]>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeTaskForOtherTest.aCreateStandaloneTaskWithNoCandidates": [
-        {
-            "Name": "java.lang.AssertionError",
-            "Message": " \nExpected size:<1> but was:<2> in:\n<[TaskImpl{id='490a47e7-cde7-11e8-9de9-0242ac110002', owner='garth', assignee='null', name='group task', description='null', createdDate=Fri Oct 12 06:23:08 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED},\n    TaskImpl{id='49321b4a-cde7-11e8-9de9-0242ac110002', owner='garth', assignee='null', name='task with no candidates besides owner', description='null', createdDate=Fri Oct 12 06:23:08 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED}]>\n"
-        }
-    ],
-    "org.activiti.spring.boot.tasks.TaskRuntimeStandaloneTaskTest.bCreateStandaloneTaskForGroup": [
-        {
-            "Name": "java.lang.AssertionError",
-            "Message": " \nExpected size:<1> but was:<4> in:\n<[TaskImpl{id='7f44933d-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='salaboy', name='group task', description='null', createdDate=Fri Oct 12 06:24:39 UTC 2018, claimedDate=Fri Oct 12 06:24:39 UTC 2018, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED},\n    TaskImpl{id='7f468f10-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='null', name='group task', description='null', createdDate=Fri Oct 12 06:24:39 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED},\n    TaskImpl{id='7f497543-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='null', name='group task', description='null', createdDate=Fri Oct 12 06:24:39 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED},\n    TaskImpl{id='7f555c26-cde7-11e8-aa57-0242ac110002', owner='garth', assignee='null', name='find Lucien Sanchez', description='null', createdDate=Fri Oct 12 06:24:39 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED}]>\n"
-        }
-    ]
+    "org.activiti.spring.boot.tasks.TaskRuntimeTaskAssigneeTest.cCreateStandaloneTaskForGroupAndClaim": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeCompleteTaskTest.aCreateStandaloneTaskAndComplete": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeUnAuthorizedTest.bClaimNotFoundBecauseYouAreNotACandidate": {
+        "Name": "java.lang.Exception",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeClaimReleaseTest.fCreateStandaloneTaskAndClaimAndReleaseUnAuthorized": {
+        "Name": "java.lang.Exception",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeCompleteTaskTest.ctryCompletingWithUnauthorizedUser": {
+        "Name": "java.lang.Exception",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeTaskAssigneeTest.bCreateCheckTaskCreatedForSalaboyFromAnotherUser": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeDeleteTaskTest.aCreateStandaloneTaskAndDelete": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeClaimReleaseTest.aCreateStandaloneTaskForGroup": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeTaskAssigneeTest.aCreateStandaloneTaskForAnotherAssignee": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeDeleteTaskTest.cCreateStandaloneGroupTaskClaimAndDeleteFail": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeStandaloneTaskTest.bCreateStandaloneTaskForGroup": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeTaskForOtherTest.aCreateStandaloneTaskWithNoCandidates": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeCompleteTaskTest.bCreateStandaloneTask": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeTaskForOtherTest.bCheckThatTaskIsNotVisibleForNonCandidateUsers": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeUnAuthorizedTest.aCreateStandaloneTaskForGroup": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.activiti.spring.boot.tasks.TaskRuntimeStandaloneTaskTest.aCreateStandaloneTaskForSalaboy": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    }
 }

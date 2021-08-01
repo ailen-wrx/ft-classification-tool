@@ -1,0 +1,6 @@
+{
+    "org.apache.hadoop.security.authentication.util.TestKerberosName.testRules": {
+        "Name": "KeeperException",
+        "Message": "* Multiple error messages. *"
+    }
+}

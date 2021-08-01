@@ -1,0 +1,18 @@
+{
+    "org.apache.dubbo.registry.dubbo.RegistryProtocolTest.testNotifyOverride": {
+        "Name": "java.util.NoSuchElementException",
+        "Message": ""
+    },
+    "org.apache.dubbo.cache.support.jcache.JCacheFactoryTest.testJCacheGetExpired": {
+        "Name": "java.lang.AssertionError",
+        "Message": " expected null, but was:<testValue>\n"
+    },
+    "org.apache.dubbo.registry.dubbo.RegistryProtocolTest.testNotifyOverride_notmatch": {
+        "Name": "java.util.NoSuchElementException",
+        "Message": ""
+    },
+    "org.apache.dubbo.registry.dubbo.RegistryProtocolTest.testDestoryRegistry": {
+        "Name": "java.lang.AssertionError",
+        "Message": " expected:<false> but was:<true>\n"
+    }
+}

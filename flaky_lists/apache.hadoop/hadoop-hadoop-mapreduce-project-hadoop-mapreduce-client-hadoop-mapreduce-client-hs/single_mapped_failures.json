@@ -1,0 +1,206 @@
+{
+    "org.apache.hadoop.mapred.TestJobEndNotifier.testNotificationTimeout": {
+        "Name": "java.lang.AssertionError",
+        "Message": ""
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByMetricFilters": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByInfoFilters": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesWithLimit": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testAbout": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityAllFields": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetContainers": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityDefaultView": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityWithUserAndFlowInfo": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesBasedOnCreatedTime": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testInvalidValuesHandling": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByConfigFilters": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntities": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityNotPresent": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntityCustomFields": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testQueryWithoutCluster": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetContainer": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesNoMatch": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServicesBasicAcl.testTimelineReaderManagerAclsWhenDisabled": {
+        "Name": "java.lang.NoClassDefFoundError",
+        "Message": " Could not initialize class org.apache.hadoop.yarn.server.timelineservice.reader.TimelineReaderWebServices\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetAppAttempts": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByRelations": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetAppAttempt": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.reader.TestTimelineReaderWebServices.testGetEntitiesByEventFilters": {
+        "Name": "java.io.IOException",
+        "Message": " Incorrect response from timeline reader. Status=500\n"
+    },
+    "org.apache.hadoop.mapreduce.lib.input.TestLineRecordReader.testUncompressedInputContainingCRLF": {
+        "Name": "java.lang.ClassCastException",
+        "Message": " org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter$RLFS cannot be cast to org.apache.hadoop.fs.LocalFileSystem\n"
+    },
+    "org.apache.hadoop.mapreduce.lib.input.TestLineRecordReader.testUncompressedInput": {
+        "Name": "java.lang.ClassCastException",
+        "Message": " org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter$RLFS cannot be cast to org.apache.hadoop.fs.LocalFileSystem\n"
+    },
+    "org.apache.hadoop.mapreduce.lib.input.TestLineRecordReader.testUncompressedInputDefaultDelimiterPosValue": {
+        "Name": "java.lang.ClassCastException",
+        "Message": " org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter$RLFS cannot be cast to org.apache.hadoop.fs.LocalFileSystem\n"
+    },
+    "org.apache.hadoop.mapreduce.lib.input.TestLineRecordReader.testUncompressedInputCustomDelimiterPosValue": {
+        "Name": "java.lang.ClassCastException",
+        "Message": " org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter$RLFS cannot be cast to org.apache.hadoop.fs.LocalFileSystem\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testOverlappingWrites": {
+        "Name": "java.io.IOException",
+        "Message": " renameTo(src=/home/colossus2/apache/hadoop/target/test/data/dfs/name-0-1/current/seen_txid.tmp, dst=/home/colossus2/apache/hadoop/target/test/data/dfs/name-0-1/current/seen_txid) failed.\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testReaddir": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testWriteStableHow": {
+        "Name": "org.apache.hadoop.hdfs.server.common.InconsistentFSStateException",
+        "Message": " Directory /home/colossus2/apache/hadoop/target/test/data/dfs/name-0-2 is in an inconsistent state: namespaceID is incompatible with others.\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testRename": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestWrites.testOOOWrites": {
+        "Name": "java.lang.NullPointerException",
+        "Message": ""
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testFsinfo": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsAccessNN1": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testSetattr": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsAccessNN2": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testPathconf": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsWriteNN1": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect response: expected:<null> but was:<org.apache.hadoop.nfs.nfs3.response.WRITE3Response@22c7884b>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testCreate": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsWriteNN2": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect response: expected:<null> but was:<org.apache.hadoop.nfs.nfs3.response.WRITE3Response@561357bc>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testRead": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<0> but was:<13>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testReadlink": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<0> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testCommit": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testRemove": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testAccess": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code expected:<0> but was:<13>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testNfsRenameSingleNN": {
+        "Name": "java.lang.AssertionError",
+        "Message": " expected:<0> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testLookup": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code expected:<13> but was:<5>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testGetattr": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code expected:<0> but was:<13>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testFsstat": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<0> but was:<13>\n"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestViewfsWithNfs3.testWrongNfsAccess": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.hadoop.hdfs.nfs.nfs3.TestRpcProgramNfs3.testWrite": {
+        "Name": "java.lang.AssertionError",
+        "Message": " Incorrect return code: expected:<13> but was:<5>\n"
+    }
+}

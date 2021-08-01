@@ -1,0 +1,26 @@
+{
+    "org.apache.dubbo.rpc.protocol.dubbo.DubboLazyConnectTest.testSticky1": {
+        "Name": "org.apacjava.lang.AssertionError",
+        "Message": " Expected exception: org.apache.dubbo.rpc.RpcException\n"
+    },
+    "org.apache.dubbo.rpc.protocol.dubbo.MultiThreadTest.testDubboMultiThreadInvoke": {
+        "Name": "org.apache.dubbo.rpc.RpcException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testReturnNonSerialized": {
+        "Name": "org.apache.dubbo.rpc.RpcException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testNonSerializedParameter": {
+        "Name": "org.apache.dubbo.rpc.RpcException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDemoProtocol": {
+        "Name": "org.apache.dubbo.rpc.RpcException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testPerm": {
+        "Name": "org.apache.dubbo.rpc.RpcException",
+        "Message": "* Multiple error messages. *"
+    }
+}

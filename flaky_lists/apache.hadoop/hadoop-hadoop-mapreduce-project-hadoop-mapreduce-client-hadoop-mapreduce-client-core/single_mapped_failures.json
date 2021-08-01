@@ -1,0 +1,18 @@
+{
+    "org.apache.hadoop.mapreduce.lib.input.TestLineRecordReader.testUncompressedInputContainingCRLF": {
+        "Name": "java.lang.ClassCastException",
+        "Message": " org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter$RLFS cannot be cast to org.apache.hadoop.fs.LocalFileSystem\n"
+    },
+    "org.apache.hadoop.mapreduce.lib.input.TestLineRecordReader.testUncompressedInput": {
+        "Name": "java.lang.ClassCastException",
+        "Message": " org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter$RLFS cannot be cast to org.apache.hadoop.fs.LocalFileSystem\n"
+    },
+    "org.apache.hadoop.mapreduce.lib.input.TestLineRecordReader.testUncompressedInputDefaultDelimiterPosValue": {
+        "Name": "java.lang.ClassCastException",
+        "Message": " org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter$RLFS cannot be cast to org.apache.hadoop.fs.LocalFileSystem\n"
+    },
+    "org.apache.hadoop.mapreduce.lib.input.TestLineRecordReader.testUncompressedInputCustomDelimiterPosValue": {
+        "Name": "java.lang.ClassCastException",
+        "Message": " org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter$RLFS cannot be cast to org.apache.hadoop.fs.LocalFileSystem\n"
+    }
+}

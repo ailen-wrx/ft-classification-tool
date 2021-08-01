@@ -4,6 +4,7 @@ class moduleTest(object):
         self.directory = ''
         self.repository = ''
         self.testSet = []
+        self.nFlakies = 0
         self.single_mapped_failures = {}
         self.multi_mapped_failures = {}
         self.none_mapped_failures = {}

@@ -1,0 +1,10 @@
+{
+    "org.apache.jackrabbit.oak.plugins.index.property.OrderedPropertyIndexProviderTest.singleQueryRun": {
+        "Name": "java.lang.AssertionError",
+        "Message": " expected:<1> but was:<0>\n"
+    },
+    "org.apache.jackrabbit.oak.plugins.index.property.OrderedPropertyIndexProviderTest.multipleQueryRuns": {
+        "Name": "java.lang.AssertionError",
+        "Message": " \nExpected: is <[Ordered Index has been deprecated since Oak 1.1.8. Please replace the index definition ({}) with Lucene Property index and remove the index providers from the repository. See docs at http://jackrabbit.apache.org/oak/docs, Ordered Index has been deprecated since Oak 1.1.8. Please replace the index definition ({}) with Lucene Property index and remove the index providers from the repository. See docs at http://jackrabbit.apache.org/oak/docs, Ordered Index has been deprecated since Oak 1.1.8. Please replace the index definition ({}) with Lucene Property index and remove the index providers from the repository. See docs at http://jackrabbit.apache.org/oak/docs]>\n     but: was <[Ordered Index has been deprecated since Oak 1.1.8. Please replace the index definition ({}) with Lucene Property index and remove the index providers from the repository. See docs at http://jackrabbit.apache.org/oak/docs, Ordered Index has been deprecated since Oak 1.1.8. Please replace the index definition ({}) with Lucene Property index and remove the index providers from the repository. See docs at http://jackrabbit.apache.org/oak/docs, Ordered Index has been deprecated since Oak 1.1.8. Please replace the index definition ({}) with Lucene Property index and remove the index providers from the repository. See docs at http://jackrabbit.apache.org/oak/docs, Ordered Index has been deprecated since Oak 1.1.8. Please replace the index definition ({}) with Lucene Property index and remove the index providers from the repository. See docs at http://jackrabbit.apache.org/oak/docs]>\n"
+    }
+}

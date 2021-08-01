@@ -1,0 +1,30 @@
+{
+    "org.apache.dubbo.config.AbstractInterfaceConfigTest.testLoadRegistries": {
+        "Name": "java.lang.IllegalStateException",
+        "Message": " the temporary folder has not yet been created\n"
+    },
+    "org.apache.dubbo.config.AbstractInterfaceConfigTest.testListener": {
+        "Name": "java.lang.IllegalStateException",
+        "Message": " the temporary folder has not yet been created\n"
+    },
+    "org.apache.dubbo.config.ReferenceConfigTest.testInjvm": {
+        "Name": "java.lang.IllegalStateException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.dubbo.config.validation.ValidationTest.testGenericValidation": {
+        "Name": "java.lang.IllegalStateException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.dubbo.config.validation.ValidationTest.testProviderValidation": {
+        "Name": "java.lang.IllegalStateException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.dubbo.config.cache.CacheTest.testCache": {
+        "Name": "java.lang.IllegalStateException",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.dubbo.config.validation.ValidationTest.testValidation": {
+        "Name": "java.lang.IllegalStateException",
+        "Message": "* Multiple error messages. *"
+    }
+}

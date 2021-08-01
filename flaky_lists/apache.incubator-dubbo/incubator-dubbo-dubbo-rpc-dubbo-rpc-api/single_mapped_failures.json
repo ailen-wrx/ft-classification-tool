@@ -1,0 +1,10 @@
+{
+    "org.apache.dubbo.rpc.proxy.jdk.JdkProxyFactoryTest.testGetInvoker": {
+        "Name": "java.lang.AssertionError",
+        "Message": "* Multiple error messages. *"
+    },
+    "org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactoryTest.testGetInvoker": {
+        "Name": "java.lang.AssertionError",
+        "Message": " expected:<java.lang.Object@453da22c> but was:<aa>\n"
+    }
+}
