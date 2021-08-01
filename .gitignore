@@ -1,7 +1,7 @@
 .idea/
 __pycache__/
 venv/
-#flaky_lists/
-#!flaky_lists/stat.csv
-#!flaky_lists/all_single_mapped_failures.csv
+flaky_lists/
+!flaky_lists/stat.csv
+!flaky_lists/all_single_mapped_failures.csv
 
