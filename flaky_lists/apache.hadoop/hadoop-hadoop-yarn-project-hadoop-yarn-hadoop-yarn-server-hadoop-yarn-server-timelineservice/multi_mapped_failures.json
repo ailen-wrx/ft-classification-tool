@@ -1,4 +1,14 @@
 {
+    "org.apache.hadoop.registry.secure.TestSecureLogins.testKerberosRulesValid": [
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<RULE:[1:$1[@$0](.*@EXAMPLE.COM)s/@.*//\nDEFAULT]> but was:<RULE:[1:$1[]\nRULE:[2:$1]]>\n"
+        },
+        {
+            "Name": "java.lang.IllegalArgumentException",
+            "Message": " Can't get Kerberos realm\n"
+        }
+    ],
     "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs.testWithNoAcls": [
         {
             "Name": "java.lang.InterruptedException",

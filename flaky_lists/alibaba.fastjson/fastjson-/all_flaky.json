@@ -182,7 +182,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.0028061,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -346,7 +355,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.0010088,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -512,7 +530,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONSerializerTest2.test_0",
             "Time": 0.0024895,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "java.lang.RuntimeException",
+                    "Message": ",\"localizedMessage\":\"e1\",\"message\":\"e1\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.bug.Bug_for_Exception\",\"fileName\":\"Bug_for_Exception.java\",\"lineNumber\":9,\"methodName\":\"test_exception\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBefores\",\"fileName\":\"RunBefores.java\",\"lineNumber\":26,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunAfters\",\"fileName\":\"RunAfters.java\",\"lineNumber\":27,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":332,\"methodName\":\"runChild\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":108,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runner.JUnitCore\",\"fileName\":\"JUnitCore.java\",\"lineNumber\":137,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":291,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":327,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":365,\"methodName\":\"executeWithJUnit4Runner\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":46,\"methodName\":\"runOrder\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":30,\"methodName\":\"$anonfun$run$1\",\"nativeMethod\":false},{\"className\":\"scala.runtime.java8.JFunction0$mcV$sp\",\"fileName\":\"JFunction0$mcV$sp.java\",\"lineNumber\":12,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"scala.util.Try$\",\"fileName\":\"Try.scala\",\"lineNumber\":209,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":28,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scaljava.lang.AssertionError\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -682,7 +705,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001858899,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "TestException",
+                    "Message": ",\"localizedMessage\":\"Data : aaa\",\"message\":\"Data : aaa\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1300.Issue1344\",\"fileName\":\"Issue1344.java\",\"lineNumber\":12,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBeforOct 14, 2018 10:44:03 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -850,6 +882,10 @@
                 {
                     "Name": "TestException",
                     "Message": ",\"localizedMessage\":\"Data : aaa\",\"message\":\"Data : aaa\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1300.Issue1344\",\"fileName\":\"Issue1344.java\",\"lineNumber\":12,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBeforOct 14, 2018 10:44:03 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
                 }
             ],
             "stackTrace": [
@@ -1017,7 +1053,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONSerializerTest2.test_0",
             "Time": 0.003118798,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "java.lang.RuntimeException",
+                    "Message": ",\"localizedMessage\":\"e1\",\"message\":\"e1\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.bug.Bug_for_Exception\",\"fileName\":\"Bug_for_Exception.java\",\"lineNumber\":9,\"methodName\":\"test_exception\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBefores\",\"fileName\":\"RunBefores.java\",\"lineNumber\":26,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunAfters\",\"fileName\":\"RunAfters.java\",\"lineNumber\":27,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":332,\"methodName\":\"runChild\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":108,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runner.JUnitCore\",\"fileName\":\"JUnitCore.java\",\"lineNumber\":137,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":291,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":327,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":365,\"methodName\":\"executeWithJUnit4Runner\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":46,\"methodName\":\"runOrder\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":30,\"methodName\":\"$anonfun$run$1\",\"nativeMethod\":false},{\"className\":\"scala.runtime.java8.JFunction0$mcV$sp\",\"fileName\":\"JFunction0$mcV$sp.java\",\"lineNumber\":12,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"scala.util.Try$\",\"fileName\":\"Try.scala\",\"lineNumber\":209,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":28,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scalajava.lang.AssertionError\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1187,7 +1228,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.009295094,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "TestException",
+                    "Message": ",\"localizedMessage\":\"Data : aaa\",\"message\":\"Data : aaa\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1300.Issue1344\",\"fileName\":\"Issue1344.java\",\"lineNumber\":12,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBeforeOct 14, 2018 10:47:55 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1355,6 +1405,10 @@
                 {
                     "Name": "TestException",
                     "Message": ",\"localizedMessage\":\"Data : aaa\",\"message\":\"Data : aaa\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1300.Issue1344\",\"fileName\":\"Issue1344.java\",\"lineNumber\":12,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBeforeOct 14, 2018 10:47:55 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
                 }
             ],
             "stackTrace": [
@@ -1885,7 +1939,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001983498,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -2049,7 +2112,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002914898,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -2410,7 +2482,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004160096,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -2574,7 +2655,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002297098,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -2915,7 +3005,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003127897,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -3081,7 +3176,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001980598,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -3245,7 +3349,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004777795,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -3411,7 +3524,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003897796,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -3575,7 +3697,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002698197,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -4086,7 +4217,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003821498,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -4427,7 +4563,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003867895,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -4593,7 +4734,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003408096,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -4759,7 +4905,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.00307672,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -5100,7 +5251,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001286107,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -5264,7 +5424,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004155223,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -5605,7 +5774,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001718606,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -5769,7 +5947,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004690115,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -6116,7 +6303,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003778309,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -6640,7 +6832,16 @@
             "Name": "com.alibaba.json.bvt.date.DateTest.test_date",
             "Time": 0.007645411,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "applicorg.junit.ComparisonFailure",
+                    "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -6804,7 +7005,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001816002,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "applicorg.junit.ComparisonFailure",
+                    "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -7145,7 +7355,16 @@
             "Name": "com.alibaba.json.bvt.date.DateTest.test_date",
             "Time": 0.003548603,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "applicorg.junit.ComparisonFailure",
+                    "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -7309,7 +7528,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001522202,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "applicorg.junit.ComparisonFailure",
+                    "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -7475,7 +7703,12 @@
             "Name": "com.alibaba.json.bvt.date.DateTest.test_date",
             "Time": 0.004053302,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "MockHttpServletRequestorg.junit.ComparisonFailure",
+                    "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -7816,7 +8049,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002336602,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -7980,7 +8222,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.0018397,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -8321,7 +8572,12 @@
             "Name": "com.alibaba.json.bvt.issue_1900.Issue1977.test_for_issue",
             "Time": 0.003536901,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "battleCommandLjunit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -8493,7 +8749,12 @@
             "Name": "com.alibaba.json.bvt.issue_1900.Issue1977.test_for_issue",
             "Time": 0.0034098,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -8840,7 +9101,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.0037564,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -9004,7 +9274,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.0025933,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -9170,7 +9449,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.0050565,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -9511,7 +9795,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.0032192,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -9847,7 +10136,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004031196,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "com.alibaba.json.bvt.support.spring.mock.entity.FastJsorg.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -10183,7 +10477,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003223097,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "com.alibaba.json.bvt.suorg.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -10349,7 +10648,12 @@
             "Name": "com.alibaba.json.bvt.issue_1700.Issue1769.test_for_issue",
             "Time": 0.020615986,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -10873,7 +11177,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.005206197,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -11037,7 +11350,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001001199,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -11548,7 +11870,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001389599,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -11712,7 +12043,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003234598,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -11878,7 +12218,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003254698,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -12219,7 +12564,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003080598,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -12383,7 +12737,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003050198,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -12549,7 +12912,12 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue_1",
             "Time": 0.003168199,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "ajunit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -12719,7 +13087,12 @@
             "Name": "com.alibaba.json.bvt.issue_1700.Issue1769.test_for_issue",
             "Time": 0.007643297,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "ajunit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -12889,7 +13262,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003685899,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -13053,7 +13435,12 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue",
             "Time": 0.035955584,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "ajunit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -13223,7 +13610,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.0009919,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -13389,7 +13785,12 @@
             "Name": "com.alibaba.json.bvt.issue_1700.Issue1769.test_for_issue",
             "Time": 0.008508896,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -13561,7 +13962,12 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue_1",
             "Time": 0.0010346,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -13731,7 +14137,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003354699,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -13895,7 +14306,12 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue",
             "Time": 0.035175886,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -14065,7 +14481,12 @@
             "Name": "com.alibaba.json.bvt.issue_1700.Issue1769.test_for_issue",
             "Time": 0.005245298,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -14412,7 +14833,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002632499,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -14946,7 +15372,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001301299,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -15110,7 +15545,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003027599,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -15641,7 +16085,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003604998,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -15807,7 +16256,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002795888,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -15973,7 +16427,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.006416181,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -16313,7 +16776,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001526696,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -16654,7 +17126,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002113394,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -17165,7 +17642,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.000838299,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -17329,7 +17815,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003358898,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -17670,7 +18165,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003320894,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -18023,7 +18523,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002844895,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -18553,7 +19058,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001285398,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -18717,7 +19231,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003556095,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -19058,7 +19581,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.000855699,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -19222,7 +19754,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003370496,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -19563,7 +20104,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004095395,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -19904,7 +20450,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003180196,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -20068,7 +20623,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002245297,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -20756,7 +21320,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002359192,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -21092,7 +21661,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002690893,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -21256,7 +21834,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004260089,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -21610,7 +22197,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002589694,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -22128,7 +22720,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002473996,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -22469,7 +23066,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003102895,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -22810,7 +23412,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003902994,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -22976,7 +23583,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.006006391,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -23142,7 +23754,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003046595,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -23308,7 +23925,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003163196,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -23474,7 +24096,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.0020394,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -23638,7 +24269,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002930401,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -23979,7 +24619,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.0013153,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -24143,7 +24792,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003481499,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -24486,7 +25144,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002838797,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -24822,7 +25485,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002569498,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -24986,7 +25658,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003863097,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -25152,7 +25833,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003849396,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -25318,7 +26004,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004175795,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -25482,7 +26177,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001936798,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -25648,7 +26352,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.00839439,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -25812,7 +26525,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001659098,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -26148,7 +26870,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002511497,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -26482,7 +27213,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001439398,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -26648,7 +27388,16 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue_1",
             "Time": 0.001815798,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-06-29T[10:36:30+08:00]\"> but was:<\"2017-06-29T[02:36:30Z]\">\n"
+                },
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-08-15T20:00:00[+08:00]\"> but was:<\"2017-08-15T20:00:00[Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -26818,7 +27567,16 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue",
             "Time": 0.042629549,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-06-29T[10:36:30+08:00]\"> but was:<\"2017-06-29T[02:36:30Z]\">\n"
+                },
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-08-15T20:00:00[+08:00]\"> but was:<\"2017-08-15T20:00:00[Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -27160,7 +27918,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002207997,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -27496,7 +28259,12 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue",
             "Time": 0.044640746,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-06-29T[10:36:30+08:00]\"> but was:<\"2017-06-29T[02:36:30Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -27668,7 +28436,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004749494,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -27834,7 +28607,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.000915394,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -27998,7 +28780,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004243473,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -28164,7 +28955,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.00407408,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -28330,7 +29126,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003644685,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -28494,7 +29299,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002104991,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -28660,7 +29474,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001974793,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -28824,7 +29647,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.00297879,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -28990,7 +29822,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.00706278,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -29156,7 +29993,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.01138307,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -29320,7 +30166,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002144695,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -29486,7 +30341,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004291089,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -29650,7 +30514,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002459594,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -29816,7 +30689,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003856792,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -29980,7 +30862,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.000963898,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -30146,7 +31037,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001573601,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "java.lang.RuntimeException",
+                    "Message": ",\"localizedMessage\":\"e1\",\"message\":\"e1\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.bug.Bug_for_Exception\",\"fileName\":\"Bug_for_Exception.java\",\"lineNumber\":9,\"methodName\":\"test_exception\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBefores\",\"fileName\":\"RunBefores.java\",\"lineNumber\":26,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunAfters\",\"fileName\":\"RunAfters.java\",\"lineNumber\":27,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":332,\"methodName\":\"runChild\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":108,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runner.JUnitCore\",\"fileName\":\"JUnitCore.java\",\"lineNumber\":137,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":291,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":327,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":365,\"methodName\":\"executeWithJUnit4Runner\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":46,\"methodName\":\"runOrder\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":30,\"methodName\":\"$anonfun$run$1\",\"nativeMethod\":false},{\"className\":\"scala.runtime.java8.JFunction0$mcV$sp\",\"fileName\":\"JFunction0$mcV$sp.java\",\"lineNumber\":12,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"scala.util.Try$\",\"fileName\":\"Try.scala\",\"lineNumber\":209,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":28,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.sOct 14, 2018 2:40:34 PM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -30314,6 +31214,10 @@
                 {
                     "Name": "java.lang.RuntimeException",
                     "Message": ",\"localizedMessage\":\"e1\",\"message\":\"e1\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.bug.Bug_for_Exception\",\"fileName\":\"Bug_for_Exception.java\",\"lineNumber\":9,\"methodName\":\"test_exception\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBefores\",\"fileName\":\"RunBefores.java\",\"lineNumber\":26,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunAfters\",\"fileName\":\"RunAfters.java\",\"lineNumber\":27,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":332,\"methodName\":\"runChild\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":108,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runner.JUnitCore\",\"fileName\":\"JUnitCore.java\",\"lineNumber\":137,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":291,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":327,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":365,\"methodName\":\"executeWithJUnit4Runner\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":46,\"methodName\":\"runOrder\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":30,\"methodName\":\"$anonfun$run$1\",\"nativeMethod\":false},{\"className\":\"scala.runtime.java8.JFunction0$mcV$sp\",\"fileName\":\"JFunction0$mcV$sp.java\",\"lineNumber\":12,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"scala.util.Try$\",\"fileName\":\"Try.scala\",\"lineNumber\":209,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":28,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.sOct 14, 2018 2:40:34 PM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
                 }
             ],
             "stackTrace": [
@@ -30669,7 +31573,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001962,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -30833,7 +31746,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.0030845,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -31194,7 +32116,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003667698,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -31358,7 +32289,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001901698,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -31524,7 +32464,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004490096,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -31690,7 +32635,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001442398,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -31854,7 +32808,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004277594,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -32020,7 +32983,12 @@
             "Name": "com.alibaba.json.bvt.issue_1700.Issue1769.test_for_issue",
             "Time": 0.020817287,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -32192,7 +33160,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003760094,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -32356,7 +33333,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001940397,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -32522,7 +33508,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004625993,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -32858,7 +33849,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001340099,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -33022,7 +34022,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.005202696,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -33188,7 +34197,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003433395,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -33354,7 +34368,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002235096,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -33518,7 +34541,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004091693,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -33684,7 +34716,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004575793,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -34031,7 +35068,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003701405,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -34380,7 +35422,16 @@
             "Name": "com.alibaba.json.bvt.date.DateTest.test_date",
             "Time": 0.003833402,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "appliorg.junit.ComparisonFailure",
+                    "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -34544,7 +35595,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001867301,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "appliorg.junit.ComparisonFailure",
+                    "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -34710,7 +35770,12 @@
             "Name": "com.alibaba.json.bvt.date.DateTest.test_date",
             "Time": 0.0036363,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "MockHttpServletRequestorg.junit.ComparisonFailure",
+                    "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -34876,7 +35941,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.0030415,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -35040,7 +36114,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.0015322,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -35206,7 +36289,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003361198,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -35372,7 +36460,12 @@
             "Name": "com.alibaba.json.bvt.issue_1900.Issue1977.test_for_issue",
             "Time": 0.003921498,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "battleCommandjunit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -35714,7 +36807,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003639597,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -35880,7 +36978,12 @@
             "Name": "com.alibaba.json.bvt.issue_1900.Issue1977.test_for_issue",
             "Time": 0.002887598,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -36052,7 +37155,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003961796,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -36216,7 +37328,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001471699,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -36382,7 +37503,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.007078893,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -36548,7 +37674,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004229095,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "javax.servlet.http.org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -36884,7 +38015,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.000878099,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -37048,7 +38188,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003777697,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -37214,7 +38363,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002772397,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -37378,7 +38536,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001637198,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -37544,7 +38711,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003547898,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -37708,7 +38884,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.007875695,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -37874,7 +39059,12 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue_1",
             "Time": 0.000805499,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -38044,7 +39234,12 @@
             "Name": "com.alibaba.json.bvt.issue_1700.Issue1769.test_for_issue",
             "Time": 0.007125995,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -38214,7 +39409,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003779998,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -38378,7 +39582,12 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue",
             "Time": 0.037559573,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -38548,7 +39757,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001144299,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -38714,7 +39932,12 @@
             "Name": "com.alibaba.json.bvt.issue_1700.Issue1769.test_for_issue",
             "Time": 0.006027095,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -38886,7 +40109,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004779295,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -39245,7 +40473,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.006666793,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -39409,7 +40646,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003045297,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -39770,7 +41016,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003277197,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -40129,7 +41380,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003014996,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -40295,7 +41551,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002276297,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -40635,7 +41900,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001513598,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -40801,7 +42075,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002898297,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -40967,7 +42246,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003767293,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -41320,7 +42604,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002235896,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -41675,7 +42964,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.00658549,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -41839,7 +43137,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004013694,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -42005,7 +43312,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.000850999,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -42169,7 +43485,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004695893,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -42335,7 +43660,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004180194,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -42499,7 +43833,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002795396,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -42835,7 +44178,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002286597,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -43171,7 +44519,16 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue_1",
             "Time": 0.000948599,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-06-29T[10:36:30+08:00]\"> but was:<\"2017-06-29T[02:36:30Z]\">\n"
+                },
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-08-15T20:00:00[+08:00]\"> but was:<\"2017-08-15T20:00:00[Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -43341,7 +44698,16 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue",
             "Time": 0.029064063,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-06-29T[10:36:30+08:00]\"> but was:<\"2017-06-29T[02:36:30Z]\">\n"
+                },
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-08-15T20:00:00[+08:00]\"> but was:<\"2017-08-15T20:00:00[Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -43513,7 +44879,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.000850199,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -43677,7 +45052,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004063395,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -44031,7 +45415,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.007433491,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -44197,7 +45586,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.006446189,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -44363,7 +45757,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003546795,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -44529,7 +45928,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003242395,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -44695,7 +46099,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003165696,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -44861,7 +46270,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002680197,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -45025,7 +46443,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003408095,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -45191,7 +46618,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.000870699,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -45355,7 +46791,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004115395,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -45521,7 +46966,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.005651993,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -45687,7 +47137,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001373498,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -45851,7 +47310,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003546396,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -46017,7 +47485,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003774795,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -46183,7 +47656,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.009301588,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -46347,7 +47829,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001483298,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -46513,7 +48004,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004955294,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -46679,7 +48175,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003752298,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -46843,7 +48348,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002302299,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -47009,7 +48523,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004014496,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -47175,7 +48694,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003184397,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -47339,7 +48867,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001981198,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -47505,7 +49042,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002089298,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -47669,7 +49215,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.01144529,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -47835,7 +49390,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003428592,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -48001,7 +49561,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003407593,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -48342,7 +49907,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004250091,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -48506,7 +50080,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001458098,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -48672,7 +50255,12 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.003837493,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -49188,7 +50776,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004375192,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -49352,7 +50949,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.001453197,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -49863,7 +51469,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.002600795,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -50197,7 +51812,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.000902699,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -50363,7 +51987,16 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue_1",
             "Time": 0.001607798,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-06-29T[10:36:30+08:00]\"> but was:<\"2017-06-29T[02:36:30Z]\">\n"
+                },
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-08-15T20:00:00[+08:00]\"> but was:<\"2017-08-15T20:00:00[Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -50533,7 +52166,16 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue",
             "Time": 0.044847628,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-06-29T[10:36:30+08:00]\"> but was:<\"2017-06-29T[02:36:30Z]\">\n"
+                },
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-08-15T20:00:00[+08:00]\"> but was:<\"2017-08-15T20:00:00[Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -50705,7 +52347,12 @@
             "Name": "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue",
             "Time": 0.052547515,
             "Result": "ERROR",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "junit.framework.ComparisonFailure",
+                    "Message": " expected:<\"2017-06-29T[10:36:30+08:00]\"> but was:<\"2017-06-29T[02:36:30Z]\">\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "junit.framework.Assert",
@@ -50877,7 +52524,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004224594,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -51218,7 +52870,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.000903699,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -51382,7 +53043,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002847397,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -51900,7 +53570,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004523695,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -52064,7 +53743,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002149198,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -52405,7 +54093,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002078897,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -52746,7 +54439,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.00716759,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -52910,7 +54612,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003422796,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -53076,7 +54787,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.006431792,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -53240,7 +54960,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.009370687,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -53581,7 +55310,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003938594,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -54092,7 +55826,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.001353399,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -54256,7 +55999,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.003360298,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -54422,7 +56174,12 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.004617193,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -54588,7 +56345,16 @@
             "Name": "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField",
             "Time": 0.004107394,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -54752,7 +56518,16 @@
             "Name": "com.alibaba.json.bvt.bug.Issue_717.test_for_issue",
             "Time": 0.002420996,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+                },
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",

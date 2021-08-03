@@ -1,4 +1,38 @@
 {
+    "com.alibaba.json.bvt.issue_1700.Issue1769.test_for_issue": {
+        "Name": "junit.framework.ComparisonFailure",
+        "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+    },
+    "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue_1": {
+        "Name": "junit.framework.ComparisonFailure",
+        "Message": "* Multiple error messages. *"
+    },
+    "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue": {
+        "Name": "junit.framework.ComparisonFailure",
+        "Message": "* Multiple error messages. *"
+    },
+    "com.alibaba.json.bvt.serializer.date.DateTest4_indian.test_date": {
+        "Name": "junit.framework.AssertionFailedError",
+        "Message": " expected:<17100000> but was:<45900000>\n"
+    }
+}{
+    "com.alibaba.json.bvt.serializer.ConcurrentHashMapTest6.test_concurrentHashmap": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": " expected:<...able\":{{\"items\":[]}:[{\"value\":true}]}}> but was:<...able\":{{\"items\":[]}:[null]}}>\n"
+    },
+    "com.alibaba.json.bvt.issue_1700.Issue1769.test_for_issue": {
+        "Name": "junit.framework.ComparisonFailure",
+        "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+    },
+    "com.alibaba.json.bvt.serializer.ConcurrentHashMapTest5.test_concurrentHashmap": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": " expected:<...able\":{{\"items\":[]}:[{\"value\":true}]}}> but was:<...able\":{{\"items\":[]}:[null]}}>\n"
+    },
+    "com.alibaba.json.bvt.date.DateTest.test_date": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+    }
+}{
     "com.alibaba.json.bvt.serializer.date.DateTest4_indian.test_date": {
         "Name": "junit.framework.AssertionFailedError",
         "Message": " expected:<17100000> but was:<45900000>\n"

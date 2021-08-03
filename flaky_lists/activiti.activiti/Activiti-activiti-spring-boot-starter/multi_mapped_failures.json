@@ -235,6 +235,24 @@
             "Message": " Unable to find task for the given id: 86030100-cfa4-11e8-9772-0242ac110002 for user: salaboy (with groups: [activitiTeam] & with roles: [ACTIVITI_USER])\n"
         }
     ],
+    "org.activiti.spring.boot.tasks.TaskRuntimeTaskAssigneeTest.bCreateCheckTaskCreatedForSalaboyFromAnotherUser": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected size:<1> but was:<0> in:\n<[]>\n"
+        },
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<\"salaboy\"> but was:<null>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected size:<1> but was:<3> in:\n<[TaskImpl{id='bbe67979-cfa4-11e8-ad04-0242ac110002', owner='garth', assignee='null', name='group task', description='null', createdDate=Sun Oct 14 11:31:46 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED},\n    TaskImpl{id='bbeb0d5c-cfa4-11e8-ad04-0242ac110002', owner='garth', assignee='salaboy', name='group task', description='null', createdDate=Sun Oct 14 11:31:46 UTC 2018, claimedDate=Sun Oct 14 11:31:46 UTC 2018, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED},\n    TaskImpl{id='bbf54692-cfa4-11e8-ad04-0242ac110002', owner='garth', assignee='salaboy', name='task for salaboy', description='null', createdDate=Sun Oct 14 11:31:46 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED}]>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " \nExpected size:<1> but was:<3> in:\n<[TaskImpl{id='d51501d6-cfa4-11e8-a00d-0242ac110002', owner='garth', assignee='null', name='group task', description='null', createdDate=Sun Oct 14 11:32:29 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=CREATED},\n    TaskImpl{id='d518f979-cfa4-11e8-a00d-0242ac110002', owner='garth', assignee='salaboy', name='group task', description='null', createdDate=Sun Oct 14 11:32:29 UTC 2018, claimedDate=Sun Oct 14 11:32:29 UTC 2018, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED},\n    TaskImpl{id='d521d31f-cfa4-11e8-a00d-0242ac110002', owner='garth', assignee='salaboy', name='task for salaboy', description='null', createdDate=Sun Oct 14 11:32:29 UTC 2018, claimedDate=null, dueDate=null, priority=0, processDefinitionId='null', processInstanceId='null', parentTaskId='null', status=ASSIGNED}]>\n"
+        }
+    ],
     "org.activiti.spring.boot.tasks.TaskRuntimeDeleteTaskTest.eClaimTaskCreatedForGroup": [
         {
             "Name": "java.lang.Exception",

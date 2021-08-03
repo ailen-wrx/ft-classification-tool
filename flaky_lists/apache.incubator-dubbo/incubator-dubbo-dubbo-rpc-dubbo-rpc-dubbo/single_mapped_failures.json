@@ -1,4 +1,8 @@
 {
+    "org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": "* Multiple error messages. *"
+    },
     "org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocolWithMina": {
         "Name": "org.apache.dubbo.rpc.RpcException",
         "Message": " Unsupported server type: mina, url: dubbo://127.0.0.1:9010/org.apache.dubbo.rpc.protocol.dubbo.support.DemoService?channel.readonly.sent=true&heartbeat=60000&server=mina\n"
@@ -6,6 +10,10 @@
     "org.apache.dubbo.rpc.protocol.dubbo.telnet.ListTelnetHandlerTest.testListService": {
         "Name": "org.apache.dubbo.rpc.RpcException",
         "Message": " Fail to start server(url: dubbo://127.0.0.1:20885/demo?channel.readonly.sent=true&codec=dubbo&heartbeat=60000) Failed to bind NettyServer on /127.0.0.1:20885, cause: Address already in use\n"
+    },
+    "org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.testChangeServiceNotExport": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": " expected:<[No such service demo]> but was:<[Used the demo as default.\nYou can cancel default service by command: cd /]>\n"
     },
     "org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.testChangePath": {
         "Name": "org.apache.dubbo.rpc.RpcException",

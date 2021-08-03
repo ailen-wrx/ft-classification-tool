@@ -2073,6 +2073,52 @@
             "Message": " sleep interrupted\n08:42:28,436  INFO Server:621 - Services destroyed\n08:42:28,436  INFO Server:633 - Server [httpfs] shutdown!\n08:42:28,436  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
         }
     ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testGetTrashRoot": [
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:37:32,661  INFO Server:621 - Services destroyed\n09:37:32,661  INFO Server:633 - Server [httpfs] shutdown!\n09:37:32,661  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:38:32,176  INFO Server:621 - Services destroyed\n09:38:32,176  INFO Server:633 - Server [httpfs] shutdown!\n09:38:32,176  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:40:57,829  INFO Server:621 - Services destroyed\n09:40:57,829  INFO Server:633 - Server [httpfs] shutdown!\n09:40:57,829  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:43:35,383  INFO Server:621 - Services destroyed\n09:43:35,383  INFO Server:633 - Server [httpfs] shutdown!\n09:43:35,383  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:44:39,380  INFO Server:621 - Services destroyed\n09:44:39,380  INFO Server:633 - Server [httpfs] shutdown!\n09:44:39,381  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:46:38,976  INFO Server:621 - Services destroyed\n09:46:38,976  INFO Server:633 - Server [httpfs] shutdown!\n09:46:38,976  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:47:40,392  INFO Server:621 - Services destroyed\n09:47:40,393  INFO Server:633 - Server [httpfs] shutdown!\n09:47:40,393  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:48:43,761  INFO Server:621 - Services destroyed\n09:48:43,761  INFO Server:633 - Server [httpfs] shutdown!\n09:48:43,761  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:49:25,846  INFO Server:621 - Services destroyed\n09:49:25,846  INFO Server:633 - Server [httpfs] shutdown!\n09:49:25,846  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:39:08,772  INFO Server:621 - Services destroyed\n08:39:08,772  INFO Server:633 - Server [httpfs] shutdown!\n08:39:08,772  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        }
+    ],
     "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperationsSsl": [
         {
             "Name": "java.lang.InterruptedException",

@@ -1,4 +1,12 @@
 {
+    "org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": " expected:<dubbo://127.0.0.1:[]20887> but was:<dubbo://127.0.0.1:[9010\ndubbo://127.0.0.1:]20887>\n"
+    },
+    "org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": " expected:<[]20887> but was:<[9010\n]20887>\n"
+    },
     "org.apache.dubbo.rpc.protocol.dubbo.DubboLazyConnectTest.testSticky1": {
         "Name": "org.apacjava.lang.AssertionError",
         "Message": " Expected exception: org.apache.dubbo.rpc.RpcException\n"

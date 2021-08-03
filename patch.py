@@ -94,4 +94,4 @@ def match_flaky():
                 nrow.append(row[i])
             nrow.append('')
             nrow.append('')
-            # writer.writerow(nrow)
+            writer.writerow(nrow)

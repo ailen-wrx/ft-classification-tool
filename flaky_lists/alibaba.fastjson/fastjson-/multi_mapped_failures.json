@@ -1,8 +1,238 @@
 {
+    "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField": [
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        },
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "com.alibaba.json.bvt.bug.Bug_for_cduyorg.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        },
+        {
+            "Name": "com.alibaba.json.bvt.bug.Bug_for_org.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        }
+    ],
+    "com.alibaba.json.bvt.bug.Issue_717.test_for_issue": [
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        },
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "com.alibaba.json.bvt.bug.Bug_for_cduyorg.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        },
+        {
+            "Name": "com.alibaba.json.bvt.bug.Bug_for_org.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        }
+    ],
+    "com.alibaba.json.bvt.serializer.JSONSerializerTest2.test_0": [
+        {
+            "Name": "u000java.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "com.alibaba.json.bvt.support.spring.mock.controller.FastJsonViewAndJSONPControllerTesjava.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "charjava.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "Forwjava.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "methodTypjava.lang.AssertionError",
+            "Message": ""
+        }
+    ],
+    "com.alibaba.json.bvt.parser.deser.AbstractSerializeTest.test_mapping_1": [
+        {
+            "Name": "21474com.alibaba.fastjson.JSONException",
+            "Message": " autoType is not support. com.alibaba.json.bvt.parser.deser.AbstractSerializeTest$A\n"
+        },
+        {
+            "Name": "com.alibaba.fastjson.JSONException",
+            "Message": " autoType is not support. com.alibaba.json.bvt.parser.deser.AbstractSerializeTest$A\n"
+        }
+    ],
+    "com.alibaba.json.bvt.parser.deser.AbstractSerializeTest.test_mapping_2": [
+        {
+            "Name": "21474com.alibaba.fastjson.JSONException",
+            "Message": " autoType is not support. com.alibaba.json.bvt.parser.deser.AbstractSerializeTest$A\n"
+        },
+        {
+            "Name": "com.alibaba.fastjson.JSONException",
+            "Message": " autoType is not support. com.alibaba.json.bvt.parser.deser.AbstractSerializeTest$A\n"
+        }
+    ]
+}{
     "com.alibaba.json.bvt.serializer.JSONSerializerTest2.test_0": [
         {
             "Name": "java.lang.AssertionError",
             "Message": ""
+        },
+        {
+            "Name": "vajava.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "java.utiljava.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "MyException",
+            "Message": ",\"code\":100,\"localizedMessage\":\"error msg\",\"message\":\"error msg\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1200.Issue1276\",\"fileName\":\"Issue1276.java\",\"lineNumber\":11,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImjava.lang.AssertionError\n"
+        },
+        {
+            "Name": "com.alijava.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "cojava.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "typjava.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "Coojava.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "POjava.lang.AssertionError",
+            "Message": ""
+        }
+    ],
+    "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField": [
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        },
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": ".alarmReceivorg.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": ".alarmReceiorg.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "4861df70org.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        }
+    ],
+    "com.alibaba.json.bvt.bug.Issue_717.test_for_issue": [
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        },
+        {
+            "Name": ".alarmReceivorg.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": ".alarmReceiorg.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "4861df70org.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        }
+    ],
+    "com.alibaba.json.bvt.issue_1600.Issue1679.test_for_issue": [
+        {
+            "Name": "com.alibaba.jsojunit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-01-10T08:30:00[+08:00]\"> but was:<\"2018-01-10T08:30:00[Z]\">\n"
+        },
+        {
+            "Name": "shortjunit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-01-10T08:30:00[+08:00]\"> but was:<\"2018-01-10T08:30:00[Z]\">\n"
+        },
+        {
+            "Name": "junit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-01-10T08:30:00[+08:00]\"> but was:<\"2018-01-10T08:30:00[Z]\">\n"
+        },
+        {
+            "Name": "shorjunit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-01-10T08:30:00[+08:00]\"> but was:<\"2018-01-10T08:30:00[Z]\">\n"
+        }
+    ],
+    "com.alibaba.json.bvt.issue_1900.Issue1977.test_for_issue": [
+        {
+            "Name": "njunit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+        },
+        {
+            "Name": "junit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+        },
+        {
+            "Name": "javaone.comjunit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+        },
+        {
+            "Name": "10000junit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+        }
+    ],
+    "com.alibaba.json.bvt.serializer.date.DateTest5_iso8601.test_date": [
+        {
+            "Name": "junit.framework.AssertionFailedError",
+            "Message": " expected:<83419000> but was:<54619000>\n"
+        },
+        {
+            "Name": "v.junit.framework.AssertionFailedError",
+            "Message": " expected:<83419000> but was:<54619000>\n"
+        }
+    ],
+    "com.alibaba.json.bvt.date.DateTest_tz.test_codec": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<1461859200000> but was:<1461888000000>\n"
+        },
+        {
+            "Name": "Ujava.lang.AssertionError",
+            "Message": " expected:<1461859200000> but was:<1461888000000>\n"
+        }
+    ]
+}{
+    "com.alibaba.json.bvt.serializer.JSONSerializerTest2.test_0": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": ""
+        },
+        {
+            "Name": "java.lang.RuntimeException",
+            "Message": ",\"localizedMessage\":\"e1\",\"message\":\"e1\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.bug.Bug_for_Exception\",\"fileName\":\"Bug_for_Exception.java\",\"lineNumber\":9,\"methodName\":\"test_exception\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBefores\",\"fileName\":\"RunBefores.java\",\"lineNumber\":26,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunAfters\",\"fileName\":\"RunAfters.java\",\"lineNumber\":27,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":332,\"methodName\":\"runChild\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":108,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runner.JUnitCore\",\"fileName\":\"JUnitCore.java\",\"lineNumber\":137,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":291,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":327,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":365,\"methodName\":\"executeWithJUnit4Runner\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":46,\"methodName\":\"runOrder\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":30,\"methodName\":\"$anonfun$run$1\",\"nativeMethod\":false},{\"className\":\"scala.runtime.java8.JFunction0$mcV$sp\",\"fileName\":\"JFunction0$mcV$sp.java\",\"lineNumber\":12,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"scala.util.Try$\",\"fileName\":\"Try.scala\",\"lineNumber\":209,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":28,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scaljava.lang.AssertionError\n"
+        },
+        {
+            "Name": "java.lang.RuntimeException",
+            "Message": ",\"localizedMessage\":\"e1\",\"message\":\"e1\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.bug.Bug_for_Exception\",\"fileName\":\"Bug_for_Exception.java\",\"lineNumber\":9,\"methodName\":\"test_exception\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBefores\",\"fileName\":\"RunBefores.java\",\"lineNumber\":26,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunAfters\",\"fileName\":\"RunAfters.java\",\"lineNumber\":27,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":332,\"methodName\":\"runChild\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":108,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runner.JUnitCore\",\"fileName\":\"JUnitCore.java\",\"lineNumber\":137,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":291,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":327,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":365,\"methodName\":\"executeWithJUnit4Runner\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":46,\"methodName\":\"runOrder\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":30,\"methodName\":\"$anonfun$run$1\",\"nativeMethod\":false},{\"className\":\"scala.runtime.java8.JFunction0$mcV$sp\",\"fileName\":\"JFunction0$mcV$sp.java\",\"lineNumber\":12,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"scala.util.Try$\",\"fileName\":\"Try.scala\",\"lineNumber\":209,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":28,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scalajava.lang.AssertionError\n"
         },
         {
             "Name": "11bajava.lang.AssertionError",
@@ -17,7 +247,15 @@
             "Message": ""
         }
     ],
-    "com.alibaba.json.bvt.bug.Issue_717.test_for_issue": [
+    "com.alibaba.json.bvt.serializer.JSONFieldTest5.test_jsonField": [
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        },
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
         {
             "Name": "TestException",
             "Message": ",\"localizedMessage\":\"Data : aaa\",\"message\":\"Data : aaa\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1300.Issue1344\",\"fileName\":\"Issue1344.java\",\"lineNumber\":12,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBeforOct 14, 2018 10:44:03 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
@@ -27,8 +265,50 @@
             "Message": ",\"localizedMessage\":\"Data : aaa\",\"message\":\"Data : aaa\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1300.Issue1344\",\"fileName\":\"Issue1344.java\",\"lineNumber\":12,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBeforeOct 14, 2018 10:47:55 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
         },
         {
+            "Name": "applicorg.junit.ComparisonFailure",
+            "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+        },
+        {
             "Name": "java.lang.RuntimeException",
             "Message": ",\"localizedMessage\":\"e1\",\"message\":\"e1\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.bug.Bug_for_Exception\",\"fileName\":\"Bug_for_Exception.java\",\"lineNumber\":9,\"methodName\":\"test_exception\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBefores\",\"fileName\":\"RunBefores.java\",\"lineNumber\":26,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunAfters\",\"fileName\":\"RunAfters.java\",\"lineNumber\":27,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":332,\"methodName\":\"runChild\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":108,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runner.JUnitCore\",\"fileName\":\"JUnitCore.java\",\"lineNumber\":137,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":291,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":327,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":365,\"methodName\":\"executeWithJUnit4Runner\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":46,\"methodName\":\"runOrder\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":30,\"methodName\":\"$anonfun$run$1\",\"nativeMethod\":false},{\"className\":\"scala.runtime.java8.JFunction0$mcV$sp\",\"fileName\":\"JFunction0$mcV$sp.java\",\"lineNumber\":12,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"scala.util.Try$\",\"fileName\":\"Try.scala\",\"lineNumber\":209,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":28,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.sOct 14, 2018 2:40:34 PM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "appliorg.junit.ComparisonFailure",
+            "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+        }
+    ],
+    "com.alibaba.json.bvt.bug.Issue_717.test_for_issue": [
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        },
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "TestException",
+            "Message": ",\"localizedMessage\":\"Data : aaa\",\"message\":\"Data : aaa\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1300.Issue1344\",\"fileName\":\"Issue1344.java\",\"lineNumber\":12,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBeforOct 14, 2018 10:44:03 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "TestException",
+            "Message": ",\"localizedMessage\":\"Data : aaa\",\"message\":\"Data : aaa\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.issue_1300.Issue1344\",\"fileName\":\"Issue1344.java\",\"lineNumber\":12,\"methodName\":\"test_for_issue\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBeforeOct 14, 2018 10:47:55 AM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "com.alibaba.json.bvt.support.spring.mock.entity.FastJsorg.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "com.alibaba.json.bvt.suorg.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "java.lang.RuntimeException",
+            "Message": ",\"localizedMessage\":\"e1\",\"message\":\"e1\",\"stackTrace\":[{\"className\":\"com.alibaba.json.bvt.bug.Bug_for_Exception\",\"fileName\":\"Bug_for_Exception.java\",\"lineNumber\":9,\"methodName\":\"test_exception\",\"nativeMethod\":false},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"methodName\":\"invoke0\",\"nativeMethod\":true},{\"className\":\"sun.reflect.NativeMethodAccessorImpl\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":62,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"sun.reflect.DelegatingMethodAccessorImpl\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"java.lang.reflect.Method\",\"fileName\":\"Method.java\",\"lineNumber\":498,\"methodName\":\"invoke\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod$1\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":50,\"methodName\":\"runReflectiveCall\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.model.ReflectiveCallable\",\"fileName\":\"ReflectiveCallable.java\",\"lineNumber\":12,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runners.model.FrameworkMethod\",\"fileName\":\"FrameworkMethod.java\",\"lineNumber\":47,\"methodName\":\"invokeExplosively\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.InvokeMethod\",\"fileName\":\"InvokeMethod.java\",\"lineNumber\":17,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunBefores\",\"fileName\":\"RunBefores.java\",\"lineNumber\":26,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"org.junit.internal.runners.statements.RunAfters\",\"fileName\":\"RunAfters.java\",\"lineNumber\":27,\"methodName\":\"evaluate\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":332,\"methodName\":\"runChild\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestRunner\",\"fileName\":\"JUnitTestRunner.java\",\"lineNumber\":108,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"org.junit.runner.JUnitCore\",\"fileName\":\"JUnitCore.java\",\"lineNumber\":137,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":291,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":327,\"methodName\":\"execute\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":365,\"methodName\":\"executeWithJUnit4Runner\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.JUnitTestExecutor\",\"fileName\":\"JUnitTestExecutor.java\",\"lineNumber\":46,\"methodName\":\"runOrder\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":30,\"methodName\":\"$anonfun$run$1\",\"nativeMethod\":false},{\"className\":\"scala.runtime.java8.JFunction0$mcV$sp\",\"fileName\":\"JFunction0$mcV$sp.java\",\"lineNumber\":12,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"scala.util.Try$\",\"fileName\":\"Try.scala\",\"lineNumber\":209,\"methodName\":\"apply\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.scala\",\"lineNumber\":28,\"methodName\":\"run\",\"nativeMethod\":false},{\"className\":\"com.daredevil.testrunner.execution.Executor$\",\"fileName\":\"Executor.sOct 14, 2018 2:40:34 PM org.glassfish.jersey.test.jdkhttp.JdkHttpServerTestContainerFactory$JdkHttpServerTestContainer <init>\nINFO: Creating JdkHttpServerTestContainer configured at the base URI http://localhost:9998/\norg.junit.ComparisonFailure: expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
+        },
+        {
+            "Name": "javax.servlet.http.org.junit.ComparisonFailure",
+            "Message": " expected:<{\"ID\":0,\"[n]AME\":\"admin\"}> but was:<{\"ID\":0,\"[N]AME\":\"admin\"}>\n"
         }
     ],
     "com.alibaba.json.bvt.date.DateTest_tz.test_codec": [
@@ -43,6 +323,84 @@
         {
             "Name": "path.sepjava.lang.AssertionError",
             "Message": " expected:<1461859200000> but was:<1461888000000>\n"
+        }
+    ],
+    "com.alibaba.json.bvt.date.DateTest.test_date": [
+        {
+            "Name": "applicorg.junit.ComparisonFailure",
+            "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+        },
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:<{\"[i]D\":123}> but was:<{\"[I]D\":123}>\n"
+        },
+        {
+            "Name": "MockHttpServletRequestorg.junit.ComparisonFailure",
+            "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+        },
+        {
+            "Name": "appliorg.junit.ComparisonFailure",
+            "Message": " expected:<\"2011-12-1[8 00]:23:07\"> but was:<\"2011-12-1[7 16]:23:07\">\n"
+        }
+    ],
+    "com.alibaba.json.bvt.issue_1900.Issue1977.test_for_issue": [
+        {
+            "Name": "battleCommandLjunit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+        },
+        {
+            "Name": "junit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+        },
+        {
+            "Name": "battleCommandjunit.framework.ComparisonFailure",
+            "Message": " expected:<\"2018-08-03T[10:58:39.604+08:00]\"> but was:<\"2018-08-03T[02:58:39.604Z]\">\n"
+        }
+    ],
+    "com.alibaba.json.bvt.issue_1700.Issue1769.test_for_issue": [
+        {
+            "Name": "junit.framework.ComparisonFailure",
+            "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+        },
+        {
+            "Name": "ajunit.framework.ComparisonFailure",
+            "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+        }
+    ],
+    "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue_1": [
+        {
+            "Name": "ajunit.framework.ComparisonFailure",
+            "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+        },
+        {
+            "Name": "junit.framework.ComparisonFailure",
+            "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+        },
+        {
+            "Name": "junit.framework.ComparisonFailure",
+            "Message": " expected:<\"2017-06-29T[10:36:30+08:00]\"> but was:<\"2017-06-29T[02:36:30Z]\">\n"
+        },
+        {
+            "Name": "junit.framework.ComparisonFailure",
+            "Message": " expected:<\"2017-08-15T20:00:00[+08:00]\"> but was:<\"2017-08-15T20:00:00[Z]\">\n"
+        }
+    ],
+    "com.alibaba.json.bvt.issue_1200.Issue1298.test_for_issue": [
+        {
+            "Name": "ajunit.framework.ComparisonFailure",
+            "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+        },
+        {
+            "Name": "junit.framework.ComparisonFailure",
+            "Message": " expected:<...eginTime\":\"152841225[11]1920\"}> but was:<...eginTime\":\"152841225[03]1920\"}>\n"
+        },
+        {
+            "Name": "junit.framework.ComparisonFailure",
+            "Message": " expected:<\"2017-06-29T[10:36:30+08:00]\"> but was:<\"2017-06-29T[02:36:30Z]\">\n"
+        },
+        {
+            "Name": "junit.framework.ComparisonFailure",
+            "Message": " expected:<\"2017-08-15T20:00:00[+08:00]\"> but was:<\"2017-08-15T20:00:00[Z]\">\n"
         }
     ],
     "com.alibaba.json.bvt.serializer.date.DateTest5_iso8601.test_date": [

@@ -1,22 +1,10 @@
 {
-    "org.apache.dubbo.registry.dubbo.RegistryProtocolTest.testNotifyOverride_notmatch": {
-        "Name": "java.util.NoSuchElementException",
-        "Message": ""
+    "org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": " expected:<...bbo://127.0.0.1:2088[]7> but was:<...bbo://127.0.0.1:2088[3\ndubbo://127.0.0.1:2088]7>\n"
     },
-    "org.apache.dubbo.cache.support.jcache.JCacheFactoryTest.testJCacheGetExpired": {
-        "Name": "java.lang.AssertionError",
-        "Message": " expected null, but was:<testValue>\n"
-    },
-    "org.apache.dubbo.registry.dubbo.RegistryProtocolTest.testNotifyOverride": {
-        "Name": "java.util.NoSuchElementException",
-        "Message": ""
-    },
-    "org.apache.dubbo.registry.dubbo.RegistryProtocolTest.testDestoryRegistry": {
-        "Name": "java.lang.AssertionError",
-        "Message": " expected:<false> but was:<true>\n"
-    },
-    "org.apache.dubbo.remoting.exchange.support.header.HeartbeatHandlerTest.testHeartbeat": {
-        "Name": "java.lang.AssertionError",
-        "Message": ""
+    "org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": " expected:<2088[]7> but was:<2088[3\n2088]7>\n"
     }
 }

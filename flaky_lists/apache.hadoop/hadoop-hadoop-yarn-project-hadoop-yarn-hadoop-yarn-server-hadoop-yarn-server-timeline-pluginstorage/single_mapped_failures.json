@@ -115,6 +115,10 @@
         "Name": "java.lang.reflect.InvocationTargetException",
         "Message": ""
     },
+    "org.apache.hadoop.registry.client.binding.TestRegistryOperationUtils.testUsernameExtractionEnvVarOverrride": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": " expected:<[drwho]> but was:<[colossus2]>\n"
+    },
     "org.apache.hadoop.yarn.server.timeline.TestLogInfo.testParseDomain": {
         "Name": "java.io.IOException",
         "Message": " Timed out waiting for Mini HDFS Cluster to start\n"

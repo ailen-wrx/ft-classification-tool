@@ -2,5 +2,9 @@
     "org.apache.hadoop.yarn.server.timelineservice.storage.flow.TestHBaseStorageFlowRunCompaction.testWriteScanBatchLimit": {
         "Name": "java.lang.AssertionError",
         "Message": " expected:<4> but was:<5>\n"
+    },
+    "org.apache.hadoop.yarn.server.timelineservice.storage.TestHBaseTimelineStorageEntities.testWriteEntityToHBase": {
+        "Name": "org.junit.ComparisonFailure",
+        "Message": " expected:<user[1]> but was:<user[_emptyeventkey]>\n"
     }
 }

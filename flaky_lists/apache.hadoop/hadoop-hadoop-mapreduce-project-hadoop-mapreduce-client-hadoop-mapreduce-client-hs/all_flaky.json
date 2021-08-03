@@ -5,7 +5,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
             "Time": 1.332638634,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -79,7 +84,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
             "Time": 1.399284831,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -161,7 +171,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
             "Time": 1.306354031,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -235,7 +250,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
             "Time": 1.319507906,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -317,7 +337,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
             "Time": 1.302172593,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -391,7 +416,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
             "Time": 1.321449002,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -473,7 +503,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
             "Time": 1.31067039,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -547,7 +582,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
             "Time": 1.337660107,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -629,7 +669,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
             "Time": 1.344026231,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -703,7 +748,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
             "Time": 1.354458174,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -785,7 +835,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
             "Time": 1.320924442,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -859,7 +914,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
             "Time": 1.318339129,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -941,7 +1001,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
             "Time": 1.281429045,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1015,7 +1080,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
             "Time": 1.293378395,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1097,7 +1167,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
             "Time": 1.280149159,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1171,7 +1246,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
             "Time": 1.338823899,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1253,7 +1333,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsingForFailedAttempts",
             "Time": 1.278679867,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1327,7 +1412,12 @@
             "Name": "org.apache.hadoop.mapreduce.v2.hs.TestJobHistoryParsing.testHistoryParsing",
             "Time": 1.281776781,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " rack-name is incorrect expected:</[default-rack]> but was:</[MyRackName]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",

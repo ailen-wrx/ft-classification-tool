@@ -5,7 +5,12 @@
             "Name": "org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail",
             "Time": 0.0004486,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<...bbo://127.0.0.1:2088[]7> but was:<...bbo://127.0.0.1:2088[3\ndubbo://127.0.0.1:2088]7>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -157,7 +162,12 @@
             "Name": "org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort",
             "Time": 0.002510302,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<2088[]7> but was:<2088[3\n2088]7>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",

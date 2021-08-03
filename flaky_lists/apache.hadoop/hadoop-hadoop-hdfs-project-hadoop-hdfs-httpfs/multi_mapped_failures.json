@@ -1,6 +1,1438 @@
 {
     "org.apache.hadoop.fs.http.server.TestHttpFSServer.testFileAcls": [
         {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:17,207  INFO Server:621 - Services destroyed\n08:16:17,207  INFO Server:633 - Server [httpfs] shutdown!\n08:16:17,207  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:18,515  INFO Server:621 - Services destroyed\n08:16:18,515  INFO Server:633 - Server [httpfs] shutdown!\n08:16:18,515  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:19,080  INFO Server:621 - Services destroyed\n08:16:19,080  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,081  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,512  INFO AbstractConnector:318 - Stopped ServerConnector@25aa70a8{HTTP/1.1,[http/1.1]}{localhost:39589}\n08:16:19,512 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,513  INFO Server:621 - Services destroyed\n08:16:19,514  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,514  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,679  INFO AbstractConnector:318 - Stopped ServerConnector@6a76bdc7{HTTP/1.1,[http/1.1]}{localhost:34583}\n08:16:19,679 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,690  INFO Server:621 - Services destroyed\n08:16:19,690  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,690  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,131  INFO Server:621 - Services destroyed\n08:16:21,131  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,131  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,622  INFO Server:621 - Services destroyed\n08:16:21,622  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,622  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:22,503  INFO Server:621 - Services destroyed\n08:16:22,503  INFO Server:633 - Server [httpfs] shutdown!\n08:16:22,503  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:32,703  INFO Server:621 - Services destroyed\n08:18:32,703  INFO Server:633 - Server [httpfs] shutdown!\n08:18:32,703  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:33,913  INFO Server:621 - Services destroyed\n08:18:33,913  INFO Server:633 - Server [httpfs] shutdown!\n08:18:33,913  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:34,405  INFO Server:621 - Services destroyed\n08:18:34,405  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,405  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:34,842  INFO AbstractConnector:318 - Stopped ServerConnector@21e5f0b6{HTTP/1.1,[http/1.1]}{localhost:38515}\n08:18:34,843 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:34,845  INFO Server:621 - Services destroyed\n08:18:34,845  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,845  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:35,025  INFO AbstractConnector:318 - Stopped ServerConnector@1c1fa494{HTTP/1.1,[http/1.1]}{localhost:37849}\n08:18:35,026 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:35,030  INFO Server:621 - Services destroyed\n08:18:35,030  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,030  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:35,667  INFO Server:621 - Services destroyed\n08:18:35,667  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,667  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,457  INFO Server:621 - Services destroyed\n08:18:36,457  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,457  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,851  INFO Server:621 - Services destroyed\n08:18:36,851  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,851  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperations": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:17,207  INFO Server:621 - Services destroyed\n08:16:17,207  INFO Server:633 - Server [httpfs] shutdown!\n08:16:17,207  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:18,515  INFO Server:621 - Services destroyed\n08:16:18,515  INFO Server:633 - Server [httpfs] shutdown!\n08:16:18,515  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:19,080  INFO Server:621 - Services destroyed\n08:16:19,080  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,081  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,512  INFO AbstractConnector:318 - Stopped ServerConnector@25aa70a8{HTTP/1.1,[http/1.1]}{localhost:39589}\n08:16:19,512 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,513  INFO Server:621 - Services destroyed\n08:16:19,514  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,514  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,679  INFO AbstractConnector:318 - Stopped ServerConnector@6a76bdc7{HTTP/1.1,[http/1.1]}{localhost:34583}\n08:16:19,679 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,690  INFO Server:621 - Services destroyed\n08:16:19,690  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,690  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,131  INFO Server:621 - Services destroyed\n08:16:21,131  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,131  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,622  INFO Server:621 - Services destroyed\n08:16:21,622  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,622  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:22,503  INFO Server:621 - Services destroyed\n08:16:22,503  INFO Server:633 - Server [httpfs] shutdown!\n08:16:22,503  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:32,703  INFO Server:621 - Services destroyed\n08:18:32,703  INFO Server:633 - Server [httpfs] shutdown!\n08:18:32,703  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:33,913  INFO Server:621 - Services destroyed\n08:18:33,913  INFO Server:633 - Server [httpfs] shutdown!\n08:18:33,913  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:34,405  INFO Server:621 - Services destroyed\n08:18:34,405  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,405  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:34,842  INFO AbstractConnector:318 - Stopped ServerConnector@21e5f0b6{HTTP/1.1,[http/1.1]}{localhost:38515}\n08:18:34,843 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:34,845  INFO Server:621 - Services destroyed\n08:18:34,845  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,845  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:35,025  INFO AbstractConnector:318 - Stopped ServerConnector@1c1fa494{HTTP/1.1,[http/1.1]}{localhost:37849}\n08:18:35,026 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:35,030  INFO Server:621 - Services destroyed\n08:18:35,030  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,030  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:35,667  INFO Server:621 - Services destroyed\n08:18:35,667  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,667  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,457  INFO Server:621 - Services destroyed\n08:18:36,457  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,457  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,851  INFO Server:621 - Services destroyed\n08:18:36,851  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,851  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDirAcls": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:17,207  INFO Server:621 - Services destroyed\n08:16:17,207  INFO Server:633 - Server [httpfs] shutdown!\n08:16:17,207  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:18,515  INFO Server:621 - Services destroyed\n08:16:18,515  INFO Server:633 - Server [httpfs] shutdown!\n08:16:18,515  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:19,080  INFO Server:621 - Services destroyed\n08:16:19,080  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,081  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,512  INFO AbstractConnector:318 - Stopped ServerConnector@25aa70a8{HTTP/1.1,[http/1.1]}{localhost:39589}\n08:16:19,512 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,513  INFO Server:621 - Services destroyed\n08:16:19,514  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,514  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,679  INFO AbstractConnector:318 - Stopped ServerConnector@6a76bdc7{HTTP/1.1,[http/1.1]}{localhost:34583}\n08:16:19,679 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,690  INFO Server:621 - Services destroyed\n08:16:19,690  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,690  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,131  INFO Server:621 - Services destroyed\n08:16:21,131  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,131  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,622  INFO Server:621 - Services destroyed\n08:16:21,622  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,622  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:22,503  INFO Server:621 - Services destroyed\n08:16:22,503  INFO Server:633 - Server [httpfs] shutdown!\n08:16:22,503  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:32,703  INFO Server:621 - Services destroyed\n08:18:32,703  INFO Server:633 - Server [httpfs] shutdown!\n08:18:32,703  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:33,913  INFO Server:621 - Services destroyed\n08:18:33,913  INFO Server:633 - Server [httpfs] shutdown!\n08:18:33,913  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:34,405  INFO Server:621 - Services destroyed\n08:18:34,405  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,405  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:34,842  INFO AbstractConnector:318 - Stopped ServerConnector@21e5f0b6{HTTP/1.1,[http/1.1]}{localhost:38515}\n08:18:34,843 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:34,845  INFO Server:621 - Services destroyed\n08:18:34,845  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,845  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:35,025  INFO AbstractConnector:318 - Stopped ServerConnector@1c1fa494{HTTP/1.1,[http/1.1]}{localhost:37849}\n08:18:35,026 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:35,030  INFO Server:621 - Services destroyed\n08:18:35,030  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,030  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:35,667  INFO Server:621 - Services destroyed\n08:18:35,667  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,667  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,457  INFO Server:621 - Services destroyed\n08:18:36,457  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,457  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,851  INFO Server:621 - Services destroyed\n08:18:36,851  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,851  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperationsSsl": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:17,207  INFO Server:621 - Services destroyed\n08:16:17,207  INFO Server:633 - Server [httpfs] shutdown!\n08:16:17,207  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:18,515  INFO Server:621 - Services destroyed\n08:16:18,515  INFO Server:633 - Server [httpfs] shutdown!\n08:16:18,515  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:19,080  INFO Server:621 - Services destroyed\n08:16:19,080  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,081  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,512  INFO AbstractConnector:318 - Stopped ServerConnector@25aa70a8{HTTP/1.1,[http/1.1]}{localhost:39589}\n08:16:19,512 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,513  INFO Server:621 - Services destroyed\n08:16:19,514  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,514  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,679  INFO AbstractConnector:318 - Stopped ServerConnector@6a76bdc7{HTTP/1.1,[http/1.1]}{localhost:34583}\n08:16:19,679 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,690  INFO Server:621 - Services destroyed\n08:16:19,690  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,690  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,131  INFO Server:621 - Services destroyed\n08:16:21,131  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,131  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,622  INFO Server:621 - Services destroyed\n08:16:21,622  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,622  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:22,503  INFO Server:621 - Services destroyed\n08:16:22,503  INFO Server:633 - Server [httpfs] shutdown!\n08:16:22,503  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:32,703  INFO Server:621 - Services destroyed\n08:18:32,703  INFO Server:633 - Server [httpfs] shutdown!\n08:18:32,703  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:33,913  INFO Server:621 - Services destroyed\n08:18:33,913  INFO Server:633 - Server [httpfs] shutdown!\n08:18:33,913  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:34,405  INFO Server:621 - Services destroyed\n08:18:34,405  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,405  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:34,842  INFO AbstractConnector:318 - Stopped ServerConnector@21e5f0b6{HTTP/1.1,[http/1.1]}{localhost:38515}\n08:18:34,843 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:34,845  INFO Server:621 - Services destroyed\n08:18:34,845  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,845  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:35,025  INFO AbstractConnector:318 - Stopped ServerConnector@1c1fa494{HTTP/1.1,[http/1.1]}{localhost:37849}\n08:18:35,026 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:35,030  INFO Server:621 - Services destroyed\n08:18:35,030  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,030  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:35,667  INFO Server:621 - Services destroyed\n08:18:35,667  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,667  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,457  INFO Server:621 - Services destroyed\n08:18:36,457  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,457  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,851  INFO Server:621 - Services destroyed\n08:18:36,851  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,851  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs.testWithNoAcls": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:17,207  INFO Server:621 - Services destroyed\n08:16:17,207  INFO Server:633 - Server [httpfs] shutdown!\n08:16:17,207  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:18,515  INFO Server:621 - Services destroyed\n08:16:18,515  INFO Server:633 - Server [httpfs] shutdown!\n08:16:18,515  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:19,080  INFO Server:621 - Services destroyed\n08:16:19,080  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,081  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,512  INFO AbstractConnector:318 - Stopped ServerConnector@25aa70a8{HTTP/1.1,[http/1.1]}{localhost:39589}\n08:16:19,512 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,513  INFO Server:621 - Services destroyed\n08:16:19,514  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,514  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,679  INFO AbstractConnector:318 - Stopped ServerConnector@6a76bdc7{HTTP/1.1,[http/1.1]}{localhost:34583}\n08:16:19,679 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,690  INFO Server:621 - Services destroyed\n08:16:19,690  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,690  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,131  INFO Server:621 - Services destroyed\n08:16:21,131  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,131  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,622  INFO Server:621 - Services destroyed\n08:16:21,622  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,622  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:22,503  INFO Server:621 - Services destroyed\n08:16:22,503  INFO Server:633 - Server [httpfs] shutdown!\n08:16:22,503  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:17:50,732  INFO Server:621 - Services destroyed\n08:17:50,732  INFO Server:633 - Server [httpfs] shutdown!\n08:17:50,732  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:17:51,985  INFO Server:621 - Services destroyed\n08:17:51,985  INFO Server:633 - Server [httpfs] shutdown!\n08:17:51,985  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:32,703  INFO Server:621 - Services destroyed\n08:18:32,703  INFO Server:633 - Server [httpfs] shutdown!\n08:18:32,703  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:33,913  INFO Server:621 - Services destroyed\n08:18:33,913  INFO Server:633 - Server [httpfs] shutdown!\n08:18:33,913  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:34,405  INFO Server:621 - Services destroyed\n08:18:34,405  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,405  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:34,842  INFO AbstractConnector:318 - Stopped ServerConnector@21e5f0b6{HTTP/1.1,[http/1.1]}{localhost:38515}\n08:18:34,843 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:34,845  INFO Server:621 - Services destroyed\n08:18:34,845  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,845  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:35,025  INFO AbstractConnector:318 - Stopped ServerConnector@1c1fa494{HTTP/1.1,[http/1.1]}{localhost:37849}\n08:18:35,026 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:35,030  INFO Server:621 - Services destroyed\n08:18:35,030  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,030  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:35,667  INFO Server:621 - Services destroyed\n08:18:35,667  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,667  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,457  INFO Server:621 - Services destroyed\n08:18:36,457  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,457  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,851  INFO Server:621 - Services destroyed\n08:18:36,851  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,851  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:20:11,179  INFO Server:621 - Services destroyed\n09:20:11,179  INFO Server:633 - Server [httpfs] shutdown!\n09:20:11,179  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:20:12,569  INFO Server:621 - Services destroyed\n09:20:12,569  INFO Server:633 - Server [httpfs] shutdown!\n09:20:12,569  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:21:29,527  INFO Server:621 - Services destroyed\n09:21:29,527  INFO Server:633 - Server [httpfs] shutdown!\n09:21:29,528  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:21:30,938  INFO Server:621 - Services destroyed\n09:21:30,938  INFO Server:633 - Server [httpfs] shutdown!\n09:21:30,938  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:21:32,512  INFO Server:621 - Services destroyed\n09:21:32,512  INFO Server:633 - Server [httpfs] shutdown!\n09:21:32,512  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:22:14,911  INFO Server:621 - Services destroyed\n09:22:14,911  INFO Server:633 - Server [httpfs] shutdown!\n09:22:14,911  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:22:16,204  INFO Server:621 - Services destroyed\n09:22:16,204  INFO Server:633 - Server [httpfs] shutdown!\n09:22:16,204  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:22:17,761  INFO Server:621 - Services destroyed\n09:22:17,761  INFO Server:633 - Server [httpfs] shutdown!\n09:22:17,762  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs.testWithXAttrs": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:17,207  INFO Server:621 - Services destroyed\n08:16:17,207  INFO Server:633 - Server [httpfs] shutdown!\n08:16:17,207  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:18,515  INFO Server:621 - Services destroyed\n08:16:18,515  INFO Server:633 - Server [httpfs] shutdown!\n08:16:18,515  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:19,080  INFO Server:621 - Services destroyed\n08:16:19,080  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,081  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,512  INFO AbstractConnector:318 - Stopped ServerConnector@25aa70a8{HTTP/1.1,[http/1.1]}{localhost:39589}\n08:16:19,512 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,513  INFO Server:621 - Services destroyed\n08:16:19,514  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,514  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,679  INFO AbstractConnector:318 - Stopped ServerConnector@6a76bdc7{HTTP/1.1,[http/1.1]}{localhost:34583}\n08:16:19,679 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,690  INFO Server:621 - Services destroyed\n08:16:19,690  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,690  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,131  INFO Server:621 - Services destroyed\n08:16:21,131  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,131  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,622  INFO Server:621 - Services destroyed\n08:16:21,622  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,622  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:22,503  INFO Server:621 - Services destroyed\n08:16:22,503  INFO Server:633 - Server [httpfs] shutdown!\n08:16:22,503  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:17:50,732  INFO Server:621 - Services destroyed\n08:17:50,732  INFO Server:633 - Server [httpfs] shutdown!\n08:17:50,732  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:17:51,985  INFO Server:621 - Services destroyed\n08:17:51,985  INFO Server:633 - Server [httpfs] shutdown!\n08:17:51,985  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:32,703  INFO Server:621 - Services destroyed\n08:18:32,703  INFO Server:633 - Server [httpfs] shutdown!\n08:18:32,703  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:33,913  INFO Server:621 - Services destroyed\n08:18:33,913  INFO Server:633 - Server [httpfs] shutdown!\n08:18:33,913  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:34,405  INFO Server:621 - Services destroyed\n08:18:34,405  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,405  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:34,842  INFO AbstractConnector:318 - Stopped ServerConnector@21e5f0b6{HTTP/1.1,[http/1.1]}{localhost:38515}\n08:18:34,843 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:34,845  INFO Server:621 - Services destroyed\n08:18:34,845  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,845  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:35,025  INFO AbstractConnector:318 - Stopped ServerConnector@1c1fa494{HTTP/1.1,[http/1.1]}{localhost:37849}\n08:18:35,026 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:35,030  INFO Server:621 - Services destroyed\n08:18:35,030  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,030  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:35,667  INFO Server:621 - Services destroyed\n08:18:35,667  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,667  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,457  INFO Server:621 - Services destroyed\n08:18:36,457  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,457  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,851  INFO Server:621 - Services destroyed\n08:18:36,851  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,851  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:20:11,179  INFO Server:621 - Services destroyed\n09:20:11,179  INFO Server:633 - Server [httpfs] shutdown!\n09:20:11,179  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:20:12,569  INFO Server:621 - Services destroyed\n09:20:12,569  INFO Server:633 - Server [httpfs] shutdown!\n09:20:12,569  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:21:29,527  INFO Server:621 - Services destroyed\n09:21:29,527  INFO Server:633 - Server [httpfs] shutdown!\n09:21:29,528  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:21:30,938  INFO Server:621 - Services destroyed\n09:21:30,938  INFO Server:633 - Server [httpfs] shutdown!\n09:21:30,938  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:21:32,512  INFO Server:621 - Services destroyed\n09:21:32,512  INFO Server:633 - Server [httpfs] shutdown!\n09:21:32,512  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:22:14,911  INFO Server:621 - Services destroyed\n09:22:14,911  INFO Server:633 - Server [httpfs] shutdown!\n09:22:14,911  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:22:16,204  INFO Server:621 - Services destroyed\n09:22:16,204  INFO Server:633 - Server [httpfs] shutdown!\n09:22:16,204  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:22:17,761  INFO Server:621 - Services destroyed\n09:22:17,761  INFO Server:633 - Server [httpfs] shutdown!\n09:22:17,762  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.instrumentation": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:17,207  INFO Server:621 - Services destroyed\n08:16:17,207  INFO Server:633 - Server [httpfs] shutdown!\n08:16:17,207  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:18,515  INFO Server:621 - Services destroyed\n08:16:18,515  INFO Server:633 - Server [httpfs] shutdown!\n08:16:18,515  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:19,080  INFO Server:621 - Services destroyed\n08:16:19,080  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,081  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,512  INFO AbstractConnector:318 - Stopped ServerConnector@25aa70a8{HTTP/1.1,[http/1.1]}{localhost:39589}\n08:16:19,512 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,513  INFO Server:621 - Services destroyed\n08:16:19,514  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,514  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,679  INFO AbstractConnector:318 - Stopped ServerConnector@6a76bdc7{HTTP/1.1,[http/1.1]}{localhost:34583}\n08:16:19,679 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,690  INFO Server:621 - Services destroyed\n08:16:19,690  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,690  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,131  INFO Server:621 - Services destroyed\n08:16:21,131  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,131  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,622  INFO Server:621 - Services destroyed\n08:16:21,622  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,622  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:22,503  INFO Server:621 - Services destroyed\n08:16:22,503  INFO Server:633 - Server [httpfs] shutdown!\n08:16:22,503  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:32,703  INFO Server:621 - Services destroyed\n08:18:32,703  INFO Server:633 - Server [httpfs] shutdown!\n08:18:32,703  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:33,913  INFO Server:621 - Services destroyed\n08:18:33,913  INFO Server:633 - Server [httpfs] shutdown!\n08:18:33,913  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:34,405  INFO Server:621 - Services destroyed\n08:18:34,405  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,405  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:34,842  INFO AbstractConnector:318 - Stopped ServerConnector@21e5f0b6{HTTP/1.1,[http/1.1]}{localhost:38515}\n08:18:34,843 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:34,845  INFO Server:621 - Services destroyed\n08:18:34,845  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,845  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:35,025  INFO AbstractConnector:318 - Stopped ServerConnector@1c1fa494{HTTP/1.1,[http/1.1]}{localhost:37849}\n08:18:35,026 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:35,030  INFO Server:621 - Services destroyed\n08:18:35,030  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,030  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:35,667  INFO Server:621 - Services destroyed\n08:18:35,667  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,667  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,457  INFO Server:621 - Services destroyed\n08:18:36,457  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,457  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,851  INFO Server:621 - Services destroyed\n08:18:36,851  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,851  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testPerms": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:17,207  INFO Server:621 - Services destroyed\n08:16:17,207  INFO Server:633 - Server [httpfs] shutdown!\n08:16:17,207  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:18,515  INFO Server:621 - Services destroyed\n08:16:18,515  INFO Server:633 - Server [httpfs] shutdown!\n08:16:18,515  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:19,080  INFO Server:621 - Services destroyed\n08:16:19,080  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,081  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,512  INFO AbstractConnector:318 - Stopped ServerConnector@25aa70a8{HTTP/1.1,[http/1.1]}{localhost:39589}\n08:16:19,512 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,513  INFO Server:621 - Services destroyed\n08:16:19,514  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,514  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,679  INFO AbstractConnector:318 - Stopped ServerConnector@6a76bdc7{HTTP/1.1,[http/1.1]}{localhost:34583}\n08:16:19,679 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,690  INFO Server:621 - Services destroyed\n08:16:19,690  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,690  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,131  INFO Server:621 - Services destroyed\n08:16:21,131  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,131  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,622  INFO Server:621 - Services destroyed\n08:16:21,622  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,622  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:22,503  INFO Server:621 - Services destroyed\n08:16:22,503  INFO Server:633 - Server [httpfs] shutdown!\n08:16:22,503  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:21:29,527  INFO Server:621 - Services destroyed\n09:21:29,527  INFO Server:633 - Server [httpfs] shutdown!\n09:21:29,528  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:21:30,938  INFO Server:621 - Services destroyed\n09:21:30,938  INFO Server:633 - Server [httpfs] shutdown!\n09:21:30,938  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:21:32,512  INFO Server:621 - Services destroyed\n09:21:32,512  INFO Server:633 - Server [httpfs] shutdown!\n09:21:32,512  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:22:14,911  INFO Server:621 - Services destroyed\n09:22:14,911  INFO Server:633 - Server [httpfs] shutdown!\n09:22:14,911  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:22:16,204  INFO Server:621 - Services destroyed\n09:22:16,204  INFO Server:633 - Server [httpfs] shutdown!\n09:22:16,204  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:22:17,761  INFO Server:621 - Services destroyed\n09:22:17,761  INFO Server:633 - Server [httpfs] shutdown!\n09:22:17,762  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testXAttrs": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:17,207  INFO Server:621 - Services destroyed\n08:16:17,207  INFO Server:633 - Server [httpfs] shutdown!\n08:16:17,207  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:18,515  INFO Server:621 - Services destroyed\n08:16:18,515  INFO Server:633 - Server [httpfs] shutdown!\n08:16:18,515  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:19,080  INFO Server:621 - Services destroyed\n08:16:19,080  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,081  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,512  INFO AbstractConnector:318 - Stopped ServerConnector@25aa70a8{HTTP/1.1,[http/1.1]}{localhost:39589}\n08:16:19,512 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,513  INFO Server:621 - Services destroyed\n08:16:19,514  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,514  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:16:19,679  INFO AbstractConnector:318 - Stopped ServerConnector@6a76bdc7{HTTP/1.1,[http/1.1]}{localhost:34583}\n08:16:19,679 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:16:19,690  INFO Server:621 - Services destroyed\n08:16:19,690  INFO Server:633 - Server [httpfs] shutdown!\n08:16:19,690  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,131  INFO Server:621 - Services destroyed\n08:16:21,131  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,131  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:21,622  INFO Server:621 - Services destroyed\n08:16:21,622  INFO Server:633 - Server [httpfs] shutdown!\n08:16:21,622  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:16:22,503  INFO Server:621 - Services destroyed\n08:16:22,503  INFO Server:633 - Server [httpfs] shutdown!\n08:16:22,503  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:32,703  INFO Server:621 - Services destroyed\n08:18:32,703  INFO Server:633 - Server [httpfs] shutdown!\n08:18:32,703  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:33,913  INFO Server:621 - Services destroyed\n08:18:33,913  INFO Server:633 - Server [httpfs] shutdown!\n08:18:33,913  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:34,405  INFO Server:621 - Services destroyed\n08:18:34,405  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,405  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:34,842  INFO AbstractConnector:318 - Stopped ServerConnector@21e5f0b6{HTTP/1.1,[http/1.1]}{localhost:38515}\n08:18:34,843 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:34,845  INFO Server:621 - Services destroyed\n08:18:34,845  INFO Server:633 - Server [httpfs] shutdown!\n08:18:34,845  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:18:35,025  INFO AbstractConnector:318 - Stopped ServerConnector@1c1fa494{HTTP/1.1,[http/1.1]}{localhost:37849}\n08:18:35,026 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:18:35,030  INFO Server:621 - Services destroyed\n08:18:35,030  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,030  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:35,667  INFO Server:621 - Services destroyed\n08:18:35,667  INFO Server:633 - Server [httpfs] shutdown!\n08:18:35,667  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,457  INFO Server:621 - Services destroyed\n08:18:36,457  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,457  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:36,851  INFO Server:621 - Services destroyed\n08:18:36,851  INFO Server:633 - Server [httpfs] shutdown!\n08:18:36,851  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ]
+}{
+    "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs.testWithNoAcls": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:11,732  INFO Server:621 - Services destroyed\n08:18:11,732  INFO Server:633 - Server [httpfs] shutdown!\n08:18:11,732  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:13,121  INFO Server:621 - Services destroyed\n08:18:13,121  INFO Server:633 - Server [httpfs] shutdown!\n08:18:13,121  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:39,361  INFO Server:621 - Services destroyed\n08:19:39,361  INFO Server:633 - Server [httpfs] shutdown!\n08:19:39,361  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:40,775  INFO Server:621 - Services destroyed\n08:19:40,775  INFO Server:633 - Server [httpfs] shutdown!\n08:19:40,775  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:41,342  INFO Server:621 - Services destroyed\n08:19:41,342  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,342  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:41,743  INFO AbstractConnector:318 - Stopped ServerConnector@2637d924{HTTP/1.1,[http/1.1]}{localhost:45021}\n08:19:41,744 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:41,745  INFO Server:621 - Services destroyed\n08:19:41,745  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,745  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:42,009  INFO AbstractConnector:318 - Stopped ServerConnector@77c66a4f{HTTP/1.1,[http/1.1]}{localhost:44913}\n08:19:42,009 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:42,010  INFO Server:621 - Services destroyed\n08:19:42,010  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,010  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:42,620  INFO Server:621 - Services destroyed\n08:19:42,620  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:43,497  INFO Server:621 - Services destroyed\n08:19:43,497  INFO Server:633 - Server [httpfs] shutdown!\n08:19:43,497  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:25,565  INFO Server:621 - Services destroyed\n08:20:25,565  INFO Server:633 - Server [httpfs] shutdown!\n08:20:25,565  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,185  INFO Server:621 - Services destroyed\n08:20:27,185  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,185  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,729  INFO Server:621 - Services destroyed\n08:20:27,729  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,729  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,244  INFO AbstractConnector:318 - Stopped ServerConnector@216c22ce{HTTP/1.1,[http/1.1]}{localhost:34831}\n08:20:28,245 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,245  INFO Server:621 - Services destroyed\n08:20:28,245  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,245  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,430  INFO AbstractConnector:318 - Stopped ServerConnector@55d8c2c4{HTTP/1.1,[http/1.1]}{localhost:44069}\n08:20:28,430 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,431  INFO Server:621 - Services destroyed\n08:20:28,432  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,432  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,012  INFO Server:621 - Services destroyed\n08:20:29,012  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,012  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,997  INFO Server:621 - Services destroyed\n08:20:29,997  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,997  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:30,368  INFO Server:621 - Services destroyed\n08:20:30,368  INFO Server:633 - Server [httpfs] shutdown!\n08:20:30,368  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:24:57,198  INFO Server:621 - Services destroyed\n09:24:57,198  INFO Server:633 - Server [httpfs] shutdown!\n09:24:57,198  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:24:58,750  INFO Server:621 - Services destroyed\n09:24:58,750  INFO Server:633 - Server [httpfs] shutdown!\n09:24:58,750  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:13,905  INFO Server:621 - Services destroyed\n09:26:13,905  INFO Server:633 - Server [httpfs] shutdown!\n09:26:13,905  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:15,633  INFO Server:621 - Services destroyed\n09:26:15,633  INFO Server:633 - Server [httpfs] shutdown!\n09:26:15,633  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:17,041  INFO Server:621 - Services destroyed\n09:26:17,041  INFO Server:633 - Server [httpfs] shutdown!\n09:26:17,041  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:59,620  INFO Server:621 - Services destroyed\n09:26:59,620  INFO Server:633 - Server [httpfs] shutdown!\n09:26:59,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:27:01,724  INFO Server:621 - Services destroyed\n09:27:01,724  INFO Server:633 - Server [httpfs] shutdown!\n09:27:01,724  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:27:03,315  INFO Server:621 - Services destroyed\n09:27:03,315  INFO Server:633 - Server [httpfs] shutdown!\n09:27:03,316  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs.testWithXAttrs": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:11,732  INFO Server:621 - Services destroyed\n08:18:11,732  INFO Server:633 - Server [httpfs] shutdown!\n08:18:11,732  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:18:13,121  INFO Server:621 - Services destroyed\n08:18:13,121  INFO Server:633 - Server [httpfs] shutdown!\n08:18:13,121  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:39,361  INFO Server:621 - Services destroyed\n08:19:39,361  INFO Server:633 - Server [httpfs] shutdown!\n08:19:39,361  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:40,775  INFO Server:621 - Services destroyed\n08:19:40,775  INFO Server:633 - Server [httpfs] shutdown!\n08:19:40,775  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:41,342  INFO Server:621 - Services destroyed\n08:19:41,342  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,342  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:41,743  INFO AbstractConnector:318 - Stopped ServerConnector@2637d924{HTTP/1.1,[http/1.1]}{localhost:45021}\n08:19:41,744 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:41,745  INFO Server:621 - Services destroyed\n08:19:41,745  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,745  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:42,009  INFO AbstractConnector:318 - Stopped ServerConnector@77c66a4f{HTTP/1.1,[http/1.1]}{localhost:44913}\n08:19:42,009 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:42,010  INFO Server:621 - Services destroyed\n08:19:42,010  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,010  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:42,620  INFO Server:621 - Services destroyed\n08:19:42,620  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:43,497  INFO Server:621 - Services destroyed\n08:19:43,497  INFO Server:633 - Server [httpfs] shutdown!\n08:19:43,497  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:25,565  INFO Server:621 - Services destroyed\n08:20:25,565  INFO Server:633 - Server [httpfs] shutdown!\n08:20:25,565  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,185  INFO Server:621 - Services destroyed\n08:20:27,185  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,185  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,729  INFO Server:621 - Services destroyed\n08:20:27,729  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,729  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,244  INFO AbstractConnector:318 - Stopped ServerConnector@216c22ce{HTTP/1.1,[http/1.1]}{localhost:34831}\n08:20:28,245 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,245  INFO Server:621 - Services destroyed\n08:20:28,245  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,245  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,430  INFO AbstractConnector:318 - Stopped ServerConnector@55d8c2c4{HTTP/1.1,[http/1.1]}{localhost:44069}\n08:20:28,430 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,431  INFO Server:621 - Services destroyed\n08:20:28,432  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,432  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,012  INFO Server:621 - Services destroyed\n08:20:29,012  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,012  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,997  INFO Server:621 - Services destroyed\n08:20:29,997  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,997  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:30,368  INFO Server:621 - Services destroyed\n08:20:30,368  INFO Server:633 - Server [httpfs] shutdown!\n08:20:30,368  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:24:57,198  INFO Server:621 - Services destroyed\n09:24:57,198  INFO Server:633 - Server [httpfs] shutdown!\n09:24:57,198  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:24:58,750  INFO Server:621 - Services destroyed\n09:24:58,750  INFO Server:633 - Server [httpfs] shutdown!\n09:24:58,750  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:13,905  INFO Server:621 - Services destroyed\n09:26:13,905  INFO Server:633 - Server [httpfs] shutdown!\n09:26:13,905  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:15,633  INFO Server:621 - Services destroyed\n09:26:15,633  INFO Server:633 - Server [httpfs] shutdown!\n09:26:15,633  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:17,041  INFO Server:621 - Services destroyed\n09:26:17,041  INFO Server:633 - Server [httpfs] shutdown!\n09:26:17,041  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:59,620  INFO Server:621 - Services destroyed\n09:26:59,620  INFO Server:633 - Server [httpfs] shutdown!\n09:26:59,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:27:01,724  INFO Server:621 - Services destroyed\n09:27:01,724  INFO Server:633 - Server [httpfs] shutdown!\n09:27:01,724  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:27:03,315  INFO Server:621 - Services destroyed\n09:27:03,315  INFO Server:633 - Server [httpfs] shutdown!\n09:27:03,316  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testFileAcls": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:39,361  INFO Server:621 - Services destroyed\n08:19:39,361  INFO Server:633 - Server [httpfs] shutdown!\n08:19:39,361  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:40,775  INFO Server:621 - Services destroyed\n08:19:40,775  INFO Server:633 - Server [httpfs] shutdown!\n08:19:40,775  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:41,342  INFO Server:621 - Services destroyed\n08:19:41,342  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,342  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:41,743  INFO AbstractConnector:318 - Stopped ServerConnector@2637d924{HTTP/1.1,[http/1.1]}{localhost:45021}\n08:19:41,744 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:41,745  INFO Server:621 - Services destroyed\n08:19:41,745  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,745  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:42,009  INFO AbstractConnector:318 - Stopped ServerConnector@77c66a4f{HTTP/1.1,[http/1.1]}{localhost:44913}\n08:19:42,009 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:42,010  INFO Server:621 - Services destroyed\n08:19:42,010  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,010  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:42,620  INFO Server:621 - Services destroyed\n08:19:42,620  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:43,497  INFO Server:621 - Services destroyed\n08:19:43,497  INFO Server:633 - Server [httpfs] shutdown!\n08:19:43,497  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:25,565  INFO Server:621 - Services destroyed\n08:20:25,565  INFO Server:633 - Server [httpfs] shutdown!\n08:20:25,565  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,185  INFO Server:621 - Services destroyed\n08:20:27,185  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,185  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,729  INFO Server:621 - Services destroyed\n08:20:27,729  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,729  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,244  INFO AbstractConnector:318 - Stopped ServerConnector@216c22ce{HTTP/1.1,[http/1.1]}{localhost:34831}\n08:20:28,245 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,245  INFO Server:621 - Services destroyed\n08:20:28,245  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,245  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,430  INFO AbstractConnector:318 - Stopped ServerConnector@55d8c2c4{HTTP/1.1,[http/1.1]}{localhost:44069}\n08:20:28,430 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,431  INFO Server:621 - Services destroyed\n08:20:28,432  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,432  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,012  INFO Server:621 - Services destroyed\n08:20:29,012  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,012  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,997  INFO Server:621 - Services destroyed\n08:20:29,997  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,997  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:30,368  INFO Server:621 - Services destroyed\n08:20:30,368  INFO Server:633 - Server [httpfs] shutdown!\n08:20:30,368  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperations": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:39,361  INFO Server:621 - Services destroyed\n08:19:39,361  INFO Server:633 - Server [httpfs] shutdown!\n08:19:39,361  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:40,775  INFO Server:621 - Services destroyed\n08:19:40,775  INFO Server:633 - Server [httpfs] shutdown!\n08:19:40,775  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:41,342  INFO Server:621 - Services destroyed\n08:19:41,342  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,342  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:41,743  INFO AbstractConnector:318 - Stopped ServerConnector@2637d924{HTTP/1.1,[http/1.1]}{localhost:45021}\n08:19:41,744 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:41,745  INFO Server:621 - Services destroyed\n08:19:41,745  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,745  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:42,009  INFO AbstractConnector:318 - Stopped ServerConnector@77c66a4f{HTTP/1.1,[http/1.1]}{localhost:44913}\n08:19:42,009 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:42,010  INFO Server:621 - Services destroyed\n08:19:42,010  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,010  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:42,620  INFO Server:621 - Services destroyed\n08:19:42,620  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:43,497  INFO Server:621 - Services destroyed\n08:19:43,497  INFO Server:633 - Server [httpfs] shutdown!\n08:19:43,497  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:25,565  INFO Server:621 - Services destroyed\n08:20:25,565  INFO Server:633 - Server [httpfs] shutdown!\n08:20:25,565  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,185  INFO Server:621 - Services destroyed\n08:20:27,185  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,185  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,729  INFO Server:621 - Services destroyed\n08:20:27,729  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,729  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,244  INFO AbstractConnector:318 - Stopped ServerConnector@216c22ce{HTTP/1.1,[http/1.1]}{localhost:34831}\n08:20:28,245 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,245  INFO Server:621 - Services destroyed\n08:20:28,245  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,245  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,430  INFO AbstractConnector:318 - Stopped ServerConnector@55d8c2c4{HTTP/1.1,[http/1.1]}{localhost:44069}\n08:20:28,430 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,431  INFO Server:621 - Services destroyed\n08:20:28,432  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,432  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,012  INFO Server:621 - Services destroyed\n08:20:29,012  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,012  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,997  INFO Server:621 - Services destroyed\n08:20:29,997  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,997  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:30,368  INFO Server:621 - Services destroyed\n08:20:30,368  INFO Server:633 - Server [httpfs] shutdown!\n08:20:30,368  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDirAcls": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:39,361  INFO Server:621 - Services destroyed\n08:19:39,361  INFO Server:633 - Server [httpfs] shutdown!\n08:19:39,361  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:40,775  INFO Server:621 - Services destroyed\n08:19:40,775  INFO Server:633 - Server [httpfs] shutdown!\n08:19:40,775  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:41,342  INFO Server:621 - Services destroyed\n08:19:41,342  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,342  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:41,743  INFO AbstractConnector:318 - Stopped ServerConnector@2637d924{HTTP/1.1,[http/1.1]}{localhost:45021}\n08:19:41,744 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:41,745  INFO Server:621 - Services destroyed\n08:19:41,745  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,745  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:42,009  INFO AbstractConnector:318 - Stopped ServerConnector@77c66a4f{HTTP/1.1,[http/1.1]}{localhost:44913}\n08:19:42,009 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:42,010  INFO Server:621 - Services destroyed\n08:19:42,010  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,010  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:42,620  INFO Server:621 - Services destroyed\n08:19:42,620  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:43,497  INFO Server:621 - Services destroyed\n08:19:43,497  INFO Server:633 - Server [httpfs] shutdown!\n08:19:43,497  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:25,565  INFO Server:621 - Services destroyed\n08:20:25,565  INFO Server:633 - Server [httpfs] shutdown!\n08:20:25,565  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,185  INFO Server:621 - Services destroyed\n08:20:27,185  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,185  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,729  INFO Server:621 - Services destroyed\n08:20:27,729  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,729  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,244  INFO AbstractConnector:318 - Stopped ServerConnector@216c22ce{HTTP/1.1,[http/1.1]}{localhost:34831}\n08:20:28,245 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,245  INFO Server:621 - Services destroyed\n08:20:28,245  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,245  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,430  INFO AbstractConnector:318 - Stopped ServerConnector@55d8c2c4{HTTP/1.1,[http/1.1]}{localhost:44069}\n08:20:28,430 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,431  INFO Server:621 - Services destroyed\n08:20:28,432  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,432  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,012  INFO Server:621 - Services destroyed\n08:20:29,012  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,012  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,997  INFO Server:621 - Services destroyed\n08:20:29,997  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,997  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:30,368  INFO Server:621 - Services destroyed\n08:20:30,368  INFO Server:633 - Server [httpfs] shutdown!\n08:20:30,368  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperationsSsl": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:39,361  INFO Server:621 - Services destroyed\n08:19:39,361  INFO Server:633 - Server [httpfs] shutdown!\n08:19:39,361  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:40,775  INFO Server:621 - Services destroyed\n08:19:40,775  INFO Server:633 - Server [httpfs] shutdown!\n08:19:40,775  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:41,342  INFO Server:621 - Services destroyed\n08:19:41,342  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,342  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:41,743  INFO AbstractConnector:318 - Stopped ServerConnector@2637d924{HTTP/1.1,[http/1.1]}{localhost:45021}\n08:19:41,744 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:41,745  INFO Server:621 - Services destroyed\n08:19:41,745  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,745  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:42,009  INFO AbstractConnector:318 - Stopped ServerConnector@77c66a4f{HTTP/1.1,[http/1.1]}{localhost:44913}\n08:19:42,009 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:42,010  INFO Server:621 - Services destroyed\n08:19:42,010  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,010  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:42,620  INFO Server:621 - Services destroyed\n08:19:42,620  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:43,497  INFO Server:621 - Services destroyed\n08:19:43,497  INFO Server:633 - Server [httpfs] shutdown!\n08:19:43,497  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:25,565  INFO Server:621 - Services destroyed\n08:20:25,565  INFO Server:633 - Server [httpfs] shutdown!\n08:20:25,565  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,185  INFO Server:621 - Services destroyed\n08:20:27,185  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,185  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,729  INFO Server:621 - Services destroyed\n08:20:27,729  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,729  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,244  INFO AbstractConnector:318 - Stopped ServerConnector@216c22ce{HTTP/1.1,[http/1.1]}{localhost:34831}\n08:20:28,245 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,245  INFO Server:621 - Services destroyed\n08:20:28,245  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,245  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,430  INFO AbstractConnector:318 - Stopped ServerConnector@55d8c2c4{HTTP/1.1,[http/1.1]}{localhost:44069}\n08:20:28,430 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,431  INFO Server:621 - Services destroyed\n08:20:28,432  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,432  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,012  INFO Server:621 - Services destroyed\n08:20:29,012  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,012  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,997  INFO Server:621 - Services destroyed\n08:20:29,997  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,997  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:30,368  INFO Server:621 - Services destroyed\n08:20:30,368  INFO Server:633 - Server [httpfs] shutdown!\n08:20:30,368  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.instrumentation": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:39,361  INFO Server:621 - Services destroyed\n08:19:39,361  INFO Server:633 - Server [httpfs] shutdown!\n08:19:39,361  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:40,775  INFO Server:621 - Services destroyed\n08:19:40,775  INFO Server:633 - Server [httpfs] shutdown!\n08:19:40,775  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:41,342  INFO Server:621 - Services destroyed\n08:19:41,342  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,342  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:41,743  INFO AbstractConnector:318 - Stopped ServerConnector@2637d924{HTTP/1.1,[http/1.1]}{localhost:45021}\n08:19:41,744 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:41,745  INFO Server:621 - Services destroyed\n08:19:41,745  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,745  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:42,009  INFO AbstractConnector:318 - Stopped ServerConnector@77c66a4f{HTTP/1.1,[http/1.1]}{localhost:44913}\n08:19:42,009 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:42,010  INFO Server:621 - Services destroyed\n08:19:42,010  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,010  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:42,620  INFO Server:621 - Services destroyed\n08:19:42,620  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:43,497  INFO Server:621 - Services destroyed\n08:19:43,497  INFO Server:633 - Server [httpfs] shutdown!\n08:19:43,497  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:25,565  INFO Server:621 - Services destroyed\n08:20:25,565  INFO Server:633 - Server [httpfs] shutdown!\n08:20:25,565  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,185  INFO Server:621 - Services destroyed\n08:20:27,185  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,185  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,729  INFO Server:621 - Services destroyed\n08:20:27,729  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,729  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,244  INFO AbstractConnector:318 - Stopped ServerConnector@216c22ce{HTTP/1.1,[http/1.1]}{localhost:34831}\n08:20:28,245 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,245  INFO Server:621 - Services destroyed\n08:20:28,245  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,245  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,430  INFO AbstractConnector:318 - Stopped ServerConnector@55d8c2c4{HTTP/1.1,[http/1.1]}{localhost:44069}\n08:20:28,430 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,431  INFO Server:621 - Services destroyed\n08:20:28,432  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,432  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,012  INFO Server:621 - Services destroyed\n08:20:29,012  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,012  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,997  INFO Server:621 - Services destroyed\n08:20:29,997  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,997  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:30,368  INFO Server:621 - Services destroyed\n08:20:30,368  INFO Server:633 - Server [httpfs] shutdown!\n08:20:30,368  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testXAttrs": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:39,361  INFO Server:621 - Services destroyed\n08:19:39,361  INFO Server:633 - Server [httpfs] shutdown!\n08:19:39,361  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:40,775  INFO Server:621 - Services destroyed\n08:19:40,775  INFO Server:633 - Server [httpfs] shutdown!\n08:19:40,775  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:41,342  INFO Server:621 - Services destroyed\n08:19:41,342  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,342  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:41,743  INFO AbstractConnector:318 - Stopped ServerConnector@2637d924{HTTP/1.1,[http/1.1]}{localhost:45021}\n08:19:41,744 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:41,745  INFO Server:621 - Services destroyed\n08:19:41,745  INFO Server:633 - Server [httpfs] shutdown!\n08:19:41,745  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:19:42,009  INFO AbstractConnector:318 - Stopped ServerConnector@77c66a4f{HTTP/1.1,[http/1.1]}{localhost:44913}\n08:19:42,009 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:19:42,010  INFO Server:621 - Services destroyed\n08:19:42,010  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,010  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:42,620  INFO Server:621 - Services destroyed\n08:19:42,620  INFO Server:633 - Server [httpfs] shutdown!\n08:19:42,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:19:43,497  INFO Server:621 - Services destroyed\n08:19:43,497  INFO Server:633 - Server [httpfs] shutdown!\n08:19:43,497  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:25,565  INFO Server:621 - Services destroyed\n08:20:25,565  INFO Server:633 - Server [httpfs] shutdown!\n08:20:25,565  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,185  INFO Server:621 - Services destroyed\n08:20:27,185  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,185  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:27,729  INFO Server:621 - Services destroyed\n08:20:27,729  INFO Server:633 - Server [httpfs] shutdown!\n08:20:27,729  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,244  INFO AbstractConnector:318 - Stopped ServerConnector@216c22ce{HTTP/1.1,[http/1.1]}{localhost:34831}\n08:20:28,245 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,245  INFO Server:621 - Services destroyed\n08:20:28,245  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,245  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "org.apache.hadoop.security.authentication.util.SignerException",
+            "Message": " Invalid signature\n08:20:28,430  INFO AbstractConnector:318 - Stopped ServerConnector@55d8c2c4{HTTP/1.1,[http/1.1]}{localhost:44069}\n08:20:28,430 ERROR AbstractDelegationTokenSecretManager:696 - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted\n08:20:28,431  INFO Server:621 - Services destroyed\n08:20:28,432  INFO Server:633 - Server [httpfs] shutdown!\n08:20:28,432  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<403>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,012  INFO Server:621 - Services destroyed\n08:20:29,012  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,012  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:29,997  INFO Server:621 - Services destroyed\n08:20:29,997  INFO Server:633 - Server [httpfs] shutdown!\n08:20:29,997  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<200>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n08:20:30,368  INFO Server:621 - Services destroyed\n08:20:30,368  INFO Server:633 - Server [httpfs] shutdown!\n08:20:30,368  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testGetTrashRoot": [
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:24:59,050  INFO Server:621 - Services destroyed\n09:24:59,050  INFO Server:633 - Server [httpfs] shutdown!\n09:24:59,050  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.net.BindException",
+            "Message": " Address already in use\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:15,934  INFO Server:621 - Services destroyed\n09:26:15,934  INFO Server:633 - Server [httpfs] shutdown!\n09:26:15,934  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:27:02,069  INFO Server:621 - Services destroyed\n09:27:02,069  INFO Server:633 - Server [httpfs] shutdown!\n09:27:02,069  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        }
+    ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testPerms": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:13,905  INFO Server:621 - Services destroyed\n09:26:13,905  INFO Server:633 - Server [httpfs] shutdown!\n09:26:13,905  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:15,633  INFO Server:621 - Services destroyed\n09:26:15,633  INFO Server:633 - Server [httpfs] shutdown!\n09:26:15,633  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:17,041  INFO Server:621 - Services destroyed\n09:26:17,041  INFO Server:633 - Server [httpfs] shutdown!\n09:26:17,041  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:26:59,620  INFO Server:621 - Services destroyed\n09:26:59,620  INFO Server:633 - Server [httpfs] shutdown!\n09:26:59,620  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:27:01,724  INFO Server:621 - Services destroyed\n09:27:01,724  INFO Server:633 - Server [httpfs] shutdown!\n09:27:01,724  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<200> but was:<404>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:27:03,315  INFO Server:621 - Services destroyed\n09:27:03,315  INFO Server:633 - Server [httpfs] shutdown!\n09:27:03,316  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
+        }
+    ]
+}{
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testFileAcls": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
             "Name": "java.lang.InterruptedException",
             "Message": " sleep interrupted\n10:37:45,488  INFO Server:621 - Services destroyed\n10:37:45,488  INFO Server:633 - Server [httpfs] shutdown!\n10:37:45,488  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
         },
@@ -662,6 +2094,10 @@
         }
     ],
     "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperations": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
         {
             "Name": "java.lang.InterruptedException",
             "Message": " sleep interrupted\n10:37:45,488  INFO Server:621 - Services destroyed\n10:37:45,488  INFO Server:633 - Server [httpfs] shutdown!\n10:37:45,488  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
@@ -1333,6 +2769,10 @@
     ],
     "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDirAcls": [
         {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
             "Name": "java.lang.InterruptedException",
             "Message": " sleep interrupted\n10:37:45,488  INFO Server:621 - Services destroyed\n10:37:45,488  INFO Server:633 - Server [httpfs] shutdown!\n10:37:45,488  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
         },
@@ -2005,7 +3445,109 @@
             "Message": " sleep interrupted\n09:52:39,877  INFO Server:621 - Services destroyed\n09:52:39,877  INFO Server:633 - Server [httpfs] shutdown!\n09:52:39,877  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<201> but was:<500>\n"
         }
     ],
+    "org.apache.hadoop.fs.http.server.TestHttpFSServer.testGetTrashRoot": [
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:37:47,568  INFO Server:621 - Services destroyed\n10:37:47,568  INFO Server:633 - Server [httpfs] shutdown!\n10:37:47,568  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:39:25,160  INFO Server:621 - Services destroyed\n10:39:25,160  INFO Server:633 - Server [httpfs] shutdown!\n10:39:25,161  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:40:13,532  INFO Server:621 - Services destroyed\n10:40:13,532  INFO Server:633 - Server [httpfs] shutdown!\n10:40:13,533  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:41:41,184  INFO Server:621 - Services destroyed\n10:41:41,184  INFO Server:633 - Server [httpfs] shutdown!\n10:41:41,184  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:42:30,297  INFO Server:621 - Services destroyed\n10:42:30,298  INFO Server:633 - Server [httpfs] shutdown!\n10:42:30,298  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:43:18,921  INFO Server:621 - Services destroyed\n10:43:18,921  INFO Server:633 - Server [httpfs] shutdown!\n10:43:18,921  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:44:08,469  INFO Server:621 - Services destroyed\n10:44:08,470  INFO Server:633 - Server [httpfs] shutdown!\n10:44:08,470  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "org.junit.ComparisonFailure",
+            "Message": " expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:46:40,935  INFO Server:621 - Services destroyed\n10:46:40,935  INFO Server:633 - Server [httpfs] shutdown!\n10:46:40,935  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:48:22,705  INFO Server:621 - Services destroyed\n10:48:22,705  INFO Server:633 - Server [httpfs] shutdown!\n10:48:22,705  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:49:15,358  INFO Server:621 - Services destroyed\n10:49:15,358  INFO Server:633 - Server [httpfs] shutdown!\n10:49:15,358  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:50:57,601  INFO Server:621 - Services destroyed\n10:50:57,601  INFO Server:633 - Server [httpfs] shutdown!\n10:50:57,601  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:51:45,906  INFO Server:621 - Services destroyed\n10:51:45,906  INFO Server:633 - Server [httpfs] shutdown!\n10:51:45,906  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:52:30,911  INFO Server:621 - Services destroyed\n10:52:30,911  INFO Server:633 - Server [httpfs] shutdown!\n10:52:30,911  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:53:21,530  INFO Server:621 - Services destroyed\n10:53:21,530  INFO Server:633 - Server [httpfs] shutdown!\n10:53:21,530  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:54:16,460  INFO Server:621 - Services destroyed\n10:54:16,461  INFO Server:633 - Server [httpfs] shutdown!\n10:54:16,461  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:56:36,322  INFO Server:621 - Services destroyed\n10:56:36,322  INFO Server:633 - Server [httpfs] shutdown!\n10:56:36,322  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:58:01,515  INFO Server:621 - Services destroyed\n10:58:01,515  INFO Server:633 - Server [httpfs] shutdown!\n10:58:01,515  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:58:48,555  INFO Server:621 - Services destroyed\n10:58:48,555  INFO Server:633 - Server [httpfs] shutdown!\n10:58:48,555  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n10:59:32,610  INFO Server:621 - Services destroyed\n10:59:32,610  INFO Server:633 - Server [httpfs] shutdown!\n10:59:32,610  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n11:01:07,996  INFO Server:621 - Services destroyed\n11:01:07,997  INFO Server:633 - Server [httpfs] shutdown!\n11:01:07,997  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n11:01:54,673  INFO Server:621 - Services destroyed\n11:01:54,673  INFO Server:633 - Server [httpfs] shutdown!\n11:01:54,674  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n11:02:44,874  INFO Server:621 - Services destroyed\n11:02:44,874  INFO Server:633 - Server [httpfs] shutdown!\n11:02:44,874  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        },
+        {
+            "Name": "java.lang.InterruptedException",
+            "Message": " sleep interrupted\n09:50:09,329  INFO Server:621 - Services destroyed\n09:50:09,330  INFO Server:633 - Server [httpfs] shutdown!\n09:50:09,330  INFO Server:634 - ======================================================\norg.junit.ComparisonFailure: expected:</[user/user1]/.Trash> but was:</[home/colossus2]/.Trash>\n"
+        }
+    ],
     "org.apache.hadoop.fs.http.server.TestHttpFSServer.testDelegationTokenOperationsSsl": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
         {
             "Name": "java.lang.InterruptedException",
             "Message": " sleep interrupted\n10:37:45,488  INFO Server:621 - Services destroyed\n10:37:45,488  INFO Server:633 - Server [httpfs] shutdown!\n10:37:45,488  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
@@ -2664,6 +4206,10 @@
         }
     ],
     "org.apache.hadoop.fs.http.server.TestHttpFSServerNoACLs.testWithNoAcls": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
         {
             "Name": "java.lang.InterruptedException",
             "Message": " sleep interrupted\n10:37:45,488  INFO Server:621 - Services destroyed\n10:37:45,488  INFO Server:633 - Server [httpfs] shutdown!\n10:37:45,488  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
@@ -3654,6 +5200,10 @@
         }
     ],
     "org.apache.hadoop.fs.http.server.TestHttpFSServerNoXAttrs.testWithXAttrs": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
         {
             "Name": "java.lang.InterruptedException",
             "Message": " sleep interrupted\n10:37:45,488  INFO Server:621 - Services destroyed\n10:37:45,488  INFO Server:633 - Server [httpfs] shutdown!\n10:37:45,488  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
@@ -4653,6 +6203,10 @@
     ],
     "org.apache.hadoop.fs.http.server.TestHttpFSServer.instrumentation": [
         {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
             "Name": "java.lang.InterruptedException",
             "Message": " sleep interrupted\n10:37:45,488  INFO Server:621 - Services destroyed\n10:37:45,488  INFO Server:633 - Server [httpfs] shutdown!\n10:37:45,488  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
         },
@@ -5335,6 +6889,10 @@
     ],
     "org.apache.hadoop.fs.http.server.TestHttpFSServer.testPerms": [
         {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
+        {
             "Name": "java.lang.InterruptedException",
             "Message": " sleep interrupted\n10:37:45,488  INFO Server:621 - Services destroyed\n10:37:45,488  INFO Server:633 - Server [httpfs] shutdown!\n10:37:45,488  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"
         },
@@ -5896,6 +7454,10 @@
         }
     ],
     "org.apache.hadoop.fs.http.server.TestHttpFSServer.testXAttrs": [
+        {
+            "Name": "java.lang.AssertionError",
+            "Message": " expected:<NORMAL> but was:<SHUTTING_DOWN>\n"
+        },
         {
             "Name": "java.lang.InterruptedException",
             "Message": " sleep interrupted\n10:37:45,488  INFO Server:621 - Services destroyed\n10:37:45,488  INFO Server:633 - Server [httpfs] shutdown!\n10:37:45,488  INFO Server:634 - ======================================================\njava.lang.AssertionError: expected:<500> but was:<400>\n"

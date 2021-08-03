@@ -19,10 +19,6 @@
         "Name": "java.lang.Exception",
         "Message": "* Multiple error messages. *"
     },
-    "org.activiti.spring.boot.tasks.TaskRuntimeTaskAssigneeTest.bCreateCheckTaskCreatedForSalaboyFromAnotherUser": {
-        "Name": "java.lang.AssertionError",
-        "Message": "* Multiple error messages. *"
-    },
     "org.activiti.spring.boot.tasks.TaskRuntimeDeleteTaskTest.aCreateStandaloneTaskAndDelete": {
         "Name": "java.lang.AssertionError",
         "Message": "* Multiple error messages. *"

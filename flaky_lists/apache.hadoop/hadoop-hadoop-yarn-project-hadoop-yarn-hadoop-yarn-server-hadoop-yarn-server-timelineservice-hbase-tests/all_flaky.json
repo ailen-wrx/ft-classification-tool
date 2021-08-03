@@ -359,7 +359,12 @@
             "Name": "org.apache.hadoop.yarn.server.timelineservice.storage.TestHBaseTimelineStorageEntities.testWriteEntityToHBase",
             "Time": 0.132528049,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<user[1]> but was:<user[_emptyeventkey]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -706,7 +711,12 @@
             "Name": "org.apache.hadoop.yarn.server.timelineservice.storage.TestHBaseTimelineStorageEntities.testWriteEntityToHBase",
             "Time": 0.13698776,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<user[1]> but was:<user[_emptyeventkey]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1053,7 +1063,12 @@
             "Name": "org.apache.hadoop.yarn.server.timelineservice.storage.TestHBaseTimelineStorageEntities.testWriteEntityToHBase",
             "Time": 0.140180613,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<user[1]> but was:<user[_emptyeventkey]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1577,7 +1592,12 @@
             "Name": "org.apache.hadoop.yarn.server.timelineservice.storage.TestHBaseTimelineStorageEntities.testWriteEntityToHBase",
             "Time": 0.149219261,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<user[1]> but was:<user[_emptyeventkey]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1749,7 +1769,12 @@
             "Name": "org.apache.hadoop.yarn.server.timelineservice.storage.TestHBaseTimelineStorageEntities.testWriteEntityToHBase",
             "Time": 0.175258678,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<user[1]> but was:<user[_emptyeventkey]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",
@@ -1921,7 +1946,12 @@
             "Name": "org.apache.hadoop.yarn.server.timelineservice.storage.TestHBaseTimelineStorageEntities.testWriteEntityToHBase",
             "Time": 0.163084566,
             "Result": "FAILURE",
-            "Exception": "none",
+            "Exception": [
+                {
+                    "Name": "org.junit.ComparisonFailure",
+                    "Message": " expected:<user[1]> but was:<user[_emptyeventkey]>\n"
+                }
+            ],
             "stackTrace": [
                 {
                     "declaringClass": "org.junit.Assert",

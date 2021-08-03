@@ -3,4 +3,14 @@
         "Name": "java.lang.InterruptedException",
         "Message": " sleep interrupted\n"
     }
+}{
+    "org.apache.hadoop.hbase.zookeeper.TestInstancePending.test": {
+        "Name": "java.lang.InterruptedException",
+        "Message": " sleep interrupted\n"
+    }
+}{
+    "org.apache.hadoop.hbase.zookeeper.TestInstancePending.test": {
+        "Name": "java.lang.InterruptedException",
+        "Message": " sleep interrupted\n"
+    }
 }
